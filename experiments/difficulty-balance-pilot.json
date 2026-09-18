@@ -1,0 +1,10206 @@
+{
+  "start": 131001,
+  "seeds": 20,
+  "rows": [
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131001,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        379,
+        472,
+        481
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131001,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        250,
+        321,
+        361
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131001,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        444,
+        394,
+        393
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131002,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        552,
+        661,
+        397
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131002,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        329,
+        472,
+        526
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131002,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        296,
+        397,
+        455
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131003,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        392,
+        499,
+        467
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131003,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        541,
+        341,
+        331
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131003,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        457,
+        367,
+        417
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131004,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        395,
+        447,
+        454
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131004,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        356,
+        607,
+        493
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131004,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        502,
+        487,
+        478
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131005,
+      "seat": 0,
+      "win": 1,
+      "cash": [
+        464,
+        398,
+        444
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131005,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        468,
+        335,
+        286
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131005,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        527,
+        601,
+        477
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131006,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        487,
+        626,
+        337
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131006,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        384,
+        427,
+        376
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131006,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        382,
+        366,
+        388
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131007,
+      "seat": 0,
+      "win": 1,
+      "cash": [
+        476,
+        344,
+        435
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131007,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        316,
+        384,
+        280
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131007,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        321,
+        528,
+        385
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131008,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        397,
+        410,
+        416
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131008,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        443,
+        348,
+        466
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131008,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        433,
+        461,
+        528
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131009,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        398,
+        445,
+        352
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131009,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        378,
+        278,
+        452
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131009,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        440,
+        502,
+        376
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131010,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        364,
+        483,
+        372
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131010,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        401,
+        374,
+        472
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131010,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        567,
+        463,
+        442
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131011,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        452,
+        504,
+        388
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131011,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        560,
+        456,
+        526
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131011,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        480,
+        470,
+        371
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131012,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        418,
+        293,
+        463
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131012,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        414,
+        421,
+        384
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131012,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        441,
+        509,
+        380
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131013,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        429,
+        603,
+        463
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131013,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        488,
+        437,
+        502
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131013,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        457,
+        330,
+        479
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131014,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        326,
+        436,
+        402
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131014,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        564,
+        422,
+        353
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131014,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        661,
+        437,
+        646
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131015,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        469,
+        509,
+        277
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131015,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        482,
+        527,
+        366
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131015,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        380,
+        373,
+        353
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131016,
+      "seat": 0,
+      "win": 1,
+      "cash": [
+        566,
+        454,
+        432
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131016,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        393,
+        440,
+        464
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131016,
+      "seat": 2,
+      "win": 0.5,
+      "cash": [
+        553,
+        461,
+        553
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131017,
+      "seat": 0,
+      "win": 1,
+      "cash": [
+        517,
+        401,
+        381
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131017,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        336,
+        261,
+        451
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131017,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        394,
+        386,
+        372
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131018,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        401,
+        324,
+        563
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131018,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        426,
+        379,
+        336
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131018,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        401,
+        333,
+        573
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131019,
+      "seat": 0,
+      "win": 1,
+      "cash": [
+        465,
+        454,
+        438
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131019,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        357,
+        512,
+        383
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131019,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        448,
+        454,
+        468
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131020,
+      "seat": 0,
+      "win": 1,
+      "cash": [
+        482,
+        369,
+        367
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131020,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        348,
+        471,
+        481
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 3,
+      "seed": 131020,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        381,
+        565,
+        464
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131001,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        371,
+        452,
+        446,
+        304
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131001,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        480,
+        503,
+        468,
+        225
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131001,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        463,
+        275,
+        330,
+        246
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131001,
+      "seat": 3,
+      "win": 0.5,
+      "cash": [
+        434,
+        376,
+        395,
+        434
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131002,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        331,
+        426,
+        386,
+        364
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131002,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        470,
+        402,
+        373,
+        418
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131002,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        364,
+        518,
+        547,
+        263
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131002,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        451,
+        571,
+        409,
+        470
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131003,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        434,
+        438,
+        318,
+        299
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131003,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        299,
+        311,
+        321,
+        295
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131003,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        430,
+        391,
+        489,
+        419
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131003,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        313,
+        313,
+        291,
+        381
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131004,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        273,
+        269,
+        355,
+        436
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131004,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        339,
+        293,
+        297,
+        234
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131004,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        308,
+        243,
+        372,
+        319
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131004,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        308,
+        248,
+        426,
+        339
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131005,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        415,
+        564,
+        399,
+        208
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131005,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        557,
+        343,
+        391,
+        266
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131005,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        537,
+        363,
+        400,
+        337
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131005,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        458,
+        455,
+        386,
+        380
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131006,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        295,
+        377,
+        347,
+        447
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131006,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        379,
+        316,
+        314,
+        356
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131006,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        294,
+        492,
+        357,
+        481
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131006,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        358,
+        518,
+        427,
+        463
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131007,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        390,
+        377,
+        506,
+        307
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131007,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        479,
+        260,
+        427,
+        357
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131007,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        582,
+        292,
+        274,
+        378
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131007,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        420,
+        328,
+        283,
+        448
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131008,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        332,
+        406,
+        412,
+        302
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131008,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        357,
+        328,
+        508,
+        325
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131008,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        407,
+        446,
+        401,
+        293
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131008,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        433,
+        382,
+        427,
+        332
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131009,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        336,
+        421,
+        407,
+        382
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131009,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        264,
+        385,
+        436,
+        328
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131009,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        397,
+        309,
+        460,
+        448
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131009,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        216,
+        336,
+        282,
+        383
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131010,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        236,
+        318,
+        382,
+        348
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131010,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        246,
+        418,
+        392,
+        410
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131010,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        457,
+        435,
+        320,
+        397
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131010,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        248,
+        337,
+        325,
+        357
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131011,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        323,
+        426,
+        355,
+        497
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131011,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        370,
+        251,
+        343,
+        370
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131011,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        395,
+        229,
+        374,
+        348
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131011,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        275,
+        237,
+        344,
+        405
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131012,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        418,
+        297,
+        288,
+        528
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131012,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        395,
+        406,
+        269,
+        525
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131012,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        377,
+        396,
+        330,
+        443
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131012,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        385,
+        412,
+        253,
+        380
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131013,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        323,
+        297,
+        355,
+        307
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131013,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        368,
+        490,
+        258,
+        309
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131013,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        374,
+        347,
+        476,
+        316
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131013,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        363,
+        411,
+        265,
+        345
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131014,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        386,
+        420,
+        273,
+        242
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131014,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        401,
+        385,
+        405,
+        368
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131014,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        395,
+        399,
+        304,
+        332
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131014,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        334,
+        392,
+        449,
+        346
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131015,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        326,
+        272,
+        353,
+        305
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131015,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        422,
+        261,
+        375,
+        306
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131015,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        405,
+        426,
+        357,
+        389
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131015,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        422,
+        224,
+        254,
+        314
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131016,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        259,
+        296,
+        398,
+        383
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131016,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        253,
+        265,
+        368,
+        373
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131016,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        335,
+        301,
+        364,
+        414
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131016,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        300,
+        271,
+        425,
+        519
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131017,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        379,
+        412,
+        339,
+        373
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131017,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        351,
+        381,
+        321,
+        480
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131017,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        209,
+        362,
+        299,
+        362
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131017,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        363,
+        348,
+        305,
+        424
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131018,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        326,
+        378,
+        335,
+        434
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131018,
+      "seat": 1,
+      "win": 0.5,
+      "cash": [
+        376,
+        419,
+        419,
+        397
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131018,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        333,
+        349,
+        292,
+        382
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131018,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        416,
+        491,
+        316,
+        463
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131019,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        467,
+        480,
+        355,
+        334
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131019,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        438,
+        306,
+        448,
+        342
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131019,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        515,
+        370,
+        280,
+        359
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131019,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        415,
+        387,
+        341,
+        355
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131020,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        344,
+        530,
+        274,
+        272
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131020,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        271,
+        600,
+        425,
+        424
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131020,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        376,
+        357,
+        320,
+        455
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 4,
+      "seed": 131020,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        210,
+        390,
+        263,
+        360
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131001,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        291,
+        263,
+        266,
+        295,
+        312
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131001,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        356,
+        279,
+        344,
+        230,
+        291
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131001,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        343,
+        422,
+        360,
+        281,
+        303
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131001,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        375,
+        320,
+        261,
+        446,
+        311
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131001,
+      "seat": 4,
+      "win": 0.5,
+      "cash": [
+        374,
+        280,
+        258,
+        281,
+        374
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131002,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        227,
+        359,
+        317,
+        430,
+        466
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131002,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        313,
+        362,
+        268,
+        528,
+        515
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131002,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        271,
+        436,
+        281,
+        307,
+        364
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131002,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        238,
+        344,
+        237,
+        376,
+        399
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131002,
+      "seat": 4,
+      "win": 1,
+      "cash": [
+        434,
+        292,
+        336,
+        365,
+        497
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131003,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        264,
+        307,
+        300,
+        318,
+        319
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131003,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        332,
+        323,
+        354,
+        424,
+        370
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131003,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        334,
+        457,
+        305,
+        356,
+        399
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131003,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        210,
+        472,
+        419,
+        316,
+        291
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131003,
+      "seat": 4,
+      "win": 0,
+      "cash": [
+        247,
+        344,
+        233,
+        424,
+        238
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131004,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        352,
+        399,
+        251,
+        318,
+        458
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131004,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        269,
+        414,
+        303,
+        329,
+        433
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131004,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        315,
+        475,
+        221,
+        326,
+        457
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131004,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        288,
+        428,
+        383,
+        348,
+        395
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131004,
+      "seat": 4,
+      "win": 1,
+      "cash": [
+        403,
+        401,
+        264,
+        320,
+        479
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131005,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        371,
+        447,
+        264,
+        419,
+        260
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131005,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        445,
+        363,
+        302,
+        390,
+        301
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131005,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        312,
+        344,
+        370,
+        351,
+        369
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131005,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        344,
+        322,
+        245,
+        312,
+        341
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131005,
+      "seat": 4,
+      "win": 1,
+      "cash": [
+        354,
+        337,
+        402,
+        383,
+        454
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131006,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        274,
+        384,
+        372,
+        287,
+        216
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131006,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        244,
+        270,
+        357,
+        250,
+        306
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131006,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        390,
+        285,
+        385,
+        408,
+        384
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131006,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        261,
+        427,
+        459,
+        315,
+        188
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131006,
+      "seat": 4,
+      "win": 0,
+      "cash": [
+        334,
+        401,
+        443,
+        326,
+        252
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131007,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        325,
+        334,
+        416,
+        291,
+        350
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131007,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        292,
+        220,
+        338,
+        365,
+        283
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131007,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        281,
+        210,
+        316,
+        306,
+        480
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131007,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        258,
+        182,
+        310,
+        289,
+        355
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131007,
+      "seat": 4,
+      "win": 1,
+      "cash": [
+        270,
+        219,
+        342,
+        290,
+        379
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131008,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        293,
+        303,
+        341,
+        258,
+        335
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131008,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        264,
+        345,
+        348,
+        293,
+        296
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131008,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        467,
+        330,
+        391,
+        338,
+        238
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131008,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        385,
+        314,
+        356,
+        327,
+        313
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131008,
+      "seat": 4,
+      "win": 1,
+      "cash": [
+        259,
+        244,
+        249,
+        330,
+        373
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131009,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        255,
+        453,
+        411,
+        297,
+        296
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131009,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        328,
+        427,
+        297,
+        256,
+        446
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131009,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        269,
+        354,
+        255,
+        246,
+        409
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131009,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        440,
+        291,
+        217,
+        204,
+        279
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131009,
+      "seat": 4,
+      "win": 0,
+      "cash": [
+        329,
+        426,
+        321,
+        320,
+        310
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131010,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        279,
+        263,
+        293,
+        465,
+        370
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131010,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        337,
+        335,
+        338,
+        405,
+        303
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131010,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        309,
+        306,
+        491,
+        383,
+        399
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131010,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        311,
+        276,
+        279,
+        378,
+        350
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131010,
+      "seat": 4,
+      "win": 0,
+      "cash": [
+        282,
+        310,
+        381,
+        441,
+        428
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131011,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        403,
+        435,
+        257,
+        369,
+        236
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131011,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        359,
+        435,
+        314,
+        283,
+        539
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131011,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        292,
+        388,
+        273,
+        177,
+        252
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131011,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        447,
+        365,
+        322,
+        432,
+        222
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131011,
+      "seat": 4,
+      "win": 0,
+      "cash": [
+        317,
+        349,
+        288,
+        435,
+        208
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131012,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        272,
+        518,
+        432,
+        381,
+        208
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131012,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        270,
+        403,
+        279,
+        323,
+        225
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131012,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        345,
+        304,
+        499,
+        434,
+        396
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131012,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        351,
+        583,
+        342,
+        436,
+        214
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131012,
+      "seat": 4,
+      "win": 0,
+      "cash": [
+        299,
+        232,
+        360,
+        265,
+        329
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131013,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        250,
+        359,
+        418,
+        204,
+        257
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131013,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        228,
+        278,
+        265,
+        237,
+        209
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131013,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        329,
+        338,
+        394,
+        166,
+        269
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131013,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        345,
+        307,
+        419,
+        378,
+        279
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131013,
+      "seat": 4,
+      "win": 0,
+      "cash": [
+        442,
+        378,
+        437,
+        212,
+        387
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131014,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        286,
+        393,
+        219,
+        282,
+        320
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131014,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        338,
+        396,
+        433,
+        251,
+        601
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131014,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        203,
+        426,
+        388,
+        270,
+        280
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131014,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        265,
+        375,
+        227,
+        371,
+        339
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131014,
+      "seat": 4,
+      "win": 0,
+      "cash": [
+        297,
+        332,
+        273,
+        355,
+        323
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131015,
+      "seat": 0,
+      "win": 1,
+      "cash": [
+        456,
+        419,
+        259,
+        261,
+        451
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131015,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        350,
+        366,
+        416,
+        330,
+        385
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131015,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        318,
+        437,
+        376,
+        422,
+        374
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131015,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        251,
+        405,
+        270,
+        409,
+        304
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131015,
+      "seat": 4,
+      "win": 0,
+      "cash": [
+        358,
+        420,
+        242,
+        426,
+        395
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131016,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        247,
+        311,
+        310,
+        245,
+        348
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131016,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        398,
+        335,
+        235,
+        202,
+        340
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131016,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        253,
+        305,
+        240,
+        341,
+        335
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131016,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        387,
+        431,
+        465,
+        550,
+        224
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131016,
+      "seat": 4,
+      "win": 1,
+      "cash": [
+        246,
+        311,
+        234,
+        194,
+        430
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131017,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        237,
+        324,
+        289,
+        244,
+        333
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131017,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        348,
+        276,
+        303,
+        272,
+        281
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131017,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        249,
+        330,
+        342,
+        235,
+        374
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131017,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        441,
+        289,
+        356,
+        224,
+        350
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131017,
+      "seat": 4,
+      "win": 1,
+      "cash": [
+        270,
+        276,
+        317,
+        243,
+        334
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131018,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        214,
+        192,
+        311,
+        281,
+        264
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131018,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        296,
+        228,
+        447,
+        309,
+        259
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131018,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        213,
+        194,
+        340,
+        304,
+        275
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131018,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        287,
+        351,
+        445,
+        273,
+        388
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131018,
+      "seat": 4,
+      "win": 0,
+      "cash": [
+        217,
+        194,
+        309,
+        306,
+        279
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131019,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        275,
+        399,
+        422,
+        232,
+        289
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131019,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        369,
+        365,
+        415,
+        323,
+        339
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131019,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        284,
+        348,
+        269,
+        360,
+        346
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131019,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        282,
+        417,
+        351,
+        380,
+        240
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131019,
+      "seat": 4,
+      "win": 0,
+      "cash": [
+        225,
+        261,
+        358,
+        459,
+        288
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131020,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        342,
+        355,
+        463,
+        266,
+        329
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131020,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        503,
+        353,
+        335,
+        335,
+        269
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131020,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        320,
+        210,
+        369,
+        263,
+        319
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131020,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        435,
+        339,
+        337,
+        445,
+        383
+      ]
+    },
+    {
+      "lower": "beginner",
+      "higher": "medium",
+      "count": 5,
+      "seed": 131020,
+      "seat": 4,
+      "win": 0,
+      "cash": [
+        373,
+        290,
+        216,
+        330,
+        357
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131001,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        424,
+        395,
+        626
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131001,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        533,
+        434,
+        576
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131001,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        470,
+        484,
+        565
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131002,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        491,
+        474,
+        506
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131002,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        429,
+        484,
+        356
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131002,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        464,
+        678,
+        514
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131003,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        466,
+        338,
+        517
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131003,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        392,
+        343,
+        423
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131003,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        408,
+        459,
+        550
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131004,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        470,
+        454,
+        510
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131004,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        460,
+        573,
+        419
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131004,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        509,
+        697,
+        510
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131005,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        472,
+        564,
+        374
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131005,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        491,
+        379,
+        385
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131005,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        579,
+        495,
+        474
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131006,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        549,
+        594,
+        671
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131006,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        460,
+        561,
+        518
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131006,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        559,
+        610,
+        689
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131007,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        403,
+        540,
+        463
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131007,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        475,
+        531,
+        520
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131007,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        344,
+        351,
+        491
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131008,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        449,
+        461,
+        511
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131008,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        623,
+        495,
+        469
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131008,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        381,
+        452,
+        629
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131009,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        397,
+        502,
+        353
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131009,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        546,
+        570,
+        487
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131009,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        392,
+        640,
+        417
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131010,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        428,
+        452,
+        450
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131010,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        470,
+        362,
+        464
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131010,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        400,
+        583,
+        689
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131011,
+      "seat": 0,
+      "win": 1,
+      "cash": [
+        472,
+        470,
+        441
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131011,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        459,
+        391,
+        438
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131011,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        447,
+        425,
+        588
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131012,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        424,
+        499,
+        607
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131012,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        540,
+        544,
+        621
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131012,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        460,
+        479,
+        666
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131013,
+      "seat": 0,
+      "win": 1,
+      "cash": [
+        580,
+        568,
+        576
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131013,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        451,
+        482,
+        415
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131013,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        481,
+        474,
+        626
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131014,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        424,
+        410,
+        472
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131014,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        420,
+        552,
+        460
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131014,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        374,
+        477,
+        534
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131015,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        479,
+        532,
+        380
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131015,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        609,
+        636,
+        298
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131015,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        435,
+        380,
+        464
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131016,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        438,
+        435,
+        540
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131016,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        538,
+        613,
+        438
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131016,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        403,
+        430,
+        471
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131017,
+      "seat": 0,
+      "win": 1,
+      "cash": [
+        580,
+        370,
+        574
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131017,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        374,
+        379,
+        421
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131017,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        578,
+        397,
+        664
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131018,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        402,
+        558,
+        507
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131018,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        405,
+        423,
+        554
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131018,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        497,
+        579,
+        774
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131019,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        486,
+        599,
+        402
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131019,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        568,
+        471,
+        669
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131019,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        562,
+        649,
+        626
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131020,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        559,
+        293,
+        633
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131020,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        563,
+        471,
+        414
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 3,
+      "seed": 131020,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        524,
+        375,
+        615
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131001,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        378,
+        480,
+        363,
+        423
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131001,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        465,
+        464,
+        363,
+        440
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131001,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        345,
+        396,
+        461,
+        445
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131001,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        263,
+        313,
+        349,
+        378
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131002,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        318,
+        337,
+        356,
+        441
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131002,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        383,
+        495,
+        601,
+        481
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131002,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        452,
+        362,
+        483,
+        415
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131002,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        331,
+        312,
+        418,
+        476
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131003,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        369,
+        375,
+        360,
+        498
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131003,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        503,
+        458,
+        308,
+        374
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131003,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        292,
+        248,
+        450,
+        473
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131003,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        447,
+        245,
+        447,
+        416
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131004,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        385,
+        292,
+        431,
+        419
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131004,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        361,
+        278,
+        465,
+        364
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131004,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        333,
+        311,
+        427,
+        370
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131004,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        338,
+        329,
+        330,
+        647
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131005,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        412,
+        267,
+        426,
+        360
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131005,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        413,
+        460,
+        332,
+        356
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131005,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        530,
+        310,
+        312,
+        281
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131005,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        518,
+        356,
+        426,
+        427
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131006,
+      "seat": 0,
+      "win": 0.5,
+      "cash": [
+        431,
+        372,
+        393,
+        431
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131006,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        378,
+        335,
+        349,
+        440
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131006,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        447,
+        313,
+        476,
+        435
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131006,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        389,
+        349,
+        388,
+        563
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131007,
+      "seat": 0,
+      "win": 1,
+      "cash": [
+        449,
+        309,
+        392,
+        387
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131007,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        585,
+        307,
+        338,
+        455
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131007,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        540,
+        362,
+        380,
+        398
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131007,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        422,
+        283,
+        301,
+        467
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131008,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        372,
+        410,
+        369,
+        410
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131008,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        320,
+        366,
+        592,
+        428
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131008,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        337,
+        623,
+        564,
+        512
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131008,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        286,
+        323,
+        277,
+        339
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131009,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        332,
+        365,
+        301,
+        559
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131009,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        329,
+        467,
+        452,
+        437
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131009,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        299,
+        408,
+        447,
+        528
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131009,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        334,
+        358,
+        406,
+        415
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131010,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        511,
+        480,
+        352,
+        533
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131010,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        311,
+        362,
+        356,
+        539
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131010,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        356,
+        471,
+        363,
+        633
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131010,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        262,
+        342,
+        309,
+        473
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131011,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        347,
+        367,
+        402,
+        435
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131011,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        495,
+        427,
+        441,
+        511
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131011,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        357,
+        389,
+        545,
+        435
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131011,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        414,
+        462,
+        485,
+        401
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131012,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        455,
+        403,
+        390,
+        474
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131012,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        461,
+        467,
+        447,
+        482
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131012,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        378,
+        437,
+        447,
+        482
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131012,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        378,
+        409,
+        433,
+        597
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131013,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        337,
+        300,
+        288,
+        340
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131013,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        427,
+        489,
+        188,
+        504
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131013,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        376,
+        291,
+        495,
+        507
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131013,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        387,
+        261,
+        502,
+        358
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131014,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        366,
+        501,
+        339,
+        504
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131014,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        368,
+        411,
+        311,
+        409
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131014,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        456,
+        611,
+        407,
+        285
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131014,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        383,
+        298,
+        320,
+        404
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131015,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        222,
+        276,
+        289,
+        284
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131015,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        217,
+        299,
+        280,
+        316
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131015,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        303,
+        424,
+        458,
+        353
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131015,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        217,
+        276,
+        276,
+        284
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131016,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        344,
+        328,
+        279,
+        488
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131016,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        334,
+        294,
+        423,
+        460
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131016,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        404,
+        430,
+        428,
+        591
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131016,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        277,
+        380,
+        344,
+        582
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131017,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        357,
+        322,
+        257,
+        476
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131017,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        504,
+        490,
+        343,
+        462
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131017,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        350,
+        390,
+        359,
+        405
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131017,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        397,
+        402,
+        281,
+        577
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131018,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        390,
+        370,
+        400,
+        421
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131018,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        333,
+        509,
+        476,
+        503
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131018,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        465,
+        519,
+        269,
+        465
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131018,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        345,
+        408,
+        453,
+        501
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131019,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        396,
+        375,
+        427,
+        470
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131019,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        438,
+        408,
+        562,
+        370
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131019,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        384,
+        464,
+        549,
+        433
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131019,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        357,
+        350,
+        329,
+        485
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131020,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        406,
+        373,
+        407,
+        549
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131020,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        383,
+        475,
+        460,
+        421
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131020,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        320,
+        476,
+        408,
+        458
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 4,
+      "seed": 131020,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        375,
+        278,
+        355,
+        507
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131001,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        375,
+        301,
+        401,
+        284,
+        333
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131001,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        351,
+        380,
+        291,
+        323,
+        363
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131001,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        351,
+        366,
+        506,
+        398,
+        384
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131001,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        329,
+        262,
+        458,
+        315,
+        370
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131001,
+      "seat": 4,
+      "win": 0,
+      "cash": [
+        311,
+        372,
+        458,
+        315,
+        411
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131002,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        464,
+        324,
+        390,
+        296,
+        479
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131002,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        394,
+        417,
+        406,
+        260,
+        413
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131002,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        358,
+        383,
+        367,
+        251,
+        451
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131002,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        387,
+        397,
+        468,
+        286,
+        482
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131002,
+      "seat": 4,
+      "win": 0,
+      "cash": [
+        384,
+        397,
+        507,
+        289,
+        495
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131003,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        249,
+        481,
+        284,
+        341,
+        446
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131003,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        348,
+        502,
+        399,
+        462,
+        374
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131003,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        237,
+        533,
+        480,
+        388,
+        329
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131003,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        249,
+        498,
+        301,
+        372,
+        442
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131003,
+      "seat": 4,
+      "win": 0,
+      "cash": [
+        249,
+        469,
+        279,
+        343,
+        462
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131004,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        381,
+        401,
+        266,
+        462,
+        475
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131004,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        274,
+        335,
+        353,
+        338,
+        483
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131004,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        286,
+        286,
+        446,
+        288,
+        421
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131004,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        343,
+        321,
+        388,
+        386,
+        525
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131004,
+      "seat": 4,
+      "win": 1,
+      "cash": [
+        315,
+        336,
+        227,
+        461,
+        544
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131005,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        327,
+        410,
+        278,
+        295,
+        440
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131005,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        312,
+        349,
+        294,
+        295,
+        493
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131005,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        366,
+        399,
+        401,
+        443,
+        416
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131005,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        409,
+        370,
+        348,
+        459,
+        362
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131005,
+      "seat": 4,
+      "win": 0,
+      "cash": [
+        374,
+        332,
+        343,
+        522,
+        402
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131006,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        218,
+        386,
+        370,
+        443,
+        467
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131006,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        331,
+        330,
+        311,
+        413,
+        506
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131006,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        406,
+        323,
+        440,
+        311,
+        544
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131006,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        282,
+        395,
+        286,
+        486,
+        393
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131006,
+      "seat": 4,
+      "win": 1,
+      "cash": [
+        340,
+        383,
+        377,
+        419,
+        436
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131007,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        269,
+        241,
+        282,
+        298,
+        310
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131007,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        267,
+        289,
+        286,
+        298,
+        312
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131007,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        302,
+        286,
+        404,
+        305,
+        466
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131007,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        266,
+        244,
+        282,
+        309,
+        319
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131007,
+      "seat": 4,
+      "win": 1,
+      "cash": [
+        272,
+        240,
+        203,
+        179,
+        377
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131008,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        338,
+        427,
+        362,
+        393,
+        246
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131008,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        337,
+        371,
+        263,
+        376,
+        217
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131008,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        385,
+        441,
+        392,
+        359,
+        346
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131008,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        362,
+        355,
+        383,
+        354,
+        381
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131008,
+      "seat": 4,
+      "win": 1,
+      "cash": [
+        360,
+        340,
+        364,
+        354,
+        426
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131009,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        390,
+        377,
+        273,
+        301,
+        482
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131009,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        379,
+        300,
+        306,
+        313,
+        409
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131009,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        344,
+        456,
+        380,
+        440,
+        408
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131009,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        359,
+        281,
+        297,
+        270,
+        352
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131009,
+      "seat": 4,
+      "win": 0,
+      "cash": [
+        329,
+        299,
+        358,
+        349,
+        347
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131010,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        341,
+        415,
+        359,
+        245,
+        428
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131010,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        293,
+        383,
+        320,
+        246,
+        337
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131010,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        307,
+        480,
+        384,
+        462,
+        322
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131010,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        410,
+        317,
+        228,
+        400,
+        400
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131010,
+      "seat": 4,
+      "win": 0,
+      "cash": [
+        313,
+        472,
+        394,
+        368,
+        378
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131011,
+      "seat": 0,
+      "win": 1,
+      "cash": [
+        390,
+        335,
+        280,
+        230,
+        287
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131011,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        401,
+        325,
+        331,
+        288,
+        319
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131011,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        357,
+        523,
+        342,
+        357,
+        420
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131011,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        389,
+        336,
+        314,
+        259,
+        288
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131011,
+      "seat": 4,
+      "win": 0,
+      "cash": [
+        478,
+        315,
+        262,
+        293,
+        348
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131012,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        388,
+        372,
+        496,
+        287,
+        430
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131012,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        346,
+        247,
+        399,
+        274,
+        422
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131012,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        422,
+        369,
+        471,
+        278,
+        255
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131012,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        395,
+        350,
+        595,
+        378,
+        369
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131012,
+      "seat": 4,
+      "win": 1,
+      "cash": [
+        348,
+        414,
+        427,
+        363,
+        526
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131013,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        345,
+        373,
+        411,
+        458,
+        322
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131013,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        333,
+        339,
+        505,
+        408,
+        255
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131013,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        316,
+        382,
+        416,
+        392,
+        288
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131013,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        384,
+        375,
+        417,
+        347,
+        388
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131013,
+      "seat": 4,
+      "win": 1,
+      "cash": [
+        400,
+        279,
+        408,
+        414,
+        429
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131014,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        397,
+        399,
+        310,
+        338,
+        525
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131014,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        283,
+        364,
+        279,
+        380,
+        412
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131014,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        276,
+        378,
+        524,
+        373,
+        405
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131014,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        388,
+        336,
+        259,
+        445,
+        499
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131014,
+      "seat": 4,
+      "win": 1,
+      "cash": [
+        276,
+        373,
+        346,
+        386,
+        433
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131015,
+      "seat": 0,
+      "win": 1,
+      "cash": [
+        401,
+        314,
+        223,
+        397,
+        234
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131015,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        437,
+        434,
+        274,
+        335,
+        425
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131015,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        356,
+        367,
+        417,
+        302,
+        378
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131015,
+      "seat": 3,
+      "win": 0.5,
+      "cash": [
+        345,
+        328,
+        272,
+        345,
+        301
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131015,
+      "seat": 4,
+      "win": 1,
+      "cash": [
+        429,
+        376,
+        157,
+        314,
+        461
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131016,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        368,
+        177,
+        284,
+        415,
+        359
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131016,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        331,
+        306,
+        349,
+        440,
+        384
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131016,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        302,
+        153,
+        536,
+        376,
+        473
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131016,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        297,
+        236,
+        474,
+        479,
+        369
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131016,
+      "seat": 4,
+      "win": 1,
+      "cash": [
+        338,
+        355,
+        435,
+        519,
+        529
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131017,
+      "seat": 0,
+      "win": 1,
+      "cash": [
+        494,
+        233,
+        363,
+        338,
+        391
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131017,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        301,
+        426,
+        286,
+        346,
+        459
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131017,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        274,
+        422,
+        405,
+        327,
+        471
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131017,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        320,
+        445,
+        320,
+        308,
+        541
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131017,
+      "seat": 4,
+      "win": 0,
+      "cash": [
+        408,
+        450,
+        360,
+        393,
+        384
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131018,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        419,
+        266,
+        252,
+        433,
+        228
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131018,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        244,
+        267,
+        233,
+        378,
+        261
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131018,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        414,
+        297,
+        370,
+        393,
+        308
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131018,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        360,
+        228,
+        425,
+        479,
+        302
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131018,
+      "seat": 4,
+      "win": 0,
+      "cash": [
+        434,
+        306,
+        191,
+        357,
+        360
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131019,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        228,
+        351,
+        221,
+        311,
+        222
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131019,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        259,
+        371,
+        253,
+        297,
+        273
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131019,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        262,
+        324,
+        340,
+        346,
+        321
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131019,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        259,
+        362,
+        207,
+        361,
+        292
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131019,
+      "seat": 4,
+      "win": 0,
+      "cash": [
+        219,
+        371,
+        210,
+        311,
+        222
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131020,
+      "seat": 0,
+      "win": 1,
+      "cash": [
+        419,
+        316,
+        300,
+        314,
+        362
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131020,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        373,
+        356,
+        284,
+        332,
+        298
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131020,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        285,
+        373,
+        383,
+        268,
+        295
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131020,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        363,
+        360,
+        197,
+        332,
+        328
+      ]
+    },
+    {
+      "lower": "medium",
+      "higher": "hard",
+      "count": 5,
+      "seed": 131020,
+      "seat": 4,
+      "win": 0,
+      "cash": [
+        471,
+        328,
+        133,
+        381,
+        438
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131001,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        558,
+        535,
+        729
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131001,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        614,
+        719,
+        626
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131001,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        674,
+        663,
+        685
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131002,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        557,
+        557,
+        647
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131002,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        624,
+        566,
+        709
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131002,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        561,
+        628,
+        748
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131003,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        577,
+        555,
+        672
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131003,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        523,
+        580,
+        623
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131003,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        586,
+        479,
+        644
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131004,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        455,
+        757,
+        566
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131004,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        455,
+        734,
+        589
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131004,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        537,
+        541,
+        661
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131005,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        521,
+        698,
+        622
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131005,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        559,
+        658,
+        698
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131005,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        487,
+        701,
+        696
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131006,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        452,
+        486,
+        695
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131006,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        584,
+        704,
+        735
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131006,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        534,
+        582,
+        779
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131007,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        683,
+        713,
+        666
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131007,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        653,
+        736,
+        671
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131007,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        682,
+        707,
+        680
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131008,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        580,
+        531,
+        666
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131008,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        534,
+        610,
+        635
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131008,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        639,
+        531,
+        644
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131009,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        558,
+        580,
+        598
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131009,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        691,
+        765,
+        674
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131009,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        651,
+        573,
+        664
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131010,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        555,
+        666,
+        668
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131010,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        495,
+        559,
+        681
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131010,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        523,
+        623,
+        718
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131011,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        521,
+        553,
+        663
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131011,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        564,
+        571,
+        732
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131011,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        475,
+        664,
+        677
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131012,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        540,
+        664,
+        589
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131012,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        567,
+        588,
+        755
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131012,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        587,
+        611,
+        607
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131013,
+      "seat": 0,
+      "win": 1,
+      "cash": [
+        683,
+        659,
+        599
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131013,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        558,
+        585,
+        639
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131013,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        642,
+        649,
+        506
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131014,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        601,
+        545,
+        674
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131014,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        637,
+        544,
+        563
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131014,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        665,
+        511,
+        640
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131015,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        673,
+        719,
+        690
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131015,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        673,
+        719,
+        690
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131015,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        618,
+        758,
+        498
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131016,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        549,
+        765,
+        737
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131016,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        485,
+        582,
+        745
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131016,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        452,
+        650,
+        695
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131017,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        607,
+        487,
+        665
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131017,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        553,
+        524,
+        606
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131017,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        494,
+        586,
+        686
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131018,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        542,
+        591,
+        640
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131018,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        589,
+        456,
+        863
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131018,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        666,
+        573,
+        719
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131019,
+      "seat": 0,
+      "win": 1,
+      "cash": [
+        648,
+        646,
+        511
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131019,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        538,
+        587,
+        564
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131019,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        605,
+        544,
+        641
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131020,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        618,
+        603,
+        760
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131020,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        615,
+        655,
+        781
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 3,
+      "seed": 131020,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        618,
+        603,
+        760
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131001,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        495,
+        624,
+        436,
+        452
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131001,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        512,
+        565,
+        563,
+        450
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131001,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        506,
+        563,
+        493,
+        544
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131001,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        429,
+        544,
+        553,
+        547
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131002,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        442,
+        446,
+        452,
+        496
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131002,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        346,
+        533,
+        566,
+        562
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131002,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        361,
+        419,
+        590,
+        576
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131002,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        475,
+        561,
+        517,
+        530
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131003,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        544,
+        552,
+        550,
+        507
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131003,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        500,
+        490,
+        526,
+        457
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131003,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        544,
+        552,
+        550,
+        507
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131003,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        500,
+        515,
+        504,
+        443
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131004,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        409,
+        529,
+        552,
+        592
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131004,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        427,
+        340,
+        608,
+        554
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131004,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        494,
+        462,
+        469,
+        639
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131004,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        409,
+        529,
+        552,
+        592
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131005,
+      "seat": 0,
+      "win": 1,
+      "cash": [
+        536,
+        376,
+        408,
+        467
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131005,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        457,
+        488,
+        427,
+        594
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131005,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        440,
+        432,
+        553,
+        540
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131005,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        476,
+        468,
+        507,
+        575
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131006,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        467,
+        571,
+        450,
+        682
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131006,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        403,
+        473,
+        359,
+        516
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131006,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        396,
+        451,
+        567,
+        776
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131006,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        398,
+        466,
+        447,
+        638
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131007,
+      "seat": 0,
+      "win": 1,
+      "cash": [
+        717,
+        431,
+        337,
+        556
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131007,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        642,
+        337,
+        486,
+        584
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131007,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        717,
+        431,
+        337,
+        556
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131007,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        583,
+        417,
+        421,
+        489
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131008,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        394,
+        479,
+        560,
+        486
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131008,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        378,
+        632,
+        647,
+        318
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131008,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        396,
+        587,
+        579,
+        460
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131008,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        378,
+        478,
+        498,
+        470
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131009,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        458,
+        486,
+        565,
+        547
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131009,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        442,
+        523,
+        412,
+        488
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131009,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        495,
+        425,
+        612,
+        588
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131009,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        412,
+        414,
+        478,
+        525
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131010,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        409,
+        375,
+        347,
+        534
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131010,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        648,
+        406,
+        401,
+        540
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131010,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        355,
+        618,
+        449,
+        595
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131010,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        579,
+        358,
+        518,
+        470
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131011,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        398,
+        530,
+        576,
+        615
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131011,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        439,
+        545,
+        482,
+        548
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131011,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        410,
+        551,
+        597,
+        552
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131011,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        385,
+        516,
+        545,
+        550
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131012,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        458,
+        415,
+        526,
+        523
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131012,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        540,
+        380,
+        583,
+        510
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131012,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        448,
+        585,
+        489,
+        610
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131012,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        448,
+        585,
+        489,
+        610
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131013,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        480,
+        561,
+        515,
+        376
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131013,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        501,
+        442,
+        485,
+        374
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131013,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        466,
+        581,
+        460,
+        362
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131013,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        414,
+        648,
+        393,
+        428
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131014,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        436,
+        666,
+        526,
+        552
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131014,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        431,
+        577,
+        348,
+        592
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131014,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        431,
+        577,
+        348,
+        592
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131014,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        431,
+        577,
+        348,
+        592
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131015,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        354,
+        384,
+        348,
+        386
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131015,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        417,
+        465,
+        545,
+        414
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131015,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        417,
+        465,
+        545,
+        414
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131015,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        417,
+        465,
+        545,
+        414
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131016,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        347,
+        439,
+        475,
+        749
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131016,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        418,
+        476,
+        543,
+        583
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131016,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        349,
+        563,
+        615,
+        613
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131016,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        335,
+        536,
+        686,
+        637
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131017,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        523,
+        548,
+        414,
+        539
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131017,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        504,
+        526,
+        409,
+        542
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131017,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        523,
+        548,
+        414,
+        539
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131017,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        441,
+        582,
+        449,
+        578
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131018,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        461,
+        541,
+        559,
+        579
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131018,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        419,
+        507,
+        521,
+        653
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131018,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        438,
+        506,
+        619,
+        546
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131018,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        460,
+        539,
+        553,
+        564
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131019,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        479,
+        453,
+        558,
+        520
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131019,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        405,
+        487,
+        455,
+        425
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131019,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        431,
+        487,
+        484,
+        460
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131019,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        431,
+        487,
+        484,
+        460
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131020,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        539,
+        479,
+        651,
+        591
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131020,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        403,
+        578,
+        485,
+        582
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131020,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        316,
+        536,
+        523,
+        551
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 4,
+      "seed": 131020,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        456,
+        361,
+        537,
+        703
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131001,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        456,
+        446,
+        479,
+        346,
+        370
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131001,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        471,
+        440,
+        404,
+        414,
+        432
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131001,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        299,
+        422,
+        350,
+        368,
+        391
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131001,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        468,
+        400,
+        397,
+        433,
+        398
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131001,
+      "seat": 4,
+      "win": 0,
+      "cash": [
+        456,
+        446,
+        479,
+        346,
+        370
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131002,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        416,
+        414,
+        538,
+        361,
+        451
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131002,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        420,
+        428,
+        538,
+        361,
+        433
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131002,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        399,
+        552,
+        579,
+        301,
+        479
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131002,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        420,
+        428,
+        538,
+        361,
+        433
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131002,
+      "seat": 4,
+      "win": 0,
+      "cash": [
+        329,
+        412,
+        457,
+        424,
+        358
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131003,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        333,
+        501,
+        538,
+        511,
+        393
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131003,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        333,
+        501,
+        538,
+        511,
+        393
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131003,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        333,
+        501,
+        538,
+        511,
+        393
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131003,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        325,
+        514,
+        504,
+        497,
+        421
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131003,
+      "seat": 4,
+      "win": 0,
+      "cash": [
+        333,
+        501,
+        538,
+        511,
+        393
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131004,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        370,
+        354,
+        368,
+        407,
+        539
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131004,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        344,
+        385,
+        366,
+        351,
+        566
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131004,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        370,
+        354,
+        368,
+        407,
+        539
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131004,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        360,
+        448,
+        464,
+        430,
+        487
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131004,
+      "seat": 4,
+      "win": 1,
+      "cash": [
+        346,
+        366,
+        410,
+        472,
+        533
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131005,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        318,
+        472,
+        490,
+        440,
+        520
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131005,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        432,
+        444,
+        386,
+        312,
+        552
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131005,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        286,
+        413,
+        368,
+        422,
+        441
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131005,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        286,
+        413,
+        368,
+        422,
+        441
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131005,
+      "seat": 4,
+      "win": 1,
+      "cash": [
+        354,
+        413,
+        303,
+        422,
+        438
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131006,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        359,
+        432,
+        511,
+        532,
+        516
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131006,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        349,
+        386,
+        425,
+        524,
+        573
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131006,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        328,
+        301,
+        345,
+        342,
+        544
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131006,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        362,
+        324,
+        500,
+        451,
+        622
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131006,
+      "seat": 4,
+      "win": 1,
+      "cash": [
+        350,
+        386,
+        425,
+        524,
+        571
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131007,
+      "seat": 0,
+      "win": 1,
+      "cash": [
+        469,
+        350,
+        465,
+        371,
+        465
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131007,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        424,
+        379,
+        391,
+        361,
+        425
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131007,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        437,
+        290,
+        448,
+        380,
+        438
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131007,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        321,
+        331,
+        384,
+        325,
+        518
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131007,
+      "seat": 4,
+      "win": 1,
+      "cash": [
+        247,
+        349,
+        492,
+        381,
+        526
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131008,
+      "seat": 0,
+      "win": 1,
+      "cash": [
+        451,
+        389,
+        411,
+        389,
+        378
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131008,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        451,
+        389,
+        411,
+        389,
+        378
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131008,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        456,
+        439,
+        446,
+        364,
+        434
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131008,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        389,
+        470,
+        198,
+        424,
+        383
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131008,
+      "seat": 4,
+      "win": 0,
+      "cash": [
+        451,
+        389,
+        411,
+        389,
+        378
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131009,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        371,
+        353,
+        420,
+        497,
+        609
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131009,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        313,
+        435,
+        470,
+        416,
+        486
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131009,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        313,
+        435,
+        470,
+        416,
+        486
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131009,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        313,
+        435,
+        470,
+        416,
+        486
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131009,
+      "seat": 4,
+      "win": 1,
+      "cash": [
+        310,
+        397,
+        481,
+        382,
+        576
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131010,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        483,
+        391,
+        403,
+        449,
+        664
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131010,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        483,
+        391,
+        403,
+        449,
+        664
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131010,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        483,
+        397,
+        326,
+        503,
+        471
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131010,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        476,
+        298,
+        365,
+        394,
+        456
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131010,
+      "seat": 4,
+      "win": 1,
+      "cash": [
+        472,
+        388,
+        395,
+        403,
+        599
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131011,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        408,
+        407,
+        433,
+        352,
+        345
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131011,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        408,
+        407,
+        433,
+        352,
+        345
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131011,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        367,
+        431,
+        428,
+        362,
+        482
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131011,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        408,
+        407,
+        433,
+        351,
+        346
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131011,
+      "seat": 4,
+      "win": 1,
+      "cash": [
+        358,
+        418,
+        352,
+        419,
+        430
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131012,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        412,
+        453,
+        465,
+        438,
+        418
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131012,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        420,
+        453,
+        457,
+        438,
+        418
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131012,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        368,
+        322,
+        495,
+        407,
+        561
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131012,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        420,
+        453,
+        457,
+        438,
+        418
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131012,
+      "seat": 4,
+      "win": 1,
+      "cash": [
+        362,
+        457,
+        457,
+        402,
+        552
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131013,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        352,
+        364,
+        499,
+        453,
+        499
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131013,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        342,
+        350,
+        502,
+        467,
+        464
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131013,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        333,
+        378,
+        587,
+        528,
+        521
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131013,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        342,
+        350,
+        502,
+        467,
+        464
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131013,
+      "seat": 4,
+      "win": 1,
+      "cash": [
+        365,
+        307,
+        486,
+        297,
+        495
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131014,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        384,
+        535,
+        468,
+        424,
+        304
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131014,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        459,
+        478,
+        417,
+        391,
+        370
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131014,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        321,
+        386,
+        508,
+        379,
+        408
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131014,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        373,
+        542,
+        479,
+        356,
+        426
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131014,
+      "seat": 4,
+      "win": 0,
+      "cash": [
+        366,
+        529,
+        510,
+        355,
+        326
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131015,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        400,
+        468,
+        413,
+        373,
+        359
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131015,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        332,
+        522,
+        360,
+        400,
+        380
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131015,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        415,
+        515,
+        352,
+        358,
+        498
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131015,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        415,
+        515,
+        352,
+        358,
+        498
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131015,
+      "seat": 4,
+      "win": 0,
+      "cash": [
+        430,
+        417,
+        413,
+        420,
+        309
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131016,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        255,
+        439,
+        485,
+        394,
+        426
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131016,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        255,
+        439,
+        485,
+        394,
+        426
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131016,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        255,
+        439,
+        485,
+        394,
+        426
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131016,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        255,
+        439,
+        485,
+        394,
+        426
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131016,
+      "seat": 4,
+      "win": 0,
+      "cash": [
+        255,
+        439,
+        485,
+        394,
+        426
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131017,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        435,
+        367,
+        473,
+        344,
+        399
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131017,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        435,
+        367,
+        473,
+        344,
+        399
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131017,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        435,
+        367,
+        473,
+        344,
+        399
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131017,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        421,
+        367,
+        350,
+        387,
+        417
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131017,
+      "seat": 4,
+      "win": 0,
+      "cash": [
+        428,
+        500,
+        324,
+        374,
+        338
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131018,
+      "seat": 0,
+      "win": 1,
+      "cash": [
+        453,
+        403,
+        369,
+        439,
+        446
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131018,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        414,
+        314,
+        465,
+        358,
+        416
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131018,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        416,
+        481,
+        369,
+        383,
+        407
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131018,
+      "seat": 3,
+      "win": 1,
+      "cash": [
+        302,
+        360,
+        524,
+        538,
+        477
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131018,
+      "seat": 4,
+      "win": 0,
+      "cash": [
+        416,
+        481,
+        369,
+        383,
+        407
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131019,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        359,
+        473,
+        474,
+        363,
+        407
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131019,
+      "seat": 1,
+      "win": 1,
+      "cash": [
+        368,
+        410,
+        401,
+        384,
+        408
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131019,
+      "seat": 2,
+      "win": 1,
+      "cash": [
+        319,
+        394,
+        502,
+        427,
+        414
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131019,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        361,
+        398,
+        476,
+        408,
+        427
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131019,
+      "seat": 4,
+      "win": 0,
+      "cash": [
+        385,
+        393,
+        404,
+        467,
+        271
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131020,
+      "seat": 0,
+      "win": 0,
+      "cash": [
+        375,
+        335,
+        256,
+        371,
+        495
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131020,
+      "seat": 1,
+      "win": 0,
+      "cash": [
+        310,
+        318,
+        432,
+        467,
+        485
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131020,
+      "seat": 2,
+      "win": 0,
+      "cash": [
+        340,
+        384,
+        364,
+        438,
+        492
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131020,
+      "seat": 3,
+      "win": 0,
+      "cash": [
+        310,
+        318,
+        432,
+        467,
+        485
+      ]
+    },
+    {
+      "lower": "hard",
+      "higher": "expert",
+      "count": 5,
+      "seed": 131020,
+      "seat": 4,
+      "win": 1,
+      "cash": [
+        310,
+        318,
+        432,
+        467,
+        485
+      ]
+    }
+  ]
+}

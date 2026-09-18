@@ -1,9 +1,11 @@
+import { validAIConfig } from './preferences.ts';
 import { applyAction, assertState, createGame } from './engine.ts';
 import type { Action, GameState } from './types.ts';
 export const SAVE_KEY = 'modern-art.session.v1';
 export function serialize(s: GameState) {
   return JSON.stringify({
     version: 1,
+    ...(s.aiConfig ? { aiConfig: s.aiConfig } : {}),
     seed: s.seed,
     first: s.first,
     count: s.players.length,
@@ -27,6 +29,14 @@ export function deserialize(raw: string): GameState {
   for (const action of data.actions as Action[]) {
     if (!action || typeof action !== 'object') throw new Error('存档行动无效');
     s = applyAction(s, action);
+  }
+  if (data.aiConfig !== undefined) {
+    if (
+      !validAIConfig(data.aiConfig) ||
+      data.aiConfig.personalities.length !== data.count
+    )
+      throw new Error('AI 设置无效');
+    s.aiConfig = data.aiConfig;
   }
   assertState(s);
   return s;

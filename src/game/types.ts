@@ -42,6 +42,7 @@ export interface RoundResult {
   reason: string;
 }
 export interface GameState {
+  aiConfig?: import('./preferences.ts').AIConfig;
   version: 1;
   seed: number;
   first: number;

@@ -8,7 +8,7 @@ function values(o: Observation, counts = o.counts) {
       : 0,
   );
 }
-function estimate(o: Observation, artist: number) {
+export function estimate(o: Observation, artist: number) {
   const now = values(o)[artist],
     count = o.counts[artist],
     own = o.self.hand.filter((c) => c.artist === artist).length;

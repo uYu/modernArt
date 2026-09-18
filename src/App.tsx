@@ -11,14 +11,24 @@ import {
   Play,
   RotateCcw,
   X,
-  Menu,
-  Volume2,
 } from 'lucide-react';
 import { ARTISTS, makeDeck, title, TYPES } from './game/data.ts';
 import { actor, applyAction, createGame, observe } from './game/engine.ts';
 import { chooseAction as fallbackAction } from './game/ai-legacy.ts';
 import { deserialize, SAVE_KEY, serialize } from './game/storage.ts';
 import type { Action, Card, GameState } from './game/types.ts';
+import { Replay } from './components/Replay.tsx';
+import { Rules } from './components/Rules.tsx';
+import { SaveSlots } from './components/SaveSlots.tsx';
+import { seasonFinance } from './game/experience.ts';
+import {
+  DEFAULT_PREFERENCES,
+  PREFERENCES_KEY,
+  parsePreferences,
+  makeLevelConfig,
+  LEVELS,
+} from './game/preferences.ts';
+import type { GameLevel } from './game/preferences.ts';
 import { Artwork } from './components/Artwork.tsx';
 import { CheatPanel } from './components/CheatPanel.tsx';
 import { SaleAnnouncement } from './components/SaleAnnouncement.tsx';
@@ -55,7 +65,7 @@ function Modal({
       if (e.key === 'Escape') closeRef.current();
       if (e.key === 'Tab') {
         const items = ref.current?.querySelectorAll<HTMLElement>(
-          'button, input, select, a[href]',
+          'button:not([disabled]), input:not([disabled]):not([hidden]), select:not([disabled]), a[href], summary',
         );
         if (!items?.length) return;
         const first = items[0],
@@ -98,53 +108,6 @@ function Modal({
         </div>
         {children}
       </div>
-    </div>
-  );
-}
-function Rules() {
-  return (
-    <div className="rules">
-      <p>
-        经营一间美术馆，买入与卖出作品。四季结束后，现金最多的玩家获胜。金额单位均为千元。
-      </p>
-      <h3>出画 → 拍卖 → 收藏 → 季末出售</h3>
-      <p>
-        轮到你出画时，从手牌选择一幅作品。卡上的符号决定拍卖方式。买家向拍卖师付款；拍卖师买自己的画时向银行付款。
-      </p>
-      {Object.values(TYPES).map((t) => (
-        <p key={t.name}>
-          <strong>
-            {t.icon} {t.name}
-          </strong>
-          <br />
-          {t.help}
-        </p>
-      ))}
-      <h3>第五幅出现，立即结束本季</h3>
-      <p>
-        某位艺术家的第五幅作品亮相时不拍卖，直接结算。双重拍卖的第二幅触发时，两幅均不成交，但都计入出画数量。
-      </p>
-      <p>
-        按出画数量排名，前三名分别增加 30 / 20 /
-        10。数量相同时，行情板从左到右优先。只有本季前三名的作品有价值，其售价为该艺术家历季价格之和；其余作品本季价值为零。
-      </p>
-      <p>
-        所有已购作品在季末出售并弃置；未出的手牌保留。第四季不再补牌。若所有玩家的手牌提前耗尽，最后拍品不成交，结算后结束游戏。
-      </p>
-      <h3>网页版操作</h3>
-      <p>
-        公开竞价依次询问加价意愿。暂不跟价不会永久退出，有人加价后你仍能参与。选画、定价、报价都需要点击确认；提交后不提供撤回。对手现金、手牌和未揭晓的暗标保持隐藏。
-      </p>
-      <p className="muted">
-        原创画作与艺术家名称；不含三人局“神秘玩家”可选变体。
-      </p>
-      <a
-        href="https://www.cmon.com/wp-content/uploads/2023/06/MA_Rulebbok_Artbook_v18-low.pdf"
-        target="_blank"
-        rel="noreferrer"
-      >
-        查看官方规则书 ↗
-      </a>
     </div>
   );
 }
@@ -250,24 +213,33 @@ function RoundSummary({
 }) {
   const cash = cheatMode ? publicBalances(game) : [];
   const r = game.history.at(-1)!;
+  const finance = seasonFinance(game, r.round, 0);
   const ended = game.phase === 'finished';
-  const max = Math.max(...game.players.map((p) => p.cash));
+  const myCash = game.players[0].cash;
+  const rankOf = (amount: number) =>
+    1 + game.players.filter((p) => p.cash > amount).length;
+  const rankLabel = (amount: number) =>
+    `${game.players.filter((p) => p.cash === amount).length > 1 ? '并列' : ''}第 ${rankOf(amount)} 名`;
+  const myRank = rankOf(myCash);
   return (
     <div className="round-summary">
       <span className="eyebrow">
         {ended ? 'THE FINAL COLLECTION' : 'SEASON CLOSED'}
       </span>
-      <h2>{ended ? '拍卖落幕' : `第 ${r.round} 季 · 结算`}</h2>
-      <p>
-        {ended
-          ? `${game.players
-              .filter((p) => p.cash === max)
-              .map((p) => p.name)
-              .join(
-                '、',
-              )} ${game.players.filter((p) => p.cash === max).length > 1 ? '并列获胜' : '获胜'}`
-          : r.reason}
-      </p>
+      <h2>
+        {ended ? `你获得${rankLabel(myCash)}` : `第 ${r.round} 季 · 结算`}
+      </h2>
+      {ended && (
+        <p className="final-standing">
+          {myRank === 1 ? '恭喜获胜！' : '四季拍卖结束'}
+          {' · '}最终财富 <strong>{myCash} 千元</strong>
+          {' · '}共 {game.players.length} 位玩家
+        </p>
+      )}
+      <div className="season-end-notice" role="status">
+        <strong>季末原因</strong>
+        <p>{r.reason}</p>
+      </div>
       <div className="result-prices">
         {ARTISTS.map((a, i) => (
           <div key={a.name}>
@@ -277,22 +249,100 @@ function RoundSummary({
           </div>
         ))}
       </div>
-      <div className="result-table">
-        {[...game.players]
-          .sort((a, b) => (ended ? b.cash - a.cash : a.id - b.id))
-          .map((p) => (
-            <div key={p.id}>
-              <span>{p.name}</span>
-              <span>
-                {r.sold[p.id].length} 幅 · 本季 +{r.income[p.id]}
-              </span>
-              <strong>
-                {ended || cheatMode || p.id === 0
-                  ? `${cheatMode ? cash[p.id] : p.cash} 千元`
-                  : '现金保密'}
-              </strong>
-            </div>
-          ))}
+      <div className="settlement-holdings">
+        <h3>结算前各馆藏品</h3>
+        <p className="small muted">
+          按艺术家统计本季已购作品；上方保留对应画作，进入下一季后清空展示。
+        </p>
+        <div className="table-scroll">
+          <table
+            className="settlement-table"
+            aria-label="结算前各馆各艺术家藏品数量"
+          >
+            <thead>
+              <tr>
+                {ended && <th scope="col">最终名次</th>}
+                <th scope="col">美术馆</th>
+                {ARTISTS.map((a) => (
+                  <th scope="col" key={a.name}>
+                    <span style={{ color: a.color }}>●</span> {a.name}
+                  </th>
+                ))}
+                <th scope="col">合计</th>
+                <th scope="col">清算收入</th>
+                <th scope="col">现金</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[...game.players]
+                .sort((a, b) => (ended ? b.cash - a.cash : a.id - b.id))
+                .map((p) => (
+                  <tr
+                    key={p.id}
+                    className={
+                      ended && p.id === 0 ? 'your-standing' : undefined
+                    }
+                  >
+                    {ended && (
+                      <td>
+                        <strong>{rankLabel(p.cash)}</strong>
+                      </td>
+                    )}
+                    <th scope="row">{p.name}</th>
+                    {ARTISTS.map((a, artist) => (
+                      <td key={a.name}>
+                        {r.sold[p.id].filter((c) => c.artist === artist).length}
+                      </td>
+                    ))}
+                    <td>{r.sold[p.id].length} 幅</td>
+                    <td>+{r.income[p.id]}</td>
+                    <td>
+                      {ended || cheatMode || p.id === 0
+                        ? `${cheatMode ? cash[p.id] : p.cash} 千元`
+                        : '现金保密'}
+                    </td>
+                  </tr>
+                ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+      {r.unsold.length > 0 && (
+        <div className="settlement-unsold">
+          <strong>季末未成交 · {r.unsold.length} 幅</strong>
+          <p>计入艺术家数量排名，不属于任何馆的藏品，也不产生清算收入。</p>
+          <div>
+            {r.unsold.map((c) => (
+              <figure key={c.id}>
+                <Artwork card={c} />
+                <figcaption>
+                  {ARTISTS[c.artist].name} · {title(c)}
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+        </div>
+      )}
+      <div className="finance-summary">
+        <strong>你的第 {r.round} 季账目（千元）</strong>
+        <div>
+          <span>
+            卖画收入 <b>+{finance.sales}</b>
+          </span>
+          <span>
+            买画支出 <b>−{finance.purchases}</b>
+          </span>
+          <span>
+            藏品清算 <b>+{finance.settlement}</b>
+          </span>
+          <span>
+            现金净增{' '}
+            <b>
+              {finance.net >= 0 ? '+' : ''}
+              {finance.net}
+            </b>
+          </span>
+        </div>
       </div>
       {!ended && (
         <button className="primary" onClick={() => send({ type: 'next' })}>
@@ -310,15 +360,26 @@ export default function App() {
   const [game, setGame] = useState<GameState | null>(initial.game);
   const [screen, setScreen] = useState<'menu' | 'game'>('menu');
   const [dialog, setDialog] = useState<
-    'rules' | 'new' | 'log' | 'settings' | 'cheats' | null
+    'rules' | 'new' | 'log' | 'cheats' | 'replay' | 'slots' | null
   >(null);
   const [cheatMode, setCheatMode] = useState(false);
   const cash = game && cheatMode ? publicBalances(game) : [];
-  const [saleMode, setSaleMode] = useState<'brief' | 'confirm'>('brief');
+  const [preferences] = useState(() => {
+    try {
+      return parsePreferences(localStorage.getItem(PREFERENCES_KEY));
+    } catch {
+      return DEFAULT_PREFERENCES;
+    }
+  });
+  const saleMode = DEFAULT_PREFERENCES.saleMode;
+  const hints = DEFAULT_PREFERENCES.hints;
+  const [level, setLevel] = useState<GameLevel>(
+    preferences.level ?? 'beginner',
+  );
   const [reviewSale, setReviewSale] = useState<SaleNotice | null>(null);
   const [sale, setSale] = useState<SaleNotice | null>(null);
   const [count, setCount] = useState(4);
-  const [speed, setSpeed] = useState(850);
+  const speed = DEFAULT_PREFERENCES.speed;
   const [paused, setPaused] = useState(false);
   const [selected, setSelected] = useState<string | null>(null);
   const [amount, setAmount] = useState('1');
@@ -326,6 +387,39 @@ export default function App() {
   const [error, setError] = useState(initial.error);
   const [saveError, setSaveError] = useState('');
   const fileRef = useRef<HTMLInputElement>(null);
+  useEffect(() => {
+    try {
+      localStorage.setItem(
+        PREFERENCES_KEY,
+        JSON.stringify({ speed, saleMode, hints, level }),
+      );
+    } catch {
+      setError('设置无法保存；本次会话仍可使用。');
+    }
+  }, [speed, saleMode, hints, level]);
+  function loadGame(next: GameState) {
+    setSale(null);
+    setReviewSale(null);
+    setCheatMode(false);
+    setGame(next);
+    setSelected(null);
+    setFilter(null);
+    setPaused(false);
+    setDialog(null);
+    setScreen('game');
+    setError('');
+  }
+  function rematch() {
+    if (!game) return;
+    try {
+      localStorage.setItem('modern-art.slot.backup', serialize(game));
+      const next = createGame(game.players.length, game.seed, game.first);
+      if (game.aiConfig) next.aiConfig = structuredClone(game.aiConfig);
+      loadGame(next);
+    } catch {
+      setError('无法备份当前对局，未开始重赛。请先导出存档。');
+    }
+  }
   function send(action: Action) {
     if (!game) return;
     try {
@@ -393,7 +487,7 @@ export default function App() {
         ) => finish(event.data.action);
         worker.onerror = () => finish();
         watchdog = setTimeout(() => finish(), 3000);
-        worker.postMessage(observation);
+        worker.postMessage({ observation, config: game.aiConfig });
       } catch {
         finish();
       }
@@ -438,7 +532,9 @@ export default function App() {
     setSale(null);
     setCheatMode(false);
     const seed = crypto.getRandomValues(new Uint32Array(1))[0];
-    setGame(createGame(count, seed, seed % count));
+    const next = createGame(count, seed, seed % count);
+    next.aiConfig = makeLevelConfig(count, level);
+    setGame(next);
     setScreen('game');
     setDialog(null);
     setSelected(null);
@@ -477,6 +573,34 @@ export default function App() {
     Number.isSafeInteger(Number(amount)) &&
     Number(amount) >= 0 &&
     Number(amount) <= (me?.cash ?? 0);
+  const minimum =
+    auction?.type === 'sealed' || game?.phase === 'price'
+      ? 0
+      : (auction?.high ?? 0) + 1;
+  const amountError =
+    amount.trim() === ''
+      ? '请输入金额'
+      : !Number.isSafeInteger(Number(amount))
+        ? '请输入整数千元'
+        : Number(amount) < minimum
+          ? `最低 ${minimum} 千元`
+          : Number(amount) > (me?.cash ?? 0)
+            ? '现金不足，不能透支'
+            : '';
+  const hint =
+    game?.phase === 'pair'
+      ? '同艺术家的非双重牌才能补画；他人补画后接任卖家并收取全部成交款。'
+      : game?.phase === 'price'
+        ? '无人购买时，你会按此价格向银行付款并取得作品。'
+        : game?.phase === 'offer'
+          ? '卡面符号决定拍卖方式。某艺术家第五幅亮相时立即结算，该拍品不成交。'
+          : auction?.type === 'sealed'
+            ? '报价锁定后不能修改；0 表示不报价，全部锁定后才揭晓。'
+            : auction?.type === 'once'
+              ? '只有一次报价机会，卖家最后行动。'
+              : auction?.type === 'fixed'
+                ? '按顺时针询问购买；全部放弃后由卖家自购。'
+                : '暂不加价后，有人加价时你仍可再次参与。';
   const canBid =
     validAmount &&
     (auction?.type === 'sealed' ||
@@ -530,13 +654,18 @@ export default function App() {
             </button>
           )}
           {screen === 'game' && (
-            <button
-              className="icon-button"
-              onClick={() => setDialog('settings')}
-              aria-label="对局菜单"
-            >
-              <Menu size={21} />
-            </button>
+            <>
+              <button
+                className="text-button"
+                onClick={() => setDialog('slots')}
+              >
+                存档
+              </button>
+              <button className="text-button" onClick={() => setScreen('menu')}>
+                <ArrowLeft size={16} />
+                返回主页
+              </button>
+            </>
           )}
         </nav>
       </header>
@@ -563,6 +692,12 @@ export default function App() {
               <br />
               价值由市场决定。
             </h1>
+            <div className="home-designer">
+              <span>《现代艺术》原作游戏设计</span>
+              <a href="https://www.knizia.de/" target="_blank" rel="noreferrer">
+                Reiner Knizia
+              </a>
+            </div>
             <p>
               五位艺术家，四个拍卖季。
               <br />
@@ -587,6 +722,20 @@ export default function App() {
               >
                 {game ? '开始新的一局' : '进入拍卖厅'}
                 <ArrowRight size={18} />
+              </button>
+            </div>
+            <div className="home-tools">
+              <button
+                className="text-button"
+                onClick={() => setDialog('rules')}
+              >
+                玩法指南
+              </button>
+              <button
+                className="text-button"
+                onClick={() => setDialog('slots')}
+              >
+                存档管理
               </button>
             </div>
             <div className="home-meta">
@@ -627,7 +776,11 @@ export default function App() {
               <div className="section-head">
                 <div>
                   <span className="eyebrow">AROUND THE TABLE</span>
-                  <h2>收藏家与本季藏品</h2>
+                  <h2>
+                    {game.phase === 'roundEnd' || game.phase === 'finished'
+                      ? '结算前的桌面藏品'
+                      : '收藏家与本季藏品'}
+                  </h2>
                 </div>
                 <span className="small muted">按座次顺时针 · 画作逐张陈列</span>
               </div>
@@ -637,6 +790,11 @@ export default function App() {
               >
                 {game.players.map((p) => {
                   const seller = auction?.seller === p.id;
+                  const settled =
+                    game.phase === 'roundEnd' || game.phase === 'finished';
+                  const collection = settled
+                    ? game.history.at(-1)!.sold[p.id]
+                    : p.collection;
                   return (
                     <article
                       key={p.id}
@@ -682,7 +840,7 @@ export default function App() {
                         className="collected-works"
                         aria-label={`${p.name} 的本季藏品`}
                       >
-                        {p.collection.map((c) => (
+                        {collection.map((c) => (
                           <div
                             className="collected-work"
                             key={c.id}
@@ -697,7 +855,9 @@ export default function App() {
                             <span>{ARTISTS[c.artist].name}</span>
                           </div>
                         ))}
-                        {!p.collection.length && <p>尚未购入作品</p>}
+                        {!collection.length && (
+                          <p>{settled ? '本季没有购入作品' : '尚未购入作品'}</p>
+                        )}
                       </div>
                     </article>
                   );
@@ -1040,25 +1200,74 @@ export default function App() {
                         (game.phase === 'bid' &&
                           auction?.type !== 'fixed')) && (
                         <>
-                          <label className="amount-input">
-                            <input
-                              aria-label={
-                                game.phase === 'price' ? '设定价格' : '出价金额'
-                              }
-                              type="number"
-                              min={
-                                auction?.type === 'sealed' ||
-                                game.phase === 'price'
-                                  ? 0
-                                  : (auction?.high ?? 0) + 1
-                              }
-                              max={me!.cash}
-                              step="1"
-                              value={amount}
-                              onChange={(e) => setAmount(e.target.value)}
-                            />
-                            <span>千元</span>
-                          </label>
+                          <div className="bid-entry">
+                            <div className="bid-entry-top">
+                              <label className="amount-input">
+                                <input
+                                  aria-label={
+                                    game.phase === 'price'
+                                      ? '设定价格'
+                                      : '出价金额'
+                                  }
+                                  aria-describedby="amount-feedback"
+                                  aria-invalid={Boolean(amountError)}
+                                  inputMode="numeric"
+                                  type="number"
+                                  min={
+                                    auction?.type === 'sealed' ||
+                                    game.phase === 'price'
+                                      ? 0
+                                      : (auction?.high ?? 0) + 1
+                                  }
+                                  max={me!.cash}
+                                  step="1"
+                                  value={amount}
+                                  onChange={(e) => setAmount(e.target.value)}
+                                />
+                                <span>千元</span>
+                              </label>
+                              <div className="quick-bids">
+                                <button
+                                  className="secondary"
+                                  disabled={minimum > me!.cash}
+                                  onClick={() => setAmount(String(minimum))}
+                                >
+                                  {minimum === 0 ? '归零' : '最低加价'}
+                                </button>
+                                {[5, 10].map((delta) => (
+                                  <button
+                                    className="secondary"
+                                    key={delta}
+                                    disabled={
+                                      Math.max(minimum, Number(amount) || 0) +
+                                        delta >
+                                      me!.cash
+                                    }
+                                    onClick={() =>
+                                      setAmount(
+                                        String(
+                                          Math.max(
+                                            minimum,
+                                            Number(amount) || 0,
+                                          ) + delta,
+                                        ),
+                                      )
+                                    }
+                                  >
+                                    +{delta}
+                                  </button>
+                                ))}
+                              </div>
+                            </div>
+                            <small
+                              id="amount-feedback"
+                              className={amountError ? 'amount-error' : ''}
+                              role="status"
+                            >
+                              {amountError ||
+                                `若成交，剩余 ${me!.cash - Number(amount)} 千元${game.phase === 'price' ? '（自购时）' : ''}`}
+                            </small>
+                          </div>
                           {game.phase === 'bid' &&
                             auction?.type !== 'sealed' && (
                               <button
@@ -1130,12 +1339,39 @@ export default function App() {
                   </button>
                 )}
                 {game.phase === 'finished' && (
+                  <>
+                    <button
+                      className="secondary"
+                      onClick={() => setDialog('replay')}
+                    >
+                      赛后复盘
+                    </button>
+                    <button className="secondary" onClick={rematch}>
+                      同一发牌再挑战
+                    </button>
+                  </>
+                )}
+                {game.phase === 'finished' && (
                   <button className="primary" onClick={() => setDialog('new')}>
                     再开一局
                     <RotateCcw size={16} />
                   </button>
                 )}
               </div>
+              {hints &&
+                game.phase !== 'finished' &&
+                game.phase !== 'roundEnd' && (
+                  <div className="context-hint">
+                    <BookOpen size={13} />
+                    <span>{hint}</span>
+                    <button
+                      className="text-button"
+                      onClick={() => setDialog('rules')}
+                    >
+                      查规则
+                    </button>
+                  </div>
+                )}
             </div>
           </main>
         )
@@ -1200,13 +1436,42 @@ export default function App() {
               rules: '拍卖指南',
               new: '开启新的拍卖季',
               log: '拍卖纪事',
-              settings: '对局设置',
               cheats: '记牌面板',
+              replay: '赛后复盘',
+              slots: '存档管理',
             }[dialog]
           }
           close={() => setDialog(null)}
         >
-          {dialog === 'rules' && <Rules />}
+          {dialog === 'rules' && (
+            <Rules
+              currentAuction={
+                screen === 'game' ? game?.auction?.type : undefined
+              }
+            />
+          )}
+          {dialog === 'replay' && game?.phase === 'finished' && (
+            <Replay game={game} />
+          )}
+          {dialog === 'slots' && (
+            <>
+              <SaveSlots game={game} load={loadGame} />
+              <div className="home-buttons">
+                {game && (
+                  <button className="secondary" onClick={exportSave}>
+                    <Download size={17} />
+                    导出当前存档
+                  </button>
+                )}
+                <button
+                  className="secondary"
+                  onClick={() => fileRef.current?.click()}
+                >
+                  导入存档
+                </button>
+              </div>
+            </>
+          )}
           {dialog === 'cheats' && game && cheatMode && (
             <CheatPanel
               game={game}
@@ -1231,6 +1496,32 @@ export default function App() {
                   </button>
                 ))}
               </div>
+              <div className="ai-options">
+                <label>
+                  对手难度
+                  <select
+                    value={level}
+                    onChange={(e) => setLevel(e.target.value as GameLevel)}
+                  >
+                    {Object.entries(LEVELS).map(([key, label]) => (
+                      <option key={key} value={key}>
+                        {label}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+              </div>
+              <p className="small muted">
+                {
+                  {
+                    beginner:
+                      '正常估价和竞买，判断偶有偏差，主要考虑眼前收益。',
+                    medium: '稳定估价，会考虑藏品和当前行情。',
+                    hard: '关键阶段会推演出牌，关注对手收益与终季时机。',
+                    expert: '每次选画都进行场景推演，更连贯地规划整季。',
+                  }[level]
+                }
+              </p>
               <p className="small muted">
                 随机先手 · 每馆 100 千元 · 四个拍卖季
               </p>
@@ -1258,80 +1549,6 @@ export default function App() {
               ))}
             </div>
           )}
-          {dialog === 'settings' && (
-            <div className="settings">
-              <label>
-                开启记牌辅助
-                <input
-                  type="checkbox"
-                  checked={cheatMode}
-                  onChange={(e) => setCheatMode(e.target.checked)}
-                />
-              </label>
-              {cheatMode && (
-                <button
-                  className="secondary"
-                  onClick={() => setDialog('cheats')}
-                >
-                  查看记牌面板
-                </button>
-              )}
-              <label>
-                成交提醒
-                <select
-                  value={saleMode}
-                  onChange={(e) =>
-                    setSaleMode(e.target.value as 'brief' | 'confirm')
-                  }
-                >
-                  <option value="brief">简短提醒 · 一口价需确认</option>
-                  <option value="confirm">弹框确认 · 手动继续</option>
-                </select>
-              </label>
-              <label>
-                <Volume2 size={18} />
-                AI 行动节奏
-                <select
-                  value={speed}
-                  onChange={(e) => setSpeed(Number(e.target.value))}
-                >
-                  <option value={1500}>从容 · 1.5 秒</option>
-                  <option value={850}>标准 · 0.85 秒</option>
-                  <option value={200}>快速 · 0.2 秒</option>
-                </select>
-              </label>
-              <button
-                className="secondary"
-                onClick={() => {
-                  setPaused(!paused);
-                  setDialog(null);
-                }}
-              >
-                {paused ? <Play size={17} /> : <Pause size={17} />}{' '}
-                {paused ? '继续对局' : '暂停对局'}
-              </button>
-              <button className="secondary" onClick={exportSave}>
-                <Download size={17} />
-                导出存档
-              </button>
-              <button
-                className="secondary"
-                onClick={() => fileRef.current?.click()}
-              >
-                导入存档（替换本局）
-              </button>
-              <button
-                className="text-button"
-                onClick={() => {
-                  setDialog(null);
-                  setScreen('menu');
-                }}
-              >
-                <ArrowLeft size={17} />
-                保存并返回主菜单
-              </button>
-            </div>
-          )}
         </Modal>
       )}
       <input
@@ -1345,16 +1562,9 @@ export default function App() {
           try {
             if (file.size > 2_000_000) throw new Error('存档过大');
             const next = deserialize(await file.text());
-            setSale(null);
-            setReviewSale(null);
-            setCheatMode(false);
-            setGame(next);
-            setSelected(null);
-            setFilter(null);
-            setPaused(false);
-            setDialog(null);
-            setScreen('game');
-            setError('');
+            if (game)
+              localStorage.setItem('modern-art.slot.backup', serialize(game));
+            loadGame(next);
           } catch (err) {
             setError(`导入失败：${(err as Error).message}`);
           }

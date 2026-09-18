@@ -3085,3 +3085,43 @@ nav {
   line-height: 1.7;
   margin-bottom: 16px;
 }
+
+/* Keep the current bidder visually tied to the price. */
+.bid-leader {
+  display: grid;
+  gap: 3px;
+  min-width: 0;
+  margin-top: 7px;
+  padding: 9px 12px;
+  border-left: 4px solid #a8733f;
+  background: #f4e8d6;
+  color: #694621;
+}
+.bid-leader > span {
+  font-size: 10px;
+  font-weight: 600;
+}
+.bid-leader > b {
+  font-size: 17px;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+.bid-leader.is-you {
+  background: #293e30;
+  color: #fff;
+  border-color: #829967;
+}
+@media (min-width: 901px) {
+  .bid-leader {
+    margin-top: 0;
+    padding: 7px 10px;
+  }
+  .bid-leader > b {
+    font-size: 15px;
+  }
+}
+@media (max-width: 540px) {
+  .bid-leader > b {
+    font-size: 14px;
+  }
+}

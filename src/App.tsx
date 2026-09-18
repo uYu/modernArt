@@ -807,13 +807,30 @@ export default function App() {
                               {auction.type !== 'sealed' ? '千元' : ''}
                             </small>
                           </strong>
-                          <span>
-                            {auction.type === 'sealed'
-                              ? '所有报价锁定后一起揭晓'
-                              : auction.bidder !== null
-                                ? game.players[auction.bidder].name
-                                : `拍卖师 · ${game.players[auction.seller].name}`}
-                          </span>
+                          {auction.type !== 'sealed' &&
+                          auction.type !== 'fixed' &&
+                          auction.bidder !== null ? (
+                            <div
+                              className={`bid-leader ${auction.bidder === 0 ? 'is-you' : ''}`}
+                              role="status"
+                              aria-live="polite"
+                            >
+                              <span>
+                                {auction.bidder === 0
+                                  ? '你当前领先'
+                                  : '当前最高出价者'}
+                              </span>
+                              <b>{game.players[auction.bidder].name}</b>
+                            </div>
+                          ) : (
+                            <span>
+                              {auction.type === 'sealed'
+                                ? '所有报价锁定后一起揭晓'
+                                : auction.type === 'fixed'
+                                  ? '等待买家接受定价'
+                                  : '尚无人出价'}
+                            </span>
+                          )}
                         </div>
                       </div>
                     )}

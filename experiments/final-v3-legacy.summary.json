@@ -1,0 +1,51 @@
+{
+  "input": "experiments/final-v3-legacy.json",
+  "version": "market-v3",
+  "timing": {
+    "n": 48210,
+    "p50": 0.00041700000292621553,
+    "p95": 2.1668750000008004,
+    "max": 17.516499999997905
+  },
+  "groups": [
+    {
+      "players": 3,
+      "games": 180,
+      "winRate": 0.6388888888888888,
+      "baseline": 0.3333333333333333,
+      "difference": 0.3055555555555556,
+      "pairedSeedBootstrap95": [
+        0.24444444444444446,
+        0.36666666666666664
+      ],
+      "meanCash": 542.6111111111111,
+      "baselineMeanCash": 460.8777777777778
+    },
+    {
+      "players": 4,
+      "games": 240,
+      "winRate": 0.41041666666666665,
+      "baseline": 0.25,
+      "difference": 0.16041666666666668,
+      "pairedSeedBootstrap95": [
+        0.10416666666666667,
+        0.21666666666666667
+      ],
+      "meanCash": 439.4791666666667,
+      "baselineMeanCash": 381.04583333333335
+    },
+    {
+      "players": 5,
+      "games": 300,
+      "winRate": 0.32166666666666666,
+      "baseline": 0.2,
+      "difference": 0.12166666666666674,
+      "pairedSeedBootstrap95": [
+        0.08000000000000004,
+        0.1633333333333333
+      ],
+      "meanCash": 381.81,
+      "baselineMeanCash": 343.77666666666664
+    }
+  ]
+}

@@ -1,0 +1,3072 @@
+:root {
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'PingFang SC',
+    'Microsoft YaHei',
+    sans-serif;
+  color: #2c302b;
+  background: #f3f0e8;
+  font-synthesis: none;
+  font-weight: 400;
+  --ink: #29352d;
+  --muted: #84867b;
+  --line: #dfdfd4;
+  --paper: #fbfaf6;
+  --accent: #af5339;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+button,
+input,
+select {
+  font: inherit;
+}
+button {
+  cursor: pointer;
+}
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+button,
+a,
+input,
+select {
+  touch-action: manipulation;
+}
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 3px solid #b87838;
+  outline-offset: 4px;
+}
+button {
+  border: none;
+  background: none;
+  color: inherit;
+}
+a {
+  color: var(--accent);
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+h3 {
+  font-weight: 500;
+}
+button svg {
+  flex-shrink: 0;
+}
+.app {
+  max-width: 1800px;
+  margin: auto;
+}
+.app-header {
+  height: 96px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 48px;
+  border-bottom: 1px solid var(--line);
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  text-align: left;
+  font-size: 19px;
+  font-weight: 650;
+  letter-spacing: 2px;
+}
+.brand small {
+  display: block;
+  font-size: 9px;
+  letter-spacing: 3px;
+  margin-top: 6px;
+  font-weight: 500;
+}
+.brand-mark {
+  font:
+    italic 48px Georgia,
+    serif;
+  letter-spacing: -9px;
+  padding-right: 9px;
+  line-height: 1;
+}
+.brand-mark span {
+  color: var(--accent);
+}
+nav {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+.text-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 0;
+  font-size: 13px;
+}
+.text-button:hover {
+  color: var(--accent);
+}
+.icon-button {
+  padding: 8px;
+  display: inline-flex;
+  border-radius: 50%;
+}
+.icon-button:hover {
+  background: #e7e7dc;
+}
+.primary,
+.secondary {
+  padding: 14px 22px;
+  min-height: 47px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  border: 1px solid var(--ink);
+  font-size: 13px;
+  font-weight: 550;
+  transition:
+    background 0.15s,
+    transform 0.15s;
+}
+.primary {
+  background: var(--ink);
+  color: #fffef5;
+}
+.primary:not(:disabled):hover {
+  background: #465441;
+}
+.secondary {
+  background: transparent;
+  border-color: #cecec2;
+}
+.secondary:not(:disabled):hover {
+  background: #e8e8dd;
+}
+.eyebrow {
+  display: block;
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: var(--muted);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.muted {
+  color: var(--muted);
+}
+.small {
+  font-size: 11px;
+}
+.section-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 22px;
+}
+.section-head .eyebrow {
+  font-size: 8px;
+  margin-bottom: 7px;
+  letter-spacing: 1.8px;
+}
+.season-pill {
+  font-size: 12px;
+  border: 1px solid #c6cbbd;
+  padding: 8px 15px;
+  border-radius: 30px;
+}
+.notice {
+  background: #f3e1cf;
+  color: #754b2e;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+}
+.home {
+  min-height: calc(100vh - 155px);
+  display: grid;
+  grid-template-columns: 1fr 1.15fr;
+  align-items: center;
+  gap: 30px;
+  padding: 60px 8%;
+  overflow: hidden;
+}
+.home-copy {
+  position: relative;
+  z-index: 2;
+}
+.home-copy .eyebrow {
+  letter-spacing: 3px;
+  color: var(--accent);
+  margin-bottom: 28px;
+}
+.home h1 {
+  font-family: 'Songti SC', 'STSong', Georgia, serif;
+  font-size: clamp(32px, 3.4vw, 55px);
+  line-height: 1.55;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.home-copy > p {
+  font-size: 14px;
+  color: #7b7d72;
+  line-height: 2.2;
+  margin-top: 24px;
+}
+.home-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 38px;
+  flex-wrap: wrap;
+}
+.home-meta {
+  display: flex;
+  gap: 18px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #838577;
+  margin-top: 28px;
+}
+.home-meta span + span {
+  border-left: 1px solid #cccdbf;
+  padding-left: 18px;
+}
+.import-link {
+  margin-top: 25px;
+  font-size: 11px;
+  color: #969789;
+}
+.home-gallery {
+  position: relative;
+  height: 520px;
+}
+.hero-work {
+  position: absolute;
+  background: #fdfbf3;
+  padding: 13px;
+  box-shadow:
+    0 18px 35px #3c372420,
+    0 2px 4px #3c372420;
+  width: 230px;
+}
+.hero-work svg {
+  display: block;
+  width: 100%;
+}
+.hero-work > span {
+  font-size: 7px;
+  letter-spacing: 1px;
+  display: block;
+  margin-top: 12px;
+}
+.hero-work-0 {
+  left: 0;
+  top: 75px;
+  transform: rotate(-11deg);
+  z-index: 1;
+}
+.hero-work-1 {
+  left: 29%;
+  top: 15px;
+  transform: rotate(7deg);
+  z-index: 2;
+}
+.hero-work-2 {
+  left: 49%;
+  top: 178px;
+  transform: rotate(15deg);
+  z-index: 3;
+}
+.gallery-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--line);
+  padding-top: 20px;
+  font-size: 8px;
+  letter-spacing: 1.2px;
+  color: var(--muted);
+}
+.app-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 22px 48px;
+  font-size: 8px;
+  letter-spacing: 1.5px;
+  color: #96988d;
+  border-top: 1px solid var(--line);
+}
+.game-layout {
+  padding: 30px 40px 115px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 285px;
+  gap: 28px;
+}
+.main-column {
+  min-width: 0;
+}
+/* Nested grid/flex children must shrink within the board's assigned column.
+   In particular, a long hand must scroll inside its rail, not widen the board. */
+.auction-room,
+.auction-stage,
+.lot-info,
+.hand-section,
+.hand-scroll,
+.sidebar,
+.seller-banner > div {
+  min-width: 0;
+}
+.lot-info {
+  overflow-wrap: anywhere;
+}
+
+.market {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  padding: 23px 25px 0;
+}
+.market-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+.artist-column {
+  border-right: 1px solid var(--line);
+  padding: 0 12px;
+}
+.artist-column:first-child {
+  padding-left: 0;
+}
+.artist-column:last-child {
+  border: 0;
+  padding-right: 0;
+}
+.artist-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+  border-top: 3px solid var(--artist);
+  padding-top: 12px;
+}
+.artist-heading > span {
+  font-family: Georgia, serif;
+  font-size: 10px;
+  color: var(--artist);
+}
+.artist-heading strong {
+  font-size: 16px;
+  font-weight: 500;
+}
+.artist-heading small {
+  width: 100%;
+  font-size: 7px;
+  color: #929185;
+  letter-spacing: 1.5px;
+  padding-left: 22px;
+}
+.count-dots {
+  display: flex;
+  gap: 5px;
+  margin-top: 17px;
+}
+.count-dots i {
+  height: 6px;
+  width: 17px;
+  border: 1px solid #cfcec1;
+}
+.count-dots .filled {
+  background: var(--artist);
+  border-color: var(--artist);
+}
+.artist-price {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 12px 0;
+}
+.artist-price strong {
+  font:
+    25px Georgia,
+    serif;
+}
+.artist-price > span {
+  font-size: 9px;
+  color: var(--muted);
+}
+.price-history {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3px;
+}
+.price-history > span {
+  text-align: center;
+  padding: 6px 0;
+  font-size: 11px;
+  color: #9c9d94;
+  background: #f0f0e9;
+}
+.price-history small {
+  display: block;
+  font-size: 7px;
+  margin-bottom: 5px;
+}
+.price-history .current {
+  background: #e9eade;
+  color: #46513c;
+}
+.market-note {
+  font-size: 9px;
+  color: #8e8f83;
+  margin: 19px -25px 0;
+  padding: 11px 25px;
+  background: #f5f5ee;
+  border-top: 1px solid var(--line);
+  line-height: 1.7;
+}
+.market-note strong {
+  font-weight: 400;
+}
+.auction-room {
+  margin-top: 26px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  padding: 23px 25px;
+}
+.live-status {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #5f7258;
+}
+.live-status i {
+  width: 5px;
+  height: 5px;
+  background: #6c8460;
+  border-radius: 50%;
+}
+.live-status.is-paused {
+  color: #9e7a38;
+}
+.live-status.is-paused i {
+  background: #9e7a38;
+}
+.auction-stage {
+  display: grid;
+  grid-template-columns: 1fr 230px;
+  gap: 30px;
+  min-height: 307px;
+  align-items: center;
+}
+.lot-display {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  min-width: 0;
+}
+.framed-work {
+  width: 205px;
+  max-width: 100%;
+  padding: 10px 10px 0;
+  background: #f6f3e8;
+  border: 1px solid #c3bca7;
+  box-shadow:
+    0 5px 13px #62584415,
+    inset 0 0 0 4px #e3dece;
+  animation: arrive 0.4s ease;
+}
+.framed-work > svg {
+  display: block;
+  width: 100%;
+  box-shadow: inset 0 0 4px #0003;
+}
+.work-label {
+  text-align: center;
+  padding: 12px 0 13px;
+}
+.work-label span {
+  font-size: 8px;
+  color: var(--muted);
+  display: block;
+  margin-bottom: 5px;
+}
+.work-label strong {
+  font-size: 11px;
+  font-weight: 500;
+}
+.double-lot .framed-work {
+  width: 150px;
+}
+.lot-tag {
+  font-size: 10px;
+  padding: 7px 10px;
+  background: #eeefe5;
+  display: inline-block;
+}
+.lot-info h3 {
+  font-family: 'Songti SC', serif;
+  font-size: 29px;
+  margin-top: 18px;
+}
+.lot-info h3 small {
+  display: block;
+  font:
+    10px -apple-system,
+    sans-serif;
+  color: var(--muted);
+  margin-top: 7px;
+  letter-spacing: 1px;
+}
+.lot-info > p {
+  font-size: 11px;
+  color: #808478;
+  line-height: 1.8;
+  margin-top: 18px;
+}
+.bid-price {
+  border-top: 1px solid var(--line);
+  margin-top: 20px;
+  padding-top: 16px;
+}
+.bid-price > span {
+  font-size: 10px;
+  color: var(--muted);
+  display: block;
+}
+.bid-price strong {
+  display: block;
+  font:
+    40px Georgia,
+    serif;
+  margin: 7px 0;
+}
+.bid-price small {
+  font:
+    10px -apple-system,
+    sans-serif;
+  margin-left: 10px;
+  color: var(--muted);
+}
+.empty-lot {
+  text-align: center;
+  padding: 40px 15px;
+  color: #6e7969;
+}
+.empty-lot h3 {
+  font-size: 17px;
+  margin-top: 24px;
+}
+.empty-lot p {
+  font-size: 12px;
+  margin-top: 12px;
+}
+.empty-lot > span {
+  display: block;
+  font-family: 'Songti SC', serif;
+  font-size: 13px;
+  color: #9a9f92;
+  margin-top: 32px;
+}
+.auction-stage:has(.empty-lot) {
+  display: block;
+  min-height: 307px;
+}
+.hand-section {
+  margin-top: 28px;
+}
+.hand-section .section-head {
+  margin-bottom: 17px;
+}
+.number-badge {
+  font-size: 11px;
+  color: #7c816d;
+  font-family: Georgia, serif;
+  vertical-align: middle;
+  padding: 3px 7px;
+  border: 1px solid #d3d6c7;
+  margin-left: 9px;
+}
+.filters {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.filters button {
+  width: 27px;
+  height: 27px;
+  border: 1px solid transparent;
+  font-size: 9px;
+  padding: 4px;
+}
+.filters button:first-child {
+  width: 38px;
+}
+.filters .active {
+  border-color: #adb19e;
+  background: #e9eadd;
+}
+.filters i {
+  display: block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  margin: auto;
+}
+.hand-scroll {
+  display: flex;
+  gap: 13px;
+  overflow-x: auto;
+  padding: 5px 3px 14px;
+  scrollbar-width: thin;
+  scrollbar-color: #b7b9a9 transparent;
+}
+.painting-card {
+  flex: 0 0 132px;
+  max-width: 132px;
+  text-align: left;
+  padding: 6px;
+  background: #fcfaf2;
+  border: 1px solid #ddddd0;
+  transition:
+    transform 0.15s,
+    border-color 0.15s;
+  position: relative;
+}
+.painting-card:hover {
+  transform: translateY(-3px);
+}
+.painting-card.selected {
+  border: 2px solid #4d6148;
+  padding: 5px;
+  box-shadow: 0 0 0 2px #4d614829;
+}
+.card-image {
+  position: relative;
+}
+.card-image svg {
+  width: 100%;
+  display: block;
+}
+.auction-symbol {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background: #fcfaf2;
+  color: #393d33;
+  min-width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  border: 1px solid #d2d3c0;
+}
+.card-caption {
+  padding: 10px 3px 5px;
+}
+.card-caption strong {
+  font-size: 11px;
+  display: block;
+  font-weight: 500;
+}
+.card-caption > span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 8px;
+  color: #888b7b;
+  margin-top: 6px;
+  white-space: nowrap;
+}
+.card-caption i {
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+}
+.hand-note {
+  line-height: 1.7;
+  min-height: 22px;
+  margin-top: 3px;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.your-museum {
+  padding: 26px;
+  background: var(--ink);
+  color: #f2f1e5;
+}
+.your-museum .eyebrow {
+  color: #aeb8a5;
+}
+.your-museum h2 {
+  font-family: 'Songti SC', serif;
+  font-size: 21px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.balance {
+  margin-top: 25px;
+}
+.balance > span {
+  font-size: 10px;
+  color: #aeb8a5;
+}
+.balance strong {
+  display: block;
+  font:
+    44px Georgia,
+    serif;
+  margin-top: 8px;
+}
+.balance small {
+  font:
+    11px -apple-system,
+    sans-serif;
+  margin-left: 12px;
+  color: #aeb8a5;
+}
+.museum-foot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 9px;
+  color: #b8c1af;
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #ffffff20;
+}
+.players-panel,
+.activity-panel {
+  padding: 0 3px;
+}
+.players-panel h2,
+.activity-panel h2 {
+  font-size: 14px;
+}
+.player-row {
+  display: flex;
+  gap: 12px;
+  padding: 16px 0;
+  border-top: 1px solid var(--line);
+  align-items: flex-start;
+}
+.player-avatar {
+  font-family: 'Songti SC', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e5e5d9;
+  color: #6f795f;
+  width: 35px;
+  height: 35px;
+  flex-shrink: 0;
+  font-size: 16px;
+  border: 1px solid #d6d7ca;
+}
+.player-row.active .player-avatar {
+  background: #dfe5d4;
+  border-color: #a4b28e;
+}
+.player-detail {
+  padding-top: 2px;
+  min-width: 0;
+}
+.player-detail > strong {
+  font-size: 11px;
+  font-weight: 550;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.player-detail > span {
+  display: block;
+  font-size: 9px;
+  color: #919482;
+  margin-top: 6px;
+}
+.turn-dot {
+  width: 5px;
+  height: 5px;
+  background: #78935e;
+  border-radius: 50%;
+}
+.collection-dots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  margin-top: 6px;
+}
+.collection-dots > span {
+  font-size: 8px;
+  padding: 3px 5px;
+}
+.activity-panel {
+  border-top: 1px solid var(--line);
+  padding-top: 20px;
+}
+.activity-list p {
+  font-size: 10px;
+  color: #848877;
+  line-height: 1.9;
+  padding: 0 0 16px 15px;
+  position: relative;
+}
+.activity-list p:first-child {
+  color: #475940;
+}
+.activity-list i {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  left: 0;
+  top: 7px;
+  background: #bbc1af;
+}
+.activity-list p:first-child i {
+  background: #60734e;
+}
+.save-status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-size: 9px;
+  color: #949985;
+  margin-top: auto;
+}
+.action-dock {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  border-top: 1px solid #d1d5c4;
+  background: #f8f8f0f5;
+  backdrop-filter: blur(14px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 19px max(30px, calc((100vw - 1700px) / 2));
+  gap: 20px;
+  box-shadow: 0 -5px 24px #32382707;
+}
+.action-prompt .eyebrow {
+  color: #818d71;
+  font-size: 8px;
+  margin-bottom: 6px;
+}
+.action-prompt strong {
+  font-size: 13px;
+  font-weight: 500;
+}
+.action-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.amount-input {
+  display: flex;
+  align-items: center;
+  border: 1px solid #c5cbb9;
+  background: #fffef7;
+  padding: 0 12px;
+  height: 47px;
+  gap: 8px;
+}
+.amount-input input {
+  width: 75px;
+  border: none;
+  background: none;
+  font-family: Georgia, serif;
+  font-size: 22px;
+  color: var(--ink);
+  outline-offset: 0;
+}
+.amount-input span {
+  font-size: 10px;
+  color: #929582;
+  white-space: nowrap;
+}
+.app:not(.on-menu) > .app-footer {
+  margin-bottom: 85px;
+}
+.modal-scrim {
+  position: fixed;
+  inset: 0;
+  background: #202a2466;
+  backdrop-filter: blur(4px);
+  z-index: 50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+.modal {
+  width: 620px;
+  max-width: 100%;
+  max-height: 85vh;
+  overflow: auto;
+  background: #faf9f2;
+  padding: 30px;
+  box-shadow: 0 25px 80px #1114;
+  outline: none;
+}
+.modal h2 {
+  font-family: 'Songti SC', serif;
+  font-size: 23px;
+}
+.modal .section-head {
+  position: sticky;
+  top: -30px;
+  background: #faf9f2;
+  padding: 10px 0;
+  z-index: 1;
+}
+.rules {
+  font-size: 13px;
+  line-height: 1.9;
+}
+.rules p {
+  margin-bottom: 18px;
+}
+.rules h3 {
+  font-size: 15px;
+  margin: 25px 0 12px;
+}
+.rules a {
+  font-size: 11px;
+}
+.count-options {
+  display: flex;
+  gap: 12px;
+  margin: 25px 0;
+}
+.count-options button {
+  flex: 1;
+  border: 1px solid #d4d7c8;
+  padding: 25px 10px;
+}
+.count-options .selected {
+  background: #e6ebdb;
+  border-color: #7d8e6c;
+}
+.count-options strong {
+  font:
+    24px Georgia,
+    serif;
+  display: block;
+}
+.count-options span {
+  font-size: 10px;
+  color: #8a927e;
+  display: block;
+  margin-top: 10px;
+}
+.new-game > p {
+  font-size: 12px;
+  line-height: 1.9;
+  margin-bottom: 15px;
+}
+.wide {
+  width: 100%;
+  margin-top: 12px;
+}
+.settings {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.settings label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.settings select {
+  margin-left: auto;
+  padding: 8px;
+  border: 1px solid #c9cebd;
+  background: transparent;
+}
+.full-log p {
+  padding: 13px 0;
+  font-size: 12px;
+  line-height: 1.9;
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  gap: 16px;
+}
+.full-log p > span {
+  color: #a5ab97;
+  font:
+    11px Georgia,
+    serif;
+  padding-top: 5px;
+}
+.round-summary {
+  padding: 14px 0;
+  text-align: center;
+}
+.round-summary h2 {
+  font-family: 'Songti SC', serif;
+  font-size: 32px;
+  font-weight: 400;
+}
+.round-summary > p {
+  font-size: 11px;
+  line-height: 1.8;
+  margin-top: 14px;
+  color: #7b856e;
+}
+.result-prices {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
+  gap: 22px;
+}
+.result-prices > div {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+.result-prices i {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+.result-prices strong {
+  width: 100%;
+  font:
+    25px Georgia,
+    serif;
+}
+.result-table {
+  margin-bottom: 22px;
+}
+.result-table > div {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  border-top: 1px solid var(--line);
+  padding: 12px 0;
+  font-size: 10px;
+}
+.result-table > div > span:nth-child(2) {
+  color: #959b89;
+}
+.result-table strong {
+  font-weight: 500;
+  color: #50623f;
+}
+.empty-hand {
+  padding: 40px 0;
+  font-size: 12px;
+  color: var(--muted);
+}
+@keyframes arrive {
+  from {
+    opacity: 0;
+    transform: translateY(7px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@media (min-width: 1500px) {
+  .game-layout {
+    padding-left: 65px;
+    padding-right: 65px;
+    grid-template-columns: minmax(0, 1fr) 310px;
+    gap: 36px;
+  }
+  .auction-stage {
+    min-height: 345px;
+    grid-template-columns: 1fr 290px;
+  }
+  .framed-work {
+    width: 230px;
+  }
+  .double-lot .framed-work {
+    width: 195px;
+  }
+  .painting-card {
+    flex-basis: 145px;
+    max-width: 145px;
+  }
+}
+@media (max-width: 1100px) {
+  .app-header {
+    padding: 0 25px;
+  }
+  .game-layout {
+    padding: 24px 22px 115px;
+    grid-template-columns: minmax(0, 1fr) 230px;
+    gap: 20px;
+  }
+  .market,
+  .auction-room {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .market-note {
+    margin-left: -18px;
+    margin-right: -18px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .artist-column {
+    padding: 0 8px;
+  }
+  .artist-price {
+    display: block;
+  }
+  .artist-price > span {
+    display: block;
+    margin-top: 4px;
+  }
+  .artist-heading small {
+    padding: 0;
+  }
+  .auction-stage {
+    grid-template-columns: 1fr 180px;
+    gap: 20px;
+  }
+  .artist-heading strong {
+    font-size: 14px;
+  }
+  .hero-work {
+    width: 195px;
+  }
+  .home {
+    padding: 45px 6%;
+    gap: 10px;
+  }
+  .home-gallery {
+    height: 470px;
+  }
+  .hero-work-2 {
+    left: 40%;
+    top: 190px;
+  }
+  .count-dots {
+    gap: 3px;
+  }
+  .count-dots i {
+    width: 13px;
+  }
+}
+@media (max-width: 800px) {
+  .app-header {
+    height: 76px;
+    padding: 0 20px;
+  }
+  .brand {
+    font-size: 16px;
+    gap: 12px;
+  }
+  .brand-mark {
+    font-size: 40px;
+  }
+  .brand small {
+    font-size: 7px;
+  }
+  .app-header nav {
+    gap: 13px;
+  }
+  .game-layout {
+    display: block;
+    padding: 20px 18px 150px;
+  }
+  .sidebar {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 22px;
+  }
+  .your-museum {
+    grid-column: 1;
+  }
+  .players-panel {
+    grid-column: 2;
+    grid-row: 1/3;
+  }
+  .activity-panel {
+    grid-column: 1;
+  }
+  .save-status {
+    grid-column: 1/-1;
+  }
+  .market-grid {
+    gap: 0;
+  }
+  .auction-stage {
+    grid-template-columns: 1fr 220px;
+  }
+  .market-note {
+    font-size: 8px;
+  }
+  .artist-price {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .artist-price > span {
+    font-size: 8px;
+  }
+  .home {
+    grid-template-columns: 1fr;
+    padding: 50px 8% 25px;
+  }
+  .home h1 {
+    font-size: 36px;
+  }
+  .home-gallery {
+    height: 380px;
+    max-width: 500px;
+    width: 100%;
+    margin: 40px auto 0;
+  }
+  .hero-work {
+    width: 180px;
+  }
+  .hero-work-0 {
+    top: 30px;
+  }
+  .hero-work-1 {
+    top: 0;
+  }
+  .hero-work-2 {
+    top: 75px;
+    left: 52%;
+  }
+  .home-copy > p {
+    font-size: 13px;
+  }
+  .home-buttons {
+    margin-top: 24px;
+  }
+  .home-meta {
+    margin-top: 20px;
+  }
+  .import-link {
+    margin-top: 15px;
+  }
+  .home-copy {
+    text-align: center;
+  }
+  .home-buttons,
+  .home-meta {
+    justify-content: center;
+  }
+  .app-footer {
+    padding: 20px;
+    font-size: 7px;
+  }
+  .action-dock {
+    padding: 15px 20px;
+    gap: 12px;
+  }
+  .action-controls {
+    gap: 7px;
+  }
+  .action-controls .primary,
+  .action-controls .secondary {
+    padding: 12px 15px;
+  }
+  .action-prompt strong {
+    font-size: 12px;
+  }
+}
+@media (max-width: 540px) {
+  .app-header {
+    padding: 0 16px;
+  }
+  .app-header .text-button span {
+    display: none;
+  }
+  .season-pill {
+    font-size: 10px;
+    padding: 6px 11px;
+  }
+  .market {
+    padding: 17px 12px 0;
+  }
+  .market .section-head {
+    margin-bottom: 17px;
+  }
+  .section-head h2 {
+    font-size: 16px;
+  }
+  .market .section-head > .small {
+    font-size: 8px;
+  }
+  .artist-column {
+    padding: 0 5px;
+  }
+  .artist-heading {
+    gap: 4px;
+    padding-top: 10px;
+  }
+  .artist-heading > span {
+    display: none;
+  }
+  .artist-heading strong {
+    font-size: 14px;
+  }
+  .artist-heading small {
+    font-size: 6px;
+    letter-spacing: 0.5px;
+  }
+  .count-dots {
+    gap: 3px;
+    margin-top: 12px;
+  }
+  .count-dots i {
+    width: 7px;
+    height: 5px;
+  }
+  .artist-price {
+    display: block;
+    margin: 10px 0;
+  }
+  .artist-price strong {
+    font-size: 23px;
+  }
+  .artist-price > span {
+    font-size: 7px;
+  }
+  .price-history {
+    gap: 1px;
+  }
+  .price-history > span {
+    font-size: 8px;
+    padding: 5px 0;
+  }
+  .price-history small {
+    font-size: 6px;
+  }
+  .market-note {
+    margin-left: -12px;
+    margin-right: -12px;
+    padding: 10px 12px;
+    line-height: 1.9;
+    margin-top: 13px;
+  }
+  .market-note strong {
+    display: block;
+  }
+  .auction-room {
+    padding: 18px 16px;
+    margin-top: 18px;
+  }
+  .auction-room .section-head {
+    margin-bottom: 14px;
+  }
+  .live-status {
+    font-size: 8px;
+  }
+  .auction-stage {
+    grid-template-columns: 1fr 125px;
+    gap: 18px;
+    min-height: 260px;
+  }
+  .framed-work {
+    padding: 7px 7px 0;
+    box-shadow: inset 0 0 0 3px #e3dece;
+  }
+  .work-label {
+    padding: 9px 0;
+  }
+  .work-label strong {
+    font-size: 10px;
+  }
+  .lot-tag {
+    font-size: 8px;
+    padding: 6px;
+  }
+  .lot-info h3 {
+    font-size: 24px;
+    margin-top: 12px;
+  }
+  .lot-info h3 small {
+    font-size: 9px;
+  }
+  .lot-info > p {
+    font-size: 9px;
+    margin-top: 12px;
+  }
+  .bid-price {
+    margin-top: 12px;
+    padding-top: 12px;
+  }
+  .bid-price > span {
+    font-size: 8px;
+  }
+  .bid-price strong {
+    font-size: 31px;
+  }
+  .bid-price small {
+    font-size: 8px;
+  }
+  .double-lot {
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+  }
+  .double-lot .framed-work {
+    width: 104px;
+  }
+  .double-lot .work-label {
+    padding: 4px 0;
+  }
+  .double-lot .work-label span {
+    display: none;
+  }
+  .double-lot .work-label strong {
+    font-size: 8px;
+  }
+  .auction-stage:has(.empty-lot) {
+    min-height: 240px;
+  }
+  .empty-lot {
+    padding: 25px 0;
+  }
+  .empty-lot h3 {
+    font-size: 15px;
+  }
+  .empty-lot p {
+    font-size: 10px;
+  }
+  .hand-section {
+    margin-top: 23px;
+  }
+  .hand-section .section-head {
+    gap: 5px;
+  }
+  .filters {
+    gap: 2px;
+  }
+  .filters button {
+    width: 22px;
+    height: 24px;
+  }
+  .filters button:first-child {
+    width: 30px;
+  }
+  .painting-card {
+    flex-basis: 122px;
+    max-width: 122px;
+  }
+  .sidebar {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .your-museum {
+    grid-column: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+  }
+  .your-museum .eyebrow {
+    grid-column: 1;
+  }
+  .your-museum h2 {
+    grid-column: 1;
+    font-size: 20px;
+  }
+  .balance {
+    grid-column: 2;
+    grid-row: 1/3;
+    margin: 0;
+    text-align: right;
+  }
+  .balance strong {
+    font-size: 32px;
+  }
+  .museum-foot {
+    grid-column: 1/-1;
+    margin-top: 15px;
+  }
+  .players-panel {
+    grid-column: 1;
+    grid-row: auto;
+  }
+  .activity-panel {
+    grid-column: 1;
+  }
+  .players-panel .section-head {
+    margin-bottom: 14px;
+  }
+  .action-dock {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    padding: 12px 16px max(12px, env(safe-area-inset-bottom));
+  }
+  .action-prompt {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  .action-prompt .eyebrow {
+    margin: 0;
+    font-size: 7px;
+    letter-spacing: 1px;
+    white-space: nowrap;
+  }
+  .action-prompt strong {
+    font-size: 11px;
+  }
+  .action-controls {
+    justify-content: flex-end;
+  }
+  .action-controls .primary,
+  .action-controls .secondary {
+    font-size: 12px;
+    min-height: 42px;
+    padding: 10px 14px;
+    flex: 1;
+  }
+  .amount-input {
+    height: 42px;
+    padding: 0 8px;
+  }
+  .amount-input input {
+    width: 55px;
+    font-size: 20px;
+  }
+  .action-controls:empty {
+    display: none;
+  }
+  .game-layout {
+    padding-bottom: 110px;
+  }
+  .app-footer > span:last-child {
+    display: none;
+  }
+  .app-footer {
+    justify-content: center;
+  }
+  .result-prices {
+    gap: 14px;
+  }
+  .result-table > div {
+    font-size: 9px;
+    gap: 8px;
+  }
+  .round-summary h2 {
+    font-size: 28px;
+  }
+  .result-table > div > span:nth-child(2) {
+    font-size: 8px;
+  }
+  .modal-scrim {
+    padding: 15px;
+  }
+  .modal {
+    padding: 22px;
+    max-height: 90vh;
+  }
+  .modal .section-head {
+    top: -22px;
+  }
+  .count-options {
+    gap: 8px;
+  }
+  .count-options button {
+    padding: 20px 8px;
+  }
+  .count-options span {
+    font-size: 9px;
+  }
+  .settings label {
+    font-size: 11px;
+    gap: 8px;
+  }
+  .settings select {
+    max-width: 160px;
+    font-size: 11px;
+  }
+  .home {
+    padding: 40px 25px 25px;
+  }
+  .home h1 {
+    font-size: 30px;
+  }
+  .home-copy .eyebrow {
+    font-size: 8px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+  }
+  .home-gallery {
+    height: 310px;
+    max-width: 330px;
+    margin-top: 35px;
+  }
+  .hero-work {
+    width: 145px;
+    padding: 9px;
+  }
+  .hero-work-0 {
+    left: 0;
+    top: 20px;
+  }
+  .hero-work-1 {
+    left: 28%;
+    top: 0;
+  }
+  .hero-work-2 {
+    left: 50%;
+    top: 70px;
+  }
+  .gallery-caption {
+    font-size: 6px;
+    letter-spacing: 0.5px;
+  }
+  .hero-work > span {
+    font-size: 5px;
+    margin-top: 8px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Paintings and the shared table */
+.artwork-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4/5;
+  object-fit: cover;
+  background: #ded8c8;
+}
+.hero-work .artwork-image {
+  width: 100%;
+}
+.card-artist {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3px;
+  background: var(--artist);
+  color: #fff;
+  padding: 7px 6px;
+  margin: -6px -6px 6px;
+}
+.card-artist strong {
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.card-artist span {
+  font-size: 6px;
+  letter-spacing: 0.6px;
+}
+.painting-card {
+  border-color: var(--artist);
+  background: var(--artist-paper);
+  flex-basis: 145px;
+  max-width: 145px;
+}
+.painting-card.selected .card-artist {
+  margin: -5px -5px 6px;
+}
+.card-caption > span {
+  font-size: 9px;
+  color: #4b5046;
+}
+.card-caption strong {
+  font-size: 10px;
+}
+.framed-work {
+  border-bottom: 5px solid var(--artist);
+}
+.work-label > span {
+  font-size: 12px;
+  color: var(--artist);
+  font-weight: 650;
+}
+.artist-column .price-history {
+  margin-top: 14px;
+}
+.market {
+  padding-top: 18px;
+}
+.market .section-head {
+  margin-bottom: 14px;
+}
+.collectors-table {
+  grid-column: 1/-1;
+  min-width: 0;
+}
+.collectors-table > .section-head {
+  margin-bottom: 16px;
+}
+.collectors-grid {
+  display: grid;
+  grid-template-columns: repeat(var(--players), minmax(0, 1fr));
+  gap: 14px;
+}
+.collector-seat {
+  padding: 17px;
+  background: #fbfaf5;
+  border: 1px solid #d8dace;
+  border-top: 3px solid #c6cbbd;
+  min-width: 0;
+}
+.collector-seat.is-seller {
+  background: #fff7eb;
+  border-color: #bc8955;
+  border-top-color: #9e6738;
+  box-shadow: 0 3px 14px #7755300c;
+}
+.collector-seat.is-acting {
+  outline: 2px solid #687a51;
+  outline-offset: 3px;
+}
+.collector-identity {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.collector-identity .player-avatar {
+  width: 42px;
+  height: 42px;
+  font-size: 20px;
+}
+.collector-identity small {
+  font-size: 9px;
+  color: #909783;
+  letter-spacing: 1px;
+}
+.collector-identity h3 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 4px;
+  line-height: 1.5;
+}
+.seat-roles {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  min-height: 24px;
+  margin: 12px 0 8px;
+}
+.seller-badge,
+.acting-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10px;
+  padding: 4px 7px;
+}
+.seller-badge {
+  background: #9e6738;
+  color: #fff;
+}
+.acting-badge {
+  background: #e4ecd7;
+  color: #4d633d;
+}
+.seat-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  color: #79806d;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #ddddcf;
+}
+.collected-works {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  padding-top: 12px;
+  min-height: 102px;
+  align-content: flex-start;
+}
+.collected-works > p {
+  font-size: 11px;
+  color: #a4aa99;
+  align-self: center;
+  margin: auto;
+}
+.collected-work {
+  width: 54px;
+  border: 1px solid var(--artist);
+  background: var(--artist);
+  color: white;
+  flex-shrink: 0;
+}
+.collected-work .artwork-image {
+  aspect-ratio: 4/5;
+}
+.collected-work span {
+  display: block;
+  text-align: center;
+  font-size: 9px;
+  padding: 4px 1px;
+}
+.seller-banner {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 13px;
+  background: #f4e8d6;
+  border-left: 3px solid #a8733f;
+  margin-bottom: 16px;
+  color: #78502f;
+}
+.seller-banner > svg {
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+.seller-banner span {
+  display: block;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+}
+.seller-banner strong {
+  display: block;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 4px 0;
+}
+.seller-banner small {
+  display: block;
+  font-size: 9px;
+  line-height: 1.7;
+  color: #917656;
+}
+@media (max-width: 1100px) {
+  .collectors-grid {
+    gap: 10px;
+  }
+  .collector-seat {
+    padding: 12px;
+  }
+  .collector-identity {
+    gap: 7px;
+  }
+  .collector-identity h3 {
+    font-size: 12px;
+  }
+  .collector-identity .player-avatar {
+    width: 32px;
+    height: 35px;
+  }
+  .collected-work {
+    width: 48px;
+  }
+  .seat-meta {
+    font-size: 9px;
+  }
+  .seller-banner strong {
+    font-size: 14px;
+  }
+}
+@media (max-width: 800px) {
+  .collectors-table {
+    margin-bottom: 25px;
+  }
+  .collectors-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .collector-seat:last-child:nth-child(odd) {
+    grid-column: 1/-1;
+  }
+  .collector-identity h3 {
+    font-size: 14px;
+  }
+  .collected-works {
+    min-height: 90px;
+  }
+  .collected-work {
+    width: 49px;
+  }
+  .sidebar {
+    grid-template-columns: 1fr 1fr;
+  }
+  .activity-panel {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .your-museum {
+    grid-column: 1;
+  }
+  .seller-banner {
+    padding: 10px;
+  }
+}
+@media (max-width: 540px) {
+  .collectors-grid {
+    display: flex;
+    overflow-x: auto;
+    padding: 5px 4px 12px;
+    scroll-snap-type: x mandatory;
+  }
+  .collector-seat {
+    flex: 0 0 230px;
+    scroll-snap-align: start;
+    padding: 15px;
+  }
+  .collectors-table > .section-head {
+    align-items: flex-end;
+    gap: 10px;
+  }
+  .collectors-table > .section-head > .small {
+    max-width: 88px;
+    font-size: 9px;
+    line-height: 1.6;
+  }
+  .collectors-table > .section-head h2 {
+    font-size: 16px;
+  }
+  .collected-works {
+    min-height: 100px;
+  }
+  .collected-work {
+    width: 55px;
+  }
+  .seller-banner {
+    gap: 6px;
+    padding: 9px;
+    margin-bottom: 10px;
+  }
+  .seller-banner > svg {
+    width: 14px;
+  }
+  .seller-banner span {
+    font-size: 8px;
+  }
+  .seller-banner strong {
+    font-size: 12px;
+  }
+  .seller-banner small {
+    font-size: 8px;
+  }
+  .lot-info > p {
+    font-size: 10px;
+  }
+  .sidebar {
+    display: flex;
+  }
+  .painting-card {
+    flex-basis: 138px;
+    max-width: 138px;
+  }
+  .card-artist strong {
+    font-size: 13px;
+  }
+  .card-caption > span {
+    font-size: 9px;
+  }
+  .card-artist span {
+    font-size: 7px;
+  }
+  .price-history > span {
+    font-size: 10px;
+  }
+}
+.dock-seller {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #926136;
+  font-size: 11px;
+  margin-top: 6px;
+}
+@media (max-width: 540px) {
+  .action-prompt {
+    flex-wrap: wrap;
+    gap: 5px 10px;
+  }
+  .dock-seller {
+    flex-basis: 100%;
+    font-size: 10px;
+    margin-top: 0;
+  }
+}
+
+/* Desktop table: keep the lot, hand, seats and controls in one viewport. */
+@media (min-width: 901px) {
+  .app:not(.on-menu) {
+    min-height: 100dvh;
+    padding-bottom: 76px;
+    max-width: 1920px;
+  }
+  .app:not(.on-menu) .app-header {
+    height: 56px;
+    padding: 0 24px;
+  }
+  .app:not(.on-menu) .brand {
+    font-size: 15px;
+    gap: 12px;
+  }
+  .app:not(.on-menu) .brand-mark {
+    font-size: 34px;
+  }
+  .app:not(.on-menu) .brand small {
+    font-size: 7px;
+    margin-top: 3px;
+  }
+  .game-layout {
+    height: max(660px, calc(100dvh - 132px));
+    padding: 12px 24px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 260px;
+    grid-template-rows: 158px minmax(0, 1fr);
+    gap: 12px 18px;
+  }
+  .app:not(.on-menu) > .app-footer {
+    display: none;
+  }
+  .collectors-table {
+    min-height: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .collectors-table > .section-head {
+    margin-bottom: 7px;
+    min-height: 20px;
+  }
+  .collectors-table .eyebrow {
+    display: none;
+  }
+  .collectors-table h2 {
+    font-size: 14px;
+  }
+  .collectors-grid {
+    flex: 1;
+    min-height: 0;
+    gap: 10px;
+  }
+  .collector-seat {
+    min-height: 0;
+    overflow: hidden;
+    padding: 7px 10px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-rows: 32px 18px minmax(0, 1fr);
+    gap: 4px 6px;
+  }
+  .collector-identity {
+    gap: 7px;
+    min-width: 0;
+  }
+  .collector-identity > div:last-child {
+    min-width: 0;
+  }
+  .collector-identity small {
+    display: none;
+  }
+  .collector-identity h3 {
+    font-size: 12px;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .collector-identity .player-avatar {
+    width: 28px;
+    height: 28px;
+    font-size: 15px;
+  }
+  .seat-roles {
+    margin: 0;
+    min-height: 0;
+    gap: 3px;
+    align-content: center;
+    justify-content: flex-end;
+  }
+  .seller-badge,
+  .acting-badge {
+    font-size: 9px;
+    padding: 3px 4px;
+  }
+  .seller-badge svg {
+    display: none;
+  }
+  .seat-meta {
+    grid-column: 1/-1;
+    padding: 0;
+    border: 0;
+    font-size: 10px;
+  }
+  .collected-works {
+    grid-column: 1/-1;
+    min-height: 0;
+    padding: 3px 0 0;
+    gap: 5px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: thin;
+    align-items: flex-start;
+  }
+  .collected-work {
+    width: 35px;
+  }
+  .collected-work .artwork-image {
+    height: 37px;
+    aspect-ratio: auto;
+    object-fit: cover;
+  }
+  .collected-work span {
+    font-size: 8px;
+    padding: 2px 0;
+  }
+  .collected-works > p {
+    font-size: 10px;
+    margin: auto;
+  }
+  .main-column {
+    min-height: 0;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: minmax(0, 1fr) 190px;
+    gap: 12px;
+  }
+  .auction-room {
+    margin: 0;
+    padding: 12px 16px;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+  }
+  .auction-room > .section-head {
+    margin-bottom: 8px;
+    flex-shrink: 0;
+  }
+  .auction-room .eyebrow {
+    display: none;
+  }
+  .auction-room h2 {
+    font-size: 15px;
+  }
+  .auction-stage {
+    min-height: 210px;
+    grid-template-rows: minmax(0, 1fr);
+    flex: 1 1 0px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(230px, 38%);
+    gap: 20px;
+    align-items: center;
+  }
+  .auction-stage:has(.empty-lot) {
+    min-height: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .lot-display {
+    height: 100%;
+    min-height: 0;
+    align-items: center;
+    gap: 16px;
+  }
+  .framed-work,
+  .double-lot .framed-work {
+    height: 100%;
+    max-height: 290px;
+    width: auto;
+    max-width: 46%;
+    padding: 6px 6px 0;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+  }
+  .framed-work .artwork-image {
+    height: calc(100% - 39px);
+    width: auto;
+    min-height: 0;
+    max-width: 100%;
+    object-fit: contain;
+    aspect-ratio: 4/5;
+  }
+  .work-label {
+    padding: 5px 2px;
+    flex-shrink: 0;
+  }
+  .work-label > span {
+    font-size: 10px;
+    margin-bottom: 2px;
+  }
+  .work-label strong {
+    font-size: 10px;
+  }
+  .lot-info {
+    min-height: 0;
+  }
+  .seller-banner {
+    padding: 7px 10px;
+    margin-bottom: 8px;
+    gap: 7px;
+  }
+  .seller-banner span {
+    font-size: 9px;
+  }
+  .seller-banner strong {
+    font-size: 14px;
+    margin: 2px 0;
+  }
+  .seller-banner small {
+    display: none;
+  }
+  .seller-banner > svg {
+    width: 15px;
+    height: 15px;
+  }
+  .lot-tag {
+    font-size: 10px;
+    padding: 4px 8px;
+  }
+  .lot-info h3 {
+    font-size: 20px;
+    margin-top: 8px;
+  }
+  .lot-info h3 small {
+    display: none;
+  }
+  .lot-info > p {
+    font-size: 10px;
+    line-height: 1.5;
+    margin-top: 6px;
+  }
+  .bid-price {
+    margin-top: 8px;
+    padding-top: 7px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 4px 10px;
+  }
+  .bid-price strong {
+    font-size: 29px;
+    margin: 0;
+    grid-column: 2;
+    grid-row: 1/3;
+  }
+  .bid-price > span {
+    font-size: 10px;
+  }
+  .bid-price small {
+    font-size: 9px;
+    margin-left: 5px;
+  }
+  .empty-lot {
+    padding: 12px;
+  }
+  .empty-lot > svg {
+    width: 30px;
+    height: 30px;
+  }
+  .empty-lot h3 {
+    margin-top: 12px;
+    font-size: 16px;
+  }
+  .empty-lot p {
+    margin-top: 8px;
+  }
+  .empty-lot > span {
+    display: none;
+  }
+  .hand-section {
+    margin: 0;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .hand-section > .section-head {
+    margin-bottom: 5px;
+    min-height: 25px;
+  }
+  .hand-section .eyebrow {
+    display: none;
+  }
+  .hand-section h2 {
+    font-size: 14px;
+  }
+  .number-badge {
+    font-size: 10px;
+    padding: 2px 5px;
+  }
+  .hand-scroll {
+    overflow-y: hidden;
+    flex: 1;
+    min-height: 0;
+    gap: 9px;
+    padding: 3px 3px 7px;
+    align-items: flex-start;
+  }
+  .painting-card {
+    flex: 0 0 100px;
+    max-width: 100px;
+    padding: 4px;
+  }
+  .painting-card.selected {
+    padding: 3px;
+  }
+  .card-artist {
+    margin: -4px -4px 4px;
+    padding: 4px;
+  }
+  .painting-card.selected .card-artist {
+    margin: -3px -3px 4px;
+  }
+  .card-artist strong {
+    font-size: 11px;
+  }
+  .card-artist span {
+    font-size: 5px;
+  }
+  .card-image .artwork-image {
+    height: 84px;
+    aspect-ratio: auto;
+    object-fit: cover;
+  }
+  .auction-symbol {
+    height: 21px;
+    min-width: 21px;
+    font-size: 12px;
+    right: 3px;
+    bottom: 3px;
+  }
+  .card-caption {
+    padding: 4px 0 1px;
+  }
+  .card-caption strong {
+    font-size: 9px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .card-caption > span {
+    font-size: 8px;
+    margin-top: 3px;
+    gap: 2px;
+  }
+  .hand-note {
+    font-size: 9px;
+    line-height: 1.4;
+    min-height: 13px;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .sidebar {
+    min-height: 0;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    overflow: auto;
+  }
+  .sidebar .market {
+    padding: 10px;
+    flex-shrink: 0;
+  }
+  .market .eyebrow {
+    display: none;
+  }
+  .market > .section-head {
+    margin-bottom: 8px;
+  }
+  .market h2 {
+    font-size: 14px;
+  }
+  .market .section-head > .small {
+    font-size: 8px;
+  }
+  .market-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .artist-column {
+    display: flex;
+    align-items: center;
+    border: 0;
+    padding: 0;
+    gap: 9px;
+  }
+  .artist-heading {
+    border-top: 0;
+    border-left: 3px solid var(--artist);
+    padding: 3px 0 3px 7px;
+    flex: 0 0 52px;
+  }
+  .artist-heading > span,
+  .artist-heading small {
+    display: none;
+  }
+  .artist-heading strong {
+    font-size: 12px;
+  }
+  .artist-column .price-history {
+    margin: 0;
+    flex: 1;
+    gap: 4px;
+  }
+  .price-history > span {
+    padding: 4px 0;
+    font-size: 10px;
+  }
+  .price-history small {
+    display: none;
+  }
+  .artist-column:first-child .price-history small {
+    display: block;
+    font-size: 7px;
+    margin-bottom: 3px;
+  }
+  .market-note {
+    display: none;
+  }
+  .your-museum {
+    padding: 10px 12px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .your-museum > .eyebrow,
+  .museum-foot {
+    display: none;
+  }
+  .your-museum h2 {
+    font:
+      13px -apple-system,
+      sans-serif;
+    letter-spacing: 0;
+  }
+  .balance {
+    margin: 0;
+    text-align: right;
+  }
+  .balance > span {
+    display: none;
+  }
+  .balance strong {
+    font-size: 26px;
+    margin: 0;
+  }
+  .balance small {
+    font-size: 9px;
+    margin-left: 5px;
+  }
+  .activity-panel {
+    padding: 10px 0 0;
+    min-height: 0;
+    flex: 1;
+    overflow: auto;
+  }
+  .activity-panel .section-head {
+    margin-bottom: 8px;
+  }
+  .activity-panel h2 {
+    font-size: 13px;
+  }
+  .activity-list p {
+    font-size: 10px;
+    line-height: 1.6;
+    padding-bottom: 9px;
+  }
+  .save-status {
+    font-size: 8px;
+    flex-shrink: 0;
+    margin: 0;
+  }
+  .action-dock {
+    height: 76px;
+    padding: 10px 24px;
+    gap: 15px;
+  }
+  .action-prompt .eyebrow {
+    display: none;
+  }
+  .action-prompt strong {
+    font-size: 12px;
+  }
+  .dock-seller {
+    margin-top: 4px;
+    font-size: 10px;
+  }
+  .action-controls .primary,
+  .action-controls .secondary {
+    min-height: 40px;
+    padding: 10px 18px;
+  }
+  .amount-input {
+    height: 40px;
+  }
+  .amount-input input {
+    font-size: 21px;
+  }
+  .round-summary {
+    padding: 4px 0;
+  }
+  .round-summary > .eyebrow {
+    display: none;
+  }
+  .round-summary h2 {
+    font-size: 23px;
+  }
+  .round-summary > p {
+    margin-top: 7px;
+  }
+  .result-prices {
+    margin: 12px 0;
+  }
+  .result-prices strong {
+    font-size: 20px;
+  }
+  .result-table {
+    margin-bottom: 10px;
+  }
+  .result-table > div {
+    padding: 7px 0;
+  }
+  .app:not(.on-menu):has(.notice) {
+    overflow: auto;
+  }
+  .app:not(.on-menu):has(.notice) .game-layout {
+    height: calc(100dvh - 180px);
+  }
+}
+@media (min-width: 901px) and (min-height: 850px) {
+  .game-layout {
+    grid-template-rows: 172px minmax(0, 1fr);
+  }
+  .main-column {
+    grid-template-rows: minmax(0, 1fr) 228px;
+  }
+  .collected-work {
+    width: 44px;
+  }
+  .collected-work .artwork-image {
+    height: 50px;
+  }
+  .painting-card {
+    flex-basis: 120px;
+    max-width: 120px;
+  }
+  .card-image .artwork-image {
+    height: 106px;
+  }
+  .card-caption strong {
+    font-size: 10px;
+  }
+  .card-artist span {
+    font-size: 7px;
+  }
+  .lot-info h3 {
+    font-size: 24px;
+  }
+  .lot-info > p {
+    font-size: 12px;
+    line-height: 1.6;
+  }
+}
+
+/* The history lives in a narrow sidebar at every desktop breakpoint.
+   Keep its columns stable independently of viewport height and board density. */
+.sidebar .market {
+  min-width: 0;
+  padding: 12px;
+}
+.market > .section-head {
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  margin-bottom: 10px;
+}
+.market .eyebrow {
+  display: none;
+}
+.market h2 {
+  font-size: 15px;
+}
+.market .section-head > .small {
+  font-size: 10px;
+}
+.pricing-table {
+  table-layout: fixed;
+  width: 100%;
+  border-spacing: 3px 5px;
+  font-size: 12px;
+  text-align: center;
+}
+.pricing-table th,
+.pricing-table td {
+  padding: 5px 0;
+  white-space: nowrap;
+  font-weight: 400;
+}
+.pricing-table th:first-child {
+  width: 52px;
+  text-align: left;
+}
+.pricing-table thead th {
+  font-size: 10px;
+  color: var(--muted);
+}
+.pricing-table tbody th span {
+  display: block;
+  border-left: 3px solid var(--artist);
+  padding-left: 7px;
+  font-weight: 600;
+}
+.pricing-table td {
+  background: #f0f0e9;
+  color: #737968;
+}
+.pricing-table .current {
+  background: #e9eade;
+  color: #46513c;
+}
+.market .market-note {
+  margin: 8px 0 0;
+  padding: 8px 0 0;
+  background: transparent;
+}
+@media (min-width: 541px) and (max-width: 800px) {
+  .sidebar .market {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+  }
+  .sidebar .your-museum {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .sidebar .activity-panel {
+    grid-column: 2;
+    grid-row: 2;
+  }
+}
+
+/* Optional inspection stays in a dialog instead of crowding the game board. */
+.cheat-toggle {
+  white-space: nowrap;
+  font-size: 12px;
+}
+.cheat-toggle.enabled {
+  color: #9b542b;
+  background: #f3e5cf;
+  padding: 6px 8px;
+}
+.modal:has(.cheat-panel) {
+  width: min(900px, 100%);
+  max-width: 900px;
+}
+.cheat-panel {
+  display: grid;
+  gap: 22px;
+  min-width: 0;
+}
+.cheat-panel h3 {
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+.cheat-panel h3 small {
+  font-size: 11px;
+  color: var(--muted);
+  font-weight: normal;
+}
+.cheat-notice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  background: #f3e5cf;
+  color: #86502e;
+  padding: 10px 12px;
+  font-size: 12px;
+}
+.cheat-wallets {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 8px;
+}
+.cheat-wallets > div {
+  display: grid;
+  gap: 6px;
+  padding: 12px;
+  background: #eeeee5;
+}
+.cheat-wallets span {
+  font-size: 12px;
+}
+.cheat-wallets strong {
+  font:
+    25px Georgia,
+    serif;
+}
+.cheat-help {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.7;
+  margin: 6px 0 10px;
+}
+.cheat-table-scroll {
+  max-width: 100%;
+  overflow-x: auto;
+}
+.cheat-table {
+  width: 100%;
+  min-width: 550px;
+  border-collapse: collapse;
+  font-size: 12px;
+  text-align: center;
+}
+.cheat-table th,
+.cheat-table td {
+  padding: 10px 6px;
+  border-bottom: 1px solid var(--line);
+  white-space: nowrap;
+}
+.cheat-table tbody th {
+  border-left: 3px solid var(--artist);
+}
+.cheat-table td span {
+  color: var(--muted);
+}
+.cheat-round-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.cheat-round-heading label {
+  font-size: 12px;
+}
+.cheat-round-heading select {
+  padding: 6px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  color: inherit;
+}
+.cheat-collections {
+  display: grid;
+  gap: 12px;
+}
+.cheat-collections article {
+  border: 1px solid var(--line);
+  padding: 12px;
+  min-width: 0;
+}
+.cheat-collections h4 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  justify-content: space-between;
+  margin: 0 0 10px;
+  font-size: 13px;
+}
+.cheat-collections h4 span {
+  font-size: 11px;
+  font-weight: normal;
+  color: var(--muted);
+}
+.cheat-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(185px, 1fr));
+  gap: 8px;
+}
+.cheat-card {
+  display: flex;
+  gap: 9px;
+  border-left: 3px solid var(--artist);
+  background: #f2f1e9;
+  padding: 6px;
+  min-width: 0;
+}
+.cheat-card .artwork-image {
+  width: 44px;
+  height: 60px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.cheat-card > div {
+  display: grid;
+  align-content: center;
+  gap: 4px;
+  min-width: 0;
+}
+.cheat-card strong {
+  font-size: 12px;
+  color: var(--artist);
+}
+.cheat-card span,
+.cheat-card small {
+  font-size: 10px;
+}
+@media (max-width: 540px) {
+  .app-header nav {
+    gap: 8px;
+  }
+  .cheat-toggle,
+  .cheat-toggle.enabled {
+    font-size: 10px;
+    padding: 4px;
+  }
+  .cheat-wallets {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+.cheat-panel {
+  grid-template-columns: minmax(0, 1fr);
+}
+.cheat-panel > section {
+  min-width: 0;
+}
+.cheat-table-scroll {
+  width: 100%;
+}
+
+.modal:has(.sale-announcement) {
+  width: min(460px, 100%);
+  animation: sale-arrive 220ms ease-out;
+}
+.sale-announcement {
+  text-align: center;
+}
+.sale-buyer {
+  margin: 4px 0 6px;
+  font-size: clamp(20px, 4vw, 28px);
+  font-weight: 700;
+  color: var(--ink);
+}
+.sale-description {
+  margin: 0 0 16px;
+  color: var(--muted);
+  font-size: 13px;
+}
+.sale-artworks {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+.sale-artworks figure {
+  margin: 0;
+  width: 135px;
+  max-width: 45%;
+}
+.sale-artworks .artwork-image {
+  width: 100%;
+  height: 145px;
+  object-fit: cover;
+  border: 5px solid #e6dfcd;
+}
+.sale-artworks figcaption {
+  display: grid;
+  gap: 4px;
+  margin-top: 7px;
+  font-size: 11px;
+}
+.sale-artworks figcaption span {
+  color: var(--muted);
+}
+.sale-price {
+  margin: 16px 0 6px;
+  font-size: 12px;
+}
+.sale-price strong {
+  font:
+    36px Georgia,
+    serif;
+}
+.sale-payment {
+  margin: 0 0 18px;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+.sale-auto {
+  margin: 8px 0 0;
+  font-size: 10px;
+  color: var(--muted);
+}
+@keyframes sale-arrive {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .modal:has(.sale-announcement) {
+    animation: none;
+  }
+}
+@media (max-height: 640px) {
+  .sale-artworks .artwork-image {
+    height: 95px;
+  }
+  .sale-description {
+    margin-bottom: 10px;
+  }
+}
+
+/* Memory navigation and transaction feedback. */
+.memory-tabs {
+  display: flex;
+  gap: 8px;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 10px;
+}
+.memory-tabs button {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: inherit;
+}
+.memory-tabs .selected {
+  background: #29372f;
+  color: white;
+}
+.count-detail {
+  border: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  padding: 8px 10px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.count-detail:disabled {
+  text-decoration: none;
+  cursor: default;
+}
+.memory-detail {
+  padding: 12px;
+  border: 1px solid var(--line);
+  background: #f1f0e8;
+}
+.memory-detail .cheat-cards {
+  margin-top: 12px;
+}
+.cheat-table th:first-child {
+  position: sticky;
+  left: 0;
+  background: #faf9f5;
+  z-index: 1;
+}
+.recent-sale {
+  display: grid;
+  gap: 4px;
+  text-align: left;
+  width: 100%;
+  border: 1px solid var(--line);
+  padding: 10px;
+  background: #f4f1e8;
+  color: inherit;
+  font-size: 11px;
+}
+.recent-sale span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.sale-toast {
+  position: fixed;
+  z-index: 90;
+  left: 50%;
+  bottom: 100px;
+  transform: translateX(-50%);
+  width: min(560px, calc(100vw - 24px));
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 12px;
+  background: #29372f;
+  color: white;
+  box-shadow: 0 8px 32px #0003;
+  border-radius: 8px;
+}
+.sale-toast .artwork-image {
+  width: 40px;
+  height: 50px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.sale-toast > div {
+  display: grid;
+  gap: 5px;
+  min-width: 0;
+  flex: 1;
+  font-size: 13px;
+}
+.sale-toast span {
+  font-size: 11px;
+}
+.sale-toast button {
+  color: white;
+  flex-shrink: 0;
+}
+@media (min-width: 801px) and (max-width: 900px) {
+  .game-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .sidebar {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+}
+@media (max-width: 540px) {
+  .sale-toast {
+    bottom: 145px;
+    gap: 8px;
+    padding: 10px;
+  }
+  .sale-toast > div {
+    font-size: 12px;
+  }
+  .memory-detail .cheat-card {
+    width: 100%;
+  }
+}

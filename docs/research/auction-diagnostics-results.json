@@ -1,0 +1,81 @@
+{
+  "games": 60,
+  "transitions": 13963,
+  "publicLedgerChecks": 13963,
+  "sellerOnceRaises": 263,
+  "costlySellerRaises": 178,
+  "examples": [
+    {
+      "count": 3,
+      "seed": 1,
+      "round": 2,
+      "player": 0,
+      "standingBid": 37,
+      "selfBid": 38,
+      "maxLotPayout": 60,
+      "maxOwnNet": 22,
+      "saleIncome": 37
+    },
+    {
+      "count": 3,
+      "seed": 1,
+      "round": 4,
+      "player": 0,
+      "standingBid": 46,
+      "selfBid": 47,
+      "maxLotPayout": 70,
+      "maxOwnNet": 23,
+      "saleIncome": 46
+    },
+    {
+      "count": 3,
+      "seed": 2,
+      "round": 3,
+      "player": 1,
+      "standingBid": 39,
+      "selfBid": 40,
+      "maxLotPayout": 70,
+      "maxOwnNet": 30,
+      "saleIncome": 39
+    },
+    {
+      "count": 3,
+      "seed": 2,
+      "round": 3,
+      "player": 0,
+      "standingBid": 44,
+      "selfBid": 45,
+      "maxLotPayout": 70,
+      "maxOwnNet": 25,
+      "saleIncome": 44
+    }
+  ],
+  "toySealed": [
+    {
+      "opponentMax": [
+        0,
+        40
+      ],
+      "lotValue": 40,
+      "best": [
+        {
+          "bid": 20,
+          "expectedProfit": 9.75609756097561
+        }
+      ]
+    },
+    {
+      "opponentMax": [
+        20,
+        40
+      ],
+      "lotValue": 40,
+      "best": [
+        {
+          "bid": 30,
+          "expectedProfit": 4.761904761904762
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3683 @@
+{
+  "version": "market-v3",
+  "sourceFiles": {
+    "ai.ts": "0951c8ff682026a0d49f6473dd73efcd57d2101421a9bd4ee6ccddf54ee0959a",
+    "ai-search.ts": "9aa0c69de7e8a4bcaebe0c868936e9ef2a4941a7f4be691a9cb1ea3a2fcae49e",
+    "ai-legacy.ts": "844174ae40b38d05f8b3085b8e28cddd48f39bc94ee2b8753264acb589811602",
+    "engine.ts": "f36bc9dce244b6a9bd7e084df8da661ae957a9027ea18b95b0b872f0f27035ff",
+    "data.ts": "64500539f498a70206e8ba358af197414d0e6655607a95fc819629940b2c1bc8"
+  },
+  "sourceHash": "0951c8ff682026a0d49f6473dd73efcd57d2101421a9bd4ee6ccddf54ee0959a",
+  "start": 41001,
+  "seeds": 15,
+  "opponents": "legacy",
+  "variant": "full",
+  "timing": {
+    "n": 12277,
+    "p50": 0.0004170000011072261,
+    "p95": 2.08324999999968,
+    "max": 11.923082999999991
+  },
+  "rows": [
+    {
+      "count": 3,
+      "seed": 41001,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        452,
+        457,
+        481
+      ],
+      "baselineCash": [
+        307,
+        412,
+        413
+      ],
+      "steps": 195
+    },
+    {
+      "count": 3,
+      "seed": 41001,
+      "seat": 1,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        626,
+        629,
+        439
+      ],
+      "baselineCash": [
+        307,
+        412,
+        413
+      ],
+      "steps": 241
+    },
+    {
+      "count": 3,
+      "seed": 41001,
+      "seat": 2,
+      "win": 1,
+      "baselineWin": 1,
+      "cash": [
+        600,
+        579,
+        705
+      ],
+      "baselineCash": [
+        307,
+        412,
+        413
+      ],
+      "steps": 280
+    },
+    {
+      "count": 3,
+      "seed": 41002,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        318,
+        455,
+        426
+      ],
+      "baselineCash": [
+        324,
+        444,
+        293
+      ],
+      "steps": 160
+    },
+    {
+      "count": 3,
+      "seed": 41002,
+      "seat": 1,
+      "win": 0,
+      "baselineWin": 1,
+      "cash": [
+        438,
+        486,
+        503
+      ],
+      "baselineCash": [
+        324,
+        444,
+        293
+      ],
+      "steps": 229
+    },
+    {
+      "count": 3,
+      "seed": 41002,
+      "seat": 2,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        465,
+        443,
+        690
+      ],
+      "baselineCash": [
+        324,
+        444,
+        293
+      ],
+      "steps": 243
+    },
+    {
+      "count": 3,
+      "seed": 41003,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        456,
+        585,
+        585
+      ],
+      "baselineCash": [
+        487,
+        399,
+        612
+      ],
+      "steps": 230
+    },
+    {
+      "count": 3,
+      "seed": 41003,
+      "seat": 1,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        568,
+        577,
+        373
+      ],
+      "baselineCash": [
+        487,
+        399,
+        612
+      ],
+      "steps": 302
+    },
+    {
+      "count": 3,
+      "seed": 41003,
+      "seat": 2,
+      "win": 1,
+      "baselineWin": 1,
+      "cash": [
+        391,
+        546,
+        572
+      ],
+      "baselineCash": [
+        487,
+        399,
+        612
+      ],
+      "steps": 230
+    },
+    {
+      "count": 3,
+      "seed": 41004,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 1,
+      "cash": [
+        558,
+        651,
+        402
+      ],
+      "baselineCash": [
+        576,
+        530,
+        409
+      ],
+      "steps": 227
+    },
+    {
+      "count": 3,
+      "seed": 41004,
+      "seat": 1,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        550,
+        683,
+        514
+      ],
+      "baselineCash": [
+        576,
+        530,
+        409
+      ],
+      "steps": 259
+    },
+    {
+      "count": 3,
+      "seed": 41004,
+      "seat": 2,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        376,
+        651,
+        566
+      ],
+      "baselineCash": [
+        576,
+        530,
+        409
+      ],
+      "steps": 209
+    },
+    {
+      "count": 3,
+      "seed": 41005,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        431,
+        587,
+        548
+      ],
+      "baselineCash": [
+        439,
+        418,
+        498
+      ],
+      "steps": 217
+    },
+    {
+      "count": 3,
+      "seed": 41005,
+      "seat": 1,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        533,
+        580,
+        541
+      ],
+      "baselineCash": [
+        439,
+        418,
+        498
+      ],
+      "steps": 309
+    },
+    {
+      "count": 3,
+      "seed": 41005,
+      "seat": 2,
+      "win": 0,
+      "baselineWin": 1,
+      "cash": [
+        508,
+        613,
+        604
+      ],
+      "baselineCash": [
+        439,
+        418,
+        498
+      ],
+      "steps": 246
+    },
+    {
+      "count": 3,
+      "seed": 41006,
+      "seat": 0,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        484,
+        430,
+        296
+      ],
+      "baselineCash": [
+        436,
+        456,
+        366
+      ],
+      "steps": 240
+    },
+    {
+      "count": 3,
+      "seed": 41006,
+      "seat": 1,
+      "win": 1,
+      "baselineWin": 1,
+      "cash": [
+        441,
+        585,
+        435
+      ],
+      "baselineCash": [
+        436,
+        456,
+        366
+      ],
+      "steps": 202
+    },
+    {
+      "count": 3,
+      "seed": 41006,
+      "seat": 2,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        440,
+        582,
+        588
+      ],
+      "baselineCash": [
+        436,
+        456,
+        366
+      ],
+      "steps": 275
+    },
+    {
+      "count": 3,
+      "seed": 41007,
+      "seat": 0,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        621,
+        519,
+        486
+      ],
+      "baselineCash": [
+        474,
+        380,
+        763
+      ],
+      "steps": 284
+    },
+    {
+      "count": 3,
+      "seed": 41007,
+      "seat": 1,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        577,
+        364,
+        533
+      ],
+      "baselineCash": [
+        474,
+        380,
+        763
+      ],
+      "steps": 248
+    },
+    {
+      "count": 3,
+      "seed": 41007,
+      "seat": 2,
+      "win": 1,
+      "baselineWin": 1,
+      "cash": [
+        571,
+        341,
+        874
+      ],
+      "baselineCash": [
+        474,
+        380,
+        763
+      ],
+      "steps": 314
+    },
+    {
+      "count": 3,
+      "seed": 41008,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        316,
+        578,
+        433
+      ],
+      "baselineCash": [
+        447,
+        586,
+        537
+      ],
+      "steps": 256
+    },
+    {
+      "count": 3,
+      "seed": 41008,
+      "seat": 1,
+      "win": 0,
+      "baselineWin": 1,
+      "cash": [
+        523,
+        520,
+        383
+      ],
+      "baselineCash": [
+        447,
+        586,
+        537
+      ],
+      "steps": 200
+    },
+    {
+      "count": 3,
+      "seed": 41008,
+      "seat": 2,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        461,
+        578,
+        633
+      ],
+      "baselineCash": [
+        447,
+        586,
+        537
+      ],
+      "steps": 299
+    },
+    {
+      "count": 3,
+      "seed": 41009,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        532,
+        595,
+        502
+      ],
+      "baselineCash": [
+        543,
+        672,
+        478
+      ],
+      "steps": 217
+    },
+    {
+      "count": 3,
+      "seed": 41009,
+      "seat": 1,
+      "win": 1,
+      "baselineWin": 1,
+      "cash": [
+        515,
+        683,
+        512
+      ],
+      "baselineCash": [
+        543,
+        672,
+        478
+      ],
+      "steps": 231
+    },
+    {
+      "count": 3,
+      "seed": 41009,
+      "seat": 2,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        568,
+        653,
+        537
+      ],
+      "baselineCash": [
+        543,
+        672,
+        478
+      ],
+      "steps": 342
+    },
+    {
+      "count": 3,
+      "seed": 41010,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        476,
+        466,
+        491
+      ],
+      "baselineCash": [
+        426,
+        369,
+        458
+      ],
+      "steps": 177
+    },
+    {
+      "count": 3,
+      "seed": 41010,
+      "seat": 1,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        491,
+        631,
+        649
+      ],
+      "baselineCash": [
+        426,
+        369,
+        458
+      ],
+      "steps": 297
+    },
+    {
+      "count": 3,
+      "seed": 41010,
+      "seat": 2,
+      "win": 0,
+      "baselineWin": 1,
+      "cash": [
+        427,
+        719,
+        696
+      ],
+      "baselineCash": [
+        426,
+        369,
+        458
+      ],
+      "steps": 242
+    },
+    {
+      "count": 3,
+      "seed": 41011,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        481,
+        415,
+        610
+      ],
+      "baselineCash": [
+        432,
+        390,
+        436
+      ],
+      "steps": 179
+    },
+    {
+      "count": 3,
+      "seed": 41011,
+      "seat": 1,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        392,
+        481,
+        436
+      ],
+      "baselineCash": [
+        432,
+        390,
+        436
+      ],
+      "steps": 164
+    },
+    {
+      "count": 3,
+      "seed": 41011,
+      "seat": 2,
+      "win": 1,
+      "baselineWin": 1,
+      "cash": [
+        366,
+        400,
+        527
+      ],
+      "baselineCash": [
+        432,
+        390,
+        436
+      ],
+      "steps": 181
+    },
+    {
+      "count": 3,
+      "seed": 41012,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        506,
+        552,
+        391
+      ],
+      "baselineCash": [
+        464,
+        369,
+        533
+      ],
+      "steps": 192
+    },
+    {
+      "count": 3,
+      "seed": 41012,
+      "seat": 1,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        505,
+        407,
+        558
+      ],
+      "baselineCash": [
+        464,
+        369,
+        533
+      ],
+      "steps": 151
+    },
+    {
+      "count": 3,
+      "seed": 41012,
+      "seat": 2,
+      "win": 0,
+      "baselineWin": 1,
+      "cash": [
+        653,
+        638,
+        456
+      ],
+      "baselineCash": [
+        464,
+        369,
+        533
+      ],
+      "steps": 291
+    },
+    {
+      "count": 3,
+      "seed": 41013,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 1,
+      "cash": [
+        428,
+        388,
+        526
+      ],
+      "baselineCash": [
+        437,
+        376,
+        425
+      ],
+      "steps": 175
+    },
+    {
+      "count": 3,
+      "seed": 41013,
+      "seat": 1,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        458,
+        467,
+        659
+      ],
+      "baselineCash": [
+        437,
+        376,
+        425
+      ],
+      "steps": 183
+    },
+    {
+      "count": 3,
+      "seed": 41013,
+      "seat": 2,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        410,
+        307,
+        545
+      ],
+      "baselineCash": [
+        437,
+        376,
+        425
+      ],
+      "steps": 199
+    },
+    {
+      "count": 3,
+      "seed": 41014,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        366,
+        477,
+        489
+      ],
+      "baselineCash": [
+        325,
+        408,
+        485
+      ],
+      "steps": 230
+    },
+    {
+      "count": 3,
+      "seed": 41014,
+      "seat": 1,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        414,
+        435,
+        479
+      ],
+      "baselineCash": [
+        325,
+        408,
+        485
+      ],
+      "steps": 192
+    },
+    {
+      "count": 3,
+      "seed": 41014,
+      "seat": 2,
+      "win": 1,
+      "baselineWin": 1,
+      "cash": [
+        545,
+        544,
+        637
+      ],
+      "baselineCash": [
+        325,
+        408,
+        485
+      ],
+      "steps": 283
+    },
+    {
+      "count": 3,
+      "seed": 41015,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        427,
+        443,
+        501
+      ],
+      "baselineCash": [
+        400,
+        425,
+        507
+      ],
+      "steps": 204
+    },
+    {
+      "count": 3,
+      "seed": 41015,
+      "seat": 1,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        472,
+        546,
+        595
+      ],
+      "baselineCash": [
+        400,
+        425,
+        507
+      ],
+      "steps": 207
+    },
+    {
+      "count": 3,
+      "seed": 41015,
+      "seat": 2,
+      "win": 0,
+      "baselineWin": 1,
+      "cash": [
+        488,
+        427,
+        278
+      ],
+      "baselineCash": [
+        400,
+        425,
+        507
+      ],
+      "steps": 216
+    },
+    {
+      "count": 4,
+      "seed": 41001,
+      "seat": 0,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        400,
+        371,
+        302,
+        389
+      ],
+      "baselineCash": [
+        449,
+        354,
+        282,
+        549
+      ],
+      "steps": 248
+    },
+    {
+      "count": 4,
+      "seed": 41001,
+      "seat": 1,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        402,
+        364,
+        306,
+        526
+      ],
+      "baselineCash": [
+        449,
+        354,
+        282,
+        549
+      ],
+      "steps": 237
+    },
+    {
+      "count": 4,
+      "seed": 41001,
+      "seat": 2,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        443,
+        352,
+        316,
+        594
+      ],
+      "baselineCash": [
+        449,
+        354,
+        282,
+        549
+      ],
+      "steps": 233
+    },
+    {
+      "count": 4,
+      "seed": 41001,
+      "seat": 3,
+      "win": 1,
+      "baselineWin": 1,
+      "cash": [
+        334,
+        327,
+        324,
+        386
+      ],
+      "baselineCash": [
+        449,
+        354,
+        282,
+        549
+      ],
+      "steps": 292
+    },
+    {
+      "count": 4,
+      "seed": 41002,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        379,
+        456,
+        325,
+        609
+      ],
+      "baselineCash": [
+        276,
+        324,
+        333,
+        490
+      ],
+      "steps": 350
+    },
+    {
+      "count": 4,
+      "seed": 41002,
+      "seat": 1,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        469,
+        510,
+        490,
+        443
+      ],
+      "baselineCash": [
+        276,
+        324,
+        333,
+        490
+      ],
+      "steps": 364
+    },
+    {
+      "count": 4,
+      "seed": 41002,
+      "seat": 2,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        296,
+        354,
+        490,
+        459
+      ],
+      "baselineCash": [
+        276,
+        324,
+        333,
+        490
+      ],
+      "steps": 244
+    },
+    {
+      "count": 4,
+      "seed": 41002,
+      "seat": 3,
+      "win": 1,
+      "baselineWin": 1,
+      "cash": [
+        399,
+        500,
+        428,
+        582
+      ],
+      "baselineCash": [
+        276,
+        324,
+        333,
+        490
+      ],
+      "steps": 349
+    },
+    {
+      "count": 4,
+      "seed": 41003,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        359,
+        361,
+        368,
+        479
+      ],
+      "baselineCash": [
+        364,
+        266,
+        377,
+        511
+      ],
+      "steps": 219
+    },
+    {
+      "count": 4,
+      "seed": 41003,
+      "seat": 1,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        364,
+        527,
+        340,
+        516
+      ],
+      "baselineCash": [
+        364,
+        266,
+        377,
+        511
+      ],
+      "steps": 238
+    },
+    {
+      "count": 4,
+      "seed": 41003,
+      "seat": 2,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        358,
+        534,
+        480,
+        495
+      ],
+      "baselineCash": [
+        364,
+        266,
+        377,
+        511
+      ],
+      "steps": 254
+    },
+    {
+      "count": 4,
+      "seed": 41003,
+      "seat": 3,
+      "win": 0,
+      "baselineWin": 1,
+      "cash": [
+        411,
+        568,
+        327,
+        517
+      ],
+      "baselineCash": [
+        364,
+        266,
+        377,
+        511
+      ],
+      "steps": 300
+    },
+    {
+      "count": 4,
+      "seed": 41004,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        430,
+        365,
+        337,
+        448
+      ],
+      "baselineCash": [
+        321,
+        330,
+        384,
+        470
+      ],
+      "steps": 266
+    },
+    {
+      "count": 4,
+      "seed": 41004,
+      "seat": 1,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        321,
+        364,
+        345,
+        481
+      ],
+      "baselineCash": [
+        321,
+        330,
+        384,
+        470
+      ],
+      "steps": 200
+    },
+    {
+      "count": 4,
+      "seed": 41004,
+      "seat": 2,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        393,
+        528,
+        539,
+        477
+      ],
+      "baselineCash": [
+        321,
+        330,
+        384,
+        470
+      ],
+      "steps": 282
+    },
+    {
+      "count": 4,
+      "seed": 41004,
+      "seat": 3,
+      "win": 1,
+      "baselineWin": 1,
+      "cash": [
+        388,
+        410,
+        482,
+        684
+      ],
+      "baselineCash": [
+        321,
+        330,
+        384,
+        470
+      ],
+      "steps": 224
+    },
+    {
+      "count": 4,
+      "seed": 41005,
+      "seat": 0,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        565,
+        406,
+        410,
+        501
+      ],
+      "baselineCash": [
+        318,
+        336,
+        223,
+        426
+      ],
+      "steps": 343
+    },
+    {
+      "count": 4,
+      "seed": 41005,
+      "seat": 1,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        375,
+        385,
+        311,
+        370
+      ],
+      "baselineCash": [
+        318,
+        336,
+        223,
+        426
+      ],
+      "steps": 227
+    },
+    {
+      "count": 4,
+      "seed": 41005,
+      "seat": 2,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        317,
+        347,
+        247,
+        409
+      ],
+      "baselineCash": [
+        318,
+        336,
+        223,
+        426
+      ],
+      "steps": 197
+    },
+    {
+      "count": 4,
+      "seed": 41005,
+      "seat": 3,
+      "win": 1,
+      "baselineWin": 1,
+      "cash": [
+        314,
+        391,
+        228,
+        407
+      ],
+      "baselineCash": [
+        318,
+        336,
+        223,
+        426
+      ],
+      "steps": 205
+    },
+    {
+      "count": 4,
+      "seed": 41006,
+      "seat": 0,
+      "win": 1,
+      "baselineWin": 1,
+      "cash": [
+        478,
+        333,
+        346,
+        413
+      ],
+      "baselineCash": [
+        421,
+        291,
+        329,
+        312
+      ],
+      "steps": 254
+    },
+    {
+      "count": 4,
+      "seed": 41006,
+      "seat": 1,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        364,
+        385,
+        386,
+        456
+      ],
+      "baselineCash": [
+        421,
+        291,
+        329,
+        312
+      ],
+      "steps": 253
+    },
+    {
+      "count": 4,
+      "seed": 41006,
+      "seat": 2,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        468,
+        458,
+        419,
+        518
+      ],
+      "baselineCash": [
+        421,
+        291,
+        329,
+        312
+      ],
+      "steps": 264
+    },
+    {
+      "count": 4,
+      "seed": 41006,
+      "seat": 3,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        472,
+        415,
+        433,
+        439
+      ],
+      "baselineCash": [
+        421,
+        291,
+        329,
+        312
+      ],
+      "steps": 215
+    },
+    {
+      "count": 4,
+      "seed": 41007,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        351,
+        434,
+        269,
+        446
+      ],
+      "baselineCash": [
+        314,
+        447,
+        274,
+        367
+      ],
+      "steps": 338
+    },
+    {
+      "count": 4,
+      "seed": 41007,
+      "seat": 1,
+      "win": 1,
+      "baselineWin": 1,
+      "cash": [
+        378,
+        484,
+        374,
+        382
+      ],
+      "baselineCash": [
+        314,
+        447,
+        274,
+        367
+      ],
+      "steps": 276
+    },
+    {
+      "count": 4,
+      "seed": 41007,
+      "seat": 2,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        325,
+        469,
+        302,
+        334
+      ],
+      "baselineCash": [
+        314,
+        447,
+        274,
+        367
+      ],
+      "steps": 287
+    },
+    {
+      "count": 4,
+      "seed": 41007,
+      "seat": 3,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        298,
+        504,
+        262,
+        587
+      ],
+      "baselineCash": [
+        314,
+        447,
+        274,
+        367
+      ],
+      "steps": 340
+    },
+    {
+      "count": 4,
+      "seed": 41008,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 1,
+      "cash": [
+        376,
+        430,
+        212,
+        492
+      ],
+      "baselineCash": [
+        543,
+        416,
+        337,
+        307
+      ],
+      "steps": 265
+    },
+    {
+      "count": 4,
+      "seed": 41008,
+      "seat": 1,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        475,
+        527,
+        402,
+        464
+      ],
+      "baselineCash": [
+        543,
+        416,
+        337,
+        307
+      ],
+      "steps": 346
+    },
+    {
+      "count": 4,
+      "seed": 41008,
+      "seat": 2,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        484,
+        599,
+        454,
+        358
+      ],
+      "baselineCash": [
+        543,
+        416,
+        337,
+        307
+      ],
+      "steps": 310
+    },
+    {
+      "count": 4,
+      "seed": 41008,
+      "seat": 3,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        473,
+        349,
+        332,
+        390
+      ],
+      "baselineCash": [
+        543,
+        416,
+        337,
+        307
+      ],
+      "steps": 283
+    },
+    {
+      "count": 4,
+      "seed": 41009,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        245,
+        295,
+        320,
+        419
+      ],
+      "baselineCash": [
+        284,
+        324,
+        346,
+        407
+      ],
+      "steps": 161
+    },
+    {
+      "count": 4,
+      "seed": 41009,
+      "seat": 1,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        297,
+        391,
+        362,
+        472
+      ],
+      "baselineCash": [
+        284,
+        324,
+        346,
+        407
+      ],
+      "steps": 265
+    },
+    {
+      "count": 4,
+      "seed": 41009,
+      "seat": 2,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        323,
+        320,
+        366,
+        468
+      ],
+      "baselineCash": [
+        284,
+        324,
+        346,
+        407
+      ],
+      "steps": 199
+    },
+    {
+      "count": 4,
+      "seed": 41009,
+      "seat": 3,
+      "win": 1,
+      "baselineWin": 1,
+      "cash": [
+        441,
+        485,
+        317,
+        493
+      ],
+      "baselineCash": [
+        284,
+        324,
+        346,
+        407
+      ],
+      "steps": 301
+    },
+    {
+      "count": 4,
+      "seed": 41010,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 1,
+      "cash": [
+        389,
+        356,
+        392,
+        429
+      ],
+      "baselineCash": [
+        469,
+        333,
+        434,
+        459
+      ],
+      "steps": 270
+    },
+    {
+      "count": 4,
+      "seed": 41010,
+      "seat": 1,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        431,
+        460,
+        348,
+        527
+      ],
+      "baselineCash": [
+        469,
+        333,
+        434,
+        459
+      ],
+      "steps": 399
+    },
+    {
+      "count": 4,
+      "seed": 41010,
+      "seat": 2,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        427,
+        348,
+        627,
+        425
+      ],
+      "baselineCash": [
+        469,
+        333,
+        434,
+        459
+      ],
+      "steps": 337
+    },
+    {
+      "count": 4,
+      "seed": 41010,
+      "seat": 3,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        379,
+        281,
+        346,
+        513
+      ],
+      "baselineCash": [
+        469,
+        333,
+        434,
+        459
+      ],
+      "steps": 294
+    },
+    {
+      "count": 4,
+      "seed": 41011,
+      "seat": 0,
+      "win": 1,
+      "baselineWin": 1,
+      "cash": [
+        481,
+        283,
+        281,
+        465
+      ],
+      "baselineCash": [
+        464,
+        227,
+        337,
+        430
+      ],
+      "steps": 218
+    },
+    {
+      "count": 4,
+      "seed": 41011,
+      "seat": 1,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        374,
+        385,
+        331,
+        515
+      ],
+      "baselineCash": [
+        464,
+        227,
+        337,
+        430
+      ],
+      "steps": 261
+    },
+    {
+      "count": 4,
+      "seed": 41011,
+      "seat": 2,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        363,
+        278,
+        465,
+        433
+      ],
+      "baselineCash": [
+        464,
+        227,
+        337,
+        430
+      ],
+      "steps": 318
+    },
+    {
+      "count": 4,
+      "seed": 41011,
+      "seat": 3,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        542,
+        451,
+        394,
+        338
+      ],
+      "baselineCash": [
+        464,
+        227,
+        337,
+        430
+      ],
+      "steps": 283
+    },
+    {
+      "count": 4,
+      "seed": 41012,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        283,
+        392,
+        395,
+        530
+      ],
+      "baselineCash": [
+        390,
+        458,
+        383,
+        315
+      ],
+      "steps": 209
+    },
+    {
+      "count": 4,
+      "seed": 41012,
+      "seat": 1,
+      "win": 1,
+      "baselineWin": 1,
+      "cash": [
+        435,
+        571,
+        346,
+        420
+      ],
+      "baselineCash": [
+        390,
+        458,
+        383,
+        315
+      ],
+      "steps": 318
+    },
+    {
+      "count": 4,
+      "seed": 41012,
+      "seat": 2,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        351,
+        373,
+        487,
+        363
+      ],
+      "baselineCash": [
+        390,
+        458,
+        383,
+        315
+      ],
+      "steps": 225
+    },
+    {
+      "count": 4,
+      "seed": 41012,
+      "seat": 3,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        465,
+        441,
+        253,
+        480
+      ],
+      "baselineCash": [
+        390,
+        458,
+        383,
+        315
+      ],
+      "steps": 323
+    },
+    {
+      "count": 4,
+      "seed": 41013,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        513,
+        287,
+        570,
+        384
+      ],
+      "baselineCash": [
+        296,
+        377,
+        470,
+        367
+      ],
+      "steps": 369
+    },
+    {
+      "count": 4,
+      "seed": 41013,
+      "seat": 1,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        383,
+        467,
+        494,
+        424
+      ],
+      "baselineCash": [
+        296,
+        377,
+        470,
+        367
+      ],
+      "steps": 295
+    },
+    {
+      "count": 4,
+      "seed": 41013,
+      "seat": 2,
+      "win": 1,
+      "baselineWin": 1,
+      "cash": [
+        381,
+        532,
+        652,
+        506
+      ],
+      "baselineCash": [
+        296,
+        377,
+        470,
+        367
+      ],
+      "steps": 315
+    },
+    {
+      "count": 4,
+      "seed": 41013,
+      "seat": 3,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        398,
+        369,
+        508,
+        437
+      ],
+      "baselineCash": [
+        296,
+        377,
+        470,
+        367
+      ],
+      "steps": 271
+    },
+    {
+      "count": 4,
+      "seed": 41014,
+      "seat": 0,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        535,
+        361,
+        288,
+        344
+      ],
+      "baselineCash": [
+        419,
+        503,
+        406,
+        490
+      ],
+      "steps": 286
+    },
+    {
+      "count": 4,
+      "seed": 41014,
+      "seat": 1,
+      "win": 1,
+      "baselineWin": 1,
+      "cash": [
+        480,
+        542,
+        352,
+        338
+      ],
+      "baselineCash": [
+        419,
+        503,
+        406,
+        490
+      ],
+      "steps": 227
+    },
+    {
+      "count": 4,
+      "seed": 41014,
+      "seat": 2,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        335,
+        616,
+        465,
+        390
+      ],
+      "baselineCash": [
+        419,
+        503,
+        406,
+        490
+      ],
+      "steps": 274
+    },
+    {
+      "count": 4,
+      "seed": 41014,
+      "seat": 3,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        424,
+        476,
+        397,
+        364
+      ],
+      "baselineCash": [
+        419,
+        503,
+        406,
+        490
+      ],
+      "steps": 233
+    },
+    {
+      "count": 4,
+      "seed": 41015,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        413,
+        381,
+        481,
+        274
+      ],
+      "baselineCash": [
+        373,
+        318,
+        294,
+        477
+      ],
+      "steps": 317
+    },
+    {
+      "count": 4,
+      "seed": 41015,
+      "seat": 1,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        393,
+        423,
+        351,
+        535
+      ],
+      "baselineCash": [
+        373,
+        318,
+        294,
+        477
+      ],
+      "steps": 251
+    },
+    {
+      "count": 4,
+      "seed": 41015,
+      "seat": 2,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        372,
+        332,
+        312,
+        465
+      ],
+      "baselineCash": [
+        373,
+        318,
+        294,
+        477
+      ],
+      "steps": 300
+    },
+    {
+      "count": 4,
+      "seed": 41015,
+      "seat": 3,
+      "win": 1,
+      "baselineWin": 1,
+      "cash": [
+        367,
+        332,
+        322,
+        432
+      ],
+      "baselineCash": [
+        373,
+        318,
+        294,
+        477
+      ],
+      "steps": 245
+    },
+    {
+      "count": 5,
+      "seed": 41001,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        228,
+        297,
+        318,
+        280,
+        321
+      ],
+      "baselineCash": [
+        187,
+        266,
+        235,
+        308,
+        277
+      ],
+      "steps": 294
+    },
+    {
+      "count": 5,
+      "seed": 41001,
+      "seat": 1,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        382,
+        383,
+        392,
+        298,
+        383
+      ],
+      "baselineCash": [
+        187,
+        266,
+        235,
+        308,
+        277
+      ],
+      "steps": 261
+    },
+    {
+      "count": 5,
+      "seed": 41001,
+      "seat": 2,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        289,
+        437,
+        488,
+        257,
+        440
+      ],
+      "baselineCash": [
+        187,
+        266,
+        235,
+        308,
+        277
+      ],
+      "steps": 374
+    },
+    {
+      "count": 5,
+      "seed": 41001,
+      "seat": 3,
+      "win": 0,
+      "baselineWin": 1,
+      "cash": [
+        334,
+        280,
+        376,
+        363,
+        345
+      ],
+      "baselineCash": [
+        187,
+        266,
+        235,
+        308,
+        277
+      ],
+      "steps": 345
+    },
+    {
+      "count": 5,
+      "seed": 41001,
+      "seat": 4,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        359,
+        299,
+        367,
+        328,
+        517
+      ],
+      "baselineCash": [
+        187,
+        266,
+        235,
+        308,
+        277
+      ],
+      "steps": 328
+    },
+    {
+      "count": 5,
+      "seed": 41002,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        351,
+        391,
+        486,
+        397,
+        334
+      ],
+      "baselineCash": [
+        300,
+        248,
+        249,
+        361,
+        344
+      ],
+      "steps": 286
+    },
+    {
+      "count": 5,
+      "seed": 41002,
+      "seat": 1,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        313,
+        413,
+        312,
+        317,
+        375
+      ],
+      "baselineCash": [
+        300,
+        248,
+        249,
+        361,
+        344
+      ],
+      "steps": 289
+    },
+    {
+      "count": 5,
+      "seed": 41002,
+      "seat": 2,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        281,
+        358,
+        351,
+        625,
+        389
+      ],
+      "baselineCash": [
+        300,
+        248,
+        249,
+        361,
+        344
+      ],
+      "steps": 317
+    },
+    {
+      "count": 5,
+      "seed": 41002,
+      "seat": 3,
+      "win": 1,
+      "baselineWin": 1,
+      "cash": [
+        294,
+        275,
+        330,
+        526,
+        248
+      ],
+      "baselineCash": [
+        300,
+        248,
+        249,
+        361,
+        344
+      ],
+      "steps": 285
+    },
+    {
+      "count": 5,
+      "seed": 41002,
+      "seat": 4,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        322,
+        291,
+        285,
+        437,
+        366
+      ],
+      "baselineCash": [
+        300,
+        248,
+        249,
+        361,
+        344
+      ],
+      "steps": 279
+    },
+    {
+      "count": 5,
+      "seed": 41003,
+      "seat": 0,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        386,
+        227,
+        228,
+        373,
+        304
+      ],
+      "baselineCash": [
+        374,
+        294,
+        363,
+        438,
+        326
+      ],
+      "steps": 252
+    },
+    {
+      "count": 5,
+      "seed": 41003,
+      "seat": 1,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        330,
+        329,
+        405,
+        416,
+        494
+      ],
+      "baselineCash": [
+        374,
+        294,
+        363,
+        438,
+        326
+      ],
+      "steps": 298
+    },
+    {
+      "count": 5,
+      "seed": 41003,
+      "seat": 2,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        355,
+        317,
+        441,
+        352,
+        434
+      ],
+      "baselineCash": [
+        374,
+        294,
+        363,
+        438,
+        326
+      ],
+      "steps": 300
+    },
+    {
+      "count": 5,
+      "seed": 41003,
+      "seat": 3,
+      "win": 1,
+      "baselineWin": 1,
+      "cash": [
+        333,
+        318,
+        448,
+        513,
+        281
+      ],
+      "baselineCash": [
+        374,
+        294,
+        363,
+        438,
+        326
+      ],
+      "steps": 257
+    },
+    {
+      "count": 5,
+      "seed": 41003,
+      "seat": 4,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        424,
+        242,
+        404,
+        383,
+        384
+      ],
+      "baselineCash": [
+        374,
+        294,
+        363,
+        438,
+        326
+      ],
+      "steps": 289
+    },
+    {
+      "count": 5,
+      "seed": 41004,
+      "seat": 0,
+      "win": 1,
+      "baselineWin": 1,
+      "cash": [
+        387,
+        339,
+        325,
+        243,
+        223
+      ],
+      "baselineCash": [
+        440,
+        235,
+        224,
+        425,
+        217
+      ],
+      "steps": 221
+    },
+    {
+      "count": 5,
+      "seed": 41004,
+      "seat": 1,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        429,
+        423,
+        302,
+        302,
+        382
+      ],
+      "baselineCash": [
+        440,
+        235,
+        224,
+        425,
+        217
+      ],
+      "steps": 383
+    },
+    {
+      "count": 5,
+      "seed": 41004,
+      "seat": 2,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        403,
+        299,
+        219,
+        425,
+        289
+      ],
+      "baselineCash": [
+        440,
+        235,
+        224,
+        425,
+        217
+      ],
+      "steps": 218
+    },
+    {
+      "count": 5,
+      "seed": 41004,
+      "seat": 3,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        334,
+        246,
+        257,
+        513,
+        220
+      ],
+      "baselineCash": [
+        440,
+        235,
+        224,
+        425,
+        217
+      ],
+      "steps": 243
+    },
+    {
+      "count": 5,
+      "seed": 41004,
+      "seat": 4,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        352,
+        226,
+        255,
+        340,
+        338
+      ],
+      "baselineCash": [
+        440,
+        235,
+        224,
+        425,
+        217
+      ],
+      "steps": 199
+    },
+    {
+      "count": 5,
+      "seed": 41005,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        373,
+        299,
+        288,
+        388,
+        211
+      ],
+      "baselineCash": [
+        327,
+        323,
+        301,
+        435,
+        409
+      ],
+      "steps": 285
+    },
+    {
+      "count": 5,
+      "seed": 41005,
+      "seat": 1,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        377,
+        497,
+        318,
+        361,
+        368
+      ],
+      "baselineCash": [
+        327,
+        323,
+        301,
+        435,
+        409
+      ],
+      "steps": 372
+    },
+    {
+      "count": 5,
+      "seed": 41005,
+      "seat": 2,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        299,
+        360,
+        441,
+        304,
+        268
+      ],
+      "baselineCash": [
+        327,
+        323,
+        301,
+        435,
+        409
+      ],
+      "steps": 281
+    },
+    {
+      "count": 5,
+      "seed": 41005,
+      "seat": 3,
+      "win": 1,
+      "baselineWin": 1,
+      "cash": [
+        426,
+        383,
+        253,
+        459,
+        406
+      ],
+      "baselineCash": [
+        327,
+        323,
+        301,
+        435,
+        409
+      ],
+      "steps": 339
+    },
+    {
+      "count": 5,
+      "seed": 41005,
+      "seat": 4,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        357,
+        348,
+        318,
+        364,
+        455
+      ],
+      "baselineCash": [
+        327,
+        323,
+        301,
+        435,
+        409
+      ],
+      "steps": 344
+    },
+    {
+      "count": 5,
+      "seed": 41006,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        334,
+        267,
+        332,
+        415,
+        322
+      ],
+      "baselineCash": [
+        391,
+        282,
+        362,
+        364,
+        403
+      ],
+      "steps": 323
+    },
+    {
+      "count": 5,
+      "seed": 41006,
+      "seat": 1,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        345,
+        378,
+        333,
+        377,
+        384
+      ],
+      "baselineCash": [
+        391,
+        282,
+        362,
+        364,
+        403
+      ],
+      "steps": 378
+    },
+    {
+      "count": 5,
+      "seed": 41006,
+      "seat": 2,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        481,
+        497,
+        481,
+        400,
+        270
+      ],
+      "baselineCash": [
+        391,
+        282,
+        362,
+        364,
+        403
+      ],
+      "steps": 387
+    },
+    {
+      "count": 5,
+      "seed": 41006,
+      "seat": 3,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        361,
+        277,
+        290,
+        591,
+        538
+      ],
+      "baselineCash": [
+        391,
+        282,
+        362,
+        364,
+        403
+      ],
+      "steps": 385
+    },
+    {
+      "count": 5,
+      "seed": 41006,
+      "seat": 4,
+      "win": 1,
+      "baselineWin": 1,
+      "cash": [
+        299,
+        314,
+        276,
+        321,
+        424
+      ],
+      "baselineCash": [
+        391,
+        282,
+        362,
+        364,
+        403
+      ],
+      "steps": 287
+    },
+    {
+      "count": 5,
+      "seed": 41007,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        303,
+        275,
+        332,
+        317,
+        365
+      ],
+      "baselineCash": [
+        359,
+        318,
+        275,
+        281,
+        426
+      ],
+      "steps": 265
+    },
+    {
+      "count": 5,
+      "seed": 41007,
+      "seat": 1,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        375,
+        333,
+        285,
+        281,
+        402
+      ],
+      "baselineCash": [
+        359,
+        318,
+        275,
+        281,
+        426
+      ],
+      "steps": 232
+    },
+    {
+      "count": 5,
+      "seed": 41007,
+      "seat": 2,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        357,
+        296,
+        350,
+        316,
+        263
+      ],
+      "baselineCash": [
+        359,
+        318,
+        275,
+        281,
+        426
+      ],
+      "steps": 234
+    },
+    {
+      "count": 5,
+      "seed": 41007,
+      "seat": 3,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        362,
+        303,
+        317,
+        346,
+        485
+      ],
+      "baselineCash": [
+        359,
+        318,
+        275,
+        281,
+        426
+      ],
+      "steps": 266
+    },
+    {
+      "count": 5,
+      "seed": 41007,
+      "seat": 4,
+      "win": 0,
+      "baselineWin": 1,
+      "cash": [
+        341,
+        398,
+        306,
+        442,
+        223
+      ],
+      "baselineCash": [
+        359,
+        318,
+        275,
+        281,
+        426
+      ],
+      "steps": 392
+    },
+    {
+      "count": 5,
+      "seed": 41008,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        368,
+        360,
+        416,
+        326,
+        473
+      ],
+      "baselineCash": [
+        276,
+        306,
+        405,
+        251,
+        445
+      ],
+      "steps": 266
+    },
+    {
+      "count": 5,
+      "seed": 41008,
+      "seat": 1,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        354,
+        386,
+        355,
+        305,
+        462
+      ],
+      "baselineCash": [
+        276,
+        306,
+        405,
+        251,
+        445
+      ],
+      "steps": 374
+    },
+    {
+      "count": 5,
+      "seed": 41008,
+      "seat": 2,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        342,
+        408,
+        447,
+        338,
+        410
+      ],
+      "baselineCash": [
+        276,
+        306,
+        405,
+        251,
+        445
+      ],
+      "steps": 390
+    },
+    {
+      "count": 5,
+      "seed": 41008,
+      "seat": 3,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        344,
+        364,
+        323,
+        366,
+        414
+      ],
+      "baselineCash": [
+        276,
+        306,
+        405,
+        251,
+        445
+      ],
+      "steps": 268
+    },
+    {
+      "count": 5,
+      "seed": 41008,
+      "seat": 4,
+      "win": 1,
+      "baselineWin": 1,
+      "cash": [
+        324,
+        475,
+        344,
+        252,
+        589
+      ],
+      "baselineCash": [
+        276,
+        306,
+        405,
+        251,
+        445
+      ],
+      "steps": 531
+    },
+    {
+      "count": 5,
+      "seed": 41009,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        333,
+        283,
+        298,
+        356,
+        321
+      ],
+      "baselineCash": [
+        332,
+        303,
+        320,
+        297,
+        361
+      ],
+      "steps": 320
+    },
+    {
+      "count": 5,
+      "seed": 41009,
+      "seat": 1,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        445,
+        297,
+        262,
+        261,
+        392
+      ],
+      "baselineCash": [
+        332,
+        303,
+        320,
+        297,
+        361
+      ],
+      "steps": 296
+    },
+    {
+      "count": 5,
+      "seed": 41009,
+      "seat": 2,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        343,
+        352,
+        421,
+        334,
+        378
+      ],
+      "baselineCash": [
+        332,
+        303,
+        320,
+        297,
+        361
+      ],
+      "steps": 326
+    },
+    {
+      "count": 5,
+      "seed": 41009,
+      "seat": 3,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        394,
+        329,
+        321,
+        428,
+        388
+      ],
+      "baselineCash": [
+        332,
+        303,
+        320,
+        297,
+        361
+      ],
+      "steps": 407
+    },
+    {
+      "count": 5,
+      "seed": 41009,
+      "seat": 4,
+      "win": 1,
+      "baselineWin": 1,
+      "cash": [
+        320,
+        291,
+        219,
+        324,
+        471
+      ],
+      "baselineCash": [
+        332,
+        303,
+        320,
+        297,
+        361
+      ],
+      "steps": 309
+    },
+    {
+      "count": 5,
+      "seed": 41010,
+      "seat": 0,
+      "win": 1,
+      "baselineWin": 1,
+      "cash": [
+        482,
+        396,
+        274,
+        360,
+        291
+      ],
+      "baselineCash": [
+        482,
+        322,
+        304,
+        349,
+        345
+      ],
+      "steps": 377
+    },
+    {
+      "count": 5,
+      "seed": 41010,
+      "seat": 1,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        464,
+        340,
+        327,
+        361,
+        330
+      ],
+      "baselineCash": [
+        482,
+        322,
+        304,
+        349,
+        345
+      ],
+      "steps": 364
+    },
+    {
+      "count": 5,
+      "seed": 41010,
+      "seat": 2,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        288,
+        446,
+        407,
+        384,
+        279
+      ],
+      "baselineCash": [
+        482,
+        322,
+        304,
+        349,
+        345
+      ],
+      "steps": 374
+    },
+    {
+      "count": 5,
+      "seed": 41010,
+      "seat": 3,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        340,
+        274,
+        328,
+        366,
+        340
+      ],
+      "baselineCash": [
+        482,
+        322,
+        304,
+        349,
+        345
+      ],
+      "steps": 272
+    },
+    {
+      "count": 5,
+      "seed": 41010,
+      "seat": 4,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        503,
+        304,
+        287,
+        346,
+        347
+      ],
+      "baselineCash": [
+        482,
+        322,
+        304,
+        349,
+        345
+      ],
+      "steps": 298
+    },
+    {
+      "count": 5,
+      "seed": 41011,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 1,
+      "cash": [
+        424,
+        290,
+        302,
+        357,
+        472
+      ],
+      "baselineCash": [
+        466,
+        225,
+        330,
+        350,
+        402
+      ],
+      "steps": 388
+    },
+    {
+      "count": 5,
+      "seed": 41011,
+      "seat": 1,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        279,
+        357,
+        356,
+        391,
+        373
+      ],
+      "baselineCash": [
+        466,
+        225,
+        330,
+        350,
+        402
+      ],
+      "steps": 303
+    },
+    {
+      "count": 5,
+      "seed": 41011,
+      "seat": 2,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        409,
+        387,
+        365,
+        237,
+        405
+      ],
+      "baselineCash": [
+        466,
+        225,
+        330,
+        350,
+        402
+      ],
+      "steps": 407
+    },
+    {
+      "count": 5,
+      "seed": 41011,
+      "seat": 3,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        359,
+        354,
+        441,
+        306,
+        367
+      ],
+      "baselineCash": [
+        466,
+        225,
+        330,
+        350,
+        402
+      ],
+      "steps": 412
+    },
+    {
+      "count": 5,
+      "seed": 41011,
+      "seat": 4,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        316,
+        469,
+        361,
+        410,
+        523
+      ],
+      "baselineCash": [
+        466,
+        225,
+        330,
+        350,
+        402
+      ],
+      "steps": 401
+    },
+    {
+      "count": 5,
+      "seed": 41012,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        412,
+        335,
+        440,
+        346,
+        403
+      ],
+      "baselineCash": [
+        225,
+        239,
+        322,
+        303,
+        458
+      ],
+      "steps": 401
+    },
+    {
+      "count": 5,
+      "seed": 41012,
+      "seat": 1,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        225,
+        217,
+        324,
+        354,
+        417
+      ],
+      "baselineCash": [
+        225,
+        239,
+        322,
+        303,
+        458
+      ],
+      "steps": 240
+    },
+    {
+      "count": 5,
+      "seed": 41012,
+      "seat": 2,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        159,
+        348,
+        380,
+        284,
+        357
+      ],
+      "baselineCash": [
+        225,
+        239,
+        322,
+        303,
+        458
+      ],
+      "steps": 251
+    },
+    {
+      "count": 5,
+      "seed": 41012,
+      "seat": 3,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        313,
+        268,
+        506,
+        490,
+        409
+      ],
+      "baselineCash": [
+        225,
+        239,
+        322,
+        303,
+        458
+      ],
+      "steps": 387
+    },
+    {
+      "count": 5,
+      "seed": 41012,
+      "seat": 4,
+      "win": 1,
+      "baselineWin": 1,
+      "cash": [
+        311,
+        250,
+        250,
+        344,
+        433
+      ],
+      "baselineCash": [
+        225,
+        239,
+        322,
+        303,
+        458
+      ],
+      "steps": 246
+    },
+    {
+      "count": 5,
+      "seed": 41013,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        323,
+        409,
+        466,
+        347,
+        360
+      ],
+      "baselineCash": [
+        365,
+        402,
+        300,
+        353,
+        369
+      ],
+      "steps": 345
+    },
+    {
+      "count": 5,
+      "seed": 41013,
+      "seat": 1,
+      "win": 0,
+      "baselineWin": 1,
+      "cash": [
+        206,
+        313,
+        361,
+        273,
+        373
+      ],
+      "baselineCash": [
+        365,
+        402,
+        300,
+        353,
+        369
+      ],
+      "steps": 301
+    },
+    {
+      "count": 5,
+      "seed": 41013,
+      "seat": 2,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        325,
+        397,
+        472,
+        301,
+        360
+      ],
+      "baselineCash": [
+        365,
+        402,
+        300,
+        353,
+        369
+      ],
+      "steps": 324
+    },
+    {
+      "count": 5,
+      "seed": 41013,
+      "seat": 3,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        319,
+        390,
+        558,
+        405,
+        393
+      ],
+      "baselineCash": [
+        365,
+        402,
+        300,
+        353,
+        369
+      ],
+      "steps": 331
+    },
+    {
+      "count": 5,
+      "seed": 41013,
+      "seat": 4,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        451,
+        384,
+        425,
+        328,
+        404
+      ],
+      "baselineCash": [
+        365,
+        402,
+        300,
+        353,
+        369
+      ],
+      "steps": 347
+    },
+    {
+      "count": 5,
+      "seed": 41014,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        320,
+        312,
+        418,
+        432,
+        380
+      ],
+      "baselineCash": [
+        325,
+        279,
+        423,
+        426,
+        411
+      ],
+      "steps": 312
+    },
+    {
+      "count": 5,
+      "seed": 41014,
+      "seat": 1,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        338,
+        402,
+        386,
+        402,
+        426
+      ],
+      "baselineCash": [
+        325,
+        279,
+        423,
+        426,
+        411
+      ],
+      "steps": 323
+    },
+    {
+      "count": 5,
+      "seed": 41014,
+      "seat": 2,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        278,
+        340,
+        220,
+        339,
+        390
+      ],
+      "baselineCash": [
+        325,
+        279,
+        423,
+        426,
+        411
+      ],
+      "steps": 252
+    },
+    {
+      "count": 5,
+      "seed": 41014,
+      "seat": 3,
+      "win": 0,
+      "baselineWin": 1,
+      "cash": [
+        287,
+        290,
+        211,
+        406,
+        446
+      ],
+      "baselineCash": [
+        325,
+        279,
+        423,
+        426,
+        411
+      ],
+      "steps": 311
+    },
+    {
+      "count": 5,
+      "seed": 41014,
+      "seat": 4,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        351,
+        269,
+        331,
+        560,
+        609
+      ],
+      "baselineCash": [
+        325,
+        279,
+        423,
+        426,
+        411
+      ],
+      "steps": 345
+    },
+    {
+      "count": 5,
+      "seed": 41015,
+      "seat": 0,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        368,
+        371,
+        313,
+        312,
+        472
+      ],
+      "baselineCash": [
+        343,
+        557,
+        328,
+        268,
+        513
+      ],
+      "steps": 318
+    },
+    {
+      "count": 5,
+      "seed": 41015,
+      "seat": 1,
+      "win": 1,
+      "baselineWin": 1,
+      "cash": [
+        367,
+        516,
+        353,
+        269,
+        511
+      ],
+      "baselineCash": [
+        343,
+        557,
+        328,
+        268,
+        513
+      ],
+      "steps": 308
+    },
+    {
+      "count": 5,
+      "seed": 41015,
+      "seat": 2,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        320,
+        426,
+        562,
+        358,
+        442
+      ],
+      "baselineCash": [
+        343,
+        557,
+        328,
+        268,
+        513
+      ],
+      "steps": 374
+    },
+    {
+      "count": 5,
+      "seed": 41015,
+      "seat": 3,
+      "win": 0,
+      "baselineWin": 0,
+      "cash": [
+        325,
+        362,
+        354,
+        392,
+        467
+      ],
+      "baselineCash": [
+        343,
+        557,
+        328,
+        268,
+        513
+      ],
+      "steps": 347
+    },
+    {
+      "count": 5,
+      "seed": 41015,
+      "seat": 4,
+      "win": 1,
+      "baselineWin": 0,
+      "cash": [
+        359,
+        371,
+        349,
+        280,
+        517
+      ],
+      "baselineCash": [
+        343,
+        557,
+        328,
+        268,
+        513
+      ],
+      "steps": 301
+    }
+  ]
+}

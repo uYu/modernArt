@@ -1,0 +1,111 @@
+{
+  "method": "built-in image_gen.imagegen",
+  "description": "Original AI-generated oil paintings for five fictional artists.",
+  "paintings": [
+    {
+      "artist": 0,
+      "variant": 0,
+      "file": "artist-0-0.jpg",
+      "source": "/Users/franzyu/.codex/generated_images/01a0aea6-050a-76d1-91c8-14f9f88b307c/exec-2f02de70-709c-4edb-b4f0-3e4cb80ad85b.png",
+      "prompt": "Use case: stylized-concept. Asset: a single original fine-art painting for a Modern Art auction game card, portrait 4:5. A tangible oil painting on linen canvas: a terracotta jug, two pears and a cream bowl on a table by a window, sophisticated modernist still life with angular planes yet clearly painted by hand, burnt sienna, ochre and charcoal palette. Thick impasto brushwork, visible bristle traces, layered pigment, rich nuanced tones, museum-quality artwork photographed straight-on with even lighting. Entire image is the painting, full bleed, no frame, no room, no lettering, no signature, no border, no graphic vector shapes. This belongs to fictional painter Lin Xu."
+    },
+    {
+      "artist": 0,
+      "variant": 1,
+      "file": "artist-0-1.jpg",
+      "source": "/Users/franzyu/.codex/generated_images/01a0aea6-050a-76d1-91c8-14f9f88b307c/exec-824dc2d8-3922-4fa0-b44f-c92e9400dbe3.png",
+      "prompt": "Use case: stylized-concept. Asset: single original fine-art painting for an auction game card, portrait 4:5. a red clay vase holding sparse dried flowers beside a folded blue cloth. Style: fictional painter Lin Xu, tactile modernist oil still life, angular but hand-painted, terracotta, ochre, cream and charcoal. A real hand-painted artwork, museum-quality photograph of paint on canvas, visible impasto and brush traces, subtle pigment variations, sophisticated composition. Straight-on full-bleed canvas image, even light. No frame, no room outside the painting, no lettering, no signature, no watermark, no vector graphics."
+    },
+    {
+      "artist": 0,
+      "variant": 2,
+      "file": "artist-0-2.jpg",
+      "source": "/Users/franzyu/.codex/generated_images/01a0aea6-050a-76d1-91c8-14f9f88b307c/exec-92192af6-f09f-4e51-a08c-1adcd7ea5a25.png",
+      "prompt": "Use case: stylized-concept. Asset: single original fine-art painting for an auction game card, portrait 4:5. a violin, a pear and a glass bottle arranged on a wooden table. Style: fictional painter Lin Xu, tactile modernist oil still life, angular but hand-painted, terracotta, ochre, cream and charcoal. A real hand-painted artwork, museum-quality photograph of paint on canvas, visible impasto and brush traces, subtle pigment variations, sophisticated composition. Straight-on full-bleed canvas image, even light. No frame, no room outside the painting, no lettering, no signature, no watermark, no vector graphics."
+    },
+    {
+      "artist": 1,
+      "variant": 0,
+      "file": "artist-1-0.jpg",
+      "source": "/Users/franzyu/.codex/generated_images/01a0aea6-050a-76d1-91c8-14f9f88b307c/exec-372393ed-aa0d-4f10-a452-1ec8654e93e5.png",
+      "prompt": "Use case: stylized-concept. Asset: single original fine-art painting for an auction game card, portrait 4:5. a small sailboat under luminous clouds in a quiet harbor at dawn. Style: fictional painter Lan Xi, atmospheric seascape oil paintings, loose bristle strokes, layered glazes, ultramarine, seafoam and pearl grey. A real hand-painted artwork, museum-quality photograph of paint on canvas, visible impasto and brush traces, subtle pigment variations, sophisticated composition. Straight-on full-bleed canvas image, even light. No frame, no room outside the painting, no lettering, no signature, no watermark, no vector graphics."
+    },
+    {
+      "artist": 1,
+      "variant": 1,
+      "file": "artist-1-1.jpg",
+      "source": "/Users/franzyu/.codex/generated_images/01a0aea6-050a-76d1-91c8-14f9f88b307c/exec-615b4530-4c2e-44c4-afed-e4076c869520.png",
+      "prompt": "Use case: stylized-concept. Asset: single original fine-art painting for an auction game card, portrait 4:5. foamy waves breaking against dark coastal rocks under a pale sky. Style: fictional painter Lan Xi, atmospheric seascape oil paintings, loose bristle strokes, layered glazes, ultramarine, seafoam and pearl grey. A real hand-painted artwork, museum-quality photograph of paint on canvas, visible impasto and brush traces, subtle pigment variations, sophisticated composition. Straight-on full-bleed canvas image, even light. No frame, no room outside the painting, no lettering, no signature, no watermark, no vector graphics."
+    },
+    {
+      "artist": 1,
+      "variant": 2,
+      "file": "artist-1-2.jpg",
+      "source": "/Users/franzyu/.codex/generated_images/01a0aea6-050a-76d1-91c8-14f9f88b307c/exec-b0a3d4f7-cb2e-4746-b0b4-d249593aef14.png",
+      "prompt": "Use case: stylized-concept. Asset: single original fine-art painting for an auction game card, portrait 4:5. a coastal headland with distant lighthouse at blue hour. Style: fictional painter Lan Xi, atmospheric seascape oil paintings, loose bristle strokes, layered glazes, ultramarine, seafoam and pearl grey. A real hand-painted artwork, museum-quality photograph of paint on canvas, visible impasto and brush traces, subtle pigment variations, sophisticated composition. Straight-on full-bleed canvas image, even light. No frame, no room outside the painting, no lettering, no signature, no watermark, no vector graphics."
+    },
+    {
+      "artist": 2,
+      "variant": 0,
+      "file": "artist-2-0.jpg",
+      "source": "/Users/franzyu/.codex/generated_images/01a0aea6-050a-76d1-91c8-14f9f88b307c/exec-c931f772-b9a3-4de1-9cae-82cc323dc521.png",
+      "prompt": "Use case: stylized-concept. Asset: single original fine-art painting for an auction game card, portrait 4:5. a sunlit olive grove with a winding ochre path. Style: fictional painter Mo Ye, expressive plein-air oil landscapes, thick organic palette-knife marks, moss green, deep forest and warm earth. A real hand-painted artwork, museum-quality photograph of paint on canvas, visible impasto and brush traces, subtle pigment variations, sophisticated composition. Straight-on full-bleed canvas image, even light. No frame, no room outside the painting, no lettering, no signature, no watermark, no vector graphics."
+    },
+    {
+      "artist": 2,
+      "variant": 1,
+      "file": "artist-2-1.jpg",
+      "source": "/Users/franzyu/.codex/generated_images/01a0aea6-050a-76d1-91c8-14f9f88b307c/exec-d1fc2c3a-4cca-41be-b729-93c6787517fa.png",
+      "prompt": "Use case: stylized-concept. Asset: single original fine-art painting for an auction game card, portrait 4:5. a lush riverside with willows reflected in still water. Style: fictional painter Mo Ye, expressive plein-air oil landscapes, thick organic palette-knife marks, moss green, deep forest and warm earth. A real hand-painted artwork, museum-quality photograph of paint on canvas, visible impasto and brush traces, subtle pigment variations, sophisticated composition. Straight-on full-bleed canvas image, even light. No frame, no room outside the painting, no lettering, no signature, no watermark, no vector graphics."
+    },
+    {
+      "artist": 2,
+      "variant": 2,
+      "file": "artist-2-2.jpg",
+      "source": "/Users/franzyu/.codex/generated_images/01a0aea6-050a-76d1-91c8-14f9f88b307c/exec-ed3b701a-a4c8-4e82-8e1e-b4ad90fb5b8b.png",
+      "prompt": "Use case: stylized-concept. Asset: single original fine-art painting for an auction game card, portrait 4:5. a small cottage in rolling green hills after rain. Style: fictional painter Mo Ye, expressive plein-air oil landscapes, thick organic palette-knife marks, moss green, deep forest and warm earth. A real hand-painted artwork, museum-quality photograph of paint on canvas, visible impasto and brush traces, subtle pigment variations, sophisticated composition. Straight-on full-bleed canvas image, even light. No frame, no room outside the painting, no lettering, no signature, no watermark, no vector graphics."
+    },
+    {
+      "artist": 3,
+      "variant": 0,
+      "file": "artist-3-0.jpg",
+      "source": "/Users/franzyu/.codex/generated_images/01a0aea6-050a-76d1-91c8-14f9f88b307c/exec-ed95cf34-3969-42f2-9ed6-3286edcde646.png",
+      "prompt": "Use case: stylized-concept. Asset: single original fine-art painting for an auction game card, portrait 4:5. a quiet sunlit cafe interior with empty wooden chairs. Style: fictional painter Ye Zhi, intimate impressionistic oil painting, nuanced linen texture and lively short brushstrokes, honey gold, cream and umber. A real hand-painted artwork, museum-quality photograph of paint on canvas, visible impasto and brush traces, subtle pigment variations, sophisticated composition. Straight-on full-bleed canvas image, even light. No frame, no room outside the painting, no lettering, no signature, no watermark, no vector graphics."
+    },
+    {
+      "artist": 3,
+      "variant": 1,
+      "file": "artist-3-1.jpg",
+      "source": "/Users/franzyu/.codex/generated_images/01a0aea6-050a-76d1-91c8-14f9f88b307c/exec-61e1f68c-e912-40ac-8a97-4eda5be4f7e2.png",
+      "prompt": "Use case: stylized-concept. Asset: single original fine-art painting for an auction game card, portrait 4:5. a rainy old city street with warm reflections and small distant figures. Style: fictional painter Ye Zhi, intimate impressionistic oil painting, nuanced linen texture and lively short brushstrokes, honey gold, cream and umber. A real hand-painted artwork, museum-quality photograph of paint on canvas, visible impasto and brush traces, subtle pigment variations, sophisticated composition. Straight-on full-bleed canvas image, even light. No frame, no room outside the painting, no lettering, no signature, no watermark, no vector graphics."
+    },
+    {
+      "artist": 3,
+      "variant": 2,
+      "file": "artist-3-2.jpg",
+      "source": "/Users/franzyu/.codex/generated_images/01a0aea6-050a-76d1-91c8-14f9f88b307c/exec-38fd69f3-2977-4a32-96aa-8741eb746d8d.png",
+      "prompt": "Use case: stylized-concept. Asset: single original fine-art painting for an auction game card, portrait 4:5. a bouquet of sunflowers in a worn ceramic vase on a table. Style: fictional painter Ye Zhi, intimate impressionistic oil painting, nuanced linen texture and lively short brushstrokes, honey gold, cream and umber. A real hand-painted artwork, museum-quality photograph of paint on canvas, visible impasto and brush traces, subtle pigment variations, sophisticated composition. Straight-on full-bleed canvas image, even light. No frame, no room outside the painting, no lettering, no signature, no watermark, no vector graphics."
+    },
+    {
+      "artist": 4,
+      "variant": 0,
+      "file": "artist-4-0.jpg",
+      "source": "/Users/franzyu/.codex/generated_images/01a0aea6-050a-76d1-91c8-14f9f88b307c/exec-ccd7acf3-8c18-42f8-a6ca-1a41019c7854.png",
+      "prompt": "Use case: stylized-concept. Asset: single original fine-art painting for an auction game card, portrait 4:5. a pale moon above a quiet pink house and a dark cypress tree. Style: fictional painter Ji Kong, dreamlike figurative oil painting, soft layered brushwork and delicate scumbling, plum, dusty rose and midnight blue. A real hand-painted artwork, museum-quality photograph of paint on canvas, visible impasto and brush traces, subtle pigment variations, sophisticated composition. Straight-on full-bleed canvas image, even light. No frame, no room outside the painting, no lettering, no signature, no watermark, no vector graphics."
+    },
+    {
+      "artist": 4,
+      "variant": 1,
+      "file": "artist-4-1.jpg",
+      "source": "/Users/franzyu/.codex/generated_images/01a0aea6-050a-76d1-91c8-14f9f88b307c/exec-2e73c940-bef2-41d1-8941-ef61306f03ab.png",
+      "prompt": "Use case: stylized-concept. Asset: single original fine-art painting for an auction game card, portrait 4:5. a white horse beside a still pool in a lavender dusk landscape. Style: fictional painter Ji Kong, dreamlike figurative oil painting, soft layered brushwork and delicate scumbling, plum, dusty rose and midnight blue. A real hand-painted artwork, museum-quality photograph of paint on canvas, visible impasto and brush traces, subtle pigment variations, sophisticated composition. Straight-on full-bleed canvas image, even light. No frame, no room outside the painting, no lettering, no signature, no watermark, no vector graphics."
+    },
+    {
+      "artist": 4,
+      "variant": 2,
+      "file": "artist-4-2.jpg",
+      "source": "/Users/franzyu/.codex/generated_images/01a0aea6-050a-76d1-91c8-14f9f88b307c/exec-6125ed64-e7f1-48d8-81c7-c90a857c6028.png",
+      "prompt": "Use case: stylized-concept. Asset: single original fine-art painting for an auction game card, portrait 4:5. a solitary woman in a blue dress looking through a balcony window at evening. Style: fictional painter Ji Kong, dreamlike figurative oil painting, soft layered brushwork and delicate scumbling, plum, dusty rose and midnight blue. A real hand-painted artwork, museum-quality photograph of paint on canvas, visible impasto and brush traces, subtle pigment variations, sophisticated composition. Straight-on full-bleed canvas image, even light. No frame, no room outside the painting, no lettering, no signature, no watermark, no vector graphics."
+    }
+  ]
+}

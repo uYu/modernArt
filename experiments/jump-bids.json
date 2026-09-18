@@ -1,0 +1,4099 @@
+{
+  "summary": {
+    "auctions": 240,
+    "games": 30,
+    "before": {
+      "steps": 44.72083333333333,
+      "raises": 35.21666666666667,
+      "price": 35.21666666666667
+    },
+    "after": {
+      "steps": 15.1,
+      "raises": 9.004166666666666,
+      "price": 35.6125
+    },
+    "changedBuyer": 11
+  },
+  "rows": [
+    {
+      "count": 3,
+      "seed": 9100,
+      "round": 2,
+      "before": {
+        "steps": 36,
+        "raises": 33,
+        "price": 33,
+        "buyer": 0
+      },
+      "after": {
+        "steps": 9,
+        "raises": 6,
+        "price": 35,
+        "buyer": 0
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9100,
+      "round": 2,
+      "before": {
+        "steps": 22,
+        "raises": 19,
+        "price": 19,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 7,
+        "raises": 5,
+        "price": 19,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9100,
+      "round": 3,
+      "before": {
+        "steps": 67,
+        "raises": 53,
+        "price": 53,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 16,
+        "raises": 11,
+        "price": 53,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9100,
+      "round": 3,
+      "before": {
+        "steps": 46,
+        "raises": 39,
+        "price": 39,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 13,
+        "raises": 9,
+        "price": 39,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9100,
+      "round": 3,
+      "before": {
+        "steps": 16,
+        "raises": 13,
+        "price": 13,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 7,
+        "raises": 5,
+        "price": 13,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9100,
+      "round": 4,
+      "before": {
+        "steps": 64,
+        "raises": 56,
+        "price": 56,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 16,
+        "raises": 12,
+        "price": 56,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9100,
+      "round": 4,
+      "before": {
+        "steps": 37,
+        "raises": 30,
+        "price": 30,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 13,
+        "raises": 9,
+        "price": 29,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9101,
+      "round": 1,
+      "before": {
+        "steps": 18,
+        "raises": 16,
+        "price": 16,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 9,
+        "raises": 6,
+        "price": 17,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9101,
+      "round": 2,
+      "before": {
+        "steps": 55,
+        "raises": 47,
+        "price": 47,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 10,
+        "raises": 7,
+        "price": 50,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9101,
+      "round": 2,
+      "before": {
+        "steps": 31,
+        "raises": 28,
+        "price": 28,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 7,
+        "raises": 5,
+        "price": 28,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9101,
+      "round": 2,
+      "before": {
+        "steps": 28,
+        "raises": 18,
+        "price": 18,
+        "buyer": 0
+      },
+      "after": {
+        "steps": 10,
+        "raises": 6,
+        "price": 21,
+        "buyer": 0
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9101,
+      "round": 2,
+      "before": {
+        "steps": 18,
+        "raises": 14,
+        "price": 14,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 12,
+        "raises": 8,
+        "price": 15,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9101,
+      "round": 3,
+      "before": {
+        "steps": 135,
+        "raises": 111,
+        "price": 111,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 18,
+        "raises": 13,
+        "price": 111,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9101,
+      "round": 4,
+      "before": {
+        "steps": 31,
+        "raises": 27,
+        "price": 27,
+        "buyer": 0
+      },
+      "after": {
+        "steps": 13,
+        "raises": 9,
+        "price": 27,
+        "buyer": 0
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9101,
+      "round": 4,
+      "before": {
+        "steps": 70,
+        "raises": 59,
+        "price": 59,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 16,
+        "raises": 11,
+        "price": 61,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9101,
+      "round": 4,
+      "before": {
+        "steps": 37,
+        "raises": 32,
+        "price": 32,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 13,
+        "raises": 9,
+        "price": 32,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9102,
+      "round": 1,
+      "before": {
+        "steps": 39,
+        "raises": 31,
+        "price": 31,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 9,
+        "raises": 6,
+        "price": 33,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9102,
+      "round": 1,
+      "before": {
+        "steps": 15,
+        "raises": 12,
+        "price": 12,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 9,
+        "raises": 6,
+        "price": 12,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9102,
+      "round": 2,
+      "before": {
+        "steps": 48,
+        "raises": 39,
+        "price": 39,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 15,
+        "raises": 10,
+        "price": 40,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9102,
+      "round": 2,
+      "before": {
+        "steps": 48,
+        "raises": 41,
+        "price": 41,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 12,
+        "raises": 8,
+        "price": 40,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9102,
+      "round": 2,
+      "before": {
+        "steps": 52,
+        "raises": 44,
+        "price": 44,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 13,
+        "raises": 9,
+        "price": 43,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9102,
+      "round": 2,
+      "before": {
+        "steps": 58,
+        "raises": 48,
+        "price": 48,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 16,
+        "raises": 11,
+        "price": 49,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9102,
+      "round": 2,
+      "before": {
+        "steps": 19,
+        "raises": 14,
+        "price": 14,
+        "buyer": 0
+      },
+      "after": {
+        "steps": 10,
+        "raises": 6,
+        "price": 15,
+        "buyer": 0
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9102,
+      "round": 3,
+      "before": {
+        "steps": 36,
+        "raises": 33,
+        "price": 33,
+        "buyer": 0
+      },
+      "after": {
+        "steps": 9,
+        "raises": 7,
+        "price": 35,
+        "buyer": 0
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9102,
+      "round": 4,
+      "before": {
+        "steps": 39,
+        "raises": 31,
+        "price": 31,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 15,
+        "raises": 10,
+        "price": 31,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9103,
+      "round": 1,
+      "before": {
+        "steps": 27,
+        "raises": 22,
+        "price": 22,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 12,
+        "raises": 8,
+        "price": 22,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9103,
+      "round": 2,
+      "before": {
+        "steps": 43,
+        "raises": 34,
+        "price": 34,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 13,
+        "raises": 9,
+        "price": 35,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9103,
+      "round": 2,
+      "before": {
+        "steps": 43,
+        "raises": 37,
+        "price": 37,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 13,
+        "raises": 9,
+        "price": 37,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9103,
+      "round": 3,
+      "before": {
+        "steps": 64,
+        "raises": 57,
+        "price": 57,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 16,
+        "raises": 11,
+        "price": 58,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9103,
+      "round": 4,
+      "before": {
+        "steps": 33,
+        "raises": 30,
+        "price": 30,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 9,
+        "raises": 6,
+        "price": 32,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9103,
+      "round": 4,
+      "before": {
+        "steps": 40,
+        "raises": 36,
+        "price": 36,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 10,
+        "raises": 8,
+        "price": 36,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9103,
+      "round": 4,
+      "before": {
+        "steps": 40,
+        "raises": 32,
+        "price": 32,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 13,
+        "raises": 9,
+        "price": 32,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9103,
+      "round": 4,
+      "before": {
+        "steps": 42,
+        "raises": 37,
+        "price": 37,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 12,
+        "raises": 8,
+        "price": 36,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9104,
+      "round": 1,
+      "before": {
+        "steps": 19,
+        "raises": 16,
+        "price": 16,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 10,
+        "raises": 7,
+        "price": 17,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9104,
+      "round": 2,
+      "before": {
+        "steps": 9,
+        "raises": 7,
+        "price": 7,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 6,
+        "raises": 4,
+        "price": 7,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9104,
+      "round": 3,
+      "before": {
+        "steps": 51,
+        "raises": 38,
+        "price": 38,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 12,
+        "raises": 7,
+        "price": 37,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9104,
+      "round": 4,
+      "before": {
+        "steps": 30,
+        "raises": 24,
+        "price": 24,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 12,
+        "raises": 8,
+        "price": 25,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9104,
+      "round": 4,
+      "before": {
+        "steps": 46,
+        "raises": 40,
+        "price": 40,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 16,
+        "raises": 11,
+        "price": 41,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9104,
+      "round": 4,
+      "before": {
+        "steps": 10,
+        "raises": 8,
+        "price": 8,
+        "buyer": 0
+      },
+      "after": {
+        "steps": 7,
+        "raises": 5,
+        "price": 8,
+        "buyer": 0
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9105,
+      "round": 1,
+      "before": {
+        "steps": 12,
+        "raises": 9,
+        "price": 9,
+        "buyer": 0
+      },
+      "after": {
+        "steps": 9,
+        "raises": 6,
+        "price": 10,
+        "buyer": 0
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9105,
+      "round": 2,
+      "before": {
+        "steps": 55,
+        "raises": 46,
+        "price": 46,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 13,
+        "raises": 9,
+        "price": 45,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9105,
+      "round": 3,
+      "before": {
+        "steps": 37,
+        "raises": 31,
+        "price": 31,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 15,
+        "raises": 10,
+        "price": 31,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9105,
+      "round": 3,
+      "before": {
+        "steps": 70,
+        "raises": 61,
+        "price": 61,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 16,
+        "raises": 11,
+        "price": 61,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9105,
+      "round": 4,
+      "before": {
+        "steps": 46,
+        "raises": 40,
+        "price": 40,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 13,
+        "raises": 9,
+        "price": 39,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9106,
+      "round": 1,
+      "before": {
+        "steps": 14,
+        "raises": 12,
+        "price": 12,
+        "buyer": 0
+      },
+      "after": {
+        "steps": 8,
+        "raises": 6,
+        "price": 13,
+        "buyer": 0
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9106,
+      "round": 1,
+      "before": {
+        "steps": 21,
+        "raises": 18,
+        "price": 18,
+        "buyer": 0
+      },
+      "after": {
+        "steps": 12,
+        "raises": 8,
+        "price": 19,
+        "buyer": 0
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9106,
+      "round": 1,
+      "before": {
+        "steps": 10,
+        "raises": 8,
+        "price": 8,
+        "buyer": 0
+      },
+      "after": {
+        "steps": 7,
+        "raises": 5,
+        "price": 7,
+        "buyer": 0
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9106,
+      "round": 3,
+      "before": {
+        "steps": 111,
+        "raises": 88,
+        "price": 88,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 18,
+        "raises": 12,
+        "price": 90,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9106,
+      "round": 3,
+      "before": {
+        "steps": 64,
+        "raises": 55,
+        "price": 55,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 13,
+        "raises": 9,
+        "price": 54,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9106,
+      "round": 3,
+      "before": {
+        "steps": 48,
+        "raises": 38,
+        "price": 38,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 12,
+        "raises": 8,
+        "price": 37,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9106,
+      "round": 4,
+      "before": {
+        "steps": 54,
+        "raises": 44,
+        "price": 44,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 12,
+        "raises": 8,
+        "price": 44,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9107,
+      "round": 1,
+      "before": {
+        "steps": 49,
+        "raises": 39,
+        "price": 39,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 13,
+        "raises": 9,
+        "price": 38,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9107,
+      "round": 1,
+      "before": {
+        "steps": 24,
+        "raises": 19,
+        "price": 19,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 9,
+        "raises": 6,
+        "price": 19,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9107,
+      "round": 2,
+      "before": {
+        "steps": 37,
+        "raises": 33,
+        "price": 33,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 10,
+        "raises": 7,
+        "price": 33,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9107,
+      "round": 2,
+      "before": {
+        "steps": 33,
+        "raises": 29,
+        "price": 29,
+        "buyer": 0
+      },
+      "after": {
+        "steps": 9,
+        "raises": 6,
+        "price": 30,
+        "buyer": 0
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9107,
+      "round": 3,
+      "before": {
+        "steps": 52,
+        "raises": 43,
+        "price": 43,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 13,
+        "raises": 9,
+        "price": 43,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9108,
+      "round": 1,
+      "before": {
+        "steps": 37,
+        "raises": 31,
+        "price": 31,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 13,
+        "raises": 9,
+        "price": 32,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9108,
+      "round": 1,
+      "before": {
+        "steps": 12,
+        "raises": 10,
+        "price": 10,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 6,
+        "raises": 4,
+        "price": 12,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9108,
+      "round": 1,
+      "before": {
+        "steps": 19,
+        "raises": 15,
+        "price": 15,
+        "buyer": 0
+      },
+      "after": {
+        "steps": 10,
+        "raises": 6,
+        "price": 16,
+        "buyer": 0
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9108,
+      "round": 2,
+      "before": {
+        "steps": 46,
+        "raises": 37,
+        "price": 37,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 10,
+        "raises": 7,
+        "price": 37,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9108,
+      "round": 2,
+      "before": {
+        "steps": 12,
+        "raises": 10,
+        "price": 10,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 6,
+        "raises": 4,
+        "price": 15,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9108,
+      "round": 3,
+      "before": {
+        "steps": 136,
+        "raises": 107,
+        "price": 107,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 22,
+        "raises": 15,
+        "price": 106,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9108,
+      "round": 3,
+      "before": {
+        "steps": 58,
+        "raises": 50,
+        "price": 50,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 13,
+        "raises": 9,
+        "price": 50,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9108,
+      "round": 4,
+      "before": {
+        "steps": 22,
+        "raises": 18,
+        "price": 18,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 10,
+        "raises": 7,
+        "price": 17,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9109,
+      "round": 1,
+      "before": {
+        "steps": 33,
+        "raises": 29,
+        "price": 29,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 9,
+        "raises": 6,
+        "price": 30,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9109,
+      "round": 1,
+      "before": {
+        "steps": 13,
+        "raises": 10,
+        "price": 10,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 7,
+        "raises": 4,
+        "price": 10,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9109,
+      "round": 1,
+      "before": {
+        "steps": 27,
+        "raises": 23,
+        "price": 23,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 12,
+        "raises": 8,
+        "price": 24,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9109,
+      "round": 2,
+      "before": {
+        "steps": 55,
+        "raises": 47,
+        "price": 47,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 16,
+        "raises": 11,
+        "price": 48,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9109,
+      "round": 2,
+      "before": {
+        "steps": 22,
+        "raises": 20,
+        "price": 20,
+        "buyer": 0
+      },
+      "after": {
+        "steps": 7,
+        "raises": 5,
+        "price": 20,
+        "buyer": 0
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9109,
+      "round": 3,
+      "before": {
+        "steps": 96,
+        "raises": 83,
+        "price": 83,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 15,
+        "raises": 11,
+        "price": 84,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9109,
+      "round": 3,
+      "before": {
+        "steps": 106,
+        "raises": 83,
+        "price": 83,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 19,
+        "raises": 13,
+        "price": 85,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9109,
+      "round": 3,
+      "before": {
+        "steps": 43,
+        "raises": 37,
+        "price": 37,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 13,
+        "raises": 9,
+        "price": 37,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 3,
+      "seed": 9109,
+      "round": 4,
+      "before": {
+        "steps": 58,
+        "raises": 47,
+        "price": 47,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 16,
+        "raises": 11,
+        "price": 47,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9100,
+      "round": 2,
+      "before": {
+        "steps": 33,
+        "raises": 29,
+        "price": 29,
+        "buyer": 3
+      },
+      "after": {
+        "steps": 13,
+        "raises": 8,
+        "price": 30,
+        "buyer": 3
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9100,
+      "round": 2,
+      "before": {
+        "steps": 53,
+        "raises": 44,
+        "price": 44,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 17,
+        "raises": 11,
+        "price": 44,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9100,
+      "round": 3,
+      "before": {
+        "steps": 46,
+        "raises": 40,
+        "price": 40,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 10,
+        "raises": 6,
+        "price": 40,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9100,
+      "round": 3,
+      "before": {
+        "steps": 76,
+        "raises": 66,
+        "price": 66,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 16,
+        "raises": 11,
+        "price": 67,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9100,
+      "round": 4,
+      "before": {
+        "steps": 38,
+        "raises": 28,
+        "price": 28,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 18,
+        "raises": 10,
+        "price": 29,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9100,
+      "round": 4,
+      "before": {
+        "steps": 42,
+        "raises": 37,
+        "price": 37,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 14,
+        "raises": 9,
+        "price": 37,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9100,
+      "round": 4,
+      "before": {
+        "steps": 22,
+        "raises": 16,
+        "price": 16,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 14,
+        "raises": 8,
+        "price": 17,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9101,
+      "round": 1,
+      "before": {
+        "steps": 17,
+        "raises": 13,
+        "price": 13,
+        "buyer": 3
+      },
+      "after": {
+        "steps": 13,
+        "raises": 8,
+        "price": 13,
+        "buyer": 3
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9101,
+      "round": 1,
+      "before": {
+        "steps": 38,
+        "raises": 29,
+        "price": 29,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 18,
+        "raises": 11,
+        "price": 30,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9101,
+      "round": 1,
+      "before": {
+        "steps": 37,
+        "raises": 30,
+        "price": 30,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 17,
+        "raises": 10,
+        "price": 31,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9101,
+      "round": 1,
+      "before": {
+        "steps": 13,
+        "raises": 8,
+        "price": 8,
+        "buyer": 0
+      },
+      "after": {
+        "steps": 9,
+        "raises": 5,
+        "price": 8,
+        "buyer": 0
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9101,
+      "round": 2,
+      "before": {
+        "steps": 68,
+        "raises": 51,
+        "price": 51,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 16,
+        "raises": 9,
+        "price": 51,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9101,
+      "round": 4,
+      "before": {
+        "steps": 70,
+        "raises": 60,
+        "price": 60,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 18,
+        "raises": 12,
+        "price": 60,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9101,
+      "round": 4,
+      "before": {
+        "steps": 32,
+        "raises": 23,
+        "price": 23,
+        "buyer": 3
+      },
+      "after": {
+        "steps": 16,
+        "raises": 9,
+        "price": 23,
+        "buyer": 3
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9101,
+      "round": 4,
+      "before": {
+        "steps": 37,
+        "raises": 27,
+        "price": 27,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 17,
+        "raises": 10,
+        "price": 26,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9102,
+      "round": 1,
+      "before": {
+        "steps": 21,
+        "raises": 16,
+        "price": 16,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 13,
+        "raises": 8,
+        "price": 16,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9102,
+      "round": 1,
+      "before": {
+        "steps": 18,
+        "raises": 14,
+        "price": 14,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 14,
+        "raises": 8,
+        "price": 14,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9102,
+      "round": 2,
+      "before": {
+        "steps": 28,
+        "raises": 25,
+        "price": 25,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 8,
+        "raises": 5,
+        "price": 25,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9102,
+      "round": 2,
+      "before": {
+        "steps": 38,
+        "raises": 32,
+        "price": 32,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 14,
+        "raises": 8,
+        "price": 33,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9102,
+      "round": 2,
+      "before": {
+        "steps": 62,
+        "raises": 48,
+        "price": 48,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 22,
+        "raises": 13,
+        "price": 48,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9102,
+      "round": 3,
+      "before": {
+        "steps": 37,
+        "raises": 28,
+        "price": 28,
+        "buyer": 0
+      },
+      "after": {
+        "steps": 17,
+        "raises": 10,
+        "price": 28,
+        "buyer": 0
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9102,
+      "round": 3,
+      "before": {
+        "steps": 74,
+        "raises": 62,
+        "price": 62,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 18,
+        "raises": 12,
+        "price": 63,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9102,
+      "round": 3,
+      "before": {
+        "steps": 49,
+        "raises": 40,
+        "price": 40,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 17,
+        "raises": 11,
+        "price": 40,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9102,
+      "round": 4,
+      "before": {
+        "steps": 41,
+        "raises": 28,
+        "price": 28,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 17,
+        "raises": 9,
+        "price": 27,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9103,
+      "round": 1,
+      "before": {
+        "steps": 40,
+        "raises": 31,
+        "price": 31,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 12,
+        "raises": 7,
+        "price": 31,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9103,
+      "round": 2,
+      "before": {
+        "steps": 30,
+        "raises": 22,
+        "price": 22,
+        "buyer": 0
+      },
+      "after": {
+        "steps": 11,
+        "raises": 7,
+        "price": 23,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9103,
+      "round": 2,
+      "before": {
+        "steps": 41,
+        "raises": 32,
+        "price": 32,
+        "buyer": 0
+      },
+      "after": {
+        "steps": 13,
+        "raises": 8,
+        "price": 31,
+        "buyer": 0
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9103,
+      "round": 2,
+      "before": {
+        "steps": 37,
+        "raises": 28,
+        "price": 28,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 17,
+        "raises": 10,
+        "price": 29,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9103,
+      "round": 2,
+      "before": {
+        "steps": 33,
+        "raises": 26,
+        "price": 26,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 17,
+        "raises": 11,
+        "price": 26,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9103,
+      "round": 2,
+      "before": {
+        "steps": 24,
+        "raises": 19,
+        "price": 19,
+        "buyer": 3
+      },
+      "after": {
+        "steps": 12,
+        "raises": 7,
+        "price": 19,
+        "buyer": 3
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9103,
+      "round": 3,
+      "before": {
+        "steps": 34,
+        "raises": 24,
+        "price": 24,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 10,
+        "raises": 6,
+        "price": 23,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9103,
+      "round": 3,
+      "before": {
+        "steps": 77,
+        "raises": 61,
+        "price": 61,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 21,
+        "raises": 13,
+        "price": 62,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9103,
+      "round": 4,
+      "before": {
+        "steps": 62,
+        "raises": 52,
+        "price": 52,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 18,
+        "raises": 12,
+        "price": 53,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9104,
+      "round": 1,
+      "before": {
+        "steps": 28,
+        "raises": 20,
+        "price": 20,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 12,
+        "raises": 7,
+        "price": 20,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9104,
+      "round": 1,
+      "before": {
+        "steps": 30,
+        "raises": 23,
+        "price": 23,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 14,
+        "raises": 9,
+        "price": 23,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9104,
+      "round": 1,
+      "before": {
+        "steps": 18,
+        "raises": 12,
+        "price": 12,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 14,
+        "raises": 8,
+        "price": 12,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9104,
+      "round": 2,
+      "before": {
+        "steps": 12,
+        "raises": 9,
+        "price": 9,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 8,
+        "raises": 5,
+        "price": 11,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9104,
+      "round": 3,
+      "before": {
+        "steps": 60,
+        "raises": 43,
+        "price": 43,
+        "buyer": 3
+      },
+      "after": {
+        "steps": 16,
+        "raises": 9,
+        "price": 44,
+        "buyer": 3
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9104,
+      "round": 4,
+      "before": {
+        "steps": 57,
+        "raises": 42,
+        "price": 42,
+        "buyer": 3
+      },
+      "after": {
+        "steps": 21,
+        "raises": 11,
+        "price": 42,
+        "buyer": 3
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9104,
+      "round": 4,
+      "before": {
+        "steps": 58,
+        "raises": 45,
+        "price": 45,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 18,
+        "raises": 10,
+        "price": 44,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9104,
+      "round": 4,
+      "before": {
+        "steps": 57,
+        "raises": 48,
+        "price": 48,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 17,
+        "raises": 11,
+        "price": 47,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9104,
+      "round": 4,
+      "before": {
+        "steps": 56,
+        "raises": 46,
+        "price": 46,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 16,
+        "raises": 10,
+        "price": 47,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9105,
+      "round": 1,
+      "before": {
+        "steps": 28,
+        "raises": 22,
+        "price": 22,
+        "buyer": 0
+      },
+      "after": {
+        "steps": 12,
+        "raises": 7,
+        "price": 23,
+        "buyer": 0
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9105,
+      "round": 2,
+      "before": {
+        "steps": 41,
+        "raises": 31,
+        "price": 31,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 13,
+        "raises": 8,
+        "price": 30,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9105,
+      "round": 2,
+      "before": {
+        "steps": 38,
+        "raises": 31,
+        "price": 31,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 14,
+        "raises": 9,
+        "price": 32,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9105,
+      "round": 3,
+      "before": {
+        "steps": 32,
+        "raises": 26,
+        "price": 26,
+        "buyer": 0
+      },
+      "after": {
+        "steps": 12,
+        "raises": 8,
+        "price": 28,
+        "buyer": 0
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9105,
+      "round": 3,
+      "before": {
+        "steps": 37,
+        "raises": 31,
+        "price": 31,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 17,
+        "raises": 10,
+        "price": 32,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9105,
+      "round": 4,
+      "before": {
+        "steps": 35,
+        "raises": 29,
+        "price": 29,
+        "buyer": 3
+      },
+      "after": {
+        "steps": 11,
+        "raises": 6,
+        "price": 34,
+        "buyer": 3
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9105,
+      "round": 4,
+      "before": {
+        "steps": 72,
+        "raises": 54,
+        "price": 54,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 16,
+        "raises": 9,
+        "price": 54,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9105,
+      "round": 4,
+      "before": {
+        "steps": 42,
+        "raises": 30,
+        "price": 30,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 18,
+        "raises": 10,
+        "price": 31,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9105,
+      "round": 4,
+      "before": {
+        "steps": 57,
+        "raises": 52,
+        "price": 52,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 17,
+        "raises": 11,
+        "price": 53,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9105,
+      "round": 4,
+      "before": {
+        "steps": 29,
+        "raises": 26,
+        "price": 26,
+        "buyer": 0
+      },
+      "after": {
+        "steps": 13,
+        "raises": 8,
+        "price": 27,
+        "buyer": 0
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9105,
+      "round": 4,
+      "before": {
+        "steps": 58,
+        "raises": 50,
+        "price": 50,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 18,
+        "raises": 12,
+        "price": 51,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9106,
+      "round": 1,
+      "before": {
+        "steps": 21,
+        "raises": 16,
+        "price": 16,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 13,
+        "raises": 9,
+        "price": 16,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9106,
+      "round": 2,
+      "before": {
+        "steps": 28,
+        "raises": 20,
+        "price": 20,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 8,
+        "raises": 4,
+        "price": 20,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9106,
+      "round": 2,
+      "before": {
+        "steps": 20,
+        "raises": 15,
+        "price": 15,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 8,
+        "raises": 5,
+        "price": 14,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9106,
+      "round": 3,
+      "before": {
+        "steps": 53,
+        "raises": 40,
+        "price": 40,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 21,
+        "raises": 12,
+        "price": 40,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9106,
+      "round": 3,
+      "before": {
+        "steps": 44,
+        "raises": 37,
+        "price": 37,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 12,
+        "raises": 8,
+        "price": 36,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9106,
+      "round": 3,
+      "before": {
+        "steps": 42,
+        "raises": 31,
+        "price": 31,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 10,
+        "raises": 5,
+        "price": 28,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9106,
+      "round": 3,
+      "before": {
+        "steps": 29,
+        "raises": 22,
+        "price": 22,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 9,
+        "raises": 5,
+        "price": 26,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9106,
+      "round": 3,
+      "before": {
+        "steps": 40,
+        "raises": 34,
+        "price": 34,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 8,
+        "raises": 5,
+        "price": 33,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9106,
+      "round": 4,
+      "before": {
+        "steps": 64,
+        "raises": 44,
+        "price": 44,
+        "buyer": 0
+      },
+      "after": {
+        "steps": 20,
+        "raises": 11,
+        "price": 43,
+        "buyer": 0
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9107,
+      "round": 1,
+      "before": {
+        "steps": 18,
+        "raises": 13,
+        "price": 13,
+        "buyer": 3
+      },
+      "after": {
+        "steps": 10,
+        "raises": 7,
+        "price": 13,
+        "buyer": 3
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9107,
+      "round": 1,
+      "before": {
+        "steps": 16,
+        "raises": 11,
+        "price": 11,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 12,
+        "raises": 7,
+        "price": 11,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9107,
+      "round": 1,
+      "before": {
+        "steps": 48,
+        "raises": 38,
+        "price": 38,
+        "buyer": 3
+      },
+      "after": {
+        "steps": 18,
+        "raises": 11,
+        "price": 38,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9107,
+      "round": 1,
+      "before": {
+        "steps": 57,
+        "raises": 47,
+        "price": 47,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 21,
+        "raises": 13,
+        "price": 47,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9107,
+      "round": 2,
+      "before": {
+        "steps": 82,
+        "raises": 68,
+        "price": 68,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 22,
+        "raises": 14,
+        "price": 69,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9107,
+      "round": 2,
+      "before": {
+        "steps": 49,
+        "raises": 40,
+        "price": 40,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 17,
+        "raises": 11,
+        "price": 40,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9107,
+      "round": 3,
+      "before": {
+        "steps": 98,
+        "raises": 82,
+        "price": 82,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 18,
+        "raises": 13,
+        "price": 82,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9107,
+      "round": 4,
+      "before": {
+        "steps": 65,
+        "raises": 46,
+        "price": 46,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 17,
+        "raises": 10,
+        "price": 49,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9108,
+      "round": 1,
+      "before": {
+        "steps": 41,
+        "raises": 34,
+        "price": 34,
+        "buyer": 0
+      },
+      "after": {
+        "steps": 13,
+        "raises": 8,
+        "price": 33,
+        "buyer": 0
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9108,
+      "round": 1,
+      "before": {
+        "steps": 26,
+        "raises": 22,
+        "price": 22,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 13,
+        "raises": 9,
+        "price": 22,
+        "buyer": 0
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9108,
+      "round": 2,
+      "before": {
+        "steps": 33,
+        "raises": 26,
+        "price": 26,
+        "buyer": 3
+      },
+      "after": {
+        "steps": 13,
+        "raises": 7,
+        "price": 27,
+        "buyer": 3
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9108,
+      "round": 2,
+      "before": {
+        "steps": 46,
+        "raises": 38,
+        "price": 38,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 18,
+        "raises": 11,
+        "price": 39,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9108,
+      "round": 3,
+      "before": {
+        "steps": 49,
+        "raises": 40,
+        "price": 40,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 17,
+        "raises": 11,
+        "price": 40,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9108,
+      "round": 4,
+      "before": {
+        "steps": 26,
+        "raises": 21,
+        "price": 21,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 14,
+        "raises": 8,
+        "price": 22,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9109,
+      "round": 2,
+      "before": {
+        "steps": 50,
+        "raises": 40,
+        "price": 40,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 18,
+        "raises": 11,
+        "price": 40,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9109,
+      "round": 3,
+      "before": {
+        "steps": 70,
+        "raises": 60,
+        "price": 60,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 18,
+        "raises": 12,
+        "price": 60,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9109,
+      "round": 4,
+      "before": {
+        "steps": 35,
+        "raises": 32,
+        "price": 32,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 11,
+        "raises": 7,
+        "price": 41,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 4,
+      "seed": 9109,
+      "round": 4,
+      "before": {
+        "steps": 42,
+        "raises": 33,
+        "price": 33,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 18,
+        "raises": 11,
+        "price": 33,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9100,
+      "round": 1,
+      "before": {
+        "steps": 26,
+        "raises": 20,
+        "price": 20,
+        "buyer": 4
+      },
+      "after": {
+        "steps": 16,
+        "raises": 9,
+        "price": 20,
+        "buyer": 4
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9100,
+      "round": 1,
+      "before": {
+        "steps": 23,
+        "raises": 18,
+        "price": 18,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 13,
+        "raises": 8,
+        "price": 18,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9100,
+      "round": 1,
+      "before": {
+        "steps": 15,
+        "raises": 9,
+        "price": 9,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 12,
+        "raises": 6,
+        "price": 9,
+        "buyer": 4
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9100,
+      "round": 2,
+      "before": {
+        "steps": 40,
+        "raises": 29,
+        "price": 29,
+        "buyer": 4
+      },
+      "after": {
+        "steps": 15,
+        "raises": 8,
+        "price": 32,
+        "buyer": 4
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9100,
+      "round": 2,
+      "before": {
+        "steps": 47,
+        "raises": 37,
+        "price": 37,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 17,
+        "raises": 9,
+        "price": 37,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9100,
+      "round": 2,
+      "before": {
+        "steps": 100,
+        "raises": 70,
+        "price": 70,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 20,
+        "raises": 11,
+        "price": 71,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9100,
+      "round": 3,
+      "before": {
+        "steps": 60,
+        "raises": 40,
+        "price": 40,
+        "buyer": 4
+      },
+      "after": {
+        "steps": 15,
+        "raises": 8,
+        "price": 43,
+        "buyer": 4
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9100,
+      "round": 3,
+      "before": {
+        "steps": 35,
+        "raises": 25,
+        "price": 25,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 20,
+        "raises": 11,
+        "price": 25,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9100,
+      "round": 3,
+      "before": {
+        "steps": 61,
+        "raises": 52,
+        "price": 52,
+        "buyer": 4
+      },
+      "after": {
+        "steps": 21,
+        "raises": 12,
+        "price": 53,
+        "buyer": 4
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9101,
+      "round": 1,
+      "before": {
+        "steps": 40,
+        "raises": 28,
+        "price": 28,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 15,
+        "raises": 8,
+        "price": 27,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9101,
+      "round": 1,
+      "before": {
+        "steps": 56,
+        "raises": 46,
+        "price": 46,
+        "buyer": 4
+      },
+      "after": {
+        "steps": 21,
+        "raises": 12,
+        "price": 46,
+        "buyer": 4
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9101,
+      "round": 1,
+      "before": {
+        "steps": 14,
+        "raises": 7,
+        "price": 7,
+        "buyer": 3
+      },
+      "after": {
+        "steps": 9,
+        "raises": 4,
+        "price": 6,
+        "buyer": 3
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9101,
+      "round": 1,
+      "before": {
+        "steps": 22,
+        "raises": 16,
+        "price": 16,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 17,
+        "raises": 9,
+        "price": 16,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9101,
+      "round": 2,
+      "before": {
+        "steps": 118,
+        "raises": 88,
+        "price": 88,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 23,
+        "raises": 14,
+        "price": 87,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9101,
+      "round": 3,
+      "before": {
+        "steps": 56,
+        "raises": 30,
+        "price": 30,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 26,
+        "raises": 11,
+        "price": 31,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9101,
+      "round": 3,
+      "before": {
+        "steps": 80,
+        "raises": 65,
+        "price": 65,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 20,
+        "raises": 11,
+        "price": 66,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9101,
+      "round": 4,
+      "before": {
+        "steps": 25,
+        "raises": 14,
+        "price": 14,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 15,
+        "raises": 6,
+        "price": 13,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9102,
+      "round": 1,
+      "before": {
+        "steps": 18,
+        "raises": 11,
+        "price": 11,
+        "buyer": 4
+      },
+      "after": {
+        "steps": 13,
+        "raises": 7,
+        "price": 12,
+        "buyer": 4
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9102,
+      "round": 2,
+      "before": {
+        "steps": 57,
+        "raises": 46,
+        "price": 46,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 25,
+        "raises": 13,
+        "price": 46,
+        "buyer": 4
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9102,
+      "round": 2,
+      "before": {
+        "steps": 62,
+        "raises": 49,
+        "price": 49,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 22,
+        "raises": 13,
+        "price": 48,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9102,
+      "round": 3,
+      "before": {
+        "steps": 85,
+        "raises": 67,
+        "price": 67,
+        "buyer": 4
+      },
+      "after": {
+        "steps": 20,
+        "raises": 12,
+        "price": 68,
+        "buyer": 4
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9102,
+      "round": 3,
+      "before": {
+        "steps": 47,
+        "raises": 37,
+        "price": 37,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 17,
+        "raises": 10,
+        "price": 36,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9102,
+      "round": 4,
+      "before": {
+        "steps": 73,
+        "raises": 61,
+        "price": 61,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 18,
+        "raises": 11,
+        "price": 61,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9102,
+      "round": 4,
+      "before": {
+        "steps": 77,
+        "raises": 64,
+        "price": 64,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 22,
+        "raises": 14,
+        "price": 65,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9102,
+      "round": 4,
+      "before": {
+        "steps": 58,
+        "raises": 36,
+        "price": 36,
+        "buyer": 4
+      },
+      "after": {
+        "steps": 23,
+        "raises": 11,
+        "price": 36,
+        "buyer": 4
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9102,
+      "round": 4,
+      "before": {
+        "steps": 37,
+        "raises": 20,
+        "price": 20,
+        "buyer": 4
+      },
+      "after": {
+        "steps": 22,
+        "raises": 9,
+        "price": 21,
+        "buyer": 4
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9103,
+      "round": 1,
+      "before": {
+        "steps": 46,
+        "raises": 36,
+        "price": 36,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 16,
+        "raises": 8,
+        "price": 37,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9103,
+      "round": 2,
+      "before": {
+        "steps": 52,
+        "raises": 44,
+        "price": 44,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 17,
+        "raises": 11,
+        "price": 44,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9103,
+      "round": 2,
+      "before": {
+        "steps": 53,
+        "raises": 40,
+        "price": 40,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 18,
+        "raises": 10,
+        "price": 39,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9103,
+      "round": 2,
+      "before": {
+        "steps": 11,
+        "raises": 6,
+        "price": 6,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 11,
+        "raises": 5,
+        "price": 6,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9103,
+      "round": 2,
+      "before": {
+        "steps": 15,
+        "raises": 9,
+        "price": 9,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 15,
+        "raises": 7,
+        "price": 10,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9103,
+      "round": 4,
+      "before": {
+        "steps": 55,
+        "raises": 40,
+        "price": 40,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 20,
+        "raises": 10,
+        "price": 40,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9103,
+      "round": 4,
+      "before": {
+        "steps": 55,
+        "raises": 44,
+        "price": 44,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 20,
+        "raises": 11,
+        "price": 45,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9103,
+      "round": 4,
+      "before": {
+        "steps": 103,
+        "raises": 82,
+        "price": 82,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 18,
+        "raises": 12,
+        "price": 82,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9103,
+      "round": 4,
+      "before": {
+        "steps": 17,
+        "raises": 10,
+        "price": 10,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 12,
+        "raises": 6,
+        "price": 9,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9104,
+      "round": 1,
+      "before": {
+        "steps": 36,
+        "raises": 27,
+        "price": 27,
+        "buyer": 3
+      },
+      "after": {
+        "steps": 21,
+        "raises": 11,
+        "price": 27,
+        "buyer": 3
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9104,
+      "round": 1,
+      "before": {
+        "steps": 30,
+        "raises": 23,
+        "price": 23,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 20,
+        "raises": 10,
+        "price": 23,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9104,
+      "round": 2,
+      "before": {
+        "steps": 25,
+        "raises": 17,
+        "price": 17,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 10,
+        "raises": 6,
+        "price": 18,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9104,
+      "round": 3,
+      "before": {
+        "steps": 56,
+        "raises": 45,
+        "price": 45,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 21,
+        "raises": 11,
+        "price": 46,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9104,
+      "round": 3,
+      "before": {
+        "steps": 23,
+        "raises": 19,
+        "price": 19,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 13,
+        "raises": 7,
+        "price": 20,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9104,
+      "round": 3,
+      "before": {
+        "steps": 46,
+        "raises": 36,
+        "price": 36,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 21,
+        "raises": 11,
+        "price": 37,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9104,
+      "round": 3,
+      "before": {
+        "steps": 65,
+        "raises": 51,
+        "price": 51,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 20,
+        "raises": 11,
+        "price": 51,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9104,
+      "round": 4,
+      "before": {
+        "steps": 33,
+        "raises": 29,
+        "price": 29,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 13,
+        "raises": 7,
+        "price": 33,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9104,
+      "round": 4,
+      "before": {
+        "steps": 71,
+        "raises": 43,
+        "price": 43,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 26,
+        "raises": 12,
+        "price": 44,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9104,
+      "round": 4,
+      "before": {
+        "steps": 71,
+        "raises": 58,
+        "price": 58,
+        "buyer": 3
+      },
+      "after": {
+        "steps": 25,
+        "raises": 13,
+        "price": 58,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9104,
+      "round": 4,
+      "before": {
+        "steps": 45,
+        "raises": 30,
+        "price": 30,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 15,
+        "raises": 8,
+        "price": 29,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9104,
+      "round": 4,
+      "before": {
+        "steps": 35,
+        "raises": 27,
+        "price": 27,
+        "buyer": 3
+      },
+      "after": {
+        "steps": 20,
+        "raises": 10,
+        "price": 27,
+        "buyer": 3
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9105,
+      "round": 1,
+      "before": {
+        "steps": 20,
+        "raises": 12,
+        "price": 12,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 10,
+        "raises": 6,
+        "price": 13,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9105,
+      "round": 1,
+      "before": {
+        "steps": 26,
+        "raises": 14,
+        "price": 14,
+        "buyer": 4
+      },
+      "after": {
+        "steps": 18,
+        "raises": 9,
+        "price": 14,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9105,
+      "round": 2,
+      "before": {
+        "steps": 46,
+        "raises": 39,
+        "price": 39,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 16,
+        "raises": 10,
+        "price": 39,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9105,
+      "round": 3,
+      "before": {
+        "steps": 91,
+        "raises": 72,
+        "price": 72,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 21,
+        "raises": 12,
+        "price": 72,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9105,
+      "round": 3,
+      "before": {
+        "steps": 45,
+        "raises": 32,
+        "price": 32,
+        "buyer": 3
+      },
+      "after": {
+        "steps": 15,
+        "raises": 8,
+        "price": 32,
+        "buyer": 3
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9105,
+      "round": 4,
+      "before": {
+        "steps": 75,
+        "raises": 52,
+        "price": 52,
+        "buyer": 4
+      },
+      "after": {
+        "steps": 25,
+        "raises": 12,
+        "price": 52,
+        "buyer": 4
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9105,
+      "round": 4,
+      "before": {
+        "steps": 76,
+        "raises": 65,
+        "price": 65,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 21,
+        "raises": 13,
+        "price": 65,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9105,
+      "round": 4,
+      "before": {
+        "steps": 40,
+        "raises": 27,
+        "price": 27,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 20,
+        "raises": 9,
+        "price": 28,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9106,
+      "round": 1,
+      "before": {
+        "steps": 37,
+        "raises": 27,
+        "price": 27,
+        "buyer": 0
+      },
+      "after": {
+        "steps": 20,
+        "raises": 10,
+        "price": 27,
+        "buyer": 3
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9106,
+      "round": 1,
+      "before": {
+        "steps": 58,
+        "raises": 47,
+        "price": 47,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 23,
+        "raises": 12,
+        "price": 48,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9106,
+      "round": 1,
+      "before": {
+        "steps": 15,
+        "raises": 9,
+        "price": 9,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 15,
+        "raises": 7,
+        "price": 9,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9106,
+      "round": 2,
+      "before": {
+        "steps": 78,
+        "raises": 56,
+        "price": 56,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 23,
+        "raises": 12,
+        "price": 57,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9106,
+      "round": 3,
+      "before": {
+        "steps": 76,
+        "raises": 62,
+        "price": 62,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 21,
+        "raises": 12,
+        "price": 61,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9106,
+      "round": 4,
+      "before": {
+        "steps": 40,
+        "raises": 29,
+        "price": 29,
+        "buyer": 0
+      },
+      "after": {
+        "steps": 15,
+        "raises": 8,
+        "price": 29,
+        "buyer": 0
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9106,
+      "round": 4,
+      "before": {
+        "steps": 46,
+        "raises": 37,
+        "price": 37,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 14,
+        "raises": 9,
+        "price": 39,
+        "buyer": 0
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9106,
+      "round": 4,
+      "before": {
+        "steps": 81,
+        "raises": 61,
+        "price": 61,
+        "buyer": 4
+      },
+      "after": {
+        "steps": 26,
+        "raises": 13,
+        "price": 60,
+        "buyer": 4
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9106,
+      "round": 4,
+      "before": {
+        "steps": 17,
+        "raises": 10,
+        "price": 10,
+        "buyer": 4
+      },
+      "after": {
+        "steps": 12,
+        "raises": 5,
+        "price": 9,
+        "buyer": 4
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9106,
+      "round": 4,
+      "before": {
+        "steps": 63,
+        "raises": 52,
+        "price": 52,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 23,
+        "raises": 13,
+        "price": 52,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9106,
+      "round": 4,
+      "before": {
+        "steps": 43,
+        "raises": 32,
+        "price": 32,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 18,
+        "raises": 10,
+        "price": 31,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9107,
+      "round": 1,
+      "before": {
+        "steps": 30,
+        "raises": 21,
+        "price": 21,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 15,
+        "raises": 8,
+        "price": 21,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9107,
+      "round": 2,
+      "before": {
+        "steps": 41,
+        "raises": 33,
+        "price": 33,
+        "buyer": 0
+      },
+      "after": {
+        "steps": 16,
+        "raises": 10,
+        "price": 34,
+        "buyer": 0
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9107,
+      "round": 3,
+      "before": {
+        "steps": 53,
+        "raises": 38,
+        "price": 38,
+        "buyer": 3
+      },
+      "after": {
+        "steps": 13,
+        "raises": 7,
+        "price": 38,
+        "buyer": 3
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9107,
+      "round": 4,
+      "before": {
+        "steps": 45,
+        "raises": 38,
+        "price": 38,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 20,
+        "raises": 11,
+        "price": 40,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9108,
+      "round": 2,
+      "before": {
+        "steps": 43,
+        "raises": 30,
+        "price": 30,
+        "buyer": 4
+      },
+      "after": {
+        "steps": 18,
+        "raises": 10,
+        "price": 31,
+        "buyer": 4
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9108,
+      "round": 2,
+      "before": {
+        "steps": 55,
+        "raises": 36,
+        "price": 36,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 25,
+        "raises": 11,
+        "price": 37,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9108,
+      "round": 2,
+      "before": {
+        "steps": 58,
+        "raises": 43,
+        "price": 43,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 18,
+        "raises": 9,
+        "price": 42,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9108,
+      "round": 2,
+      "before": {
+        "steps": 32,
+        "raises": 23,
+        "price": 23,
+        "buyer": 4
+      },
+      "after": {
+        "steps": 12,
+        "raises": 7,
+        "price": 23,
+        "buyer": 4
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9108,
+      "round": 3,
+      "before": {
+        "steps": 61,
+        "raises": 40,
+        "price": 40,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 21,
+        "raises": 11,
+        "price": 39,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9108,
+      "round": 3,
+      "before": {
+        "steps": 36,
+        "raises": 31,
+        "price": 31,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 11,
+        "raises": 7,
+        "price": 34,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9108,
+      "round": 4,
+      "before": {
+        "steps": 63,
+        "raises": 52,
+        "price": 52,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 21,
+        "raises": 12,
+        "price": 52,
+        "buyer": 4
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9108,
+      "round": 4,
+      "before": {
+        "steps": 73,
+        "raises": 62,
+        "price": 62,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 18,
+        "raises": 12,
+        "price": 61,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9109,
+      "round": 1,
+      "before": {
+        "steps": 23,
+        "raises": 14,
+        "price": 14,
+        "buyer": 4
+      },
+      "after": {
+        "steps": 13,
+        "raises": 7,
+        "price": 14,
+        "buyer": 4
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9109,
+      "round": 1,
+      "before": {
+        "steps": 62,
+        "raises": 48,
+        "price": 48,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 22,
+        "raises": 12,
+        "price": 48,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9109,
+      "round": 2,
+      "before": {
+        "steps": 43,
+        "raises": 32,
+        "price": 32,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 18,
+        "raises": 11,
+        "price": 32,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9109,
+      "round": 2,
+      "before": {
+        "steps": 21,
+        "raises": 16,
+        "price": 16,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 16,
+        "raises": 9,
+        "price": 17,
+        "buyer": 1
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9109,
+      "round": 2,
+      "before": {
+        "steps": 16,
+        "raises": 9,
+        "price": 9,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 11,
+        "raises": 6,
+        "price": 8,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9109,
+      "round": 2,
+      "before": {
+        "steps": 40,
+        "raises": 31,
+        "price": 31,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 20,
+        "raises": 11,
+        "price": 32,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9109,
+      "round": 4,
+      "before": {
+        "steps": 63,
+        "raises": 41,
+        "price": 41,
+        "buyer": 4
+      },
+      "after": {
+        "steps": 13,
+        "raises": 6,
+        "price": 42,
+        "buyer": 4
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9109,
+      "round": 4,
+      "before": {
+        "steps": 60,
+        "raises": 42,
+        "price": 42,
+        "buyer": 2
+      },
+      "after": {
+        "steps": 20,
+        "raises": 11,
+        "price": 42,
+        "buyer": 2
+      }
+    },
+    {
+      "count": 5,
+      "seed": 9109,
+      "round": 4,
+      "before": {
+        "steps": 68,
+        "raises": 51,
+        "price": 51,
+        "buyer": 1
+      },
+      "after": {
+        "steps": 23,
+        "raises": 13,
+        "price": 51,
+        "buyer": 1
+      }
+    }
+  ]
+}

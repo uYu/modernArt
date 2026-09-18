@@ -12,6 +12,15 @@ export function SaleAnnouncement({
   const selfPurchase = sale.buyer.id === sale.seller.id;
   return (
     <div className="sale-announcement" role="status" aria-live="polite">
+      {sale.cards.at(-1)?.type === 'fixed' && (
+        <p className="fixed-sale-context">
+          {sale.seller.name} 定价 <strong>{sale.amount} 千元</strong>
+          {sale.cards.length === 2 ? '（两幅合计）' : ''}
+          {selfPurchase
+            ? '，无人接手，由卖家自购'
+            : `，${sale.buyer.name} 买下`}
+        </p>
+      )}
       <p className="sale-buyer">{sale.buyer.name}</p>
       <p className="sale-description">
         {sale.amount === 0 ? '免费取得' : selfPurchase ? '自购' : '买下'}

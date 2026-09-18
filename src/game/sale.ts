@@ -26,3 +26,11 @@ export function completedSale(
     amount: before.players[buyer.id].cash - buyer.cash,
   };
 }
+
+// In a double auction the second card determines the actual auction method.
+export function requiresSaleConfirmation(
+  sale: SaleNotice,
+  mode: 'brief' | 'confirm',
+) {
+  return mode === 'confirm' || sale.cards.at(-1)?.type === 'fixed';
+}

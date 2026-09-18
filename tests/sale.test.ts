@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { actor, applyAction, createGame } from '../src/game/engine.ts';
 import { makeDeck } from '../src/game/data.ts';
-import { completedSale } from '../src/game/sale.ts';
+import { completedSale, requiresSaleConfirmation } from '../src/game/sale.ts';
 import type { AuctionType, GameState } from '../src/game/types.ts';
 function setup(type: AuctionType) {
   const s = createGame(3, 1),
@@ -59,6 +59,14 @@ test('无人出价免费取得和一口价购买均有通知', () => {
   )!;
   assert.equal(paid.amount, 20);
   assert.equal(paid.buyer.id, 1);
+  assert.equal(requiresSaleConfirmation(paid, 'brief'), true);
+  assert.equal(requiresSaleConfirmation(free, 'brief'), false);
+  assert.equal(requiresSaleConfirmation(free, 'confirm'), true);
+  const doubleFixed = {
+    ...paid,
+    cards: [makeDeck().find((c) => c.type === 'double')!, ...paid.cards],
+  };
+  assert.equal(requiresSaleConfirmation(doubleFixed, 'brief'), true);
 });
 test('双重拍卖在同一通知中包含两幅作品和总价', () => {
   let s = setup('double');

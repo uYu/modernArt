@@ -23,7 +23,7 @@ import { Artwork } from './components/Artwork.tsx';
 import { CheatPanel } from './components/CheatPanel.tsx';
 import { SaleAnnouncement } from './components/SaleAnnouncement.tsx';
 import { publicBalances } from './game/inspection.ts';
-import { completedSale } from './game/sale.ts';
+import { completedSale, requiresSaleConfirmation } from './game/sale.ts';
 import type { SaleNotice } from './game/sale.ts';
 function readSave(): { game: GameState | null; error: string } {
   try {
@@ -406,7 +406,13 @@ export default function App() {
     };
   }, [game, screen, paused, dialog, current, speed, sale, reviewSale]);
   useEffect(() => {
-    if (!sale || saleMode !== 'brief' || screen !== 'game' || dialog || paused)
+    if (
+      !sale ||
+      requiresSaleConfirmation(sale, saleMode) ||
+      screen !== 'game' ||
+      dialog ||
+      paused
+    )
       return;
     const timer = setTimeout(() => setSale(null), 2000);
     return () => clearTimeout(timer);
@@ -1123,7 +1129,7 @@ export default function App() {
       </footer>
       {screen === 'game' &&
         !dialog &&
-        (reviewSale || (sale && saleMode === 'confirm')) && (
+        (reviewSale || (sale && requiresSaleConfirmation(sale, saleMode))) && (
           <Modal
             title="落槌成交"
             close={() => {
@@ -1141,7 +1147,7 @@ export default function App() {
           </Modal>
         )}
       {sale &&
-        saleMode === 'brief' &&
+        !requiresSaleConfirmation(sale, saleMode) &&
         !reviewSale &&
         screen === 'game' &&
         !dialog && (
@@ -1152,6 +1158,7 @@ export default function App() {
                 {sale.buyer.name} ·{' '}
                 {sale.amount === 0 ? '免费取得' : `${sale.amount} 千元成交`}
               </strong>
+              <span>卖家：{sale.seller.name}</span>
               <span>
                 {sale.cards.map((c) => title(c)).join('、')}
                 {sale.cards.length === 2 ? '（两幅合计）' : ''}
@@ -1260,7 +1267,7 @@ export default function App() {
                     setSaleMode(e.target.value as 'brief' | 'confirm')
                   }
                 >
-                  <option value="brief">简短提醒 · 2 秒</option>
+                  <option value="brief">简短提醒 · 一口价需确认</option>
                   <option value="confirm">弹框确认 · 手动继续</option>
                 </select>
               </label>

@@ -1,6 +1,6 @@
 {
   "method": "built-in image_gen.imagegen",
-  "description": "Original AI-generated oil paintings for five fictional artists.",
+  "description": "Prompts and source paths for the original 15 AI-generated oil paintings. The 55 additional unique card paintings are listed in the catalog.",
   "paintings": [
     {
       "artist": 0,

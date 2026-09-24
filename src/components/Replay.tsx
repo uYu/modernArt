@@ -8,7 +8,8 @@ import {
 } from '../game/experience.ts';
 import { ARTISTS, title } from '../game/data.ts';
 
-export function Replay({ game }: { game: GameState }) {
+export function Replay({ game, publicView = false }: { game: GameState; publicView?: boolean }) {
+  const subject = publicView ? game.players[0].name : '你';
   const [step, setStep] = useState(game.actions.length);
   const state = useMemo(() => replayAt(game, step), [game, step]);
   const milestones = useMemo(() => replayMilestones(game), [game]);
@@ -152,7 +153,7 @@ export function Replay({ game }: { game: GameState }) {
               第 {r.round} 季：
               {moment?.player != null ? game.players[moment.player].name : ''}
               触发结算。{r.reason}；未成交{' '}
-              {r.unsold.map(title).join('、') || '无'}。你的藏品清算{' '}
+              {r.unsold.map(title).join('、') || '无'}。{subject}的藏品清算{' '}
               {r.income[0]} 千元。
             </p>
             {moment && (
@@ -172,7 +173,7 @@ export function Replay({ game }: { game: GameState }) {
           </div>
         );
       })}
-      <h3>你的逐笔买画盈亏</h3>
+      <h3>{subject}的逐笔买画盈亏</h3>
       <div className="table-scroll">
         <table className="review-table">
           <thead>

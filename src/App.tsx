@@ -28,13 +28,16 @@ import {
   makeLevelConfig,
   LEVELS,
 } from './game/preferences.ts';
-import type { GameLevel } from './game/preferences.ts';
 import { Artwork } from './components/Artwork.tsx';
 import { CheatPanel } from './components/CheatPanel.tsx';
 import { SaleAnnouncement } from './components/SaleAnnouncement.tsx';
+import { ArtGallery } from './components/ArtGallery.tsx';
+import { PublicReplays } from './components/PublicReplays.tsx';
 import { publicBalances } from './game/inspection.ts';
 import { completedSale, requiresSaleConfirmation } from './game/sale.ts';
 import type { SaleNotice } from './game/sale.ts';
+const NEW_GAME_LEVELS = ['beginner', 'medium', 'hard', 'expert'] as const;
+type NewGameLevel = (typeof NEW_GAME_LEVELS)[number];
 function readSave(): { game: GameState | null; error: string } {
   try {
     const raw = localStorage.getItem(SAVE_KEY);
@@ -360,7 +363,15 @@ export default function App() {
   const [game, setGame] = useState<GameState | null>(initial.game);
   const [screen, setScreen] = useState<'menu' | 'game'>('menu');
   const [dialog, setDialog] = useState<
-    'rules' | 'new' | 'log' | 'cheats' | 'replay' | 'slots' | null
+    | 'rules'
+    | 'new'
+    | 'log'
+    | 'cheats'
+    | 'replay'
+    | 'slots'
+    | 'gallery'
+    | 'archive'
+    | null
   >(null);
   const [cheatMode, setCheatMode] = useState(false);
   const cash = game && cheatMode ? publicBalances(game) : [];
@@ -373,8 +384,10 @@ export default function App() {
   });
   const saleMode = DEFAULT_PREFERENCES.saleMode;
   const hints = DEFAULT_PREFERENCES.hints;
-  const [level, setLevel] = useState<GameLevel>(
-    preferences.level ?? 'beginner',
+  const [level, setLevel] = useState<NewGameLevel>(
+    NEW_GAME_LEVELS.includes(preferences.level as NewGameLevel)
+      ? (preferences.level as NewGameLevel)
+      : 'expert',
   );
   const [reviewSale, setReviewSale] = useState<SaleNotice | null>(null);
   const [sale, setSale] = useState<SaleNotice | null>(null);
@@ -386,6 +399,8 @@ export default function App() {
   const [filter, setFilter] = useState<number | null>(null);
   const [error, setError] = useState(initial.error);
   const [saveError, setSaveError] = useState('');
+  const [publishError, setPublishError] = useState('');
+  const [publishAttempt, setPublishAttempt] = useState(0);
   const fileRef = useRef<HTMLInputElement>(null);
   useEffect(() => {
     try {
@@ -442,6 +457,25 @@ export default function App() {
       setSaveError('自动存档失败，请导出存档保留进度。');
     }
   }, [game]);
+  useEffect(() => {
+    if (game?.phase !== 'finished') return;
+    const controller = new AbortController();
+    fetch('/api/replays', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: serialize(game),
+      signal: controller.signal,
+    })
+      .then((response) => {
+        if (!response.ok) throw new Error('公开回放保存失败');
+        setPublishError('');
+      })
+      .catch((reason) => {
+        if (reason.name !== 'AbortError')
+          setPublishError('公开回放保存失败，请重试。');
+      });
+    return () => controller.abort();
+  }, [game, publishAttempt]);
   const current = game ? actor(game) : null;
   useEffect(() => {
     if (
@@ -703,40 +737,48 @@ export default function App() {
               <br />
               在收藏与交易之间，经营你的美术馆。
             </p>
-            <div className="home-buttons">
-              {game && (
+            <div className="home-actions">
+              <div className="home-buttons">
+                {game && (
+                  <button
+                    className="primary"
+                    onClick={() => {
+                      setScreen('game');
+                      setPaused(false);
+                    }}
+                  >
+                    {game.phase === 'finished' ? '查看上局结果' : '继续拍卖'}
+                    <ArrowRight size={18} />
+                  </button>
+                )}
                 <button
-                  className="primary"
-                  onClick={() => {
-                    setScreen('game');
-                    setPaused(false);
-                  }}
+                  className={game ? 'secondary' : 'primary'}
+                  onClick={() => setDialog('new')}
                 >
-                  {game.phase === 'finished' ? '查看上局结果' : '继续拍卖'}
+                  {game ? '开始新的一局' : '进入拍卖厅'}
                   <ArrowRight size={18} />
                 </button>
-              )}
-              <button
-                className={game ? 'secondary' : 'primary'}
-                onClick={() => setDialog('new')}
-              >
-                {game ? '开始新的一局' : '进入拍卖厅'}
-                <ArrowRight size={18} />
-              </button>
-            </div>
-            <div className="home-tools">
-              <button
-                className="text-button"
-                onClick={() => setDialog('rules')}
-              >
-                玩法指南
-              </button>
-              <button
-                className="text-button"
-                onClick={() => setDialog('slots')}
-              >
-                存档管理
-              </button>
+              </div>
+              <div className="home-tools">
+                <button
+                  className="secondary"
+                  onClick={() => setDialog('gallery')}
+                >
+                  美术展
+                </button>
+                <button
+                  className="secondary"
+                  onClick={() => setDialog('archive')}
+                >
+                  公开对局回放
+                </button>
+                <button
+                  className="secondary"
+                  onClick={() => setDialog('rules')}
+                >
+                  玩法指南
+                </button>
+              </div>
             </div>
             <div className="home-meta">
               <span>3—5 人</span>
@@ -764,7 +806,7 @@ export default function App() {
               </div>
             ))}
             <div className="gallery-caption">
-              <span>FIVE ARTISTS · FIFTEEN PAINTINGS</span>
+              <span>FIVE ARTISTS · SEVENTY PAINTINGS</span>
               <span>原创油画作品系列</span>
             </div>
           </div>
@@ -1340,6 +1382,16 @@ export default function App() {
                 )}
                 {game.phase === 'finished' && (
                   <>
+                    {publishError && (
+                      <button
+                        className="text-button"
+                        onClick={() =>
+                          setPublishAttempt((attempt) => attempt + 1)
+                        }
+                      >
+                        {publishError}
+                      </button>
+                    )}
                     <button
                       className="secondary"
                       onClick={() => setDialog('replay')}
@@ -1439,6 +1491,8 @@ export default function App() {
               cheats: '记牌面板',
               replay: '赛后复盘',
               slots: '存档管理',
+              gallery: '美术展',
+              archive: '公开对局回放',
             }[dialog]
           }
           close={() => setDialog(null)}
@@ -1453,6 +1507,8 @@ export default function App() {
           {dialog === 'replay' && game?.phase === 'finished' && (
             <Replay game={game} />
           )}
+          {dialog === 'gallery' && <ArtGallery />}
+          {dialog === 'archive' && <PublicReplays />}
           {dialog === 'slots' && (
             <>
               <SaveSlots game={game} load={loadGame} />
@@ -1501,11 +1557,11 @@ export default function App() {
                   对手难度
                   <select
                     value={level}
-                    onChange={(e) => setLevel(e.target.value as GameLevel)}
+                    onChange={(e) => setLevel(e.target.value as NewGameLevel)}
                   >
-                    {Object.entries(LEVELS).map(([key, label]) => (
-                      <option key={key} value={key}>
-                        {label}
+                    {NEW_GAME_LEVELS.map((optionLevel) => (
+                      <option key={optionLevel} value={optionLevel}>
+                        {LEVELS[optionLevel]}
                       </option>
                     ))}
                   </select>

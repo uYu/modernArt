@@ -1,0 +1,1332 @@
+{
+  "version": "planning-v1",
+  "start": 330001,
+  "seeds": 2,
+  "iterations": 48,
+  "scope": "offer/pair only; other actions use current expert; opponents hard",
+  "runtime": "v25.8.1",
+  "platform": "darwin",
+  "arch": "arm64",
+  "hashes": {
+    "src/game/engine.ts": "e05ceaa6cf850b7dd29856caf049b556f1abd23034f66703b4c24d795518c48a",
+    "src/game/ai-planning.ts": "10bd774787b112ddd088ffbb1f37c4ca15e34b3e4b5098132fc0e5699f4a01d1",
+    "src/game/ai-levels.ts": "bfdb37d5f210d763b7fa313ef731b4062b113d03fcc770dd7a698024a2671897",
+    "src/game/ai.ts": "33c372e8bb027a14629e7dfb1500a5fac679cbd1644f6af876fd3e28d8a28da0",
+    "src/game/ai-search.ts": "aa6a1d7bfe23fcf7ca569c6ecbd39f20d07741ff558cb6cf1ed3d6c633c42158",
+    "src/game/ai-legacy.ts": "9933c98648a2b19fa5e9ddd3860fde3961c6ca5f30241575098481f08b61762a",
+    "src/game/ledger.ts": "7a16715854cf6d80785393a9329fbddc3c1054775a5c71f3f9f6c7a959b39f16",
+    "src/game/data.ts": "64500539f498a70206e8ba358af197414d0e6655607a95fc819629940b2c1bc8",
+    "src/game/types.ts": "1821f939b8cd63e319cb79d265e74ee8eae82c38be92a91c4643f027caa697d7",
+    "experiments/planning-benchmark.ts": "0d0a01fcaa84cee21eb3381255ffe5999542c3a63f268e09557c6982b1204579"
+  },
+  "rows": [
+    {
+      "variant": "expert",
+      "count": 3,
+      "seed": 330001,
+      "seat": 0,
+      "cash": [
+        452,
+        660,
+        604
+      ],
+      "win": 0,
+      "decisions": 16,
+      "simulations": 0,
+      "meanMs": 3.311335750000005,
+      "p95Ms": 9.918499999999995,
+      "maxMs": 9.918499999999995
+    },
+    {
+      "variant": "rollout",
+      "count": 3,
+      "seed": 330001,
+      "seat": 0,
+      "cash": [
+        460,
+        646,
+        730
+      ],
+      "win": 0,
+      "decisions": 18,
+      "simulations": 864,
+      "meanMs": 236.77508799999998,
+      "p95Ms": 367.62725,
+      "maxMs": 367.62725
+    },
+    {
+      "variant": "ismcts",
+      "count": 3,
+      "seed": 330001,
+      "seat": 0,
+      "cash": [
+        423,
+        669,
+        615
+      ],
+      "win": 0,
+      "decisions": 14,
+      "simulations": 672,
+      "meanMs": 240.15007442857146,
+      "p95Ms": 320.86833300000035,
+      "maxMs": 320.86833300000035
+    },
+    {
+      "variant": "expert",
+      "count": 3,
+      "seed": 330001,
+      "seat": 1,
+      "cash": [
+        530,
+        774,
+        588
+      ],
+      "win": 1,
+      "decisions": 18,
+      "simulations": 0,
+      "meanMs": 1.9688564444444536,
+      "p95Ms": 7.326041999999688,
+      "maxMs": 7.326041999999688
+    },
+    {
+      "variant": "rollout",
+      "count": 3,
+      "seed": 330001,
+      "seat": 1,
+      "cash": [
+        434,
+        661,
+        647
+      ],
+      "win": 1,
+      "decisions": 19,
+      "simulations": 912,
+      "meanMs": 281.7413025263157,
+      "p95Ms": 642.7434590000012,
+      "maxMs": 642.7434590000012
+    },
+    {
+      "variant": "ismcts",
+      "count": 3,
+      "seed": 330001,
+      "seat": 1,
+      "cash": [
+        520,
+        440,
+        626
+      ],
+      "win": 0,
+      "decisions": 16,
+      "simulations": 768,
+      "meanMs": 211.37683325000035,
+      "p95Ms": 325.92987500000163,
+      "maxMs": 325.92987500000163
+    },
+    {
+      "variant": "expert",
+      "count": 3,
+      "seed": 330001,
+      "seat": 2,
+      "cash": [
+        515,
+        686,
+        648
+      ],
+      "win": 0,
+      "decisions": 16,
+      "simulations": 0,
+      "meanMs": 1.22149731250056,
+      "p95Ms": 3.1636249999974098,
+      "maxMs": 3.1636249999974098
+    },
+    {
+      "variant": "rollout",
+      "count": 3,
+      "seed": 330001,
+      "seat": 2,
+      "cash": [
+        506,
+        699,
+        454
+      ],
+      "win": 0,
+      "decisions": 23,
+      "simulations": 1104,
+      "meanMs": 267.905270043478,
+      "p95Ms": 358.99695900000006,
+      "maxMs": 398.588749999999
+    },
+    {
+      "variant": "ismcts",
+      "count": 3,
+      "seed": 330001,
+      "seat": 2,
+      "cash": [
+        381,
+        575,
+        579
+      ],
+      "win": 1,
+      "decisions": 15,
+      "simulations": 720,
+      "meanMs": 221.5092610000002,
+      "p95Ms": 330.9772090000006,
+      "maxMs": 330.9772090000006
+    },
+    {
+      "variant": "expert",
+      "count": 3,
+      "seed": 330002,
+      "seat": 0,
+      "cash": [
+        576,
+        482,
+        772
+      ],
+      "win": 0,
+      "decisions": 18,
+      "simulations": 0,
+      "meanMs": 1.5121113333332485,
+      "p95Ms": 3.839250000000902,
+      "maxMs": 3.839250000000902
+    },
+    {
+      "variant": "rollout",
+      "count": 3,
+      "seed": 330002,
+      "seat": 0,
+      "cash": [
+        496,
+        519,
+        838
+      ],
+      "win": 0,
+      "decisions": 17,
+      "simulations": 816,
+      "meanMs": 272.1258283529404,
+      "p95Ms": 444.15829099999974,
+      "maxMs": 444.15829099999974
+    },
+    {
+      "variant": "ismcts",
+      "count": 3,
+      "seed": 330002,
+      "seat": 0,
+      "cash": [
+        344,
+        488,
+        669
+      ],
+      "win": 0,
+      "decisions": 12,
+      "simulations": 576,
+      "meanMs": 218.32324641666582,
+      "p95Ms": 300.71620800000164,
+      "maxMs": 300.71620800000164
+    },
+    {
+      "variant": "expert",
+      "count": 3,
+      "seed": 330002,
+      "seat": 1,
+      "cash": [
+        568,
+        618,
+        654
+      ],
+      "win": 0,
+      "decisions": 19,
+      "simulations": 0,
+      "meanMs": 2.5299035263164305,
+      "p95Ms": 8.14912500000355,
+      "maxMs": 8.14912500000355
+    },
+    {
+      "variant": "rollout",
+      "count": 3,
+      "seed": 330002,
+      "seat": 1,
+      "cash": [
+        627,
+        639,
+        544
+      ],
+      "win": 1,
+      "decisions": 14,
+      "simulations": 672,
+      "meanMs": 179.3488837857133,
+      "p95Ms": 325.33120800000324,
+      "maxMs": 325.33120800000324
+    },
+    {
+      "variant": "ismcts",
+      "count": 3,
+      "seed": 330002,
+      "seat": 1,
+      "cash": [
+        542,
+        354,
+        641
+      ],
+      "win": 0,
+      "decisions": 13,
+      "simulations": 624,
+      "meanMs": 195.03183646153775,
+      "p95Ms": 287.86212499999965,
+      "maxMs": 287.86212499999965
+    },
+    {
+      "variant": "expert",
+      "count": 3,
+      "seed": 330002,
+      "seat": 2,
+      "cash": [
+        558,
+        464,
+        559
+      ],
+      "win": 1,
+      "decisions": 16,
+      "simulations": 0,
+      "meanMs": 1.636075437501404,
+      "p95Ms": 3.887084000001778,
+      "maxMs": 3.887084000001778
+    },
+    {
+      "variant": "rollout",
+      "count": 3,
+      "seed": 330002,
+      "seat": 2,
+      "cash": [
+        565,
+        548,
+        490
+      ],
+      "win": 0,
+      "decisions": 17,
+      "simulations": 816,
+      "meanMs": 231.8393995294117,
+      "p95Ms": 311.95995799999946,
+      "maxMs": 311.95995799999946
+    },
+    {
+      "variant": "ismcts",
+      "count": 3,
+      "seed": 330002,
+      "seat": 2,
+      "cash": [
+        591,
+        577,
+        672
+      ],
+      "win": 1,
+      "decisions": 21,
+      "simulations": 1008,
+      "meanMs": 228.97989895238078,
+      "p95Ms": 381.97883400000137,
+      "maxMs": 480.828125
+    },
+    {
+      "variant": "expert",
+      "count": 4,
+      "seed": 330001,
+      "seat": 0,
+      "cash": [
+        446,
+        545,
+        523,
+        401
+      ],
+      "win": 0,
+      "decisions": 10,
+      "simulations": 0,
+      "meanMs": 1.128600200000801,
+      "p95Ms": 2.1473750000004657,
+      "maxMs": 2.1473750000004657
+    },
+    {
+      "variant": "rollout",
+      "count": 4,
+      "seed": 330001,
+      "seat": 0,
+      "cash": [
+        173,
+        443,
+        581,
+        489
+      ],
+      "win": 0,
+      "decisions": 11,
+      "simulations": 528,
+      "meanMs": 310.5848104545446,
+      "p95Ms": 408.1178749999963,
+      "maxMs": 408.1178749999963
+    },
+    {
+      "variant": "ismcts",
+      "count": 4,
+      "seed": 330001,
+      "seat": 0,
+      "cash": [
+        200,
+        513,
+        568,
+        511
+      ],
+      "win": 0,
+      "decisions": 9,
+      "simulations": 432,
+      "meanMs": 318.34219466666644,
+      "p95Ms": 413.7079169999997,
+      "maxMs": 413.7079169999997
+    },
+    {
+      "variant": "expert",
+      "count": 4,
+      "seed": 330001,
+      "seat": 1,
+      "cash": [
+        417,
+        532,
+        593,
+        495
+      ],
+      "win": 0,
+      "decisions": 15,
+      "simulations": 0,
+      "meanMs": 1.6027833333340822,
+      "p95Ms": 3.6906249999956344,
+      "maxMs": 3.6906249999956344
+    },
+    {
+      "variant": "rollout",
+      "count": 4,
+      "seed": 330001,
+      "seat": 1,
+      "cash": [
+        438,
+        339,
+        586,
+        526
+      ],
+      "win": 0,
+      "decisions": 14,
+      "simulations": 672,
+      "meanMs": 267.0809405714302,
+      "p95Ms": 416.19862499999726,
+      "maxMs": 416.19862499999726
+    },
+    {
+      "variant": "ismcts",
+      "count": 4,
+      "seed": 330001,
+      "seat": 1,
+      "cash": [
+        413,
+        130,
+        675,
+        632
+      ],
+      "win": 0,
+      "decisions": 14,
+      "simulations": 672,
+      "meanMs": 232.22350292857143,
+      "p95Ms": 384.42487500000425,
+      "maxMs": 384.42487500000425
+    },
+    {
+      "variant": "expert",
+      "count": 4,
+      "seed": 330001,
+      "seat": 2,
+      "cash": [
+        371,
+        520,
+        677,
+        537
+      ],
+      "win": 1,
+      "decisions": 13,
+      "simulations": 0,
+      "meanMs": 1.3888556923081454,
+      "p95Ms": 2.8397079999995185,
+      "maxMs": 2.8397079999995185
+    },
+    {
+      "variant": "rollout",
+      "count": 4,
+      "seed": 330001,
+      "seat": 2,
+      "cash": [
+        477,
+        418,
+        391,
+        530
+      ],
+      "win": 0,
+      "decisions": 11,
+      "simulations": 528,
+      "meanMs": 283.0816099090893,
+      "p95Ms": 407.2963749999981,
+      "maxMs": 407.2963749999981
+    },
+    {
+      "variant": "ismcts",
+      "count": 4,
+      "seed": 330001,
+      "seat": 2,
+      "cash": [
+        374,
+        488,
+        486,
+        462
+      ],
+      "win": 0,
+      "decisions": 11,
+      "simulations": 528,
+      "meanMs": 301.43168181818396,
+      "p95Ms": 418.1101250000065,
+      "maxMs": 418.1101250000065
+    },
+    {
+      "variant": "expert",
+      "count": 4,
+      "seed": 330001,
+      "seat": 3,
+      "cash": [
+        442,
+        446,
+        526,
+        551
+      ],
+      "win": 1,
+      "decisions": 14,
+      "simulations": 0,
+      "meanMs": 1.5337085000012718,
+      "p95Ms": 4.493249999999534,
+      "maxMs": 4.493249999999534
+    },
+    {
+      "variant": "rollout",
+      "count": 4,
+      "seed": 330001,
+      "seat": 3,
+      "cash": [
+        474,
+        407,
+        596,
+        533
+      ],
+      "win": 0,
+      "decisions": 14,
+      "simulations": 672,
+      "meanMs": 259.2288810000006,
+      "p95Ms": 386.2477079999953,
+      "maxMs": 386.2477079999953
+    },
+    {
+      "variant": "ismcts",
+      "count": 4,
+      "seed": 330001,
+      "seat": 3,
+      "cash": [
+        500,
+        477,
+        557,
+        376
+      ],
+      "win": 0,
+      "decisions": 18,
+      "simulations": 864,
+      "meanMs": 322.1404075555547,
+      "p95Ms": 476.54933300000266,
+      "maxMs": 476.54933300000266
+    },
+    {
+      "variant": "expert",
+      "count": 4,
+      "seed": 330002,
+      "seat": 0,
+      "cash": [
+        523,
+        450,
+        739,
+        379
+      ],
+      "win": 0,
+      "decisions": 17,
+      "simulations": 0,
+      "meanMs": 1.2731617058846443,
+      "p95Ms": 3.7757910000073025,
+      "maxMs": 3.7757910000073025
+    },
+    {
+      "variant": "rollout",
+      "count": 4,
+      "seed": 330002,
+      "seat": 0,
+      "cash": [
+        395,
+        352,
+        478,
+        483
+      ],
+      "win": 0,
+      "decisions": 10,
+      "simulations": 480,
+      "meanMs": 280.53854169999977,
+      "p95Ms": 373.5149160000001,
+      "maxMs": 373.5149160000001
+    },
+    {
+      "variant": "ismcts",
+      "count": 4,
+      "seed": 330002,
+      "seat": 0,
+      "cash": [
+        309,
+        283,
+        530,
+        444
+      ],
+      "win": 0,
+      "decisions": 9,
+      "simulations": 432,
+      "meanMs": 306.79492111111176,
+      "p95Ms": 366.747749999995,
+      "maxMs": 366.747749999995
+    },
+    {
+      "variant": "expert",
+      "count": 4,
+      "seed": 330002,
+      "seat": 1,
+      "cash": [
+        460,
+        447,
+        543,
+        428
+      ],
+      "win": 0,
+      "decisions": 9,
+      "simulations": 0,
+      "meanMs": 2.6317175555579726,
+      "p95Ms": 3.6211250000051223,
+      "maxMs": 3.6211250000051223
+    },
+    {
+      "variant": "rollout",
+      "count": 4,
+      "seed": 330002,
+      "seat": 1,
+      "cash": [
+        430,
+        365,
+        545,
+        421
+      ],
+      "win": 0,
+      "decisions": 12,
+      "simulations": 576,
+      "meanMs": 305.47612483333313,
+      "p95Ms": 407.4396659999911,
+      "maxMs": 407.4396659999911
+    },
+    {
+      "variant": "ismcts",
+      "count": 4,
+      "seed": 330002,
+      "seat": 1,
+      "cash": [
+        603,
+        356,
+        616,
+        505
+      ],
+      "win": 0,
+      "decisions": 12,
+      "simulations": 576,
+      "meanMs": 280.892486083337,
+      "p95Ms": 379.8400410000031,
+      "maxMs": 379.8400410000031
+    },
+    {
+      "variant": "expert",
+      "count": 4,
+      "seed": 330002,
+      "seat": 2,
+      "cash": [
+        379,
+        408,
+        558,
+        467
+      ],
+      "win": 1,
+      "decisions": 13,
+      "simulations": 0,
+      "meanMs": 1.366939000001786,
+      "p95Ms": 2.7425840000069,
+      "maxMs": 2.7425840000069
+    },
+    {
+      "variant": "rollout",
+      "count": 4,
+      "seed": 330002,
+      "seat": 2,
+      "cash": [
+        487,
+        419,
+        536,
+        499
+      ],
+      "win": 1,
+      "decisions": 14,
+      "simulations": 672,
+      "meanMs": 324.57115785714166,
+      "p95Ms": 425.3271669999958,
+      "maxMs": 425.3271669999958
+    },
+    {
+      "variant": "ismcts",
+      "count": 4,
+      "seed": 330002,
+      "seat": 2,
+      "cash": [
+        449,
+        446,
+        429,
+        495
+      ],
+      "win": 0,
+      "decisions": 11,
+      "simulations": 528,
+      "meanMs": 278.6055983636351,
+      "p95Ms": 356.9629580000037,
+      "maxMs": 356.9629580000037
+    },
+    {
+      "variant": "expert",
+      "count": 4,
+      "seed": 330002,
+      "seat": 3,
+      "cash": [
+        477,
+        463,
+        759,
+        541
+      ],
+      "win": 0,
+      "decisions": 14,
+      "simulations": 0,
+      "meanMs": 2.5197352142859017,
+      "p95Ms": 7.3610419999895385,
+      "maxMs": 7.3610419999895385
+    },
+    {
+      "variant": "rollout",
+      "count": 4,
+      "seed": 330002,
+      "seat": 3,
+      "cash": [
+        533,
+        429,
+        628,
+        394
+      ],
+      "win": 0,
+      "decisions": 11,
+      "simulations": 528,
+      "meanMs": 312.3917802727255,
+      "p95Ms": 420.18304199998965,
+      "maxMs": 420.18304199998965
+    },
+    {
+      "variant": "ismcts",
+      "count": 4,
+      "seed": 330002,
+      "seat": 3,
+      "cash": [
+        490,
+        558,
+        564,
+        314
+      ],
+      "win": 0,
+      "decisions": 16,
+      "simulations": 768,
+      "meanMs": 297.7803698749958,
+      "p95Ms": 454.4688329999917,
+      "maxMs": 454.4688329999917
+    },
+    {
+      "variant": "expert",
+      "count": 5,
+      "seed": 330001,
+      "seat": 0,
+      "cash": [
+        359,
+        343,
+        470,
+        483,
+        495
+      ],
+      "win": 0,
+      "decisions": 9,
+      "simulations": 0,
+      "meanMs": 1.4708564444461243,
+      "p95Ms": 4.380917000002228,
+      "maxMs": 4.380917000002228
+    },
+    {
+      "variant": "rollout",
+      "count": 5,
+      "seed": 330001,
+      "seat": 0,
+      "cash": [
+        329,
+        281,
+        394,
+        414,
+        481
+      ],
+      "win": 0,
+      "decisions": 8,
+      "simulations": 384,
+      "meanMs": 318.49979149999854,
+      "p95Ms": 513.6218749999971,
+      "maxMs": 513.6218749999971
+    },
+    {
+      "variant": "ismcts",
+      "count": 5,
+      "seed": 330001,
+      "seat": 0,
+      "cash": [
+        261,
+        389,
+        447,
+        378,
+        541
+      ],
+      "win": 0,
+      "decisions": 11,
+      "simulations": 528,
+      "meanMs": 263.4934429999967,
+      "p95Ms": 605.9859169999982,
+      "maxMs": 605.9859169999982
+    },
+    {
+      "variant": "expert",
+      "count": 5,
+      "seed": 330001,
+      "seat": 1,
+      "cash": [
+        276,
+        350,
+        447,
+        399,
+        501
+      ],
+      "win": 0,
+      "decisions": 12,
+      "simulations": 0,
+      "meanMs": 1.9488542500027204,
+      "p95Ms": 5.111625000005006,
+      "maxMs": 5.111625000005006
+    },
+    {
+      "variant": "rollout",
+      "count": 5,
+      "seed": 330001,
+      "seat": 1,
+      "cash": [
+        412,
+        444,
+        379,
+        314,
+        488
+      ],
+      "win": 0,
+      "decisions": 14,
+      "simulations": 672,
+      "meanMs": 329.4688362857123,
+      "p95Ms": 461.7587499999936,
+      "maxMs": 461.7587499999936
+    },
+    {
+      "variant": "ismcts",
+      "count": 5,
+      "seed": 330001,
+      "seat": 1,
+      "cash": [
+        321,
+        373,
+        468,
+        462,
+        388
+      ],
+      "win": 0,
+      "decisions": 15,
+      "simulations": 720,
+      "meanMs": 389.7177083333343,
+      "p95Ms": 559.933916000009,
+      "maxMs": 559.933916000009
+    },
+    {
+      "variant": "expert",
+      "count": 5,
+      "seed": 330001,
+      "seat": 2,
+      "cash": [
+        371,
+        375,
+        440,
+        436,
+        454
+      ],
+      "win": 0,
+      "decisions": 11,
+      "simulations": 0,
+      "meanMs": 1.2940605454575482,
+      "p95Ms": 3.336875000008149,
+      "maxMs": 3.336875000008149
+    },
+    {
+      "variant": "rollout",
+      "count": 5,
+      "seed": 330001,
+      "seat": 2,
+      "cash": [
+        351,
+        472,
+        474,
+        331,
+        474
+      ],
+      "win": 0.5,
+      "decisions": 11,
+      "simulations": 528,
+      "meanMs": 411.1598939999994,
+      "p95Ms": 519.9308339999989,
+      "maxMs": 519.9308339999989
+    },
+    {
+      "variant": "ismcts",
+      "count": 5,
+      "seed": 330001,
+      "seat": 2,
+      "cash": [
+        305,
+        391,
+        289,
+        429,
+        520
+      ],
+      "win": 0,
+      "decisions": 9,
+      "simulations": 432,
+      "meanMs": 380.3670601111096,
+      "p95Ms": 534.9437499999767,
+      "maxMs": 534.9437499999767
+    },
+    {
+      "variant": "expert",
+      "count": 5,
+      "seed": 330001,
+      "seat": 3,
+      "cash": [
+        297,
+        446,
+        495,
+        392,
+        505
+      ],
+      "win": 0,
+      "decisions": 11,
+      "simulations": 0,
+      "meanMs": 1.2399395454585003,
+      "p95Ms": 3.1375419999822043,
+      "maxMs": 3.1375419999822043
+    },
+    {
+      "variant": "rollout",
+      "count": 5,
+      "seed": 330001,
+      "seat": 3,
+      "cash": [
+        377,
+        443,
+        415,
+        267,
+        468
+      ],
+      "win": 0,
+      "decisions": 11,
+      "simulations": 528,
+      "meanMs": 265.3373710909033,
+      "p95Ms": 465.0184580000059,
+      "maxMs": 465.0184580000059
+    },
+    {
+      "variant": "ismcts",
+      "count": 5,
+      "seed": 330001,
+      "seat": 3,
+      "cash": [
+        480,
+        401,
+        406,
+        336,
+        414
+      ],
+      "win": 0,
+      "decisions": 14,
+      "simulations": 672,
+      "meanMs": 362.7256608571458,
+      "p95Ms": 548.4336250000051,
+      "maxMs": 548.4336250000051
+    },
+    {
+      "variant": "expert",
+      "count": 5,
+      "seed": 330001,
+      "seat": 4,
+      "cash": [
+        406,
+        429,
+        483,
+        337,
+        445
+      ],
+      "win": 0,
+      "decisions": 9,
+      "simulations": 0,
+      "meanMs": 0.8424631111136276,
+      "p95Ms": 1.8739590000186581,
+      "maxMs": 1.8739590000186581
+    },
+    {
+      "variant": "rollout",
+      "count": 5,
+      "seed": 330001,
+      "seat": 4,
+      "cash": [
+        282,
+        425,
+        303,
+        478,
+        430
+      ],
+      "win": 0,
+      "decisions": 11,
+      "simulations": 528,
+      "meanMs": 389.3293334545478,
+      "p95Ms": 589.4813330000034,
+      "maxMs": 589.4813330000034
+    },
+    {
+      "variant": "ismcts",
+      "count": 5,
+      "seed": 330001,
+      "seat": 4,
+      "cash": [
+        388,
+        377,
+        391,
+        352,
+        512
+      ],
+      "win": 1,
+      "decisions": 8,
+      "simulations": 384,
+      "meanMs": 308.16259887499837,
+      "p95Ms": 479.8547499999986,
+      "maxMs": 479.8547499999986
+    },
+    {
+      "variant": "expert",
+      "count": 5,
+      "seed": 330002,
+      "seat": 0,
+      "cash": [
+        354,
+        391,
+        531,
+        392,
+        506
+      ],
+      "win": 0,
+      "decisions": 13,
+      "simulations": 0,
+      "meanMs": 2.0852916153783623,
+      "p95Ms": 5.508124999993015,
+      "maxMs": 5.508124999993015
+    },
+    {
+      "variant": "rollout",
+      "count": 5,
+      "seed": 330002,
+      "seat": 0,
+      "cash": [
+        315,
+        400,
+        306,
+        383,
+        428
+      ],
+      "win": 0,
+      "decisions": 8,
+      "simulations": 384,
+      "meanMs": 419.8110779999952,
+      "p95Ms": 473.8509999999951,
+      "maxMs": 473.8509999999951
+    },
+    {
+      "variant": "ismcts",
+      "count": 5,
+      "seed": 330002,
+      "seat": 0,
+      "cash": [
+        292,
+        391,
+        482,
+        347,
+        488
+      ],
+      "win": 0,
+      "decisions": 13,
+      "simulations": 624,
+      "meanMs": 454.71730769230857,
+      "p95Ms": 594.2901249999995,
+      "maxMs": 594.2901249999995
+    },
+    {
+      "variant": "expert",
+      "count": 5,
+      "seed": 330002,
+      "seat": 1,
+      "cash": [
+        412,
+        415,
+        546,
+        423,
+        520
+      ],
+      "win": 0,
+      "decisions": 7,
+      "simulations": 0,
+      "meanMs": 1.6267618571457985,
+      "p95Ms": 2.4063749999913853,
+      "maxMs": 2.4063749999913853
+    },
+    {
+      "variant": "rollout",
+      "count": 5,
+      "seed": 330002,
+      "seat": 1,
+      "cash": [
+        350,
+        267,
+        409,
+        377,
+        445
+      ],
+      "win": 0,
+      "decisions": 9,
+      "simulations": 432,
+      "meanMs": 371.3851296666641,
+      "p95Ms": 487.17445800002315,
+      "maxMs": 487.17445800002315
+    },
+    {
+      "variant": "ismcts",
+      "count": 5,
+      "seed": 330002,
+      "seat": 1,
+      "cash": [
+        348,
+        233,
+        404,
+        448,
+        525
+      ],
+      "win": 0,
+      "decisions": 14,
+      "simulations": 672,
+      "meanMs": 300.7979970714327,
+      "p95Ms": 506.9455420000013,
+      "maxMs": 506.9455420000013
+    },
+    {
+      "variant": "expert",
+      "count": 5,
+      "seed": 330002,
+      "seat": 2,
+      "cash": [
+        354,
+        411,
+        447,
+        436,
+        555
+      ],
+      "win": 0,
+      "decisions": 13,
+      "simulations": 0,
+      "meanMs": 1.372955230772137,
+      "p95Ms": 4.257708999997703,
+      "maxMs": 4.257708999997703
+    },
+    {
+      "variant": "rollout",
+      "count": 5,
+      "seed": 330002,
+      "seat": 2,
+      "cash": [
+        414,
+        297,
+        440,
+        251,
+        453
+      ],
+      "win": 0,
+      "decisions": 8,
+      "simulations": 384,
+      "meanMs": 344.0483593750105,
+      "p95Ms": 422.4990420000104,
+      "maxMs": 422.4990420000104
+    },
+    {
+      "variant": "ismcts",
+      "count": 5,
+      "seed": 330002,
+      "seat": 2,
+      "cash": [
+        459,
+        373,
+        513,
+        450,
+        537
+      ],
+      "win": 0,
+      "decisions": 8,
+      "simulations": 384,
+      "meanMs": 353.0039373749896,
+      "p95Ms": 448.5878329999978,
+      "maxMs": 448.5878329999978
+    },
+    {
+      "variant": "expert",
+      "count": 5,
+      "seed": 330002,
+      "seat": 3,
+      "cash": [
+        355,
+        365,
+        539,
+        474,
+        433
+      ],
+      "win": 0,
+      "decisions": 11,
+      "simulations": 0,
+      "meanMs": 0.940276636358414,
+      "p95Ms": 2.0392080000019632,
+      "maxMs": 2.0392080000019632
+    },
+    {
+      "variant": "rollout",
+      "count": 5,
+      "seed": 330002,
+      "seat": 3,
+      "cash": [
+        310,
+        493,
+        481,
+        270,
+        581
+      ],
+      "win": 0,
+      "decisions": 11,
+      "simulations": 528,
+      "meanMs": 329.29846199999815,
+      "p95Ms": 526.0476660000277,
+      "maxMs": 526.0476660000277
+    },
+    {
+      "variant": "ismcts",
+      "count": 5,
+      "seed": 330002,
+      "seat": 3,
+      "cash": [
+        496,
+        414,
+        422,
+        228,
+        486
+      ],
+      "win": 0,
+      "decisions": 11,
+      "simulations": 528,
+      "meanMs": 339.4901515454509,
+      "p95Ms": 502.497915999993,
+      "maxMs": 502.497915999993
+    },
+    {
+      "variant": "expert",
+      "count": 5,
+      "seed": 330002,
+      "seat": 4,
+      "cash": [
+        276,
+        403,
+        366,
+        477,
+        564
+      ],
+      "win": 1,
+      "decisions": 12,
+      "simulations": 0,
+      "meanMs": 1.2720346666610567,
+      "p95Ms": 3.633040999993682,
+      "maxMs": 3.633040999993682
+    },
+    {
+      "variant": "rollout",
+      "count": 5,
+      "seed": 330002,
+      "seat": 4,
+      "cash": [
+        443,
+        316,
+        485,
+        324,
+        398
+      ],
+      "win": 0,
+      "decisions": 10,
+      "simulations": 480,
+      "meanMs": 401.909066700007,
+      "p95Ms": 541.5847500000091,
+      "maxMs": 541.5847500000091
+    },
+    {
+      "variant": "ismcts",
+      "count": 5,
+      "seed": 330002,
+      "seat": 4,
+      "cash": [
+        344,
+        353,
+        422,
+        342,
+        440
+      ],
+      "win": 1,
+      "decisions": 11,
+      "simulations": 528,
+      "meanMs": 360.2702041818226,
+      "p95Ms": 547.2929580000055,
+      "maxMs": 547.2929580000055
+    }
+  ]
+}

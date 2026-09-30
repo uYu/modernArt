@@ -1,5 +1,8 @@
+import { plan } from './ai-planning.ts';
 import { chooseAction as experienced } from './ai.ts';
 import { chooseAction as local, estimate } from './ai-legacy.ts';
+import { chooseUniversalAction, searchAuction } from './ai-universal.ts';
+import { searchTacticalOffer } from './ai-tactical.ts';
 import { ranking } from './engine.ts';
 import type { Action, Observation, Card } from './types.ts';
 import type { GameLevel } from './preferences.ts';
@@ -37,7 +40,15 @@ function beginnerOffer(o: Observation, card: Card) {
   );
 }
 export function chooseLevelAction(o: Observation, level: GameLevel): Action {
-  if (level === 'expert') return experienced(o);
+  if (level === 'tactical')
+    return o.phase === 'offer' || o.phase === 'pair'
+      ? searchTacticalOffer(o, { budgetMs: Infinity }).action
+      : searchAuction(o, { budgetMs: Infinity }).action;
+  if (level === 'rollout' || level === 'ismcts')
+    return o.phase === 'offer' || o.phase === 'pair'
+      ? plan(o, { mode: level, iterations: 96, timeMs: 250 }).action
+      : experienced(o);
+  if (level === 'expert') return chooseUniversalAction(o);
   if (level === 'hard') {
     // Limited planning: search offering/pairing near the end of a season or game.
     const tactical = o.round === 4 || Math.max(...o.counts) >= 3;

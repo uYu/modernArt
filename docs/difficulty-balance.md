@@ -38,3 +38,17 @@ npm run build
 node --experimental-strip-types experiments/difficulty-balance.ts 151001 60 experiments/difficulty-balance-holdout.json
 python3 experiments/summarize-difficulty.py
 ```
+
+## 2026-09-20 专家策略调整
+
+专家出牌及补画仍使用24个场景，但改用针对最富对手的财富差评分：前三季权重0.65，第四季权重1。评估成交时同时计入买家的藏品价值与付款、卖家的收款；明确可赢的第四季收官逻辑保留。其他难度与竞价策略保持不变。
+
+`node --experimental-strip-types experiments/expert-review.ts 10` 使用192001–192010种子，轮换所有席位，在其余玩家为困难的条件下，对照旧专家和新版专家，共240局。三人局旧版26.7%、新版33.3%；四人局均27.5%；五人局旧版24%、新版28%。这只是小样本冒烟对照，不足以证明显著提升，也不替代前述独立验证。
+
+## 2026-09-20 专家竞价升级（后续独立验证）
+
+上述「专家与困难差距未确认」及 240 局小样本描述对应此前版本。当前专家已接入 `expert-v2-auction`，新增暗标和一口价定价优化；1,800 局新版独立验证及匹配对照确认相对旧专家的提升，对困难的 3/4/5 人胜利分率为 63.3% / 52.1% / 51.3%。详见 [新版专家的完整证据与限制](expert-upgrade.md)。
+
+## 2026-09-23 统一拍卖搜索升级
+
+以上竞价共用、档位胜率表和 `expert-v2-auction` 结果都对应当时版本；正式「专家」现采用 [统一拍卖搜索](universal-auction.md)，请以该报告的新对照数据判断当前强度。

@@ -1,0 +1,203 @@
+[
+  {
+    "opponents": "expert",
+    "groups": [
+      {
+        "count": 3,
+        "games": 36,
+        "candidate": 0.5833333333333334,
+        "baseline": 0.3333333333333333,
+        "difference": 0.25,
+        "ci95": [0.08333333333333333, 0.4444444444444444]
+      },
+      {
+        "count": 4,
+        "games": 48,
+        "candidate": 0.6041666666666666,
+        "baseline": 0.25,
+        "difference": 0.3541666666666667,
+        "ci95": [0.25, 0.4583333333333333]
+      },
+      {
+        "count": 5,
+        "games": 60,
+        "candidate": 0.4,
+        "baseline": 0.2,
+        "difference": 0.2,
+        "ci95": [0.1, 0.30000000000000004]
+      }
+    ],
+    "aggregate": {
+      "weighting": "equal player counts",
+      "difference": 0.26805555555555555,
+      "ci975": [0.17962962962962964, 0.36435185185185187],
+      "seeds": 12
+    },
+    "phaseStats": {
+      "price/fixed": {
+        "decisions": 396,
+        "changed": 88,
+        "simulations": 9502
+      },
+      "bid/open": {
+        "decisions": 5701,
+        "changed": 1557,
+        "simulations": 134087
+      },
+      "bid/once": {
+        "decisions": 838,
+        "changed": 182,
+        "simulations": 19824
+      },
+      "bid/fixed": {
+        "decisions": 622,
+        "changed": 160,
+        "simulations": 14640
+      },
+      "bid/sealed": {
+        "decisions": 1023,
+        "changed": 375,
+        "simulations": 15037
+      }
+    },
+    "timing": {
+      "decisions": 10394,
+      "totalMs": 326275.50923400006,
+      "maxMs": 287.7384159999783
+    }
+  },
+  {
+    "opponents": "mixed",
+    "groups": [
+      {
+        "count": 3,
+        "games": 36,
+        "candidate": 0.7222222222222222,
+        "baseline": 0.4166666666666667,
+        "difference": 0.3055555555555555,
+        "ci95": [0.1388888888888889, 0.5]
+      },
+      {
+        "count": 4,
+        "games": 48,
+        "candidate": 0.7291666666666666,
+        "baseline": 0.5729166666666666,
+        "difference": 0.15625,
+        "ci95": [0.020833333333333332, 0.3125]
+      },
+      {
+        "count": 5,
+        "games": 60,
+        "candidate": 0.39166666666666666,
+        "baseline": 0.2,
+        "difference": 0.19166666666666668,
+        "ci95": [0.03333333333333333, 0.3416666666666667]
+      }
+    ],
+    "aggregate": {
+      "weighting": "equal player counts",
+      "difference": 0.2178240740740741,
+      "ci975": [0.11157407407407408, 0.3159722222222222],
+      "seeds": 12
+    },
+    "phaseStats": {
+      "bid/open": {
+        "decisions": 3882,
+        "changed": 999,
+        "simulations": 92352
+      },
+      "bid/fixed": {
+        "decisions": 764,
+        "changed": 99,
+        "simulations": 18120
+      },
+      "price/fixed": {
+        "decisions": 396,
+        "changed": 85,
+        "simulations": 9504
+      },
+      "bid/sealed": {
+        "decisions": 1060,
+        "changed": 370,
+        "simulations": 16309
+      },
+      "bid/once": {
+        "decisions": 869,
+        "changed": 240,
+        "simulations": 20544
+      }
+    },
+    "timing": {
+      "decisions": 8829,
+      "totalMs": 295283.29533000005,
+      "maxMs": 230.04404200002318
+    }
+  },
+  {
+    "opponents": "hard",
+    "groups": [
+      {
+        "count": 3,
+        "games": 18,
+        "candidate": 0.6111111111111112,
+        "baseline": 0.5555555555555556,
+        "difference": 0.05555555555555555,
+        "ci95": [-0.2777777777777778, 0.2777777777777778]
+      },
+      {
+        "count": 4,
+        "games": 24,
+        "candidate": 0.8333333333333334,
+        "baseline": 0.625,
+        "difference": 0.20833333333333334,
+        "ci95": [0.08333333333333333, 0.3333333333333333]
+      },
+      {
+        "count": 5,
+        "games": 30,
+        "candidate": 0.7666666666666667,
+        "baseline": 0.55,
+        "difference": 0.21666666666666667,
+        "ci95": [0.11666666666666667, 0.31666666666666665]
+      }
+    ],
+    "aggregate": {
+      "weighting": "equal player counts",
+      "difference": 0.16018518518518518,
+      "ci975": [0.019444444444444455, 0.30833333333333335],
+      "seeds": 6
+    },
+    "phaseStats": {
+      "bid/once": {
+        "decisions": 471,
+        "changed": 99,
+        "simulations": 11208
+      },
+      "bid/open": {
+        "decisions": 2840,
+        "changed": 767,
+        "simulations": 67200
+      },
+      "bid/sealed": {
+        "decisions": 550,
+        "changed": 173,
+        "simulations": 8410
+      },
+      "price/fixed": {
+        "decisions": 202,
+        "changed": 41,
+        "simulations": 4848
+      },
+      "bid/fixed": {
+        "decisions": 232,
+        "changed": 11,
+        "simulations": 5568
+      }
+    },
+    "timing": {
+      "decisions": 5233,
+      "totalMs": 166678.82944600045,
+      "maxMs": 271.33954200000153
+    }
+  }
+]

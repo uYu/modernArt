@@ -1,0 +1,700 @@
+{
+  "pool": "timed",
+  "scope": "serial product budgets: tactical 1000ms and expert auction 180ms; first expert action cached per identical Observation",
+  "seeds": [
+    939301,
+    939302,
+    939303,
+    939304,
+    939305,
+    939306
+  ],
+  "pairs": 72,
+  "games": 90,
+  "hashes": {
+    "src/game/engine.ts": "a16af0fbd7a2f7ccd4b87f3e1cbf1c1481a09d20cea61780ab06520daa72ab9e",
+    "src/game/types.ts": "f7e34f96963a1950fa329991882b94e5212abb40554133ee994b19b369218d16",
+    "src/game/data.ts": "e2454968a77411b8802dadc213cbcf2ebab5afe9e041b2e3383a2939e27ab86d",
+    "src/game/ledger.ts": "7a16715854cf6d80785393a9329fbddc3c1054775a5c71f3f9f6c7a959b39f16",
+    "src/game/ai.ts": "33c372e8bb027a14629e7dfb1500a5fac679cbd1644f6af876fd3e28d8a28da0",
+    "src/game/ai-legacy.ts": "d3d2b6e790ff935132f8489cdbbb63b7025e7192ddd867fd092b4d0e5db714cd",
+    "src/game/ai-search.ts": "aa6a1d7bfe23fcf7ca569c6ecbd39f20d07741ff558cb6cf1ed3d6c633c42158",
+    "src/game/ai-expert-baseline.ts": "adb8a709c453ea57f372f7619dc170384c2e891fe514d724ee97915a9f51d34d",
+    "src/game/ai-improved.ts": "95eab94cafcc05727dfb5d046f180084235fcf0ae4b25cb1d3bb1977865cb640",
+    "src/game/ai-universal.ts": "c3a4e1ae235352aadc1153affe25902c382aa75de6dbd0deb6b3586e39872591",
+    "src/game/ai-planning.ts": "76da8b747f20bbd2d3439e3f9a4725cf73e67d8b0d7b6acd0599c9cfbc758067",
+    "src/game/ai-belief.ts": "b940d5200f7992e86cc848b8f6883bbf0bea1d76e296747796742a6a6bf9b66c",
+    "src/game/ai-tactical.ts": "7f7698401c3b69d8bebd4183bc23a42abc672e612ff8056426d567825d336923",
+    "experiments/tactical-holdout-game.ts": "727ec725e195658860a80cdf4a2173901508e59e50ead4534961baf3de550e5c",
+    "experiments/tactical-holdout-run.ts": "aeefc2b5fcce0de8122367820bea4d89e4d14aae487bd6ac625066d31a3a91c5",
+    "experiments/summarize-tactical.py": "9ee33c04da942fe99b7750a95f53b9cf53fef9733488ba5a7f22a35868f8d49b",
+    "experiments/tactical-holdout-plan.md": "a10f0a54f388de550f9d1edebe83417f75160b089408a87904c8eca26e062afe",
+    "experiments/tactical-timed-game.ts": "59accaa0fb374f39191e2eacb5a6f947e1bbe08fa6e769d001f43abb67e90e6b",
+    "experiments/tactical-timed-run.ts": "c7e5ff02c4d8e4de11d692307ccdefd7b2452090b5bddec26cefd8145c06ed4f",
+    "experiments/summarize-tactical-timed.py": "d857628dca46de84cbd5e56cc83f05a6fdd00d49a94392d3010846122fbae42d"
+  },
+  "groups": [
+    {
+      "count": 3,
+      "pairs": 18,
+      "candidate": 0.3888888888888889,
+      "baseline": 0.3333333333333333,
+      "difference": 0.05555555555555555,
+      "ci95": [
+        0.0,
+        0.16666666666666666
+      ]
+    },
+    {
+      "count": 4,
+      "pairs": 24,
+      "candidate": 0.125,
+      "baseline": 0.25,
+      "difference": -0.125,
+      "ci95": [
+        -0.25,
+        0.041666666666666664
+      ]
+    },
+    {
+      "count": 5,
+      "pairs": 30,
+      "candidate": 0.23333333333333334,
+      "baseline": 0.2,
+      "difference": 0.03333333333333333,
+      "ci95": [
+        -0.06666666666666668,
+        0.13333333333333333
+      ]
+    }
+  ],
+  "aggregate": {
+    "weighting": "equal player counts, paired by seed and seat",
+    "difference": -0.012037037037037035,
+    "candidate": 0.2490740740740741,
+    "baseline": 0.2611111111111111,
+    "ci95": [
+      -0.08888888888888889,
+      0.05833333333333333
+    ],
+    "twoSidedSignFlipP": 0.875,
+    "passed": false,
+    "seedDifferences": {
+      "939301": -0.15,
+      "939302": 0.08333333333333333,
+      "939303": -0.08333333333333333,
+      "939304": 0.09444444444444444,
+      "939305": 0.06666666666666667,
+      "939306": -0.08333333333333333
+    }
+  },
+  "decisions": {
+    "total": 906,
+    "changed": 232,
+    "completedSamples": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "timing": {
+    "meanMs": 743.479033294702,
+    "p95Ms": 1510.3472920000022,
+    "maxMs": 2233.0735829999976,
+    "fallbacks": 37,
+    "sampleHistogram": {
+      "0": 0,
+      "1": 37,
+      "2": 89,
+      "3": 72,
+      "4": 56,
+      "5": 46,
+      "6": 29,
+      "7": 43,
+      "8": 534
+    }
+  },
+  "rows": [
+    {
+      "seed": 939301,
+      "count": 3,
+      "seat": 0,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939301,
+      "count": 3,
+      "seat": 1,
+      "candidate": 1,
+      "baseline": 1,
+      "difference": 0
+    },
+    {
+      "seed": 939301,
+      "count": 3,
+      "seat": 2,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939301,
+      "count": 4,
+      "seat": 0,
+      "candidate": 0,
+      "baseline": 1,
+      "difference": -1
+    },
+    {
+      "seed": 939301,
+      "count": 4,
+      "seat": 1,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939301,
+      "count": 4,
+      "seat": 2,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939301,
+      "count": 4,
+      "seat": 3,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939301,
+      "count": 5,
+      "seat": 0,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939301,
+      "count": 5,
+      "seat": 1,
+      "candidate": 0,
+      "baseline": 1,
+      "difference": -1
+    },
+    {
+      "seed": 939301,
+      "count": 5,
+      "seat": 2,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939301,
+      "count": 5,
+      "seat": 3,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939301,
+      "count": 5,
+      "seat": 4,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939302,
+      "count": 3,
+      "seat": 0,
+      "candidate": 1,
+      "baseline": 0,
+      "difference": 1
+    },
+    {
+      "seed": 939302,
+      "count": 3,
+      "seat": 1,
+      "candidate": 0,
+      "baseline": 1,
+      "difference": -1
+    },
+    {
+      "seed": 939302,
+      "count": 3,
+      "seat": 2,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939302,
+      "count": 4,
+      "seat": 0,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939302,
+      "count": 4,
+      "seat": 1,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939302,
+      "count": 4,
+      "seat": 2,
+      "candidate": 1,
+      "baseline": 1,
+      "difference": 0
+    },
+    {
+      "seed": 939302,
+      "count": 4,
+      "seat": 3,
+      "candidate": 1,
+      "baseline": 0,
+      "difference": 1
+    },
+    {
+      "seed": 939302,
+      "count": 5,
+      "seat": 0,
+      "candidate": 1,
+      "baseline": 0,
+      "difference": 1
+    },
+    {
+      "seed": 939302,
+      "count": 5,
+      "seat": 1,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939302,
+      "count": 5,
+      "seat": 2,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939302,
+      "count": 5,
+      "seat": 3,
+      "candidate": 0,
+      "baseline": 1,
+      "difference": -1
+    },
+    {
+      "seed": 939302,
+      "count": 5,
+      "seat": 4,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939303,
+      "count": 3,
+      "seat": 0,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939303,
+      "count": 3,
+      "seat": 1,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939303,
+      "count": 3,
+      "seat": 2,
+      "candidate": 1,
+      "baseline": 1,
+      "difference": 0
+    },
+    {
+      "seed": 939303,
+      "count": 4,
+      "seat": 0,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939303,
+      "count": 4,
+      "seat": 1,
+      "candidate": 0,
+      "baseline": 1,
+      "difference": -1
+    },
+    {
+      "seed": 939303,
+      "count": 4,
+      "seat": 2,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939303,
+      "count": 4,
+      "seat": 3,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939303,
+      "count": 5,
+      "seat": 0,
+      "candidate": 1,
+      "baseline": 1,
+      "difference": 0
+    },
+    {
+      "seed": 939303,
+      "count": 5,
+      "seat": 1,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939303,
+      "count": 5,
+      "seat": 2,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939303,
+      "count": 5,
+      "seat": 3,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939303,
+      "count": 5,
+      "seat": 4,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939304,
+      "count": 3,
+      "seat": 0,
+      "candidate": 1,
+      "baseline": 1,
+      "difference": 0
+    },
+    {
+      "seed": 939304,
+      "count": 3,
+      "seat": 1,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939304,
+      "count": 3,
+      "seat": 2,
+      "candidate": 1,
+      "baseline": 0,
+      "difference": 1
+    },
+    {
+      "seed": 939304,
+      "count": 4,
+      "seat": 0,
+      "candidate": 0,
+      "baseline": 1,
+      "difference": -1
+    },
+    {
+      "seed": 939304,
+      "count": 4,
+      "seat": 1,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939304,
+      "count": 4,
+      "seat": 2,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939304,
+      "count": 4,
+      "seat": 3,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939304,
+      "count": 5,
+      "seat": 0,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939304,
+      "count": 5,
+      "seat": 1,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939304,
+      "count": 5,
+      "seat": 2,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939304,
+      "count": 5,
+      "seat": 3,
+      "candidate": 1,
+      "baseline": 0,
+      "difference": 1
+    },
+    {
+      "seed": 939304,
+      "count": 5,
+      "seat": 4,
+      "candidate": 1,
+      "baseline": 1,
+      "difference": 0
+    },
+    {
+      "seed": 939305,
+      "count": 3,
+      "seat": 0,
+      "candidate": 1,
+      "baseline": 0,
+      "difference": 1
+    },
+    {
+      "seed": 939305,
+      "count": 3,
+      "seat": 1,
+      "candidate": 0,
+      "baseline": 1,
+      "difference": -1
+    },
+    {
+      "seed": 939305,
+      "count": 3,
+      "seat": 2,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939305,
+      "count": 4,
+      "seat": 0,
+      "candidate": 0,
+      "baseline": 1,
+      "difference": -1
+    },
+    {
+      "seed": 939305,
+      "count": 4,
+      "seat": 1,
+      "candidate": 1,
+      "baseline": 0,
+      "difference": 1
+    },
+    {
+      "seed": 939305,
+      "count": 4,
+      "seat": 2,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939305,
+      "count": 4,
+      "seat": 3,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939305,
+      "count": 5,
+      "seat": 0,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939305,
+      "count": 5,
+      "seat": 1,
+      "candidate": 1,
+      "baseline": 0,
+      "difference": 1
+    },
+    {
+      "seed": 939305,
+      "count": 5,
+      "seat": 2,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939305,
+      "count": 5,
+      "seat": 3,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939305,
+      "count": 5,
+      "seat": 4,
+      "candidate": 1,
+      "baseline": 1,
+      "difference": 0
+    },
+    {
+      "seed": 939306,
+      "count": 3,
+      "seat": 0,
+      "candidate": 0,
+      "baseline": 1,
+      "difference": -1
+    },
+    {
+      "seed": 939306,
+      "count": 3,
+      "seat": 1,
+      "candidate": 1,
+      "baseline": 0,
+      "difference": 1
+    },
+    {
+      "seed": 939306,
+      "count": 3,
+      "seat": 2,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939306,
+      "count": 4,
+      "seat": 0,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939306,
+      "count": 4,
+      "seat": 1,
+      "candidate": 0,
+      "baseline": 1,
+      "difference": -1
+    },
+    {
+      "seed": 939306,
+      "count": 4,
+      "seat": 2,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939306,
+      "count": 4,
+      "seat": 3,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939306,
+      "count": 5,
+      "seat": 0,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939306,
+      "count": 5,
+      "seat": 1,
+      "candidate": 1,
+      "baseline": 1,
+      "difference": 0
+    },
+    {
+      "seed": 939306,
+      "count": 5,
+      "seat": 2,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939306,
+      "count": 5,
+      "seat": 3,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    },
+    {
+      "seed": 939306,
+      "count": 5,
+      "seat": 4,
+      "candidate": 0,
+      "baseline": 0,
+      "difference": 0
+    }
+  ]
+}

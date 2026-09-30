@@ -19,7 +19,7 @@ export function estimate(o: Observation, artist: number) {
     (past + 15) * (1 - certainty) * Math.min(1, (count + own) / 4)
   );
 }
-function offerScore(o: Observation, card: Card) {
+export function offerScore(o: Observation, card: Card) {
   const counts = [...o.counts];
   counts[card.artist]++;
   const prices = values(o, counts);

@@ -31,6 +31,16 @@ export interface PublicTransaction {
   amount: number;
   cards: Card[];
 }
+/** Public offer/pair decisions only. Never contains a hand, deck card, or locked bid. */
+export interface PublicPlay {
+  round: number;
+  player: number;
+  phase: 'offer' | 'pair';
+  card: Card | null;
+  pairArtist: number | null;
+  countsBefore: number[];
+  collectionsBefore: Card[][];
+}
 export interface RoundResult {
   unsold: Card[];
   round: number;
@@ -57,6 +67,7 @@ export interface GameState {
   auction: Auction | null;
   log: string[];
   transactions: PublicTransaction[];
+  publicPlays: PublicPlay[];
   actions: Action[];
   bankFlow: number;
 }
@@ -68,7 +79,8 @@ export type Action =
   | { type: 'buy'; player: number; accept: boolean }
   | { type: 'next' };
 // This is the only information an AI receives: no deck, seed, other hands,
-// other cash balances, sealed bids, or action history.
+// other cash balances, sealed bids, or complete private action history.
+// publicPlays contains only publicly visible offer/pair decisions.
 export interface Observation {
   round: number;
   turn: number;
@@ -80,6 +92,7 @@ export interface Observation {
   // Only already-public events and face-up cards; never unsubmitted/locked bids.
   publicLog: string[];
   transactions: PublicTransaction[];
+  publicPlays: PublicPlay[];
   settledIncome: number[];
   revealed: Card[];
   names: string[];

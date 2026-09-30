@@ -203,11 +203,12 @@ function scoreDeal(
   cards: Card[],
   seller: number,
   deal: Deal,
+  evaluate = utility,
 ) {
   const wealth = estate(o, cash, value);
   wealth[deal.winner] += cards.length * value[cards[0].artist] - deal.amount;
   if (deal.winner !== seller) wealth[seller] += deal.amount;
-  return utility(o, wealth);
+  return evaluate(o, wealth);
 }
 function bidCandidates(cash: number, value: number, minimum = 0) {
   const set = new Set([minimum]);
@@ -220,7 +221,14 @@ function bidCandidates(cash: number, value: number, minimum = 0) {
   return [...set].filter((p) => p <= cash);
 }
 
-export function chooseAction(o: Observation): Action {
+export function chooseAction(o: Observation, expert = false): Action {
+  // Expert values closing the gap to the strongest rival, especially in season four.
+  const evaluate = expert
+    ? (state: Observation, wealth: number[]) => {
+        const lead = Math.max(...wealth.filter((_, i) => i !== state.self.id));
+        return wealth[state.self.id] - (state.round === 4 ? 1 : 0.65) * lead;
+      }
+    : utility;
   const me = o.self.id;
   const cash = publicCash(o);
   const a = o.auction;
@@ -282,7 +290,7 @@ export function chooseAction(o: Observation): Action {
           owner = seller,
           mechanism = type;
         if (ends) {
-          total += utility(o, estate(o, cash, value));
+          total += evaluate(o, estate(o, cash, value));
           continue;
         }
         if (type === 'double') {
@@ -315,10 +323,18 @@ export function chooseAction(o: Observation): Action {
             }
           }
           if (!completion) {
-            total += scoreDeal(o, cash, value, cards, seller, {
-              winner: seller,
-              amount: 0,
-            });
+            total += scoreDeal(
+              o,
+              cash,
+              value,
+              cards,
+              seller,
+              {
+                winner: seller,
+                amount: 0,
+              },
+              evaluate,
+            );
             continue;
           }
           lot = [...cards, completion];
@@ -326,7 +342,7 @@ export function chooseAction(o: Observation): Action {
           const pairedCounts = [...counts];
           pairedCounts[completion.artist]++;
           if (pairedCounts.some((n) => n >= 5) || handTotal === 1) {
-            total += utility(o, estate(o, cash, prices(o, pairedCounts)));
+            total += evaluate(o, estate(o, cash, prices(o, pairedCounts)));
             continue;
           }
           // Condition the continuation on the publicly hypothesized pairing.
@@ -361,7 +377,7 @@ export function chooseAction(o: Observation): Action {
             .find((p) => limits[p] >= price);
           deal = { winner: buyer ?? owner, amount: price };
         } else deal = auctionOutcome(o, mechanism, owner, limits);
-        total += scoreDeal(o, cash, value, lot, owner, deal);
+        total += scoreDeal(o, cash, value, lot, owner, deal, evaluate);
       }
       const opportunity =
         o.round < 4
@@ -431,7 +447,7 @@ export function chooseAction(o: Observation): Action {
         Math.floor(mean * (a.seller === me ? 0.55 : 0.85)),
       );
       const deal = auctionOutcome(o, a.type, a.seller, limits, action);
-      total += scoreDeal(o, cash, value, a.cards, a.seller, deal);
+      total += scoreDeal(o, cash, value, a.cards, a.seller, deal, evaluate);
     }
     const score = total / SAMPLES;
     if (score > bestScore + 1e-8) {

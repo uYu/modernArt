@@ -1,0 +1,101 @@
+[
+  {
+    "count": 3,
+    "iterations": 48,
+    "actions": 9,
+    "minVisits": 3,
+    "maxVisits": 12,
+    "treeNodes": 48,
+    "treeSelections": 73,
+    "treeRevisits": 25,
+    "elapsedMs": 318.21083400000003
+  },
+  {
+    "count": 3,
+    "iterations": 96,
+    "actions": 9,
+    "minVisits": 7,
+    "maxVisits": 24,
+    "treeNodes": 96,
+    "treeSelections": 162,
+    "treeRevisits": 66,
+    "elapsedMs": 560.0048340000001
+  },
+  {
+    "count": 3,
+    "iterations": 384,
+    "actions": 9,
+    "minVisits": 24,
+    "maxVisits": 60,
+    "treeNodes": 372,
+    "treeSelections": 766,
+    "treeRevisits": 394,
+    "elapsedMs": 2245.930875
+  },
+  {
+    "count": 4,
+    "iterations": 48,
+    "actions": 9,
+    "minVisits": 4,
+    "maxVisits": 7,
+    "treeNodes": 48,
+    "treeSelections": 76,
+    "treeRevisits": 28,
+    "elapsedMs": 346.168083
+  },
+  {
+    "count": 4,
+    "iterations": 96,
+    "actions": 9,
+    "minVisits": 9,
+    "maxVisits": 15,
+    "treeNodes": 96,
+    "treeSelections": 159,
+    "treeRevisits": 63,
+    "elapsedMs": 698.2117499999999
+  },
+  {
+    "count": 4,
+    "iterations": 384,
+    "actions": 9,
+    "minVisits": 33,
+    "maxVisits": 58,
+    "treeNodes": 377,
+    "treeSelections": 745,
+    "treeRevisits": 368,
+    "elapsedMs": 2762.230125
+  },
+  {
+    "count": 5,
+    "iterations": 48,
+    "actions": 6,
+    "minVisits": 7,
+    "maxVisits": 13,
+    "treeNodes": 48,
+    "treeSelections": 80,
+    "treeRevisits": 32,
+    "elapsedMs": 427.40949999999975
+  },
+  {
+    "count": 5,
+    "iterations": 96,
+    "actions": 6,
+    "minVisits": 14,
+    "maxVisits": 23,
+    "treeNodes": 96,
+    "treeSelections": 173,
+    "treeRevisits": 77,
+    "elapsedMs": 788.8274579999998
+  },
+  {
+    "count": 5,
+    "iterations": 384,
+    "actions": 6,
+    "minVisits": 38,
+    "maxVisits": 124,
+    "treeNodes": 373,
+    "treeSelections": 785,
+    "treeRevisits": 412,
+    "elapsedMs": 3303.324625000001
+  }
+]

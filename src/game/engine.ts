@@ -59,6 +59,7 @@ export function createGame(
     auction: null,
     log: ['第一季开幕。每间美术馆获得 100 千元。'],
     transactions: [],
+    publicPlays: [],
     actions: [],
     bankFlow: 0,
   };
@@ -203,8 +204,21 @@ function amountValid(amount: number, cash: number) {
   );
 }
 export function applyAction(state: GameState, action: Action): GameState {
-  requireRule(state.phase !== 'finished', '游戏已经结束');
-  const s = structuredClone(state);
+  return transition(structuredClone(state), action);
+}
+
+/** Mutates a disposable sampled world. Never use on UI/save state.
+ * Uses the identical rules as applyAction, without repeated deep copies.
+ */
+export function advanceSimulation(state: GameState, action: Action): GameState {
+  transition(state, action);
+  state.actions = [];
+  state.log = [];
+  return state;
+}
+
+function transition(s: GameState, action: Action): GameState {
+  requireRule(s.phase !== 'finished', '游戏已经结束');
   if (action.type === 'next') {
     requireRule(s.phase === 'roundEnd', '尚未到轮末');
     if (s.round === 4 || s.players.every((p) => !p.hand.length)) {
@@ -230,7 +244,20 @@ export function applyAction(state: GameState, action: Action): GameState {
     const p = s.players[action.player];
     if (action.type === 'offer') {
       requireRule(s.phase === 'offer', '当前不能出画');
+      const countsBefore = [...s.counts];
+      const collectionsBefore = s.players.map((player) => [
+        ...player.collection,
+      ]);
       const c = takeCard(s, p.id, action.card);
+      s.publicPlays.push({
+        round: s.round,
+        player: p.id,
+        phase: 'offer',
+        card: c,
+        pairArtist: null,
+        countsBefore,
+        collectionsBefore,
+      });
       s.auction = {
         seller: p.id,
         cards: [c],
@@ -250,17 +277,39 @@ export function applyAction(state: GameState, action: Action): GameState {
       requireRule(s.phase === 'pair', '当前不是补画阶段');
       const a = s.auction!;
       if (action.card !== null) {
+        const countsBefore = [...s.counts];
+        const collectionsBefore = s.players.map((player) => [
+          ...player.collection,
+        ]);
         const c = takeCard(s, p.id, action.card);
         requireRule(
           c.artist === a.cards[0].artist && c.type !== 'double',
           '必须搭配同艺术家的非双重拍卖作品',
         );
+        s.publicPlays.push({
+          round: s.round,
+          player: p.id,
+          phase: 'pair',
+          card: c,
+          pairArtist: a.cards[0].artist,
+          countsBefore,
+          collectionsBefore,
+        });
         a.cards.push(c);
         a.seller = p.id;
         s.counts[c.artist]++;
         s.log.push(`${p.name} 补入第二幅作品，接任拍卖师。`);
         if (!afterCard(s)) startAuction(s, c.type);
       } else {
+        s.publicPlays.push({
+          round: s.round,
+          player: p.id,
+          phase: 'pair',
+          card: null,
+          pairArtist: a.cards[0].artist,
+          countsBefore: [...s.counts],
+          collectionsBefore: s.players.map((player) => [...player.collection]),
+        });
         a.queue.shift();
         if (!a.queue.length) finishAuction(s, a.seller, 0);
       }
@@ -356,6 +405,7 @@ export function observe(s: GameState, id: number): Observation {
     awards: s.history.map((r) => r.awards),
     publicLog: s.log,
     transactions: s.transactions,
+    publicPlays: s.publicPlays,
     settledIncome: s.players.map((_, i) =>
       s.history.reduce((sum, r) => sum + r.income[i], 0),
     ),

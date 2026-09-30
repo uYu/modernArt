@@ -1,0 +1,1134 @@
+{
+  "start": 814101,
+  "seeds": 1,
+  "samples": 256,
+  "hashes": {
+    "experiments/final-win-game-benchmark.ts": "6640d03f0a06fc96e95bac0a6061e1d5d0f67e5e5640e1a5f3bd452d68dbf152",
+    "src/game/ai-universal.ts": "ab59eb4903860d8be6c0017c1b74cd3d79296938d424be152d3a97cfaebde852",
+    "src/game/ai-planning.ts": "76da8b747f20bbd2d3439e3f9a4725cf73e67d8b0d7b6acd0599c9cfbc758067",
+    "src/game/ai-improved.ts": "95eab94cafcc05727dfb5d046f180084235fcf0ae4b25cb1d3bb1977865cb640",
+    "src/game/ai-legacy.ts": "d3d2b6e790ff935132f8489cdbbb63b7025e7192ddd867fd092b4d0e5db714cd",
+    "src/game/engine.ts": "a16af0fbd7a2f7ccd4b87f3e1cbf1c1481a09d20cea61780ab06520daa72ab9e"
+  },
+  "rows": [
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 0,
+      "candidateWin": 1,
+      "baselineWin": 0,
+      "candidateCash": [
+        670,
+        620,
+        600
+      ],
+      "baselineCash": [
+        696,
+        743,
+        590
+      ],
+      "deepDecisions": 15
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 1,
+      "candidateWin": 0,
+      "baselineWin": 1,
+      "candidateCash": [
+        660,
+        592,
+        544
+      ],
+      "baselineCash": [
+        696,
+        743,
+        590
+      ],
+      "deepDecisions": 12
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 2,
+      "candidateWin": 0,
+      "baselineWin": 0,
+      "candidateCash": [
+        717,
+        627,
+        566
+      ],
+      "baselineCash": [
+        696,
+        743,
+        590
+      ],
+      "deepDecisions": 21
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 0,
+      "candidateWin": 1,
+      "baselineWin": 1,
+      "candidateCash": [
+        555,
+        430,
+        361,
+        548
+      ],
+      "baselineCash": [
+        568,
+        505,
+        336,
+        561
+      ],
+      "deepDecisions": 5
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 1,
+      "candidateWin": 0,
+      "baselineWin": 0,
+      "candidateCash": [
+        565,
+        481,
+        354,
+        570
+      ],
+      "baselineCash": [
+        568,
+        505,
+        336,
+        561
+      ],
+      "deepDecisions": 13
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 2,
+      "candidateWin": 0,
+      "baselineWin": 0,
+      "candidateCash": [
+        568,
+        505,
+        336,
+        561
+      ],
+      "baselineCash": [
+        568,
+        505,
+        336,
+        561
+      ],
+      "deepDecisions": 8
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 3,
+      "candidateWin": 1,
+      "baselineWin": 0,
+      "candidateCash": [
+        552,
+        503,
+        331,
+        584
+      ],
+      "baselineCash": [
+        568,
+        505,
+        336,
+        561
+      ],
+      "deepDecisions": 10
+    },
+    {
+      "count": 5,
+      "seed": 814101,
+      "seat": 0,
+      "candidateWin": 1,
+      "baselineWin": 0,
+      "candidateCash": [
+        450,
+        429,
+        347,
+        419,
+        407
+      ],
+      "baselineCash": [
+        406,
+        453,
+        364,
+        395,
+        362
+      ],
+      "deepDecisions": 11
+    },
+    {
+      "count": 5,
+      "seed": 814101,
+      "seat": 1,
+      "candidateWin": 1,
+      "baselineWin": 1,
+      "candidateCash": [
+        406,
+        437,
+        380,
+        395,
+        362
+      ],
+      "baselineCash": [
+        406,
+        453,
+        364,
+        395,
+        362
+      ],
+      "deepDecisions": 1
+    },
+    {
+      "count": 5,
+      "seed": 814101,
+      "seat": 2,
+      "candidateWin": 0,
+      "baselineWin": 0,
+      "candidateCash": [
+        406,
+        453,
+        364,
+        395,
+        362
+      ],
+      "baselineCash": [
+        406,
+        453,
+        364,
+        395,
+        362
+      ],
+      "deepDecisions": 0
+    },
+    {
+      "count": 5,
+      "seed": 814101,
+      "seat": 3,
+      "candidateWin": 0,
+      "baselineWin": 0,
+      "candidateCash": [
+        406,
+        453,
+        364,
+        395,
+        362
+      ],
+      "baselineCash": [
+        406,
+        453,
+        364,
+        395,
+        362
+      ],
+      "deepDecisions": 0
+    },
+    {
+      "count": 5,
+      "seed": 814101,
+      "seat": 4,
+      "candidateWin": 0,
+      "baselineWin": 0,
+      "candidateCash": [
+        391,
+        396,
+        417,
+        456,
+        320
+      ],
+      "baselineCash": [
+        406,
+        453,
+        364,
+        395,
+        362
+      ],
+      "deepDecisions": 1
+    }
+  ],
+  "timing": [
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 0,
+      "phase": "price",
+      "mechanism": "fixed",
+      "ms": 4167.98,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 6428.591334000001,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 5195.359040999996,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 2979.376833000002,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 3129.5445830000026,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 1937.5270420000015,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 1812.0002499999973,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "once",
+      "ms": 3745.3484160000007,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 810.2095000000045,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "once",
+      "ms": 411.46774999999616,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 5881.260500000004,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 4752.514834000001,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 4591.935124999996,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 3569.9140000000043,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 2887.006582999995,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "fixed",
+      "ms": 1195.5719160000008,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 3721.9783330000064,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 1674.1109589999978,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 1729.9718339999963,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 1866.4075420000008,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 1757.2621669999935,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "once",
+      "ms": 1192.2256250000064,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 1973.7829159999965,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 1256.3742079999938,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 917.8789589999942,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 309.88208300000406,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "once",
+      "ms": 1616.7572919999948,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 6407.874125000002,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 5501.510542000004,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 6209.168833000003,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 3468.9055840000074,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 3835.4134579999954,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 2159.790500000003,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 3662.0951659999846,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 1290.0912909999897,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 1023.0407499999856,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 2429.240167000011,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 1787.6692909999983,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 1623.8391659999907,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 6071.007458999986,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 3809.0855420000153,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 3074.3819999999832,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 1537.0562919999938,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 1306.201457999996,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 1308.4648750000051,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "sealed",
+      "ms": 8569.29233299999,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "once",
+      "ms": 2106.2543750000186,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 814101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "once",
+      "ms": 323.6170830000192,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 0,
+      "phase": "price",
+      "mechanism": "fixed",
+      "ms": 2404.465582999983,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 3153.783582999982,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 1808.1725419999857,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 2150.2311250000203,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "once",
+      "ms": 3497.4085410000116,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "fixed",
+      "ms": 542.5898330000055,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 3318.0140829999873,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 2125.388707999984,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 2027.9752499999886,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 1286.4632090000086,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 1250.596499999985,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 3888.874165999994,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 2891.2426250000135,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 1835.9312079999945,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 688.9870830000145,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 700.3115000000107,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 695.4087920000311,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 721.0808749999851,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 9322.309917000006,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 4827.603750000009,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 4713.23895899998,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 1574.5101250000298,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 3661.1495829999913,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 2974.26995799999,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 2116.3207499999553,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 1886.7701670000097,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 3,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 4141.402000000002,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 3,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 1681.3916659999522,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 3,
+      "phase": "bid",
+      "mechanism": "fixed",
+      "ms": 817.0641250000335,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 3,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 2907.958875000011,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 3,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 1081.5487919999869,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 3,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 894.8250000000116,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 3,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 696.4219170000288,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 3,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 699.5144170000567,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 3,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 699.3731660000049,
+      "completedSamples": 256
+    },
+    {
+      "count": 4,
+      "seed": 814101,
+      "seat": 3,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 480.024458000029,
+      "completedSamples": 256
+    },
+    {
+      "count": 5,
+      "seed": 814101,
+      "seat": 0,
+      "phase": "price",
+      "mechanism": "fixed",
+      "ms": 14119.51558300003,
+      "completedSamples": 256
+    },
+    {
+      "count": 5,
+      "seed": 814101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "sealed",
+      "ms": 29876.613249999995,
+      "completedSamples": 256
+    },
+    {
+      "count": 5,
+      "seed": 814101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 7050.173416999984,
+      "completedSamples": 256
+    },
+    {
+      "count": 5,
+      "seed": 814101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 3456.317708000017,
+      "completedSamples": 256
+    },
+    {
+      "count": 5,
+      "seed": 814101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 3554.4434170000022,
+      "completedSamples": 256
+    },
+    {
+      "count": 5,
+      "seed": 814101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "once",
+      "ms": 6675.720541000017,
+      "completedSamples": 256
+    },
+    {
+      "count": 5,
+      "seed": 814101,
+      "seat": 0,
+      "phase": "price",
+      "mechanism": "fixed",
+      "ms": 8005.646375000011,
+      "completedSamples": 256
+    },
+    {
+      "count": 5,
+      "seed": 814101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 1262.5583750000224,
+      "completedSamples": 256
+    },
+    {
+      "count": 5,
+      "seed": 814101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 1235.1857500000042,
+      "completedSamples": 256
+    },
+    {
+      "count": 5,
+      "seed": 814101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "sealed",
+      "ms": 27714.313458999968,
+      "completedSamples": 256
+    },
+    {
+      "count": 5,
+      "seed": 814101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "sealed",
+      "ms": 38380.22774999996,
+      "completedSamples": 256
+    },
+    {
+      "count": 5,
+      "seed": 814101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "fixed",
+      "ms": 246.7327500000829,
+      "completedSamples": 256
+    },
+    {
+      "count": 5,
+      "seed": 814101,
+      "seat": 4,
+      "phase": "bid",
+      "mechanism": "sealed",
+      "ms": 36390.47741699999,
+      "completedSamples": 256
+    }
+  ]
+}

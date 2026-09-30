@@ -1,0 +1,5539 @@
+{
+  "runtime": "v25.8.1",
+  "summary": {
+    "expertMs": {
+      "n": 690,
+      "mean": 1.555377755072474,
+      "p95": 11.252333000000363,
+      "max": 20.73841700000048
+    },
+    "searchMs": {
+      "n": 690,
+      "mean": 33.74428915072463,
+      "p95": 186.8695000000007,
+      "max": 219.69004199999836
+    }
+  },
+  "rows": [
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.16670899999999733,
+      "searchMs": 19.265416000000016,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0015420000000005984,
+      "searchMs": 12.426375000000007,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.008082999999999174,
+      "searchMs": 11.002499999999998,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0012920000000065102,
+      "searchMs": 9.801040999999998,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0013339999999857355,
+      "searchMs": 6.277791000000008,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.001207999999991216,
+      "searchMs": 3.8767500000000155,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.001167000000009466,
+      "searchMs": 6.014082999999999,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0015410000000031232,
+      "searchMs": 4.482042000000007,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.000874999999979309,
+      "searchMs": 3.321832999999998,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0012499999999988631,
+      "searchMs": 4.248540999999989,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008339999999975589,
+      "searchMs": 3.2079999999999984,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008330000000000837,
+      "searchMs": 3.4219169999999792,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0012499999999988631,
+      "searchMs": 3.889333999999991,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0010000000000047748,
+      "searchMs": 2.9174589999999796,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0009589999999946031,
+      "searchMs": 2.967250000000007,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/once",
+      "expertMs": 0.014458000000018956,
+      "searchMs": 8.490957999999978,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/once",
+      "expertMs": 0.0013749999999959073,
+      "searchMs": 4.565625000000011,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/once",
+      "expertMs": 0.0029169999999965057,
+      "searchMs": 2.2477499999999964,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "price/fixed",
+      "expertMs": 2.4995409999999936,
+      "searchMs": 12.909750000000031,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.001125000000001819,
+      "searchMs": 2.629542000000015,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0010419999999840002,
+      "searchMs": 2.2286250000000223,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/sealed",
+      "expertMs": 2.4589160000000447,
+      "searchMs": 118.99379199999998,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/sealed",
+      "expertMs": 2.97950000000003,
+      "searchMs": 77.21808299999998,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/sealed",
+      "expertMs": 3.3260419999999726,
+      "searchMs": 8.245791999999994,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/sealed",
+      "expertMs": 2.4652080000000183,
+      "searchMs": 128.32395799999995,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/sealed",
+      "expertMs": 2.954791,
+      "searchMs": 83.40362500000003,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/sealed",
+      "expertMs": 3.7642909999999574,
+      "searchMs": 11.868124999999964,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/once",
+      "expertMs": 0.003250000000093678,
+      "searchMs": 10.931333999999993,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/once",
+      "expertMs": 0.0012500000000272848,
+      "searchMs": 6.975582999999915,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/once",
+      "expertMs": 0.0028330000000096334,
+      "searchMs": 2.5735420000000886,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "price/fixed",
+      "expertMs": 3.497875000000022,
+      "searchMs": 18.097208000000023,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.001040999999986525,
+      "searchMs": 3.3794169999999895,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0010419999999840002,
+      "searchMs": 2.6867079999999532,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "price/fixed",
+      "expertMs": 3.216624999999908,
+      "searchMs": 18.755667000000017,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0010830000001078588,
+      "searchMs": 3.29849999999999,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0029159999999137654,
+      "searchMs": 30.574792000000002,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0010830000001078588,
+      "searchMs": 25.473249999999894,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.003165999999964697,
+      "searchMs": 22.534834000000046,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0009999999999763531,
+      "searchMs": 26.35262499999999,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0009160000000747459,
+      "searchMs": 17.15058399999998,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0027919999999994616,
+      "searchMs": 6.7029999999999745,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008329999999432403,
+      "searchMs": 17.136625000000095,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0009589999999661813,
+      "searchMs": 16.116915999999947,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006660000000238142,
+      "searchMs": 7.291417000000024,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006250000000136424,
+      "searchMs": 4.462791000000038,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006250000000136424,
+      "searchMs": 4.741041999999993,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005830000000059954,
+      "searchMs": 4.0066249999999854,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "price/fixed",
+      "expertMs": 3.6550829999999905,
+      "searchMs": 19.473125000000095,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0007090000001426233,
+      "searchMs": 3.5803329999998823,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "price/fixed",
+      "expertMs": 3.8395419999999376,
+      "searchMs": 20.35349999999994,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0007920000000467553,
+      "searchMs": 3.650124999999889,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "price/fixed",
+      "expertMs": 3.9918750000001637,
+      "searchMs": 22.678416999999854,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0007500000001527951,
+      "searchMs": 4.004124999999931,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0007909999999355932,
+      "searchMs": 3.0517090000000735,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "price/fixed",
+      "expertMs": 4.162832999999864,
+      "searchMs": 22.488458000000037,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.001207999999905951,
+      "searchMs": 4.101000000000113,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "price/fixed",
+      "expertMs": 4.414416999999958,
+      "searchMs": 23.07091700000001,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0007089999999152496,
+      "searchMs": 3.9052080000001297,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/once",
+      "expertMs": 0.002125000000205546,
+      "searchMs": 15.351999999999862,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/once",
+      "expertMs": 0.0007919999998193816,
+      "searchMs": 7.200958000000128,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/once",
+      "expertMs": 0.0007080000000314612,
+      "searchMs": 3.2317920000000413,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "price/fixed",
+      "expertMs": 4.975500000000011,
+      "searchMs": 26.26295899999991,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0005840000001171575,
+      "searchMs": 4.309082999999873,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "price/fixed",
+      "expertMs": 4.995916999999963,
+      "searchMs": 26.7900410000002,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0005419999999958236,
+      "searchMs": 4.37804200000005,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0029580000000350992,
+      "searchMs": 56.37383299999988,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0009999999999763531,
+      "searchMs": 52.78954199999998,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0025829999999587017,
+      "searchMs": 49.185874999999896,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008339999999407155,
+      "searchMs": 45.89766600000007,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007080000000314612,
+      "searchMs": 31.828125,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.00237499999980173,
+      "searchMs": 36.01237500000002,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0009170000000722212,
+      "searchMs": 29.1117499999998,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007500000001527951,
+      "searchMs": 23.910624999999982,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0023330000001351436,
+      "searchMs": 10.857708999999886,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007080000000314612,
+      "searchMs": 20.883625000000166,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005830000000059954,
+      "searchMs": 8.13108299999999,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.002167000000099506,
+      "searchMs": 6.308374999999842,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/sealed",
+      "expertMs": 5.535957999999937,
+      "searchMs": 190.89587499999993,
+      "samples": 16,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/sealed",
+      "expertMs": 6.74370799999997,
+      "searchMs": 183.03512499999988,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/sealed",
+      "expertMs": 8.140166000000136,
+      "searchMs": 21.921249999999873,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "price/fixed",
+      "expertMs": 5.706500000000233,
+      "searchMs": 30.730999999999767,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0005839999998897838,
+      "searchMs": 4.839790999999877,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.002540999999837368,
+      "searchMs": 52.67208399999981,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.000875000000178261,
+      "searchMs": 38.85849999999982,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.002791000000343047,
+      "searchMs": 35.331208999999944,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.000875000000178261,
+      "searchMs": 27.335708000000068,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008330000000569271,
+      "searchMs": 24.428707999999915,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.00233299999990777,
+      "searchMs": 11.508291999999983,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008330000000569271,
+      "searchMs": 22.00316699999985,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007499999996980478,
+      "searchMs": 8.288500000000113,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.002375000000029104,
+      "searchMs": 6.787374999999884,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.001040999999986525,
+      "searchMs": 45.27391699999998,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0009159999999610591,
+      "searchMs": 40.25941699999976,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.004332999999860476,
+      "searchMs": 32.91229199999998,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0009580000000823929,
+      "searchMs": 22.896541999999954,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.000792000000274129,
+      "searchMs": 20.25145799999973,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0024169999996956903,
+      "searchMs": 11.406750000000102,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007909999999355932,
+      "searchMs": 15.01154200000019,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008339999999407155,
+      "searchMs": 13.294332999999824,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.00233299999990777,
+      "searchMs": 10.021957999999813,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007089999999152496,
+      "searchMs": 10.724833000000217,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005420000002231973,
+      "searchMs": 7.51733299999978,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006670000002486631,
+      "searchMs": 6.098625000000084,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/once",
+      "expertMs": 0.0013750000002801244,
+      "searchMs": 20.78879199999983,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/once",
+      "expertMs": 0.0009159999999610591,
+      "searchMs": 14.49066700000003,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/once",
+      "expertMs": 0.002708999999867956,
+      "searchMs": 3.9032500000002983,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0012080000001333246,
+      "searchMs": 48.63474999999971,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.001040999999986525,
+      "searchMs": 41.25704199999973,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0028750000001309672,
+      "searchMs": 35.84279199999992,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008749999997235136,
+      "searchMs": 21.66908400000011,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008330000000569271,
+      "searchMs": 9.42733300000009,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.00233299999990777,
+      "searchMs": 7.3093330000001515,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/sealed",
+      "expertMs": 6.328292000000147,
+      "searchMs": 181.9058329999998,
+      "samples": 13,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/sealed",
+      "expertMs": 8.335583999999926,
+      "searchMs": 181.83704099999977,
+      "samples": 20,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/sealed",
+      "expertMs": 9.642499999999927,
+      "searchMs": 25.41229199999998,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/sealed",
+      "expertMs": 6.466207999999824,
+      "searchMs": 183.80858399999988,
+      "samples": 13,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/sealed",
+      "expertMs": 8.394999999999982,
+      "searchMs": 182.66070800000034,
+      "samples": 19,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/sealed",
+      "expertMs": 9.947125000000142,
+      "searchMs": 19.69549999999981,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/once",
+      "expertMs": 0.0019170000000485743,
+      "searchMs": 22.238082999999733,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/once",
+      "expertMs": 0.0005409999998846615,
+      "searchMs": 10.139709000000039,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/once",
+      "expertMs": 0.0023340000002463057,
+      "searchMs": 8.975290999999743,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/once",
+      "expertMs": 0.0012499999997999112,
+      "searchMs": 22.99225000000024,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/once",
+      "expertMs": 0.0006659999999101274,
+      "searchMs": 16.092749999999796,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/once",
+      "expertMs": 0.0021660000002157176,
+      "searchMs": 4.315166999999747,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0014590000000680448,
+      "searchMs": 56.49674999999979,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0009580000000823929,
+      "searchMs": 43.33954199999971,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.002541000000292115,
+      "searchMs": 37.946042000000034,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0011660000000119908,
+      "searchMs": 29.08658400000013,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005840000003445311,
+      "searchMs": 10.494457999999668,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0020829999998568383,
+      "searchMs": 8.519124999999804,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/once",
+      "expertMs": 0.0012500000002546585,
+      "searchMs": 24.14208299999973,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/once",
+      "expertMs": 0.0009169999998448475,
+      "searchMs": 16.809375000000273,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/once",
+      "expertMs": 0.0006250000001273293,
+      "searchMs": 4.55316700000003,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0014999999998508429,
+      "searchMs": 64.75083399999994,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0009579999996276456,
+      "searchMs": 54.219792000000325,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.002207999999882304,
+      "searchMs": 32.66816700000072,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008749999997235136,
+      "searchMs": 31.707792000000154,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007499999992433004,
+      "searchMs": 8.91241700000046,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008340000003954628,
+      "searchMs": 8.17516599999999,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0014159999991534278,
+      "searchMs": 64.90920900000037,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0010000000002037268,
+      "searchMs": 57.79200000000037,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.002457999999933236,
+      "searchMs": 43.55170899999939,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0009170000002995948,
+      "searchMs": 52.07470799999919,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008750000006330083,
+      "searchMs": 36.728165999999874,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.001916999999593827,
+      "searchMs": 38.62554199999977,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0009170000002995948,
+      "searchMs": 32.609292000000096,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008330000000569271,
+      "searchMs": 17.068333000000166,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.001833000000260654,
+      "searchMs": 13.127207999999882,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0010830000001078588,
+      "searchMs": 25.531208999999762,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006250000005820766,
+      "searchMs": 11.0674999999992,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 3,
+      "mechanism": "bid/open",
+      "expertMs": 0.0015830000002097222,
+      "searchMs": 8.55224999999973,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/once",
+      "expertMs": 0.002124999999978172,
+      "searchMs": 8.9834579999997,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/once",
+      "expertMs": 0.0005420000006779446,
+      "searchMs": 4.467082999999548,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/once",
+      "expertMs": 0.0005419999997684499,
+      "searchMs": 3.5535829999998896,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/once",
+      "expertMs": 0.0012909999995827093,
+      "searchMs": 2.077792000000045,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0016249999998763087,
+      "searchMs": 19.17241699999977,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007909999994808459,
+      "searchMs": 17.325459000000592,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007500000001527951,
+      "searchMs": 18.538499999999658,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0015830000002097222,
+      "searchMs": 6.294750000000022,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007500000001527951,
+      "searchMs": 15.575541999999587,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008339999994859681,
+      "searchMs": 9.8964160000005,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008749999997235136,
+      "searchMs": 7.752875000000131,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004170000001977314,
+      "searchMs": 6.505749999999352,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008340000003954628,
+      "searchMs": 10.684957999999824,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008750000006330083,
+      "searchMs": 5.57983299999978,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.00045899999986431794,
+      "searchMs": 4.099707999999737,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004580000004352769,
+      "searchMs": 4.0561250000000655,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007919999998193816,
+      "searchMs": 4.86608299999989,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005419999997684499,
+      "searchMs": 3.9522500000002765,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005000000001018634,
+      "searchMs": 4.067167000000154,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005000000001018634,
+      "searchMs": 3.8662500000000364,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007500000001527951,
+      "searchMs": 4.9566249999998035,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006669999993391684,
+      "searchMs": 3.625833000000057,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006670000002486631,
+      "searchMs": 3.6899999999996,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008330000000569271,
+      "searchMs": 3.411417000000256,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006670000002486631,
+      "searchMs": 3.100416000000223,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "price/fixed",
+      "expertMs": 2.5237910000005286,
+      "searchMs": 14.146999999999935,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0005000000001018634,
+      "searchMs": 2.5714170000001104,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0005000000001018634,
+      "searchMs": 2.5417499999994106,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "price/fixed",
+      "expertMs": 2.8405830000001515,
+      "searchMs": 9.980375000000095,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0005410000003394089,
+      "searchMs": 2.7005840000001626,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/sealed",
+      "expertMs": 3.2368749999996,
+      "searchMs": 188.78195899999992,
+      "samples": 18,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/sealed",
+      "expertMs": 3.760417000000416,
+      "searchMs": 186.0987500000001,
+      "samples": 21,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/sealed",
+      "expertMs": 4.448709000000235,
+      "searchMs": 135.0433749999993,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/sealed",
+      "expertMs": 4.9637919999995574,
+      "searchMs": 11.004792000000634,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/once",
+      "expertMs": 0.0017920000000231084,
+      "searchMs": 13.534499999999753,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/once",
+      "expertMs": 0.0009159999999610591,
+      "searchMs": 6.634334000000308,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/once",
+      "expertMs": 0.0006670000002486631,
+      "searchMs": 5.010541999999987,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/once",
+      "expertMs": 0.0014590000000680448,
+      "searchMs": 2.523457999999664,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "price/fixed",
+      "expertMs": 4.422500000000582,
+      "searchMs": 23.88129200000003,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0007910000003903406,
+      "searchMs": 3.626709000000119,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0006670000002486631,
+      "searchMs": 3.1622919999999795,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0005830000000059954,
+      "searchMs": 2.502667000000656,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0016660000001138542,
+      "searchMs": 21.397334000000228,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007500000001527951,
+      "searchMs": 19.094708999999966,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0010419999998703133,
+      "searchMs": 17.330458000000363,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0017920000000231084,
+      "searchMs": 11.428791000000274,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0009159999999610591,
+      "searchMs": 12.59070900000006,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0009589999999661813,
+      "searchMs": 9.112750000000233,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007920000007288763,
+      "searchMs": 8.29149999999936,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006670000002486631,
+      "searchMs": 5.531582999999955,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007080000004862086,
+      "searchMs": 4.900834000000032,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006659999999101274,
+      "searchMs": 4.458625000000211,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "price/fixed",
+      "expertMs": 4.357208000000355,
+      "searchMs": 29.833333999999923,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0003749999996216502,
+      "searchMs": 3.7059159999998883,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.00045899999986431794,
+      "searchMs": 3.544875000000502,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.00041600000076869037,
+      "searchMs": 2.8516249999993306,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "price/fixed",
+      "expertMs": 4.349083000000064,
+      "searchMs": 24.061000000000604,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0006250000005820766,
+      "searchMs": 3.9951249999994616,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.001540999999633641,
+      "searchMs": 41.20466699999997,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007910000003903406,
+      "searchMs": 36.638999999999214,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007910000003903406,
+      "searchMs": 40.95329200000015,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0016660000001138542,
+      "searchMs": 12.395125000000007,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008749999997235136,
+      "searchMs": 26.40087500000027,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007500000001527951,
+      "searchMs": 34.65562500000033,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007910000003903406,
+      "searchMs": 20.312999999999192,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005000000001018634,
+      "searchMs": 11.322041999999783,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.00045900000077381264,
+      "searchMs": 9.238957999999911,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007080000004862086,
+      "searchMs": 18.954666999999972,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008749999997235136,
+      "searchMs": 14.086999999999534,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005839999994350364,
+      "searchMs": 10.719916000000012,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005000000001018634,
+      "searchMs": 8.482334000000264,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008750000006330083,
+      "searchMs": 17.17316699999992,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005000000001018634,
+      "searchMs": 8.893958000000566,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004170000001977314,
+      "searchMs": 12.764666000000034,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007079999995767139,
+      "searchMs": 13.451042000000598,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007080000004862086,
+      "searchMs": 15.469500000000153,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005419999997684499,
+      "searchMs": 6.275540999999976,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "price/fixed",
+      "expertMs": 4.772500000000036,
+      "searchMs": 23.89587500000016,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0005830000000059954,
+      "searchMs": 4.064583000000312,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/sealed",
+      "expertMs": 5.163249999999607,
+      "searchMs": 193.34429199999977,
+      "samples": 10,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/sealed",
+      "expertMs": 9.089832999999999,
+      "searchMs": 180.8009579999998,
+      "samples": 13,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/sealed",
+      "expertMs": 7.294499999999971,
+      "searchMs": 180.27258400000028,
+      "samples": 19,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/sealed",
+      "expertMs": 8.255959000000075,
+      "searchMs": 26.982458000000406,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/once",
+      "expertMs": 0.0018750000008367351,
+      "searchMs": 24.27679199999966,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/once",
+      "expertMs": 0.0008340000003954628,
+      "searchMs": 9.49212499999976,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/once",
+      "expertMs": 0.0005830000000059954,
+      "searchMs": 4.859958999999435,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/once",
+      "expertMs": 0.0005419999997684499,
+      "searchMs": 3.1104169999998703,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.001082999999198364,
+      "searchMs": 49.27545800000007,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0010000000002037268,
+      "searchMs": 45.69329199999993,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007090000008247443,
+      "searchMs": 41.56570799999918,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0019170000005033216,
+      "searchMs": 16.278542000000016,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006670000002486631,
+      "searchMs": 32.60387499999979,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007500000001527951,
+      "searchMs": 26.58533299999999,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007910000003903406,
+      "searchMs": 25.667333999999755,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0017920000000231084,
+      "searchMs": 12.8652919999995,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.001374999999825377,
+      "searchMs": 17.56958300000042,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005839999994350364,
+      "searchMs": 9.291416000000027,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006249999996725819,
+      "searchMs": 6.673125000000255,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007079999995767139,
+      "searchMs": 7.759708000000501,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005420000006779446,
+      "searchMs": 6.688083000000006,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007089999999152496,
+      "searchMs": 7.870832999999948,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005830000000059954,
+      "searchMs": 6.6568340000003445,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005830000000059954,
+      "searchMs": 5.786583000000064,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "price/fixed",
+      "expertMs": 5.76287499999944,
+      "searchMs": 27.136207999999897,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0005410000003394089,
+      "searchMs": 4.1941249999999854,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/sealed",
+      "expertMs": 5.964582999999948,
+      "searchMs": 185.49837500000012,
+      "samples": 9,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/sealed",
+      "expertMs": 9.746750000000247,
+      "searchMs": 185.76079200000004,
+      "samples": 11,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/sealed",
+      "expertMs": 8.530624999999418,
+      "searchMs": 187.04591600000003,
+      "samples": 17,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/sealed",
+      "expertMs": 9.668542000000343,
+      "searchMs": 29.19841699999961,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0017920000000231084,
+      "searchMs": 53.64929099999972,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006670000002486631,
+      "searchMs": 64.57304099999965,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007080000004862086,
+      "searchMs": 59.007832999999664,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004580000004352769,
+      "searchMs": 18.497542000000067,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0003749999996216502,
+      "searchMs": 15.002666000000318,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007079999995767139,
+      "searchMs": 30.93066699999963,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007909999994808459,
+      "searchMs": 28.14716700000008,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0003750000005311449,
+      "searchMs": 12.273583000000144,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004169999992882367,
+      "searchMs": 10.270457999999962,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005420000006779446,
+      "searchMs": 12.762832999999773,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005419999997684499,
+      "searchMs": 24.557416999999987,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004170000001977314,
+      "searchMs": 11.831250000000182,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004579999995257822,
+      "searchMs": 10.320792000000438,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005420000006779446,
+      "searchMs": 7.457625000000007,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.001999999999497959,
+      "searchMs": 61.197000000000116,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008750000006330083,
+      "searchMs": 56.693083999999544,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0009170000002995948,
+      "searchMs": 49.16283299999941,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.00166700000045239,
+      "searchMs": 57.83687500000087,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008749999997235136,
+      "searchMs": 46.131375000000844,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007919999989098869,
+      "searchMs": 45.84300000000076,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0009169999993901001,
+      "searchMs": 45.66750000000138,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0015829999993002275,
+      "searchMs": 14.60150000000067,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007079999995767139,
+      "searchMs": 20.01129199999923,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007499999992433004,
+      "searchMs": 41.61595900000066,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008339999985764734,
+      "searchMs": 25.81145800000013,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005000000001018634,
+      "searchMs": 13.294042000001355,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005000000001018634,
+      "searchMs": 10.93316699999923,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0009169999993901001,
+      "searchMs": 26.68891700000131,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0009159999990515644,
+      "searchMs": 16.21283399999993,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004580000004352769,
+      "searchMs": 9.368207999999868,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004169999992882367,
+      "searchMs": 8.234333000000333,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004580000004352769,
+      "searchMs": 6.592666999998983,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0012499999993451638,
+      "searchMs": 51.56245800000033,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0009589999990566866,
+      "searchMs": 50.0747080000001,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007910000003903406,
+      "searchMs": 34.25691700000061,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0017090000001189765,
+      "searchMs": 41.70979100000113,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0009160000008705538,
+      "searchMs": 19.28608399999939,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007500000010622898,
+      "searchMs": 36.326208999998926,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006250000005820766,
+      "searchMs": 14.401625000000422,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0015829999993002275,
+      "searchMs": 12.502459000001181,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005409999994299142,
+      "searchMs": 7.992834000000585,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "price/fixed",
+      "expertMs": 7.090834000000541,
+      "searchMs": 35.80266599999959,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0005839999994350364,
+      "searchMs": 5.2439160000012635,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/sealed",
+      "expertMs": 7.279916999999841,
+      "searchMs": 188.6654579999995,
+      "samples": 8,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/sealed",
+      "expertMs": 8.81762499999968,
+      "searchMs": 192.79966699999932,
+      "samples": 10,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/sealed",
+      "expertMs": 10.473790999998528,
+      "searchMs": 186.36258400000042,
+      "samples": 16,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/sealed",
+      "expertMs": 12.115249999998923,
+      "searchMs": 27.975625000000946,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/sealed",
+      "expertMs": 7.658541000000696,
+      "searchMs": 194.85833400000047,
+      "samples": 8,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/sealed",
+      "expertMs": 9.202084000000468,
+      "searchMs": 198.24887499999932,
+      "samples": 10,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/sealed",
+      "expertMs": 10.702957999999853,
+      "searchMs": 180.9564590000009,
+      "samples": 15,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/sealed",
+      "expertMs": 12.438833000000159,
+      "searchMs": 28.550792,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "price/fixed",
+      "expertMs": 7.823207999999795,
+      "searchMs": 35.300083999998606,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0006670000002486631,
+      "searchMs": 6.487124999999651,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0015000000003055902,
+      "searchMs": 58.44962499999929,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0009999999983847374,
+      "searchMs": 55.67616700000144,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.000959000000875676,
+      "searchMs": 45.85399999999936,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.00204200000007404,
+      "searchMs": 18.714332999999897,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008340000003954628,
+      "searchMs": 34.71233300000131,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0009169999993901001,
+      "searchMs": 21.48383300000023,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008749999997235136,
+      "searchMs": 19.74962500000038,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.002082999999402091,
+      "searchMs": 14.526084000000992,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008749999997235136,
+      "searchMs": 15.006165999999212,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005840000012540258,
+      "searchMs": 11.042957999999999,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006249999987630872,
+      "searchMs": 10.251916999999594,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0010409999995317776,
+      "searchMs": 9.137749999999869,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006659999999101274,
+      "searchMs": 7.742584000001443,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/once",
+      "expertMs": 0.001082999999198364,
+      "searchMs": 28.07508400000006,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/once",
+      "expertMs": 0.0006250000005820766,
+      "searchMs": 21.779874999998356,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/once",
+      "expertMs": 0.00041600000076869037,
+      "searchMs": 6.749458999998751,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/once",
+      "expertMs": 0.0007079999995767139,
+      "searchMs": 4.168875000001208,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "price/fixed",
+      "expertMs": 8.390957999999955,
+      "searchMs": 39.22945900000013,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0004170000011072261,
+      "searchMs": 5.660207999999329,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0005840000012540258,
+      "searchMs": 5.6273329999985435,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "price/fixed",
+      "expertMs": 8.731125000000247,
+      "searchMs": 35.09729200000038,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0005840000012540258,
+      "searchMs": 5.679540999999517,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/sealed",
+      "expertMs": 8.891125000000102,
+      "searchMs": 200.6576669999995,
+      "samples": 7,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/sealed",
+      "expertMs": 10.615832999999839,
+      "searchMs": 188.45187500000065,
+      "samples": 8,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/sealed",
+      "expertMs": 12.501583999999639,
+      "searchMs": 184.88204099999894,
+      "samples": 13,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/sealed",
+      "expertMs": 14.431292000001122,
+      "searchMs": 32.858374999999796,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "price/fixed",
+      "expertMs": 9.07129200000054,
+      "searchMs": 43.08208299999933,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0005000000001018634,
+      "searchMs": 6.111750000000029,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0007500000010622898,
+      "searchMs": 5.950457999999344,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/sealed",
+      "expertMs": 9.272791999999754,
+      "searchMs": 182.40400000000045,
+      "samples": 6,
+      "changed": true
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/sealed",
+      "expertMs": 11.252333000000363,
+      "searchMs": 196.00379199999952,
+      "samples": 8,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/sealed",
+      "expertMs": 13.124750000000859,
+      "searchMs": 180.1083749999998,
+      "samples": 12,
+      "changed": false
+    },
+    {
+      "count": 4,
+      "mechanism": "bid/sealed",
+      "expertMs": 14.95995799999946,
+      "searchMs": 27.44958399999996,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.001916999999593827,
+      "searchMs": 21.90679099999943,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006669999984296737,
+      "searchMs": 21.99262500000077,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005829999990965007,
+      "searchMs": 20.02808300000106,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005409999994299142,
+      "searchMs": 16.937792000000627,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005839999994350364,
+      "searchMs": 7.147791000001234,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.00045899999895482324,
+      "searchMs": 8.801125000001775,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007079999995767139,
+      "searchMs": 15.404875000000175,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006249999987630872,
+      "searchMs": 12.058584000000337,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.00045900000077381264,
+      "searchMs": 13.639707999998791,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0003329999999550637,
+      "searchMs": 5.789000000000669,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.00045900000077381264,
+      "searchMs": 4.673832999998922,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005410000012489036,
+      "searchMs": 6.3246669999989535,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005419999997684499,
+      "searchMs": 7.30566700000054,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007920000007288763,
+      "searchMs": 7.124291000000085,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0003329999999550637,
+      "searchMs": 5.112583999998606,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0002920000006270129,
+      "searchMs": 4.473416000000725,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0003329999999550637,
+      "searchMs": 3.9989170000008016,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0002920000006270129,
+      "searchMs": 3.6112499999999272,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "price/fixed",
+      "expertMs": 2.703708999999435,
+      "searchMs": 14.27483299999949,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0007499999992433004,
+      "searchMs": 2.6893330000002607,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0006250000005820766,
+      "searchMs": 2.912207999999737,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0021249999990686774,
+      "searchMs": 27.115583000000697,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008749999997235136,
+      "searchMs": 26.006792000000132,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008749999997235136,
+      "searchMs": 21.79425000000083,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0009160000008705538,
+      "searchMs": 22.403416999999536,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007499999992433004,
+      "searchMs": 7.761125000000902,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007500000010622898,
+      "searchMs": 14.30199999999968,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007910000003903406,
+      "searchMs": 9.86895899999945,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005410000012489036,
+      "searchMs": 6.216083999999682,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007079999995767139,
+      "searchMs": 12.211499999999432,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005829999990965007,
+      "searchMs": 6.362875000000713,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007920000007288763,
+      "searchMs": 8.502415999999357,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006250000005820766,
+      "searchMs": 5.803624999998647,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005000000001018634,
+      "searchMs": 6.210750000000189,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007079999995767139,
+      "searchMs": 7.602082999999766,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.00045899999895482324,
+      "searchMs": 5.643500000000131,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004579999986162875,
+      "searchMs": 4.896834000001036,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004580000004352769,
+      "searchMs": 5.036041999999725,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004580000004352769,
+      "searchMs": 4.711999999999534,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0010830000010173535,
+      "searchMs": 6.684999999999491,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006250000005820766,
+      "searchMs": 5.511749999999665,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005830000009154901,
+      "searchMs": 4.610499999998865,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006250000005820766,
+      "searchMs": 4.081374999999753,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005409999994299142,
+      "searchMs": 3.969959000000017,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/once",
+      "expertMs": 0.0012499999993451638,
+      "searchMs": 13.649708999999348,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/once",
+      "expertMs": 0.0007079999995767139,
+      "searchMs": 7.0651249999991705,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/once",
+      "expertMs": 0.0006659999999101274,
+      "searchMs": 5.848958999999013,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/once",
+      "expertMs": 0.0009580000005371403,
+      "searchMs": 4.729457999999795,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/once",
+      "expertMs": 0.0005829999990965007,
+      "searchMs": 2.317917000000307,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0010419999998703133,
+      "searchMs": 35.631124999999884,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007920000007288763,
+      "searchMs": 27.515165999999226,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007089999999152496,
+      "searchMs": 27.14616600000045,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008330000000569271,
+      "searchMs": 18.001874999999927,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005419999997684499,
+      "searchMs": 5.902458000000479,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005829999990965007,
+      "searchMs": 5.404459000001225,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004580000004352769,
+      "searchMs": 4.837041999999201,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005840000012540258,
+      "searchMs": 4.335207999998602,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007080000013957033,
+      "searchMs": 5.714708999999857,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004580000004352769,
+      "searchMs": 5.2239169999993464,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004169999992882367,
+      "searchMs": 4.841291000000638,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004169999992882367,
+      "searchMs": 4.292457999999897,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0012499999993451638,
+      "searchMs": 34.43262499999946,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.00112500000068394,
+      "searchMs": 33.2042079999992,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008339999985764734,
+      "searchMs": 29.117583000001105,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007919999989098869,
+      "searchMs": 25.183917000000292,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0015829999993002275,
+      "searchMs": 8.829583999999159,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006669999984296737,
+      "searchMs": 17.180041000001438,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005839999994350364,
+      "searchMs": 5.907708000000639,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006250000005820766,
+      "searchMs": 5.6965000000000146,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006670000002486631,
+      "searchMs": 6.070542000001296,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005419999997684499,
+      "searchMs": 5.703958000000057,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005000000001018634,
+      "searchMs": 5.085583000000042,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005000000001018634,
+      "searchMs": 4.519583999999668,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.00041600000076869037,
+      "searchMs": 6.0674999999992,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005000000001018634,
+      "searchMs": 5.597665999999663,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005419999997684499,
+      "searchMs": 6.0908330000002024,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005000000001018634,
+      "searchMs": 5.571916999999303,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006249999987630872,
+      "searchMs": 5.074625000001106,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005000000001018634,
+      "searchMs": 4.617374999999811,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0012500000011641532,
+      "searchMs": 36.17079199999898,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007499999992433004,
+      "searchMs": 29.937917000001107,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.000875000001542503,
+      "searchMs": 23.041165999999066,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007499999992433004,
+      "searchMs": 14.905792000001384,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.001624999998966814,
+      "searchMs": 10.515042000000903,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007079999995767139,
+      "searchMs": 12.55695900000137,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007079999995767139,
+      "searchMs": 12.474792000000889,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007500000010622898,
+      "searchMs": 12.60333399999945,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005000000001018634,
+      "searchMs": 9.499499999999898,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0014580000006390037,
+      "searchMs": 7.934792000000016,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006249999987630872,
+      "searchMs": 10.123499999999694,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005409999994299142,
+      "searchMs": 7.795874999999796,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005419999997684499,
+      "searchMs": 7.09729200000038,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.00045899999895482324,
+      "searchMs": 6.357333000001745,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005000000001018634,
+      "searchMs": 6.363666999999623,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.00045899999895482324,
+      "searchMs": 4.632916000000478,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/once",
+      "expertMs": 0.0010839999995368998,
+      "searchMs": 17.115499999999884,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/once",
+      "expertMs": 0.0006670000002486631,
+      "searchMs": 8.737208000000464,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/once",
+      "expertMs": 0.0007909999985713512,
+      "searchMs": 7.126250000001164,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/once",
+      "expertMs": 0.0006250000005820766,
+      "searchMs": 5.382166999999754,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/once",
+      "expertMs": 0.0013330000001587905,
+      "searchMs": 2.6030419999988226,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.001374999999825377,
+      "searchMs": 40.83354200000031,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006250000005820766,
+      "searchMs": 34.752667000000656,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005409999994299142,
+      "searchMs": 29.943333999999595,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0003750000014406396,
+      "searchMs": 9.63195899999846,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.001209000000017113,
+      "searchMs": 8.778000000000247,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0003329999999550637,
+      "searchMs": 7.7100829999999405,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005839999994350364,
+      "searchMs": 19.567000000000917,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005000000001018634,
+      "searchMs": 13.40270800000144,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0003750000014406396,
+      "searchMs": 10.280832999998893,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0003329999999550637,
+      "searchMs": 9.62920800000029,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0003750000014406396,
+      "searchMs": 7.154624999999214,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005419999997684499,
+      "searchMs": 18.050208000000566,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0003329999999550637,
+      "searchMs": 7.622207999998864,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0003329999999550637,
+      "searchMs": 7.588332999999693,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0003329999999550637,
+      "searchMs": 7.194292000000132,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.00041600000076869037,
+      "searchMs": 6.392958999998882,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005419999997684499,
+      "searchMs": 12.787540999999692,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0002919999988080235,
+      "searchMs": 7.412707999999839,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0003329999999550637,
+      "searchMs": 6.794832999999926,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004170000011072261,
+      "searchMs": 6.23424999999952,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0003749999996216502,
+      "searchMs": 5.467208000000028,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "price/fixed",
+      "expertMs": 5.275166999999783,
+      "searchMs": 25.223665999999866,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0005830000009154901,
+      "searchMs": 4.054874999999811,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 6.042750000000524,
+      "searchMs": 193.99687500000073,
+      "samples": 8,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 6.759041999999681,
+      "searchMs": 192.61437500000102,
+      "samples": 9,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 7.6869580000002316,
+      "searchMs": 195.08516699999927,
+      "samples": 12,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 8.560625000000073,
+      "searchMs": 187.5782909999998,
+      "samples": 20,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 9.29583299999831,
+      "searchMs": 17.41908400000102,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "price/fixed",
+      "expertMs": 5.8634579999998095,
+      "searchMs": 30.72833300000093,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0006659999999101274,
+      "searchMs": 3.769583999999668,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.00045900000077381264,
+      "searchMs": 4.603832999999213,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0014580000006390037,
+      "searchMs": 56.2293750000008,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007919999989098869,
+      "searchMs": 47.603290999999444,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007079999995767139,
+      "searchMs": 49.64308300000084,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008330000000569271,
+      "searchMs": 38.301667000001544,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0014999999984866008,
+      "searchMs": 16.442292000001544,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0015419999999721767,
+      "searchMs": 40.69783300000017,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005420000015874393,
+      "searchMs": 12.383499999999913,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008330000000569271,
+      "searchMs": 24.123125000000073,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007079999995767139,
+      "searchMs": 18.594458999999915,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0013330000001587905,
+      "searchMs": 12.325000000000728,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007499999992433004,
+      "searchMs": 20.231125000000247,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004170000011072261,
+      "searchMs": 11.60399999999936,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007499999992433004,
+      "searchMs": 13.452375000000757,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005000000001018634,
+      "searchMs": 10.877292000001034,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.000499999998282874,
+      "searchMs": 9.697166000001744,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007079999995767139,
+      "searchMs": 12.844166999999288,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004580000004352769,
+      "searchMs": 8.710250000000087,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005000000001018634,
+      "searchMs": 8.188583999999537,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004580000004352769,
+      "searchMs": 8.700166999999055,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004580000004352769,
+      "searchMs": 8.113917000000583,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006659999999101274,
+      "searchMs": 7.225749999999607,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005000000001018634,
+      "searchMs": 6.460417000000234,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0009170000012090895,
+      "searchMs": 54.75791599999866,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007919999989098869,
+      "searchMs": 49.160250000000815,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0009159999990515644,
+      "searchMs": 35.1351250000007,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0009170000012090895,
+      "searchMs": 30.676124999999956,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0014159999991534278,
+      "searchMs": 9.210833999999522,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005000000001018634,
+      "searchMs": 8.800999999999476,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005000000001018634,
+      "searchMs": 7.552166999999827,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005000000001018634,
+      "searchMs": 6.709665999998833,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005000000001018634,
+      "searchMs": 9.148834000001443,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004580000004352769,
+      "searchMs": 8.41400000000067,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005000000001018634,
+      "searchMs": 7.4863750000004075,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005419999997684499,
+      "searchMs": 6.586749999998574,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005000000001018634,
+      "searchMs": 9.000207999999475,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005000000001018634,
+      "searchMs": 8.471082999998544,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005000000001018634,
+      "searchMs": 7.43724999999904,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004169999992882367,
+      "searchMs": 6.644000000000233,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0010419999998703133,
+      "searchMs": 49.669708000001265,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007920000007288763,
+      "searchMs": 49.068207999998776,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008749999997235136,
+      "searchMs": 42.140832999999475,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007080000013957033,
+      "searchMs": 31.14812499999971,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.001374999999825377,
+      "searchMs": 14.740750000000844,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008340000003954628,
+      "searchMs": 18.665165999998862,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007080000013957033,
+      "searchMs": 18.43658399999913,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006670000002486631,
+      "searchMs": 18.369958000001134,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004580000004352769,
+      "searchMs": 10.652374999999665,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004580000004352769,
+      "searchMs": 11.081041999999798,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0044589999997697305,
+      "searchMs": 13.568957999999839,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004579999986162875,
+      "searchMs": 10.731499999999869,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004580000004352769,
+      "searchMs": 9.479917000000569,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004169999992882367,
+      "searchMs": 8.62854200000038,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005000000001018634,
+      "searchMs": 7.748374999999214,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004580000004352769,
+      "searchMs": 6.708792000001267,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.00045899999895482324,
+      "searchMs": 9.463958000000275,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005000000001018634,
+      "searchMs": 8.53662500000064,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007080000013957033,
+      "searchMs": 7.805416999999579,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005419999997684499,
+      "searchMs": 6.9487909999988915,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/once",
+      "expertMs": 0.0012499999993451638,
+      "searchMs": 26.10004200000003,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/once",
+      "expertMs": 0.0009159999990515644,
+      "searchMs": 13.948459000001094,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/once",
+      "expertMs": 0.0012080000014975667,
+      "searchMs": 10.390708999999333,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/once",
+      "expertMs": 0.0005000000001018634,
+      "searchMs": 5.374707999999373,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/once",
+      "expertMs": 0.0007089999999152496,
+      "searchMs": 0.05737500000032014,
+      "samples": 0,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.004291999999622931,
+      "searchMs": 64.73450000000048,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006249999987630872,
+      "searchMs": 60.33495800000128,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006670000002486631,
+      "searchMs": 58.90612499999952,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005829999990965007,
+      "searchMs": 47.863624999999956,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.00041600000076869037,
+      "searchMs": 19.104833999999755,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006250000005820766,
+      "searchMs": 42.204374999999345,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006669999984296737,
+      "searchMs": 31.989541000000827,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0003329999999550637,
+      "searchMs": 11.828457999999955,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0003749999996216502,
+      "searchMs": 9.881083000000217,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0002920000006270129,
+      "searchMs": 13.21087499999885,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.00045899999895482324,
+      "searchMs": 9.949958000001061,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004580000004352769,
+      "searchMs": 11.112291999999798,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0003749999996216502,
+      "searchMs": 10.420416000000841,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0003329999999550637,
+      "searchMs": 11.839292000000569,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007910000003903406,
+      "searchMs": 12.911749999999302,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004170000011072261,
+      "searchMs": 8.900666999999885,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0003749999996216502,
+      "searchMs": 8.082457999998951,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 7.972665999999663,
+      "searchMs": 205.5612089999995,
+      "samples": 6,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 9.592333999999028,
+      "searchMs": 181.9940830000014,
+      "samples": 6,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 10.753958000001148,
+      "searchMs": 186.8695000000007,
+      "samples": 8,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 12.177542000001267,
+      "searchMs": 189.39670800000022,
+      "samples": 14,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 13.379750000000058,
+      "searchMs": 23.67408400000204,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0018339999987802003,
+      "searchMs": 80.13241600000038,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008749999979045242,
+      "searchMs": 68.04233300000124,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008330000018759165,
+      "searchMs": 56.77374999999665,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008330000018759165,
+      "searchMs": 58.42570799999885,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0026670000006561168,
+      "searchMs": 39.66370800000004,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006670000002486631,
+      "searchMs": 16.739042000001064,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008329999982379377,
+      "searchMs": 31.11525000000256,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005830000009154901,
+      "searchMs": 15.561541999999463,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007079999995767139,
+      "searchMs": 26.730125000001863,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0015420000017911661,
+      "searchMs": 13.232332999999926,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006659999999101274,
+      "searchMs": 13.788583999998082,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008329999982379377,
+      "searchMs": 16.048750000001746,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005410000012489036,
+      "searchMs": 13.213708999999653,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.000875000001542503,
+      "searchMs": 21.89629199999763,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0015839999978197739,
+      "searchMs": 12.182916000001569,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005420000015874393,
+      "searchMs": 12.867500000000291,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006250000005820766,
+      "searchMs": 9.585624999999709,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005420000015874393,
+      "searchMs": 12.074290999997174,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0010419999998703133,
+      "searchMs": 16.276458000000275,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0020000000004074536,
+      "searchMs": 11.357209000001603,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006670000002486631,
+      "searchMs": 11.319124999998166,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006250000005820766,
+      "searchMs": 8.927292000000307,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005419999979494605,
+      "searchMs": 7.949583000001439,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0011250000025029294,
+      "searchMs": 73.58854199999769,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0009579999968991615,
+      "searchMs": 72.22212500000023,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007919999989098869,
+      "searchMs": 66.53195799999958,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.00079100000220933,
+      "searchMs": 54.455958999998984,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.001583000001119217,
+      "searchMs": 24.261249999999563,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0008329999982379377,
+      "searchMs": 51.63629199999923,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007920000025478657,
+      "searchMs": 33.804583000001,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007499999992433004,
+      "searchMs": 24.23095900000044,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007079999995767139,
+      "searchMs": 23.72087499999907,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005419999979494605,
+      "searchMs": 16.717415999999503,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007909999985713512,
+      "searchMs": 30.41991699999926,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007079999995767139,
+      "searchMs": 20.13720900000044,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006250000005820766,
+      "searchMs": 14.345750000000407,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.000499999998282874,
+      "searchMs": 13.327875000002678,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005000000019208528,
+      "searchMs": 13.603124999997817,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007499999992433004,
+      "searchMs": 15.419458000000304,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005830000009154901,
+      "searchMs": 12.881374999997206,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005410000012489036,
+      "searchMs": 12.64454200000182,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004579999986162875,
+      "searchMs": 9.412499999998545,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005000000019208528,
+      "searchMs": 10.912291999997251,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "price/fixed",
+      "expertMs": 8.71849999999904,
+      "searchMs": 37.930874999998196,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0006249999969440978,
+      "searchMs": 5.568167000001267,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/once",
+      "expertMs": 0.0016669999968144111,
+      "searchMs": 32.05704100000003,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/once",
+      "expertMs": 0.0010000000002037268,
+      "searchMs": 25.721333000001323,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/once",
+      "expertMs": 0.0007919999989098869,
+      "searchMs": 12.328208000002633,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/once",
+      "expertMs": 0.0006659999999101274,
+      "searchMs": 6.376209000001836,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/once",
+      "expertMs": 0.0005840000012540258,
+      "searchMs": 3.8438749999986612,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "price/fixed",
+      "expertMs": 9.22070800000074,
+      "searchMs": 39.21454199999789,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0007499999992433004,
+      "searchMs": 7.194542000001093,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 9.392917000001034,
+      "searchMs": 202.2652909999997,
+      "samples": 5,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 11.130709000000934,
+      "searchMs": 180.79041599999982,
+      "samples": 5,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 12.707457999997132,
+      "searchMs": 195.8238330000022,
+      "samples": 7,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 14.226666000002297,
+      "searchMs": 194.0415839999987,
+      "samples": 12,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 16.029333000002225,
+      "searchMs": 33.70324999999866,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "price/fixed",
+      "expertMs": 9.739625000001979,
+      "searchMs": 40.0065829999985,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0007089999999152496,
+      "searchMs": 6.432749999999942,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 9.835624999999709,
+      "searchMs": 212.06162499999846,
+      "samples": 5,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 11.602708000002167,
+      "searchMs": 189.41158299999734,
+      "samples": 5,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 13.386665999998513,
+      "searchMs": 205.61945900000137,
+      "samples": 7,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 15.085082999998122,
+      "searchMs": 188.96937500000058,
+      "samples": 11,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 16.711708000002545,
+      "searchMs": 35.29983299999731,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "price/fixed",
+      "expertMs": 10.13891700000022,
+      "searchMs": 43.08654200000092,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0006250000005820766,
+      "searchMs": 5.757791999996698,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0005419999979494605,
+      "searchMs": 7.006417000000511,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 10.347499999999854,
+      "searchMs": 181.41016600000148,
+      "samples": 4,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 12.379375000000437,
+      "searchMs": 200.62633300000016,
+      "samples": 5,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 14.061541999999463,
+      "searchMs": 187.39595800000097,
+      "samples": 6,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 15.793541000002733,
+      "searchMs": 181.46074999999837,
+      "samples": 10,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 17.579000000001543,
+      "searchMs": 37.17254099999991,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "price/fixed",
+      "expertMs": 10.546333999998751,
+      "searchMs": 41.41379099999904,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0006669999966106843,
+      "searchMs": 6.168333000001439,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0006250000005820766,
+      "searchMs": 6.143957999996928,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/once",
+      "expertMs": 0.0015409999978146516,
+      "searchMs": 37.87325000000055,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/once",
+      "expertMs": 0.0008749999979045242,
+      "searchMs": 18.887917000000016,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/once",
+      "expertMs": 0.0007919999989098869,
+      "searchMs": 14.601833000000624,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/once",
+      "expertMs": 0.0005420000015874393,
+      "searchMs": 7.264374999998836,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/once",
+      "expertMs": 0.0005420000015874393,
+      "searchMs": 4.461624999999913,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "price/fixed",
+      "expertMs": 10.780833000000712,
+      "searchMs": 49.91045899999881,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0004580000022542663,
+      "searchMs": 7.306874999998399,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "price/fixed",
+      "expertMs": 11.163250000001426,
+      "searchMs": 45.2701249999991,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0005419999979494605,
+      "searchMs": 7.101083000001381,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/fixed",
+      "expertMs": 0.0005000000019208528,
+      "searchMs": 7.07208399999945,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 11.41583399999945,
+      "searchMs": 198.50358300000153,
+      "samples": 4,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 13.342082999999548,
+      "searchMs": 219.69004199999836,
+      "samples": 5,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 15.384833999996772,
+      "searchMs": 205.68316600000253,
+      "samples": 6,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 17.39312500000233,
+      "searchMs": 185.5768339999995,
+      "samples": 9,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 20.138332999998966,
+      "searchMs": 43.87091700000019,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 11.761500000000524,
+      "searchMs": 206.15133299999798,
+      "samples": 4,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 13.860292000001209,
+      "searchMs": 182.40295799999876,
+      "samples": 4,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 15.728750000002037,
+      "searchMs": 210.47679199999766,
+      "samples": 6,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 18.000625000000582,
+      "searchMs": 185.80783300000257,
+      "samples": 9,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 19.86974999999802,
+      "searchMs": 41.458042000002024,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.002749999999650754,
+      "searchMs": 113.60100000000239,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.000875000001542503,
+      "searchMs": 96.38879099999758,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007499999992433004,
+      "searchMs": 89.36912499999744,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007919999989098869,
+      "searchMs": 69.47991600000023,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0016250000007858034,
+      "searchMs": 28.929250000001048,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006250000005820766,
+      "searchMs": 47.56804199999897,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007499999992433004,
+      "searchMs": 30.62679200000275,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007079999995767139,
+      "searchMs": 28.014083999998547,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.000499999998282874,
+      "searchMs": 22.560958000001847,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.001750000003085006,
+      "searchMs": 18.153582999999344,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.000499999998282874,
+      "searchMs": 16.944541000000754,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0007919999989098869,
+      "searchMs": 19.94154200000048,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004169999992882367,
+      "searchMs": 15.679707999999664,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006659999999101274,
+      "searchMs": 14.30841700000019,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.00045899999895482324,
+      "searchMs": 15.853375000002416,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005419999979494605,
+      "searchMs": 14.123041000002559,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005000000019208528,
+      "searchMs": 15.879000000000815,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004580000022542663,
+      "searchMs": 14.266584000000876,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005410000012489036,
+      "searchMs": 15.797500000000582,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005410000012489036,
+      "searchMs": 14.252292000001034,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006670000002486631,
+      "searchMs": 12.68645800000013,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004580000022542663,
+      "searchMs": 11.160499999998137,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.000499999998282874,
+      "searchMs": 15.662083000002895,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005410000012489036,
+      "searchMs": 14.360624999997526,
+      "samples": 24,
+      "changed": true
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004579999986162875,
+      "searchMs": 15.770500000002357,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0006659999999101274,
+      "searchMs": 14.248250000000553,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0005000000019208528,
+      "searchMs": 12.679790999998659,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/open",
+      "expertMs": 0.0004579999986162875,
+      "searchMs": 11.145209000002069,
+      "samples": 24,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 12.295874999999796,
+      "searchMs": 211.58733399999983,
+      "samples": 4,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 14.503124999999272,
+      "searchMs": 188.937582999999,
+      "samples": 4,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 16.46379099999831,
+      "searchMs": 184.71199999999953,
+      "samples": 5,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 18.535542000001442,
+      "searchMs": 193.9187499999971,
+      "samples": 9,
+      "changed": false
+    },
+    {
+      "count": 5,
+      "mechanism": "bid/sealed",
+      "expertMs": 20.73841700000048,
+      "searchMs": 43.15020800000275,
+      "samples": 24,
+      "changed": false
+    }
+  ]
+}

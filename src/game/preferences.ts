@@ -1,9 +1,13 @@
-export type GameLevel = 'beginner' | 'medium' | 'hard' | 'expert';
+export type GameLevel =
+  'beginner' | 'medium' | 'hard' | 'expert' | 'rollout' | 'ismcts' | 'tactical';
 export const LEVELS: Record<GameLevel, string> = {
   beginner: '入门',
   medium: '中等',
   hard: '困难',
   expert: '专家',
+  rollout: '实验 · 完整模拟',
+  ismcts: '实验 · ISMCTS',
+  tactical: '实验 · 布局',
 };
 export type Difficulty = 'easy' | 'standard' | 'adaptive';
 export type Personality =

@@ -36,7 +36,13 @@ import { PublicReplays } from './components/PublicReplays.tsx';
 import { publicBalances } from './game/inspection.ts';
 import { completedSale, requiresSaleConfirmation } from './game/sale.ts';
 import type { SaleNotice } from './game/sale.ts';
-const NEW_GAME_LEVELS = ['beginner', 'medium', 'hard', 'expert'] as const;
+const NEW_GAME_LEVELS = [
+  'beginner',
+  'medium',
+  'hard',
+  'expert',
+  'tactical',
+] as const;
 type NewGameLevel = (typeof NEW_GAME_LEVELS)[number];
 function readSave(): { game: GameState | null; error: string } {
   try {
@@ -520,7 +526,9 @@ export default function App() {
           event: MessageEvent<{ action?: Action; error?: string }>,
         ) => finish(event.data.action);
         worker.onerror = () => finish();
-        watchdog = setTimeout(() => finish(), 3000);
+        // This level completes a fixed search; elapsed time must not discard it.
+        if (game.aiConfig?.level !== 'tactical')
+          watchdog = setTimeout(() => finish(), 3000);
         worker.postMessage({ observation, config: game.aiConfig });
       } catch {
         finish();
@@ -1574,7 +1582,10 @@ export default function App() {
                       '正常估价和竞买，判断偶有偏差，主要考虑眼前收益。',
                     medium: '稳定估价，会考虑藏品和当前行情。',
                     hard: '关键阶段会推演出牌，关注对手收益与终季时机。',
-                    expert: '每次选画都进行场景推演，更连贯地规划整季。',
+                    expert:
+                      '推演选画与终季时机，并针对对手可能的报价优化暗标和一口价。',
+                    tactical:
+                      '尝试连续出画布局，考虑成交后的藏品变化与终季时机。完成计算后出牌，复杂局面需等待更久。',
                   }[level]
                 }
               </p>

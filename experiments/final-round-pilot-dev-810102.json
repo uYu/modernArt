@@ -1,0 +1,2255 @@
+{
+  "seed": 810102,
+  "samples": 12,
+  "perCount": 4,
+  "budgetMs": 60000,
+  "runtime": "v25.8.1",
+  "hashes": {
+    "src/game/ai-universal.ts": "f3313bfab16de4095af186578924c1f6050ad6381b9722a8dc7ed6160abfe078",
+    "src/game/ai-planning.ts": "76da8b747f20bbd2d3439e3f9a4725cf73e67d8b0d7b6acd0599c9cfbc758067",
+    "src/game/ai-belief.ts": "b940d5200f7992e86cc848b8f6883bbf0bea1d76e296747796742a6a6bf9b66c",
+    "src/game/ai-improved.ts": "95eab94cafcc05727dfb5d046f180084235fcf0ae4b25cb1d3bb1977865cb640",
+    "src/game/engine.ts": "a16af0fbd7a2f7ccd4b87f3e1cbf1c1481a09d20cea61780ab06520daa72ab9e"
+  },
+  "summary": {
+    "positions": 12,
+    "byCount": [
+      {
+        "count": 3,
+        "positions": 4
+      },
+      {
+        "count": 4,
+        "positions": 4
+      },
+      {
+        "count": 5,
+        "positions": 4
+      }
+    ],
+    "actionChangesFromStatic": 5,
+    "weightChangesFromUniform": 0,
+    "trueWorldContinuationDeltas": {
+      "terminalUniformVsstaticUniform": {
+        "mean": 1.533333333333336,
+        "better": 1,
+        "worse": 4,
+        "tied": 7
+      },
+      "terminalWeightedVsterminalUniform": {
+        "mean": 0,
+        "better": 0,
+        "worse": 0,
+        "tied": 12
+      }
+    },
+    "meanMs": {
+      "staticUniform": 206.26667366666652,
+      "terminalUniform": 367.9433993333334,
+      "terminalWeighted": 363.29665625000007
+    },
+    "meanSamples": {
+      "staticUniform": 12,
+      "terminalUniform": 12,
+      "terminalWeighted": 12
+    }
+  },
+  "rows": [
+    {
+      "count": 3,
+      "round": 4,
+      "phase": "bid",
+      "mechanism": "once",
+      "counts": [
+        0,
+        0,
+        1,
+        4,
+        0
+      ],
+      "handCounts": [
+        6,
+        11,
+        11
+      ],
+      "evidence": true,
+      "trueWorldContinuationScores": {
+        "staticUniform": 72,
+        "terminalUniform": 72,
+        "terminalWeighted": 72
+      },
+      "modes": {
+        "staticUniform": {
+          "action": {
+            "type": "bid",
+            "player": 2,
+            "amount": 62
+          },
+          "reference": {
+            "type": "bid",
+            "player": 2,
+            "amount": 57
+          },
+          "completedSamples": 12,
+          "elapsedMs": 30.400125000000116,
+          "candidates": [
+            {
+              "action": {
+                "type": "bid",
+                "player": 2,
+                "amount": 57
+              },
+              "mean": 60.69999999999995,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 2,
+                "amount": null
+              },
+              "mean": 60.19999999999997,
+              "gain": -0.4999999999999858
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 2,
+                "amount": 1
+              },
+              "mean": 60.19999999999997,
+              "gain": -0.4999999999999858
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 2,
+                "amount": 29
+              },
+              "mean": 60.19999999999997,
+              "gain": -0.4999999999999858
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 2,
+                "amount": 62
+              },
+              "mean": 62.71666666666664,
+              "gain": 2.016666666666687
+            }
+          ]
+        },
+        "terminalUniform": {
+          "action": {
+            "type": "bid",
+            "player": 2,
+            "amount": 62
+          },
+          "reference": {
+            "type": "bid",
+            "player": 2,
+            "amount": 57
+          },
+          "completedSamples": 12,
+          "elapsedMs": 392.4047919999998,
+          "candidates": [
+            {
+              "action": {
+                "type": "bid",
+                "player": 2,
+                "amount": 57
+              },
+              "mean": 51.666666666666636,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 2,
+                "amount": null
+              },
+              "mean": 52.7333333333333,
+              "gain": 1.0666666666666629
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 2,
+                "amount": 1
+              },
+              "mean": 52.7333333333333,
+              "gain": 1.0666666666666629
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 2,
+                "amount": 29
+              },
+              "mean": 52.7333333333333,
+              "gain": 1.0666666666666629
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 2,
+                "amount": 62
+              },
+              "mean": 53.68333333333331,
+              "gain": 2.016666666666673
+            }
+          ]
+        },
+        "terminalWeighted": {
+          "action": {
+            "type": "bid",
+            "player": 2,
+            "amount": 62
+          },
+          "reference": {
+            "type": "bid",
+            "player": 2,
+            "amount": 57
+          },
+          "completedSamples": 12,
+          "elapsedMs": 382.12654099999963,
+          "candidates": [
+            {
+              "action": {
+                "type": "bid",
+                "player": 2,
+                "amount": 57
+              },
+              "mean": 52.96801232134391,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 2,
+                "amount": null
+              },
+              "mean": 53.07021162288166,
+              "gain": 0.1021993015377447
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 2,
+                "amount": 1
+              },
+              "mean": 53.07021162288166,
+              "gain": 0.1021993015377447
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 2,
+                "amount": 29
+              },
+              "mean": 53.07021162288166,
+              "gain": 0.1021993015377447
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 2,
+                "amount": 62
+              },
+              "mean": 54.90697674678633,
+              "gain": 1.938964425442414
+            }
+          ]
+        }
+      }
+    },
+    {
+      "count": 3,
+      "round": 4,
+      "phase": "bid",
+      "mechanism": "once",
+      "counts": [
+        0,
+        0,
+        1,
+        4,
+        0
+      ],
+      "handCounts": [
+        6,
+        11,
+        11
+      ],
+      "evidence": true,
+      "trueWorldContinuationScores": {
+        "staticUniform": 169.2,
+        "terminalUniform": 169.2,
+        "terminalWeighted": 169.2
+      },
+      "modes": {
+        "staticUniform": {
+          "action": {
+            "type": "bid",
+            "player": 0,
+            "amount": 58
+          },
+          "reference": {
+            "type": "bid",
+            "player": 0,
+            "amount": 58
+          },
+          "completedSamples": 12,
+          "elapsedMs": 13.039458999999624,
+          "candidates": [
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": 58
+              },
+              "mean": 199.4499999999999,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": null
+              },
+              "mean": 144.01999999999998,
+              "gain": -55.42999999999992
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": 63
+              },
+              "mean": 194.4499999999999,
+              "gain": -5
+            }
+          ]
+        },
+        "terminalUniform": {
+          "action": {
+            "type": "bid",
+            "player": 0,
+            "amount": 58
+          },
+          "reference": {
+            "type": "bid",
+            "player": 0,
+            "amount": 58
+          },
+          "completedSamples": 12,
+          "elapsedMs": 79.9727499999999,
+          "candidates": [
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": 58
+              },
+              "mean": 167.53333333333333,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": null
+              },
+              "mean": 108.53333333333332,
+              "gain": -59.000000000000014
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": 63
+              },
+              "mean": 160.6,
+              "gain": -6.933333333333337
+            }
+          ]
+        },
+        "terminalWeighted": {
+          "action": {
+            "type": "bid",
+            "player": 0,
+            "amount": 58
+          },
+          "reference": {
+            "type": "bid",
+            "player": 0,
+            "amount": 58
+          },
+          "completedSamples": 12,
+          "elapsedMs": 81.10708299999988,
+          "candidates": [
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": 58
+              },
+              "mean": 166.43415080988854,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": null
+              },
+              "mean": 107.1111829581207,
+              "gain": -59.32296785176784
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": 63
+              },
+              "mean": 159.62013440029654,
+              "gain": -6.814016409592
+            }
+          ]
+        }
+      }
+    },
+    {
+      "count": 3,
+      "round": 4,
+      "phase": "bid",
+      "mechanism": "once",
+      "counts": [
+        0,
+        0,
+        1,
+        4,
+        0
+      ],
+      "handCounts": [
+        6,
+        11,
+        11
+      ],
+      "evidence": true,
+      "trueWorldContinuationScores": {
+        "staticUniform": 81,
+        "terminalUniform": 81,
+        "terminalWeighted": 81
+      },
+      "modes": {
+        "staticUniform": {
+          "action": {
+            "type": "bid",
+            "player": 1,
+            "amount": null
+          },
+          "reference": {
+            "type": "bid",
+            "player": 1,
+            "amount": null
+          },
+          "completedSamples": 12,
+          "elapsedMs": 5.5974999999998545,
+          "candidates": [
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": null
+              },
+              "mean": 14.637499999999932,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": 59
+              },
+              "mean": 7.837499999999977,
+              "gain": -6.7999999999999545
+            }
+          ]
+        },
+        "terminalUniform": {
+          "action": {
+            "type": "bid",
+            "player": 1,
+            "amount": null
+          },
+          "reference": {
+            "type": "bid",
+            "player": 1,
+            "amount": null
+          },
+          "completedSamples": 12,
+          "elapsedMs": 157.87579199999982,
+          "candidates": [
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": null
+              },
+              "mean": 53.36666666666664,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": 59
+              },
+              "mean": 31.033333333333307,
+              "gain": -22.333333333333332
+            }
+          ]
+        },
+        "terminalWeighted": {
+          "action": {
+            "type": "bid",
+            "player": 1,
+            "amount": null
+          },
+          "reference": {
+            "type": "bid",
+            "player": 1,
+            "amount": null
+          },
+          "completedSamples": 12,
+          "elapsedMs": 158.06433300000026,
+          "candidates": [
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": null
+              },
+              "mean": 53.871879844542995,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": 59
+              },
+              "mean": 31.18414918956523,
+              "gain": -22.687730654977766
+            }
+          ]
+        }
+      }
+    },
+    {
+      "count": 3,
+      "round": 4,
+      "phase": "bid",
+      "mechanism": "open",
+      "counts": [
+        2,
+        0,
+        1,
+        4,
+        0
+      ],
+      "handCounts": [
+        6,
+        11,
+        9
+      ],
+      "evidence": true,
+      "trueWorldContinuationScores": {
+        "staticUniform": 182,
+        "terminalUniform": 182,
+        "terminalWeighted": 182
+      },
+      "modes": {
+        "staticUniform": {
+          "action": {
+            "type": "bid",
+            "player": 0,
+            "amount": 4
+          },
+          "reference": {
+            "type": "bid",
+            "player": 0,
+            "amount": 7
+          },
+          "completedSamples": 12,
+          "elapsedMs": 87.56475000000046,
+          "candidates": [
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": 7
+              },
+              "mean": 179.87666666666664,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": null
+              },
+              "mean": 180.12666666666658,
+              "gain": 0.24999999999994316
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": 1
+              },
+              "mean": 180.12666666666658,
+              "gain": 0.24999999999994316
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": 4
+              },
+              "mean": 181.80999999999995,
+              "gain": 1.9333333333333087
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": 12
+              },
+              "mean": 181.07666666666663,
+              "gain": 1.1999999999999886
+            }
+          ]
+        },
+        "terminalUniform": {
+          "action": {
+            "type": "bid",
+            "player": 0,
+            "amount": 4
+          },
+          "reference": {
+            "type": "bid",
+            "player": 0,
+            "amount": 7
+          },
+          "completedSamples": 12,
+          "elapsedMs": 98.73466600000029,
+          "candidates": [
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": 7
+              },
+              "mean": 183.99999999999997,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": null
+              },
+              "mean": 184.11666666666667,
+              "gain": 0.11666666666670267
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": 1
+              },
+              "mean": 184.11666666666667,
+              "gain": 0.11666666666670267
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": 4
+              },
+              "mean": 186.1333333333333,
+              "gain": 2.1333333333333258
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": 12
+              },
+              "mean": 185.06666666666663,
+              "gain": 1.0666666666666629
+            }
+          ]
+        },
+        "terminalWeighted": {
+          "action": {
+            "type": "bid",
+            "player": 0,
+            "amount": 4
+          },
+          "reference": {
+            "type": "bid",
+            "player": 0,
+            "amount": 7
+          },
+          "completedSamples": 12,
+          "elapsedMs": 100.33470900000066,
+          "candidates": [
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": 7
+              },
+              "mean": 181.99012431193893,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": null
+              },
+              "mean": 182.03686955343738,
+              "gain": 0.04674524149845638
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": 1
+              },
+              "mean": 182.03686955343738,
+              "gain": 0.04674524149845638
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": 4
+              },
+              "mean": 184.30661164106752,
+              "gain": 2.3164873291285915
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": 12
+              },
+              "mean": 183.25846342151843,
+              "gain": 1.2683391095795002
+            }
+          ]
+        }
+      }
+    },
+    {
+      "count": 4,
+      "round": 4,
+      "phase": "bid",
+      "mechanism": "once",
+      "counts": [
+        4,
+        1,
+        2,
+        0,
+        0
+      ],
+      "handCounts": [
+        7,
+        7,
+        6,
+        3
+      ],
+      "evidence": true,
+      "trueWorldContinuationScores": {
+        "staticUniform": 102.39999999999998,
+        "terminalUniform": 99.19999999999999,
+        "terminalWeighted": 99.19999999999999
+      },
+      "modes": {
+        "staticUniform": {
+          "action": {
+            "type": "bid",
+            "player": 0,
+            "amount": 22
+          },
+          "reference": {
+            "type": "bid",
+            "player": 0,
+            "amount": 17
+          },
+          "completedSamples": 12,
+          "elapsedMs": 46.27862499999992,
+          "candidates": [
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": 17
+              },
+              "mean": 65.12916666666666,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": null
+              },
+              "mean": 63.64166666666666,
+              "gain": -1.4875000000000043
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": 1
+              },
+              "mean": 63.64166666666666,
+              "gain": -1.4875000000000043
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": 9
+              },
+              "mean": 63.64166666666666,
+              "gain": -1.4875000000000043
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": 22
+              },
+              "mean": 69.02499999999999,
+              "gain": 3.8958333333333286
+            }
+          ]
+        },
+        "terminalUniform": {
+          "action": {
+            "type": "bid",
+            "player": 0,
+            "amount": 17
+          },
+          "reference": {
+            "type": "bid",
+            "player": 0,
+            "amount": 17
+          },
+          "completedSamples": 12,
+          "elapsedMs": 242.83899999999994,
+          "candidates": [
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": 17
+              },
+              "mean": 120.34999999999998,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": null
+              },
+              "mean": 123.0666666666666,
+              "gain": 2.716666666666626
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": 1
+              },
+              "mean": 123.0666666666666,
+              "gain": 2.716666666666626
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": 9
+              },
+              "mean": 123.0666666666666,
+              "gain": 2.716666666666626
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": 22
+              },
+              "mean": 110.01666666666661,
+              "gain": -10.333333333333371
+            }
+          ]
+        },
+        "terminalWeighted": {
+          "action": {
+            "type": "bid",
+            "player": 0,
+            "amount": 17
+          },
+          "reference": {
+            "type": "bid",
+            "player": 0,
+            "amount": 17
+          },
+          "completedSamples": 12,
+          "elapsedMs": 245.02437499999996,
+          "candidates": [
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": 17
+              },
+              "mean": 119.59515759440691,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": null
+              },
+              "mean": 121.7834866109966,
+              "gain": 2.188329016589691
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": 1
+              },
+              "mean": 121.7834866109966,
+              "gain": 2.188329016589691
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": 9
+              },
+              "mean": 121.7834866109966,
+              "gain": 2.188329016589691
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 0,
+                "amount": 22
+              },
+              "mean": 109.50743359143415,
+              "gain": -10.087724002972763
+            }
+          ]
+        }
+      }
+    },
+    {
+      "count": 4,
+      "round": 4,
+      "phase": "bid",
+      "mechanism": "once",
+      "counts": [
+        4,
+        1,
+        2,
+        0,
+        0
+      ],
+      "handCounts": [
+        7,
+        7,
+        6,
+        3
+      ],
+      "evidence": true,
+      "trueWorldContinuationScores": {
+        "staticUniform": -144.8,
+        "terminalUniform": -148.8,
+        "terminalWeighted": -148.8
+      },
+      "modes": {
+        "staticUniform": {
+          "action": {
+            "type": "bid",
+            "player": 1,
+            "amount": 23
+          },
+          "reference": {
+            "type": "bid",
+            "player": 1,
+            "amount": 18
+          },
+          "completedSamples": 12,
+          "elapsedMs": 22.230916999999863,
+          "candidates": [
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": 18
+              },
+              "mean": -54.73333333333335,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": null
+              },
+              "mean": -57.46666666666666,
+              "gain": -2.733333333333313
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": 23
+              },
+              "mean": -52.666666666666686,
+              "gain": 2.066666666666663
+            }
+          ]
+        },
+        "terminalUniform": {
+          "action": {
+            "type": "bid",
+            "player": 1,
+            "amount": null
+          },
+          "reference": {
+            "type": "bid",
+            "player": 1,
+            "amount": 18
+          },
+          "completedSamples": 12,
+          "elapsedMs": 157.84962500000074,
+          "candidates": [
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": 18
+              },
+              "mean": -74.43333333333335,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": null
+              },
+              "mean": -41.4666666666667,
+              "gain": 32.966666666666654
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": 23
+              },
+              "mean": -74.06666666666669,
+              "gain": 0.36666666666666003
+            }
+          ]
+        },
+        "terminalWeighted": {
+          "action": {
+            "type": "bid",
+            "player": 1,
+            "amount": null
+          },
+          "reference": {
+            "type": "bid",
+            "player": 1,
+            "amount": 18
+          },
+          "completedSamples": 12,
+          "elapsedMs": 158.57987500000036,
+          "candidates": [
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": 18
+              },
+              "mean": -67.51334520963596,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": null
+              },
+              "mean": -40.07297283459956,
+              "gain": 27.440372375036397
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": 23
+              },
+              "mean": -67.0505634011696,
+              "gain": 0.4627818084663602
+            }
+          ]
+        }
+      }
+    },
+    {
+      "count": 4,
+      "round": 4,
+      "phase": "bid",
+      "mechanism": "once",
+      "counts": [
+        4,
+        1,
+        2,
+        0,
+        0
+      ],
+      "handCounts": [
+        7,
+        7,
+        6,
+        3
+      ],
+      "evidence": true,
+      "trueWorldContinuationScores": {
+        "staticUniform": 119,
+        "terminalUniform": 119,
+        "terminalWeighted": 119
+      },
+      "modes": {
+        "staticUniform": {
+          "action": {
+            "type": "bid",
+            "player": 2,
+            "amount": 19
+          },
+          "reference": {
+            "type": "bid",
+            "player": 2,
+            "amount": 19
+          },
+          "completedSamples": 12,
+          "elapsedMs": 15.664749999999913,
+          "candidates": [
+            {
+              "action": {
+                "type": "bid",
+                "player": 2,
+                "amount": 19
+              },
+              "mean": 141.09999999999994,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 2,
+                "amount": null
+              },
+              "mean": 131.65,
+              "gain": -9.449999999999932
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 2,
+                "amount": 24
+              },
+              "mean": 132.09999999999994,
+              "gain": -9
+            }
+          ]
+        },
+        "terminalUniform": {
+          "action": {
+            "type": "bid",
+            "player": 2,
+            "amount": 19
+          },
+          "reference": {
+            "type": "bid",
+            "player": 2,
+            "amount": 19
+          },
+          "completedSamples": 12,
+          "elapsedMs": 134.30954199999996,
+          "candidates": [
+            {
+              "action": {
+                "type": "bid",
+                "player": 2,
+                "amount": 19
+              },
+              "mean": 115.86666666666663,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 2,
+                "amount": null
+              },
+              "mean": 99.6833333333333,
+              "gain": -16.183333333333337
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 2,
+                "amount": 24
+              },
+              "mean": 109.86666666666663,
+              "gain": -6
+            }
+          ]
+        },
+        "terminalWeighted": {
+          "action": {
+            "type": "bid",
+            "player": 2,
+            "amount": 19
+          },
+          "reference": {
+            "type": "bid",
+            "player": 2,
+            "amount": 19
+          },
+          "completedSamples": 12,
+          "elapsedMs": 134.7392090000003,
+          "candidates": [
+            {
+              "action": {
+                "type": "bid",
+                "player": 2,
+                "amount": 19
+              },
+              "mean": 118.52095009478188,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 2,
+                "amount": null
+              },
+              "mean": 99.29696152760563,
+              "gain": -19.22398856717625
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 2,
+                "amount": 24
+              },
+              "mean": 112.36325825909148,
+              "gain": -6.1576918356904
+            }
+          ]
+        }
+      }
+    },
+    {
+      "count": 4,
+      "round": 4,
+      "phase": "bid",
+      "mechanism": "once",
+      "counts": [
+        4,
+        1,
+        2,
+        0,
+        0
+      ],
+      "handCounts": [
+        7,
+        7,
+        6,
+        3
+      ],
+      "evidence": true,
+      "trueWorldContinuationScores": {
+        "staticUniform": 82.19999999999999,
+        "terminalUniform": 82.19999999999999,
+        "terminalWeighted": 82.19999999999999
+      },
+      "modes": {
+        "staticUniform": {
+          "action": {
+            "type": "bid",
+            "player": 3,
+            "amount": null
+          },
+          "reference": {
+            "type": "bid",
+            "player": 3,
+            "amount": null
+          },
+          "completedSamples": 12,
+          "elapsedMs": 6.830958000000464,
+          "candidates": [
+            {
+              "action": {
+                "type": "bid",
+                "player": 3,
+                "amount": null
+              },
+              "mean": 71.79999999999995,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 3,
+                "amount": 20
+              },
+              "mean": 66.2,
+              "gain": -5.599999999999952
+            }
+          ]
+        },
+        "terminalUniform": {
+          "action": {
+            "type": "bid",
+            "player": 3,
+            "amount": null
+          },
+          "reference": {
+            "type": "bid",
+            "player": 3,
+            "amount": null
+          },
+          "completedSamples": 12,
+          "elapsedMs": 49.18183399999998,
+          "candidates": [
+            {
+              "action": {
+                "type": "bid",
+                "player": 3,
+                "amount": null
+              },
+              "mean": 58.833333333333314,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 3,
+                "amount": 20
+              },
+              "mean": 55.3833333333333,
+              "gain": -3.450000000000017
+            }
+          ]
+        },
+        "terminalWeighted": {
+          "action": {
+            "type": "bid",
+            "player": 3,
+            "amount": null
+          },
+          "reference": {
+            "type": "bid",
+            "player": 3,
+            "amount": null
+          },
+          "completedSamples": 12,
+          "elapsedMs": 49.90541699999994,
+          "candidates": [
+            {
+              "action": {
+                "type": "bid",
+                "player": 3,
+                "amount": null
+              },
+              "mean": 57.59814110702546,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 3,
+                "amount": 20
+              },
+              "mean": 53.701355850500576,
+              "gain": -3.896785256524886
+            }
+          ]
+        }
+      }
+    },
+    {
+      "count": 5,
+      "round": 4,
+      "phase": "price",
+      "mechanism": "fixed",
+      "counts": [
+        3,
+        0,
+        1,
+        4,
+        1
+      ],
+      "handCounts": [
+        2,
+        5,
+        4,
+        4,
+        3
+      ],
+      "evidence": true,
+      "trueWorldContinuationScores": {
+        "staticUniform": 35,
+        "terminalUniform": -22,
+        "terminalWeighted": -22
+      },
+      "modes": {
+        "staticUniform": {
+          "action": {
+            "type": "price",
+            "player": 4,
+            "amount": 58
+          },
+          "reference": {
+            "type": "price",
+            "player": 4,
+            "amount": 53
+          },
+          "completedSamples": 12,
+          "elapsedMs": 107.88345799999934,
+          "candidates": [
+            {
+              "action": {
+                "type": "price",
+                "player": 4,
+                "amount": 53
+              },
+              "mean": 16.25,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "price",
+                "player": 4,
+                "amount": 43
+              },
+              "mean": -14.03000000000003,
+              "gain": -30.28000000000003
+            },
+            {
+              "action": {
+                "type": "price",
+                "player": 4,
+                "amount": 48
+              },
+              "mean": -5.03000000000003,
+              "gain": -21.28000000000003
+            },
+            {
+              "action": {
+                "type": "price",
+                "player": 4,
+                "amount": 52
+              },
+              "mean": 15.25,
+              "gain": -1
+            },
+            {
+              "action": {
+                "type": "price",
+                "player": 4,
+                "amount": 54
+              },
+              "mean": 17.25,
+              "gain": 1
+            },
+            {
+              "action": {
+                "type": "price",
+                "player": 4,
+                "amount": 58
+              },
+              "mean": 21.25,
+              "gain": 5
+            },
+            {
+              "action": {
+                "type": "price",
+                "player": 4,
+                "amount": 63
+              },
+              "mean": -31.399999999999977,
+              "gain": -47.64999999999998
+            },
+            {
+              "action": {
+                "type": "price",
+                "player": 4,
+                "amount": 0
+              },
+              "mean": -91.43000000000002,
+              "gain": -107.68000000000002
+            }
+          ]
+        },
+        "terminalUniform": {
+          "action": {
+            "type": "price",
+            "player": 4,
+            "amount": 53
+          },
+          "reference": {
+            "type": "price",
+            "player": 4,
+            "amount": 53
+          },
+          "completedSamples": 12,
+          "elapsedMs": 704.4624169999997,
+          "candidates": [
+            {
+              "action": {
+                "type": "price",
+                "player": 4,
+                "amount": 53
+              },
+              "mean": 24.366666666666642,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "price",
+                "player": 4,
+                "amount": 43
+              },
+              "mean": 6.649999999999977,
+              "gain": -17.716666666666665
+            },
+            {
+              "action": {
+                "type": "price",
+                "player": 4,
+                "amount": 48
+              },
+              "mean": 14.983333333333311,
+              "gain": -9.383333333333331
+            },
+            {
+              "action": {
+                "type": "price",
+                "player": 4,
+                "amount": 52
+              },
+              "mean": 23.366666666666642,
+              "gain": -1
+            },
+            {
+              "action": {
+                "type": "price",
+                "player": 4,
+                "amount": 54
+              },
+              "mean": 25.366666666666642,
+              "gain": 1
+            },
+            {
+              "action": {
+                "type": "price",
+                "player": 4,
+                "amount": 58
+              },
+              "mean": 25.383333333333315,
+              "gain": 1.0166666666666728
+            },
+            {
+              "action": {
+                "type": "price",
+                "player": 4,
+                "amount": 63
+              },
+              "mean": -32.03333333333335,
+              "gain": -56.39999999999999
+            },
+            {
+              "action": {
+                "type": "price",
+                "player": 4,
+                "amount": 0
+              },
+              "mean": -68.68333333333335,
+              "gain": -93.05
+            }
+          ]
+        },
+        "terminalWeighted": {
+          "action": {
+            "type": "price",
+            "player": 4,
+            "amount": 53
+          },
+          "reference": {
+            "type": "price",
+            "player": 4,
+            "amount": 53
+          },
+          "completedSamples": 12,
+          "elapsedMs": 699.250250000001,
+          "candidates": [
+            {
+              "action": {
+                "type": "price",
+                "player": 4,
+                "amount": 53
+              },
+              "mean": 22.330555463715896,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "price",
+                "player": 4,
+                "amount": 43
+              },
+              "mean": 7.893463178432988,
+              "gain": -14.437092285282908
+            },
+            {
+              "action": {
+                "type": "price",
+                "player": 4,
+                "amount": 48
+              },
+              "mean": 16.224626280163857,
+              "gain": -6.105929183552039
+            },
+            {
+              "action": {
+                "type": "price",
+                "player": 4,
+                "amount": 52
+              },
+              "mean": 21.3305554637159,
+              "gain": -0.9999999999999964
+            },
+            {
+              "action": {
+                "type": "price",
+                "player": 4,
+                "amount": 54
+              },
+              "mean": 23.330555463715896,
+              "gain": 1
+            },
+            {
+              "action": {
+                "type": "price",
+                "player": 4,
+                "amount": 58
+              },
+              "mean": 23.53948593210464,
+              "gain": 1.2089304683887434
+            },
+            {
+              "action": {
+                "type": "price",
+                "player": 4,
+                "amount": 63
+              },
+              "mean": -32.500599997689534,
+              "gain": -54.83115546140543
+            },
+            {
+              "action": {
+                "type": "price",
+                "player": 4,
+                "amount": 0
+              },
+              "mean": -67.23118467064481,
+              "gain": -89.5617401343607
+            }
+          ]
+        }
+      }
+    },
+    {
+      "count": 5,
+      "round": 4,
+      "phase": "bid",
+      "mechanism": "fixed",
+      "counts": [
+        3,
+        0,
+        1,
+        4,
+        1
+      ],
+      "handCounts": [
+        2,
+        5,
+        4,
+        4,
+        3
+      ],
+      "evidence": true,
+      "trueWorldContinuationScores": {
+        "staticUniform": 137.59999999999997,
+        "terminalUniform": 234.59999999999997,
+        "terminalWeighted": 234.59999999999997
+      },
+      "modes": {
+        "staticUniform": {
+          "action": {
+            "type": "buy",
+            "player": 0,
+            "accept": true
+          },
+          "reference": {
+            "type": "buy",
+            "player": 0,
+            "accept": false
+          },
+          "completedSamples": 12,
+          "elapsedMs": 10.523124999999709,
+          "candidates": [
+            {
+              "action": {
+                "type": "buy",
+                "player": 0,
+                "accept": false
+              },
+              "mean": 149.42499999999995,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "buy",
+                "player": 0,
+                "accept": true
+              },
+              "mean": 166.47499999999994,
+              "gain": 17.049999999999983
+            }
+          ]
+        },
+        "terminalUniform": {
+          "action": {
+            "type": "buy",
+            "player": 0,
+            "accept": false
+          },
+          "reference": {
+            "type": "buy",
+            "player": 0,
+            "accept": false
+          },
+          "completedSamples": 12,
+          "elapsedMs": 201.48333300000013,
+          "candidates": [
+            {
+              "action": {
+                "type": "buy",
+                "player": 0,
+                "accept": false
+              },
+              "mean": 173.09999999999994,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "buy",
+                "player": 0,
+                "accept": true
+              },
+              "mean": 133.01666666666662,
+              "gain": -40.083333333333314
+            }
+          ]
+        },
+        "terminalWeighted": {
+          "action": {
+            "type": "buy",
+            "player": 0,
+            "accept": false
+          },
+          "reference": {
+            "type": "buy",
+            "player": 0,
+            "accept": false
+          },
+          "completedSamples": 12,
+          "elapsedMs": 203.81566700000076,
+          "candidates": [
+            {
+              "action": {
+                "type": "buy",
+                "player": 0,
+                "accept": false
+              },
+              "mean": 177.94724111240282,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "buy",
+                "player": 0,
+                "accept": true
+              },
+              "mean": 138.883033665965,
+              "gain": -39.06420744643782
+            }
+          ]
+        }
+      }
+    },
+    {
+      "count": 5,
+      "round": 4,
+      "phase": "bid",
+      "mechanism": "fixed",
+      "counts": [
+        3,
+        0,
+        1,
+        4,
+        1
+      ],
+      "handCounts": [
+        2,
+        5,
+        4,
+        4,
+        3
+      ],
+      "evidence": true,
+      "trueWorldContinuationScores": {
+        "staticUniform": -21,
+        "terminalUniform": -21,
+        "terminalWeighted": -21
+      },
+      "modes": {
+        "staticUniform": {
+          "action": {
+            "type": "buy",
+            "player": 1,
+            "accept": true
+          },
+          "reference": {
+            "type": "buy",
+            "player": 1,
+            "accept": true
+          },
+          "completedSamples": 12,
+          "elapsedMs": 11.156750000000102,
+          "candidates": [
+            {
+              "action": {
+                "type": "buy",
+                "player": 1,
+                "accept": true
+              },
+              "mean": 60.70000000000001,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "buy",
+                "player": 1,
+                "accept": false
+              },
+              "mean": 44.44999999999999,
+              "gain": -16.25000000000002
+            }
+          ]
+        },
+        "terminalUniform": {
+          "action": {
+            "type": "buy",
+            "player": 1,
+            "accept": true
+          },
+          "reference": {
+            "type": "buy",
+            "player": 1,
+            "accept": true
+          },
+          "completedSamples": 12,
+          "elapsedMs": 85.86358300000029,
+          "candidates": [
+            {
+              "action": {
+                "type": "buy",
+                "player": 1,
+                "accept": true
+              },
+              "mean": 47.89999999999998,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "buy",
+                "player": 1,
+                "accept": false
+              },
+              "mean": 49.98333333333331,
+              "gain": 2.0833333333333357
+            }
+          ]
+        },
+        "terminalWeighted": {
+          "action": {
+            "type": "buy",
+            "player": 1,
+            "accept": true
+          },
+          "reference": {
+            "type": "buy",
+            "player": 1,
+            "accept": true
+          },
+          "completedSamples": 12,
+          "elapsedMs": 85.95933299999888,
+          "candidates": [
+            {
+              "action": {
+                "type": "buy",
+                "player": 1,
+                "accept": true
+              },
+              "mean": 50.85211628606953,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "buy",
+                "player": 1,
+                "accept": false
+              },
+              "mean": 54.65840665495385,
+              "gain": 3.8062903688843193
+            }
+          ]
+        }
+      }
+    },
+    {
+      "count": 5,
+      "round": 4,
+      "phase": "bid",
+      "mechanism": "sealed",
+      "counts": [
+        3,
+        0,
+        1,
+        4,
+        2
+      ],
+      "handCounts": [
+        1,
+        5,
+        4,
+        4,
+        3
+      ],
+      "evidence": true,
+      "trueWorldContinuationScores": {
+        "staticUniform": 14.799999999999955,
+        "terminalUniform": 0.39999999999997726,
+        "terminalWeighted": 0.39999999999997726
+      },
+      "modes": {
+        "staticUniform": {
+          "action": {
+            "type": "bid",
+            "player": 1,
+            "amount": 35
+          },
+          "reference": {
+            "type": "bid",
+            "player": 1,
+            "amount": 35
+          },
+          "completedSamples": 12,
+          "elapsedMs": 2118.029666999999,
+          "candidates": [
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": 35
+              },
+              "mean": 5.516666666666637,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": 27
+              },
+              "mean": 1.8499999999999754,
+              "gain": -3.6666666666666616
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": 32
+              },
+              "mean": 3.966666666666645,
+              "gain": -1.5499999999999923
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": 34
+              },
+              "mean": 6.116666666666641,
+              "gain": 0.6000000000000041
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": 36
+              },
+              "mean": 4.916666666666653,
+              "gain": -0.5999999999999845
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": 38
+              },
+              "mean": 4.7583333333333115,
+              "gain": -0.7583333333333258
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": 43
+              },
+              "mean": 4.649999999999977,
+              "gain": -0.86666666666666
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": 0
+              },
+              "mean": 1.8499999999999754,
+              "gain": -3.6666666666666616
+            }
+          ]
+        },
+        "terminalUniform": {
+          "action": {
+            "type": "bid",
+            "player": 1,
+            "amount": 43
+          },
+          "reference": {
+            "type": "bid",
+            "player": 1,
+            "amount": 35
+          },
+          "completedSamples": 12,
+          "elapsedMs": 2110.3434579999994,
+          "candidates": [
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": 35
+              },
+              "mean": -11.733333333333363,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": 27
+              },
+              "mean": -23.200000000000028,
+              "gain": -11.466666666666665
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": 32
+              },
+              "mean": -16.533333333333356,
+              "gain": -4.799999999999994
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": 34
+              },
+              "mean": -11.13333333333336,
+              "gain": 0.6000000000000032
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": 36
+              },
+              "mean": -12.333333333333348,
+              "gain": -0.5999999999999854
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": 38
+              },
+              "mean": -10.866666666666688,
+              "gain": 0.8666666666666742
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": 43
+              },
+              "mean": 0.39999999999997726,
+              "gain": 12.13333333333334
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": 0
+              },
+              "mean": -23.200000000000028,
+              "gain": -11.466666666666665
+            }
+          ]
+        },
+        "terminalWeighted": {
+          "action": {
+            "type": "bid",
+            "player": 1,
+            "amount": 43
+          },
+          "reference": {
+            "type": "bid",
+            "player": 1,
+            "amount": 35
+          },
+          "completedSamples": 12,
+          "elapsedMs": 2060.6530829999992,
+          "candidates": [
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": 35
+              },
+              "mean": -10.591849917440939,
+              "gain": 0
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": 27
+              },
+              "mean": -23.00700305933787,
+              "gain": -12.41515314189693
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": 32
+              },
+              "mean": -16.439827177372095,
+              "gain": -5.847977259931156
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": 34
+              },
+              "mean": -9.943265175568902,
+              "gain": 0.6485847418720372
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": 36
+              },
+              "mean": -11.240434659312957,
+              "gain": -0.6485847418720176
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": 38
+              },
+              "mean": -9.747673357535612,
+              "gain": 0.8441765599053266
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": 43
+              },
+              "mean": 0.39999999999997726,
+              "gain": 10.991849917440916
+            },
+            {
+              "action": {
+                "type": "bid",
+                "player": 1,
+                "amount": 0
+              },
+              "mean": -23.00700305933787,
+              "gain": -12.41515314189693
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

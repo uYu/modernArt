@@ -1,0 +1,332 @@
+{
+  "start": 815101,
+  "seeds": 4,
+  "samples": 256,
+  "hashes": {
+    "experiments/final-win-game-benchmark.ts": "6640d03f0a06fc96e95bac0a6061e1d5d0f67e5e5640e1a5f3bd452d68dbf152",
+    "src/game/ai-universal.ts": "ab59eb4903860d8be6c0017c1b74cd3d79296938d424be152d3a97cfaebde852",
+    "src/game/ai-planning.ts": "76da8b747f20bbd2d3439e3f9a4725cf73e67d8b0d7b6acd0599c9cfbc758067",
+    "src/game/ai-improved.ts": "95eab94cafcc05727dfb5d046f180084235fcf0ae4b25cb1d3bb1977865cb640",
+    "src/game/ai-legacy.ts": "d3d2b6e790ff935132f8489cdbbb63b7025e7192ddd867fd092b4d0e5db714cd",
+    "src/game/engine.ts": "a16af0fbd7a2f7ccd4b87f3e1cbf1c1481a09d20cea61780ab06520daa72ab9e"
+  },
+  "rows": [
+    {
+      "count": 3,
+      "seed": 815101,
+      "seat": 0,
+      "candidateWin": 0,
+      "baselineWin": 1,
+      "candidateCash": [
+        642,
+        577,
+        694
+      ],
+      "baselineCash": [
+        647,
+        582,
+        591
+      ],
+      "deepDecisions": 10
+    },
+    {
+      "count": 3,
+      "seed": 815101,
+      "seat": 1,
+      "candidateWin": 0,
+      "baselineWin": 0,
+      "candidateCash": [
+        649,
+        574,
+        597
+      ],
+      "baselineCash": [
+        647,
+        582,
+        591
+      ],
+      "deepDecisions": 13
+    },
+    {
+      "count": 3,
+      "seed": 815101,
+      "seat": 2,
+      "candidateWin": 1,
+      "baselineWin": 0,
+      "candidateCash": [
+        639,
+        562,
+        671
+      ],
+      "baselineCash": [
+        647,
+        582,
+        591
+      ],
+      "deepDecisions": 6
+    }
+  ],
+  "timing": [
+    {
+      "count": 3,
+      "seed": 815101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "sealed",
+      "ms": 13835.401583000003,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 815101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "once",
+      "ms": 5199.776208999996,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 815101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 3643.5382089999985,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 815101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 2881.6595000000016,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 815101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 1043.9725419999959,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 815101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 1005.4891659999994,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 815101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 1116.7357499999998,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 815101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 799.3034170000028,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 815101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 693.6286250000048,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 815101,
+      "seat": 0,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 932.2265830000033,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 815101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "sealed",
+      "ms": 6493.788291999997,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 815101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "once",
+      "ms": 1308.175457999998,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 815101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 2399.0339169999934,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 815101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 1553.2585000000108,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 815101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 1413.0485000000044,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 815101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 767.8655419999996,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 815101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 713.7257919999975,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 815101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 385.5988750000106,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 815101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "once",
+      "ms": 1729.2366670000047,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 815101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 3699.677542000005,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 815101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 1916.8654590000078,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 815101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 1727.027833,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 815101,
+      "seat": 1,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 1164.919207999992,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 815101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "sealed",
+      "ms": 19593.337249999997,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 815101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "once",
+      "ms": 413.5014579999988,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 815101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 3961.5931249999994,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 815101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 3328.238083000004,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 815101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 2951.6216249999998,
+      "completedSamples": 256
+    },
+    {
+      "count": 3,
+      "seed": 815101,
+      "seat": 2,
+      "phase": "bid",
+      "mechanism": "open",
+      "ms": 2007.5883329999924,
+      "completedSamples": 256
+    }
+  ]
+}

@@ -1,0 +1,4735 @@
+{
+  "runtime": "v25.8.1",
+  "summary": {
+    "baselineMs": {
+      "n": 786,
+      "mean": 0.44677030279897667,
+      "p95": 2.227374999999938,
+      "max": 20.09795799999995
+    },
+    "upgradedMs": {
+      "n": 786,
+      "mean": 1.84826919338423,
+      "p95": 10.972417000000178,
+      "max": 35.08220799999992
+    }
+  },
+  "rows": [
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 16.46558299999998,
+      "upgradedMs": 6.7590000000000146
+    },
+    {
+      "count": 3,
+      "phase": "pair/double",
+      "baselineMs": 19.984666000000004,
+      "upgradedMs": 14.267791999999986
+    },
+    {
+      "count": 3,
+      "phase": "bid/sealed",
+      "baselineMs": 0.23712499999999181,
+      "upgradedMs": 7.510457999999971
+    },
+    {
+      "count": 3,
+      "phase": "bid/sealed",
+      "baselineMs": 0.013000000000033651,
+      "upgradedMs": 4.58991599999996
+    },
+    {
+      "count": 3,
+      "phase": "bid/sealed",
+      "baselineMs": 0.004582999999968251,
+      "upgradedMs": 9.236000000000047
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 9.052083000000039,
+      "upgradedMs": 11.337374999999952
+    },
+    {
+      "count": 3,
+      "phase": "pair/double",
+      "baselineMs": 10.057291999999961,
+      "upgradedMs": 4.850083000000041
+    },
+    {
+      "count": 3,
+      "phase": "price/fixed",
+      "baselineMs": 0.014833000000010088,
+      "upgradedMs": 4.613917000000015
+    },
+    {
+      "count": 3,
+      "phase": "bid/fixed",
+      "baselineMs": 0.13875000000001592,
+      "upgradedMs": 0.030458000000010088
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 16.717791999999974,
+      "upgradedMs": 8.20195799999999
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.050749999999993634,
+      "upgradedMs": 0.007957999999973708
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.007834000000002561,
+      "upgradedMs": 0.0026659999999765205
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.12333399999999983,
+      "upgradedMs": 0.014833000000010088
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0031250000000113687,
+      "upgradedMs": 0.0020000000000095497
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0025420000000053733,
+      "upgradedMs": 0.0018330000000332802
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.02391600000004246,
+      "upgradedMs": 0.015749999999968622
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.007124999999973625,
+      "upgradedMs": 0.003791000000035183
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0023749999999722604,
+      "upgradedMs": 0.0016669999999976426
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.002333000000021457,
+      "upgradedMs": 0.002082999999970525
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0025420000000053733,
+      "upgradedMs": 0.001416000000006079
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0018329999999764368,
+      "upgradedMs": 0.0013330000000451037
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0012089999999602696,
+      "upgradedMs": 0.0010410000000433683
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.001125000000001819,
+      "upgradedMs": 0.001125000000001819
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 1.942042000000015,
+      "upgradedMs": 2.4562500000000114
+    },
+    {
+      "count": 3,
+      "phase": "price/fixed",
+      "baselineMs": 0.006166000000007443,
+      "upgradedMs": 5.654791999999986
+    },
+    {
+      "count": 3,
+      "phase": "bid/fixed",
+      "baselineMs": 0.004666999999983545,
+      "upgradedMs": 0.0014999999999645297
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 2.041832999999997,
+      "upgradedMs": 2.204167000000041
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.014167000000043117,
+      "upgradedMs": 0.004207999999948697
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.009624999999971351,
+      "upgradedMs": 0.003584000000046217
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.053708999999969365,
+      "upgradedMs": 0.03179099999999835
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.006624999999985448,
+      "upgradedMs": 0.003333999999995285
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.004792000000009011,
+      "upgradedMs": 0.0017910000000256332
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.011792000000014013,
+      "upgradedMs": 0.0043330000000310065
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0019580000000019027,
+      "upgradedMs": 0.0012919999999780885
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0012500000000272848,
+      "upgradedMs": 0.0008750000000077307
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.00304199999999355,
+      "upgradedMs": 0.0012500000000272848
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 8.895416000000012,
+      "upgradedMs": 9.868458999999973
+    },
+    {
+      "count": 3,
+      "phase": "pair/double",
+      "baselineMs": 5.219915999999955,
+      "upgradedMs": 3.5134590000000117
+    },
+    {
+      "count": 3,
+      "phase": "price/fixed",
+      "baselineMs": 0.005665999999962423,
+      "upgradedMs": 4.617374999999981
+    },
+    {
+      "count": 3,
+      "phase": "bid/fixed",
+      "baselineMs": 0.007790999999997439,
+      "upgradedMs": 0.002709000000038486
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 1.1500409999999874,
+      "upgradedMs": 0.9628340000000435
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.00637499999999136,
+      "upgradedMs": 0.001958999999999378
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0020840000000248438,
+      "upgradedMs": 0.001416000000006079
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.011375000000043656,
+      "upgradedMs": 0.00437499999998181
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0018340000000307555,
+      "upgradedMs": 0.0014159999999492356
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0015840000000366672,
+      "upgradedMs": 0.0013329999999882602
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0012500000000272848,
+      "upgradedMs": 0.0009579999999687061
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0015839999999798238,
+      "upgradedMs": 0.0013749999999959073
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0015419999999721767,
+      "upgradedMs": 0.0013329999999882602
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.001125000000001819,
+      "upgradedMs": 0.0010000000000331966
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0015000000000213731,
+      "upgradedMs": 0.0012909999999806132
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.001707999999950971,
+      "upgradedMs": 0.0009580000000255495
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.008915999999999258,
+      "upgradedMs": 0.0027499999999918145
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 1.05845800000003,
+      "upgradedMs": 0.45791699999995217
+    },
+    {
+      "count": 3,
+      "phase": "bid/once",
+      "baselineMs": 0.004750000000001364,
+      "upgradedMs": 0.001833999999973912
+    },
+    {
+      "count": 3,
+      "phase": "bid/once",
+      "baselineMs": 0.0020000000000095497,
+      "upgradedMs": 0.0014170000000035543
+    },
+    {
+      "count": 3,
+      "phase": "bid/once",
+      "baselineMs": 0.0012499999999704414,
+      "upgradedMs": 0.0010420000000408436
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 5.739792000000023,
+      "upgradedMs": 4.229624999999999
+    },
+    {
+      "count": 3,
+      "phase": "bid/once",
+      "baselineMs": 0.005875000000003183,
+      "upgradedMs": 0.0017500000000154614
+    },
+    {
+      "count": 3,
+      "phase": "bid/once",
+      "baselineMs": 0.001958999999999378,
+      "upgradedMs": 0.0013749999999959073
+    },
+    {
+      "count": 3,
+      "phase": "bid/once",
+      "baselineMs": 0.011208000000010543,
+      "upgradedMs": 0.004624999999975898
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 0.3815829999999778,
+      "upgradedMs": 0.3160000000000309
+    },
+    {
+      "count": 3,
+      "phase": "price/fixed",
+      "baselineMs": 0.0028340000000071086,
+      "upgradedMs": 4.253332999999998
+    },
+    {
+      "count": 3,
+      "phase": "bid/fixed",
+      "baselineMs": 0.0024169999999799074,
+      "upgradedMs": 0.014583000000016
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 0.34770800000001145,
+      "upgradedMs": 0.31654200000002675
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 20.09795799999995,
+      "upgradedMs": 20.81070800000009
+    },
+    {
+      "count": 3,
+      "phase": "pair/double",
+      "baselineMs": 6.245292000000063,
+      "upgradedMs": 5.923332999999957
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.08729200000004766,
+      "upgradedMs": 0.004415999999991982
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.01637500000003911,
+      "upgradedMs": 0.005749999999920874
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.05224999999995816,
+      "upgradedMs": 0.08745899999996709
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.014083000000027823,
+      "upgradedMs": 0.004207999999948697
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.010917000000063126,
+      "upgradedMs": 0.0038329999999859865
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.012917000000015832,
+      "upgradedMs": 0.00433300000008785
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.03779199999996763,
+      "upgradedMs": 0.012500000000045475
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.004458999999997104,
+      "upgradedMs": 0.0016249999999899956
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.006666999999993095,
+      "upgradedMs": 0.003958000000011452
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0014170000000603977,
+      "upgradedMs": 0.0009169999999585343
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 2.846582999999896,
+      "upgradedMs": 2.461667000000034
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.006333000000040556,
+      "upgradedMs": 0.0016669999999976426
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.023791999999957625,
+      "upgradedMs": 0.002082999999970525
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.010207999999920503,
+      "upgradedMs": 0.00437499999998181
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0018750000000409273,
+      "upgradedMs": 0.001458999999954358
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.001333999999928892,
+      "upgradedMs": 0.0010410000001002118
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0105829999999969,
+      "upgradedMs": 0.0048750000000836735
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0025420000000622167,
+      "upgradedMs": 0.0016249999999899956
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0013749999999390639,
+      "upgradedMs": 0.00100000000009004
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.005167000000028565,
+      "upgradedMs": 0.0035409999999274078
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 8.021959000000038,
+      "upgradedMs": 8.103040999999962
+    },
+    {
+      "count": 3,
+      "phase": "price/fixed",
+      "baselineMs": 0.00516600000003109,
+      "upgradedMs": 16.523584000000028
+    },
+    {
+      "count": 3,
+      "phase": "bid/fixed",
+      "baselineMs": 0.0026659999999765205,
+      "upgradedMs": 0.0012500000000272848
+    },
+    {
+      "count": 3,
+      "phase": "bid/fixed",
+      "baselineMs": 0.0013750000000527507,
+      "upgradedMs": 0.001167000000009466
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 4.428749999999923,
+      "upgradedMs": 3.2320420000000922
+    },
+    {
+      "count": 3,
+      "phase": "pair/double",
+      "baselineMs": 1.1630420000000186,
+      "upgradedMs": 1.1209579999999733
+    },
+    {
+      "count": 3,
+      "phase": "bid/sealed",
+      "baselineMs": 0.005041000000005624,
+      "upgradedMs": 5.365249999999946
+    },
+    {
+      "count": 3,
+      "phase": "bid/sealed",
+      "baselineMs": 0.004041000000029271,
+      "upgradedMs": 13.147249999999985
+    },
+    {
+      "count": 3,
+      "phase": "bid/sealed",
+      "baselineMs": 0.003125000000068212,
+      "upgradedMs": 35.08220799999992
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 3.625332999999955,
+      "upgradedMs": 3.332834000000048
+    },
+    {
+      "count": 3,
+      "phase": "bid/once",
+      "baselineMs": 0.015541999999982181,
+      "upgradedMs": 0.004415999999991982
+    },
+    {
+      "count": 3,
+      "phase": "bid/once",
+      "baselineMs": 0.008625000000051841,
+      "upgradedMs": 0.00333299999999781
+    },
+    {
+      "count": 3,
+      "phase": "bid/once",
+      "baselineMs": 0.11216699999999946,
+      "upgradedMs": 0.01358299999992596
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 7.580375000000004,
+      "upgradedMs": 4.880083000000013
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.013709000000062588,
+      "upgradedMs": 0.004207999999948697
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.006500000000073669,
+      "upgradedMs": 0.003333999999995285
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.01879200000007586,
+      "upgradedMs": 0.00829199999998309
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.008750000000077307,
+      "upgradedMs": 0.0026669999999739957
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.006209000000012566,
+      "upgradedMs": 0.0019999999999527063
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.011333000000036009,
+      "upgradedMs": 0.004250000000070031
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0017499999999017746,
+      "upgradedMs": 0.0015000000000782165
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0017500000000154614,
+      "upgradedMs": 0.0013330000000451037
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.006582999999977801,
+      "upgradedMs": 0.003459000000020751
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0029580000000350992,
+      "upgradedMs": 0.001291999999921245
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.002209000000107153,
+      "upgradedMs": 0.001249999999913598
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.005540999999993801,
+      "upgradedMs": 0.003417000000013104
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 1.1427500000000919,
+      "upgradedMs": 1.1144169999998894
+    },
+    {
+      "count": 3,
+      "phase": "bid/sealed",
+      "baselineMs": 0.002375000000029104,
+      "upgradedMs": 5.483582999999953
+    },
+    {
+      "count": 3,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0028340000000071086,
+      "upgradedMs": 7.0798750000000155
+    },
+    {
+      "count": 3,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0017910000000256332,
+      "upgradedMs": 16.529209000000037
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 0.4257910000000038,
+      "upgradedMs": 0.32320900000001984
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 12.225667000000044,
+      "upgradedMs": 13.001541999999972
+    },
+    {
+      "count": 3,
+      "phase": "pair/double",
+      "baselineMs": 1.8283330000000433,
+      "upgradedMs": 1.9507089999999607
+    },
+    {
+      "count": 3,
+      "phase": "price/fixed",
+      "baselineMs": 0.007375000000024556,
+      "upgradedMs": 7.670708999999988
+    },
+    {
+      "count": 3,
+      "phase": "bid/fixed",
+      "baselineMs": 0.002124999999978172,
+      "upgradedMs": 0.001125000000001819
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 3.4410420000000386,
+      "upgradedMs": 2.766416999999933
+    },
+    {
+      "count": 3,
+      "phase": "price/fixed",
+      "baselineMs": 0.0037500000000818545,
+      "upgradedMs": 7.484833999999978
+    },
+    {
+      "count": 3,
+      "phase": "bid/fixed",
+      "baselineMs": 0.002499999999940883,
+      "upgradedMs": 0.0012920000000349319
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 1.2501670000000331,
+      "upgradedMs": 1.2916669999999613
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.003958000000011452,
+      "upgradedMs": 0.0015829999999823485
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.012875000000008185,
+      "upgradedMs": 0.0037919999999758147
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.011167000000000371,
+      "upgradedMs": 0.004665999999929227
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.002082999999970525,
+      "upgradedMs": 0.0014170000000603977
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0016669999999976426,
+      "upgradedMs": 0.0015409999999747015
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.009625000000028194,
+      "upgradedMs": 0.004458999999997104
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0024580000000469227,
+      "upgradedMs": 0.001125000000001819
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.015374999999949068,
+      "upgradedMs": 0.004208000000062384
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.006292000000030384,
+      "upgradedMs": 0.003958000000011452
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.001249999999913598,
+      "upgradedMs": 0.001040999999986525
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 5.87070899999992,
+      "upgradedMs": 4.050666000000092
+    },
+    {
+      "count": 3,
+      "phase": "pair/double",
+      "baselineMs": 1.2899159999999483,
+      "upgradedMs": 1.208167000000003
+    },
+    {
+      "count": 3,
+      "phase": "bid/once",
+      "baselineMs": 0.005625000000009095,
+      "upgradedMs": 0.8078749999999673
+    },
+    {
+      "count": 3,
+      "phase": "bid/once",
+      "baselineMs": 0.0020419999999603533,
+      "upgradedMs": 0.0013750000000527507
+    },
+    {
+      "count": 3,
+      "phase": "bid/once",
+      "baselineMs": 0.010041999999998552,
+      "upgradedMs": 0.004125000000044565
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 2.6532499999999573,
+      "upgradedMs": 2.2261250000000246
+    },
+    {
+      "count": 3,
+      "phase": "price/fixed",
+      "baselineMs": 0.0050420000000030996,
+      "upgradedMs": 6.3220830000000205
+    },
+    {
+      "count": 3,
+      "phase": "bid/fixed",
+      "baselineMs": 0.0020839999999680003,
+      "upgradedMs": 0.0011660000000119908
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 0.6645829999999933,
+      "upgradedMs": 0.696207999999956
+    },
+    {
+      "count": 3,
+      "phase": "price/fixed",
+      "baselineMs": 0.002082999999970525,
+      "upgradedMs": 6.822334000000069
+    },
+    {
+      "count": 3,
+      "phase": "bid/fixed",
+      "baselineMs": 0.002207999999995991,
+      "upgradedMs": 0.001333999999928892
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 1.7401250000000346,
+      "upgradedMs": 1.8093329999999241
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.004166000000054737,
+      "upgradedMs": 0.0016669999999976426
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.002250000000003638,
+      "upgradedMs": 0.0014159999999492356
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.00908300000003237,
+      "upgradedMs": 0.0042089999999461725
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0016669999999976426,
+      "upgradedMs": 0.0014160000000629225
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0016249999999899956,
+      "upgradedMs": 0.0013750000000527507
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.004834000000073502,
+      "upgradedMs": 0.0036659999999528736
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0016669999999976426,
+      "upgradedMs": 0.0014580000000705695
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0012089999999034262,
+      "upgradedMs": 0.0009580000000823929
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.00458400000002257,
+      "upgradedMs": 0.0035410000000410946
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 1.4112079999999878,
+      "upgradedMs": 1.8696249999999281
+    },
+    {
+      "count": 3,
+      "phase": "bid/sealed",
+      "baselineMs": 0.03233299999999417,
+      "upgradedMs": 8.881792000000019
+    },
+    {
+      "count": 3,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0027079999999841675,
+      "upgradedMs": 8.278458
+    },
+    {
+      "count": 3,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0017080000000078144,
+      "upgradedMs": 10.09695899999997
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 0.5171659999999747,
+      "upgradedMs": 0.48691699999994853
+    },
+    {
+      "count": 3,
+      "phase": "price/fixed",
+      "baselineMs": 0.00204200000007404,
+      "upgradedMs": 6.749749999999949
+    },
+    {
+      "count": 3,
+      "phase": "bid/fixed",
+      "baselineMs": 0.0016249999999899956,
+      "upgradedMs": 0.0012500000000272848
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 1.4303330000000187,
+      "upgradedMs": 2.5338749999999663
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0052090000000362124,
+      "upgradedMs": 0.0018330000000332802
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.002250000000003638,
+      "upgradedMs": 0.0013750000000527507
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.05570799999998144,
+      "upgradedMs": 0.04825000000005275
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0026250000000800355,
+      "upgradedMs": 0.0014999999999645297
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0016249999999899956,
+      "upgradedMs": 0.0013750000000527507
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.006624999999985448,
+      "upgradedMs": 0.003958000000011452
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0016670000001113294,
+      "upgradedMs": 0.0013329999999314168
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0015830000000960354,
+      "upgradedMs": 0.0013749999999390639
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.004625000000032742,
+      "upgradedMs": 0.0036660000000665605
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0015420000000858636,
+      "upgradedMs": 0.0014169999999467109
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.001167000000009466,
+      "upgradedMs": 0.0009169999999585343
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.004209000000059859,
+      "upgradedMs": 0.0037499999999681677
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 1.1233330000000024,
+      "upgradedMs": 1.185624999999959
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 1.4024580000000242,
+      "upgradedMs": 1.360708000000045
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0037919999999758147,
+      "upgradedMs": 0.0012910000000374566
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0016249999999899956,
+      "upgradedMs": 0.0010839999999916472
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.00808299999994233,
+      "upgradedMs": 0.0037079999999605207
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0013330000000451037,
+      "upgradedMs": 0.001125000000001819
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0014159999999492356,
+      "upgradedMs": 0.001084000000105334
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0009590000000798682,
+      "upgradedMs": 0.0007909999999355932
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0012920000000349319,
+      "upgradedMs": 0.001125000000001819
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0013750000000527507,
+      "upgradedMs": 0.001125000000001819
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0008749999999508873,
+      "upgradedMs": 0.0007500000000391083
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0012500000000272848,
+      "upgradedMs": 0.001125000000001819
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0008750000000645741,
+      "upgradedMs": 0.0007499999999254214
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0008329999999432403,
+      "upgradedMs": 0.0007090000000289365
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 3.12829099999999,
+      "upgradedMs": 3.1262500000000273
+    },
+    {
+      "count": 3,
+      "phase": "pair/double",
+      "baselineMs": 0.9281250000000227,
+      "upgradedMs": 0.9640829999999596
+    },
+    {
+      "count": 3,
+      "phase": "bid/once",
+      "baselineMs": 0.004500000000007276,
+      "upgradedMs": 0.0013329999999314168
+    },
+    {
+      "count": 3,
+      "phase": "bid/once",
+      "baselineMs": 0.001458999999954358,
+      "upgradedMs": 0.0011660000000119908
+    },
+    {
+      "count": 3,
+      "phase": "bid/once",
+      "baselineMs": 0.007666999999969448,
+      "upgradedMs": 0.003458000000023276
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 1.6256670000000213,
+      "upgradedMs": 1.6358329999999341
+    },
+    {
+      "count": 3,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0035830000000487416,
+      "upgradedMs": 8.512917000000016
+    },
+    {
+      "count": 3,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0027079999999841675,
+      "upgradedMs": 9.465832999999975
+    },
+    {
+      "count": 3,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0025840000000698637,
+      "upgradedMs": 11.288040999999907
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 0.6394999999999982,
+      "upgradedMs": 0.5387910000000602
+    },
+    {
+      "count": 3,
+      "phase": "bid/sealed",
+      "baselineMs": 0.00204200000007404,
+      "upgradedMs": 7.794624999999996
+    },
+    {
+      "count": 3,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0025420000000622167,
+      "upgradedMs": 10.216207999999938
+    },
+    {
+      "count": 3,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0012500000000272848,
+      "upgradedMs": 11.637499999999932
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 1.1762089999999716,
+      "upgradedMs": 1.232040999999981
+    },
+    {
+      "count": 3,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0028340000000071086,
+      "upgradedMs": 9.70129099999997
+    },
+    {
+      "count": 3,
+      "phase": "bid/sealed",
+      "baselineMs": 0.003499999999917236,
+      "upgradedMs": 12.316874999999982
+    },
+    {
+      "count": 3,
+      "phase": "bid/sealed",
+      "baselineMs": 0.002375000000029104,
+      "upgradedMs": 17.102499999999964
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 1.3693750000001046,
+      "upgradedMs": 1.4791669999999613
+    },
+    {
+      "count": 3,
+      "phase": "bid/sealed",
+      "baselineMs": 0.003458000000023276,
+      "upgradedMs": 7.940582999999947
+    },
+    {
+      "count": 3,
+      "phase": "bid/sealed",
+      "baselineMs": 0.002124999999978172,
+      "upgradedMs": 9.914417000000071
+    },
+    {
+      "count": 3,
+      "phase": "bid/sealed",
+      "baselineMs": 0.002124999999978172,
+      "upgradedMs": 12.050082999999972
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 0.4537920000000213,
+      "upgradedMs": 0.4285409999999956
+    },
+    {
+      "count": 3,
+      "phase": "bid/once",
+      "baselineMs": 0.0037500000000818545,
+      "upgradedMs": 0.0016249999999899956
+    },
+    {
+      "count": 3,
+      "phase": "bid/once",
+      "baselineMs": 0.0016669999999976426,
+      "upgradedMs": 0.0013329999999314168
+    },
+    {
+      "count": 3,
+      "phase": "bid/once",
+      "baselineMs": 0.0010839999999916472,
+      "upgradedMs": 0.0009160000000747459
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 1.4547910000001139,
+      "upgradedMs": 1.2309999999999945
+    },
+    {
+      "count": 3,
+      "phase": "bid/once",
+      "baselineMs": 0.004290999999966516,
+      "upgradedMs": 0.0016249999998763087
+    },
+    {
+      "count": 3,
+      "phase": "bid/once",
+      "baselineMs": 0.0018330000000332802,
+      "upgradedMs": 0.0013750000000527507
+    },
+    {
+      "count": 3,
+      "phase": "bid/once",
+      "baselineMs": 0.0009999999999763531,
+      "upgradedMs": 0.0008339999999407155
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 1.3457499999999527,
+      "upgradedMs": 1.3478750000001583
+    },
+    {
+      "count": 3,
+      "phase": "bid/once",
+      "baselineMs": 0.0037910000000920263,
+      "upgradedMs": 0.0016249999998763087
+    },
+    {
+      "count": 3,
+      "phase": "bid/once",
+      "baselineMs": 0.0016659999998864805,
+      "upgradedMs": 0.0012500000000272848
+    },
+    {
+      "count": 3,
+      "phase": "bid/once",
+      "baselineMs": 0.009666999999808468,
+      "upgradedMs": 0.004000000000132786
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 0.37391699999989214,
+      "upgradedMs": 0.33120800000006057
+    },
+    {
+      "count": 3,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0019589999999425345,
+      "upgradedMs": 8.870165999999926
+    },
+    {
+      "count": 3,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0032079999998586572,
+      "upgradedMs": 10.972417000000178
+    },
+    {
+      "count": 3,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0017080000000078144,
+      "upgradedMs": 13.287917000000107
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 0.9790000000000418,
+      "upgradedMs": 0.8014590000000226
+    },
+    {
+      "count": 3,
+      "phase": "price/fixed",
+      "baselineMs": 0.0027919999999994616,
+      "upgradedMs": 8.597667000000001
+    },
+    {
+      "count": 3,
+      "phase": "bid/fixed",
+      "baselineMs": 0.0017920000000231084,
+      "upgradedMs": 0.0009580000000823929
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 1.021874999999909,
+      "upgradedMs": 0.9152920000001359
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0026669999999739957,
+      "upgradedMs": 0.0014579999999568827
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0016660000001138542,
+      "upgradedMs": 0.001374999999825377
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.010082999999895037,
+      "upgradedMs": 0.00437499999998181
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.001583999999866137,
+      "upgradedMs": 0.0014160000000629225
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0015829999999823485,
+      "upgradedMs": 0.0012500000000272848
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.004916999999977634,
+      "upgradedMs": 0.003582999999935055
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0015000000000782165,
+      "upgradedMs": 0.0014169999999467109
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0014169999999467109,
+      "upgradedMs": 0.0012500000000272848
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.00458400000002257,
+      "upgradedMs": 0.005832999999938693
+    },
+    {
+      "count": 3,
+      "phase": "bid/open",
+      "baselineMs": 0.0010829999998804851,
+      "upgradedMs": 0.0009170000000722212
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 0.41658299999994597,
+      "upgradedMs": 0.24554199999988668
+    },
+    {
+      "count": 3,
+      "phase": "bid/once",
+      "baselineMs": 0.043292000000064945,
+      "upgradedMs": 0.01633300000003146
+    },
+    {
+      "count": 3,
+      "phase": "bid/once",
+      "baselineMs": 0.002375000000029104,
+      "upgradedMs": 0.0013750000000527507
+    },
+    {
+      "count": 3,
+      "phase": "bid/once",
+      "baselineMs": 0.030167000000119515,
+      "upgradedMs": 0.0049579999999878055
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 0.7917910000001029,
+      "upgradedMs": 0.826958999999988
+    },
+    {
+      "count": 3,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0018340000001444423,
+      "upgradedMs": 15.230082999999922
+    },
+    {
+      "count": 3,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0037079999999605207,
+      "upgradedMs": 20.261541999999963
+    },
+    {
+      "count": 3,
+      "phase": "bid/sealed",
+      "baselineMs": 0.00258399999984249,
+      "upgradedMs": 15.165541000000076
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 0.9027499999999691,
+      "upgradedMs": 0.9214580000000296
+    },
+    {
+      "count": 3,
+      "phase": "bid/once",
+      "baselineMs": 0.0059160000000701984,
+      "upgradedMs": 0.0016669999999976426
+    },
+    {
+      "count": 3,
+      "phase": "bid/once",
+      "baselineMs": 0.0029580000000350992,
+      "upgradedMs": 0.0015000000000782165
+    },
+    {
+      "count": 3,
+      "phase": "bid/once",
+      "baselineMs": 0.010749999999916326,
+      "upgradedMs": 0.004000000000132786
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 0.22679199999993216,
+      "upgradedMs": 0.21087499999998727
+    },
+    {
+      "count": 3,
+      "phase": "price/fixed",
+      "baselineMs": 0.003749999999854481,
+      "upgradedMs": 12.056958000000122
+    },
+    {
+      "count": 3,
+      "phase": "bid/fixed",
+      "baselineMs": 0.002540999999837368,
+      "upgradedMs": 0.001334000000042579
+    },
+    {
+      "count": 3,
+      "phase": "offer/none",
+      "baselineMs": 0.7039589999999407,
+      "upgradedMs": 0.8040410000000975
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 2.7922499999999673,
+      "upgradedMs": 2.301875000000109
+    },
+    {
+      "count": 4,
+      "phase": "pair/double",
+      "baselineMs": 1.5083340000001044,
+      "upgradedMs": 2.430832999999893
+    },
+    {
+      "count": 4,
+      "phase": "bid/once",
+      "baselineMs": 0.005625000000009095,
+      "upgradedMs": 0.0014590000000680448
+    },
+    {
+      "count": 4,
+      "phase": "bid/once",
+      "baselineMs": 0.0014169999999467109,
+      "upgradedMs": 0.0009580000000823929
+    },
+    {
+      "count": 4,
+      "phase": "bid/once",
+      "baselineMs": 0.0012500000000272848,
+      "upgradedMs": 0.0010419999998703133
+    },
+    {
+      "count": 4,
+      "phase": "bid/once",
+      "baselineMs": 0.010082999999895037,
+      "upgradedMs": 0.003250000000207365
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 1.06637499999988,
+      "upgradedMs": 0.8499160000001211
+    },
+    {
+      "count": 4,
+      "phase": "price/fixed",
+      "baselineMs": 0.0035830000001624285,
+      "upgradedMs": 2.347833000000037
+    },
+    {
+      "count": 4,
+      "phase": "bid/fixed",
+      "baselineMs": 0.0011660000000119908,
+      "upgradedMs": 0.0008339999999407155
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 0.7874170000000049,
+      "upgradedMs": 0.6954160000000229
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0026669999999739957,
+      "upgradedMs": 0.0012080000001333246
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0014169999999467109,
+      "upgradedMs": 0.001125000000001819
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0013329999999314168,
+      "upgradedMs": 0.0010830000001078588
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.007665999999971973,
+      "upgradedMs": 0.0036250000000563887
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.001209000000017113,
+      "upgradedMs": 0.0010829999998804851
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0009169999998448475,
+      "upgradedMs": 0.0007910000001629669
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.001207999999905951,
+      "upgradedMs": 0.001125000000001819
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.003958999999895241,
+      "upgradedMs": 0.003083000000060565
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0020829999998568383,
+      "upgradedMs": 0.00683300000014242
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0008339999999407155,
+      "upgradedMs": 0.0007910000001629669
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0014999999998508429,
+      "upgradedMs": 0.0010839999999916472
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0037500000000818545,
+      "upgradedMs": 0.0030420000000503933
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0009160000001884328,
+      "upgradedMs": 0.0007919999998193816
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0007920000000467553,
+      "upgradedMs": 0.0007080000000314612
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 4.039584000000104,
+      "upgradedMs": 3.1224999999999454
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0049579999999878055,
+      "upgradedMs": 0.0012500000000272848
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.002040999999962878,
+      "upgradedMs": 0.0013750000000527507
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.001334000000042579,
+      "upgradedMs": 0.0010829999998804851
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.009708000000046013,
+      "upgradedMs": 0.016375000000152795
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.00924999999983811,
+      "upgradedMs": 0.0017500000001291482
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0016669999999976426,
+      "upgradedMs": 0.0010830000001078588
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0015829999999823485,
+      "upgradedMs": 0.001125000000001819
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.006874999999809006,
+      "upgradedMs": 0.0037920000002031884
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0014169999999467109,
+      "upgradedMs": 0.0010419999998703133
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0009999999999763531,
+      "upgradedMs": 0.0007499999999254214
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0016660000001138542,
+      "upgradedMs": 0.001209000000017113
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0009580000000823929,
+      "upgradedMs": 0.0007089999999152496
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0008340000001680892,
+      "upgradedMs": 0.0007909999999355932
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0007499999999254214,
+      "upgradedMs": 0.0006670000000212895
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 0.4759160000000975,
+      "upgradedMs": 0.41174999999998363
+    },
+    {
+      "count": 4,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0016249999998763087,
+      "upgradedMs": 3.6782080000000406
+    },
+    {
+      "count": 4,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0019589999999425345,
+      "upgradedMs": 4.56533300000001
+    },
+    {
+      "count": 4,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0021669999998721323,
+      "upgradedMs": 4.1976660000000265
+    },
+    {
+      "count": 4,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0010840000002190209,
+      "upgradedMs": 5.2542909999999665
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 0.7315000000000964,
+      "upgradedMs": 0.8954579999999623
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.005208999999922526,
+      "upgradedMs": 0.00200000000018008
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0014579999999568827,
+      "upgradedMs": 0.0021669999998721323
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0015420000001995504,
+      "upgradedMs": 0.001290999999810083
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.017875000000003638,
+      "upgradedMs": 0.010957999999845924
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.003083000000060565,
+      "upgradedMs": 0.001042000000097687
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.002375000000029104,
+      "upgradedMs": 0.0011669999998957792
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0013750000000527507,
+      "upgradedMs": 0.001125000000001819
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.006791999999904874,
+      "upgradedMs": 0.0033330000001114968
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0013750000000527507,
+      "upgradedMs": 0.0011669999998957792
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0008749999999508873,
+      "upgradedMs": 0.0010839999999916472
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0008749999999508873,
+      "upgradedMs": 0.0007089999999152496
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.004916999999977634,
+      "upgradedMs": 0.0029170000000249274
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 0.28270899999984067,
+      "upgradedMs": 0.32854100000008657
+    },
+    {
+      "count": 4,
+      "phase": "price/fixed",
+      "baselineMs": 0.001291999999921245,
+      "upgradedMs": 3.699374999999918
+    },
+    {
+      "count": 4,
+      "phase": "bid/fixed",
+      "baselineMs": 0.002208000000109678,
+      "upgradedMs": 0.0009999999999763531
+    },
+    {
+      "count": 4,
+      "phase": "bid/fixed",
+      "baselineMs": 0.0008330000000569271,
+      "upgradedMs": 0.0007919999998193816
+    },
+    {
+      "count": 4,
+      "phase": "bid/fixed",
+      "baselineMs": 0.0007909999999355932,
+      "upgradedMs": 0.0007089999999152496
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 0.24708299999997507,
+      "upgradedMs": 0.34075000000007094
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 2.3400000000001455,
+      "upgradedMs": 2.343166999999994
+    },
+    {
+      "count": 4,
+      "phase": "pair/double",
+      "baselineMs": 1.4354170000001432,
+      "upgradedMs": 1.484707999999955
+    },
+    {
+      "count": 4,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0026660000000902073,
+      "upgradedMs": 4.19074999999998
+    },
+    {
+      "count": 4,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0014999999998508429,
+      "upgradedMs": 5.079292000000123
+    },
+    {
+      "count": 4,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0013750000000527507,
+      "upgradedMs": 5.685249999999996
+    },
+    {
+      "count": 4,
+      "phase": "bid/sealed",
+      "baselineMs": 0.002124999999978172,
+      "upgradedMs": 6.591042000000016
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 5.554540999999972,
+      "upgradedMs": 5.513333999999986
+    },
+    {
+      "count": 4,
+      "phase": "pair/double",
+      "baselineMs": 1.7796659999999065,
+      "upgradedMs": 1.738833999999997
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0048749999998563,
+      "upgradedMs": 0.0013750000000527507
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0014999999998508429,
+      "upgradedMs": 0.001125000000001819
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.001334000000042579,
+      "upgradedMs": 0.001125000000001819
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.04920799999990777,
+      "upgradedMs": 0.004125000000158252
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0014169999999467109,
+      "upgradedMs": 0.0013329999999314168
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.001374999999825377,
+      "upgradedMs": 0.0012080000001333246
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0012500000000272848,
+      "upgradedMs": 0.001042000000097687
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.004083999999920707,
+      "upgradedMs": 0.003208000000086031
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.001207999999905951,
+      "upgradedMs": 0.001291999999921245
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.001207999999905951,
+      "upgradedMs": 0.0008749999999508873
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0008339999999407155,
+      "upgradedMs": 0.0007499999999254214
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.003665999999839187,
+      "upgradedMs": 0.003084000000171727
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 0.7772909999998774,
+      "upgradedMs": 1.0838750000000346
+    },
+    {
+      "count": 4,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0014169999999467109,
+      "upgradedMs": 4.46833300000003
+    },
+    {
+      "count": 4,
+      "phase": "bid/sealed",
+      "baselineMs": 0.001040999999986525,
+      "upgradedMs": 5.566792000000078
+    },
+    {
+      "count": 4,
+      "phase": "bid/sealed",
+      "baselineMs": 0.003125000000181899,
+      "upgradedMs": 6.308832999999822
+    },
+    {
+      "count": 4,
+      "phase": "bid/sealed",
+      "baselineMs": 0.001291999999921245,
+      "upgradedMs": 7.185708000000204
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 5.950250000000096,
+      "upgradedMs": 5.860374999999976
+    },
+    {
+      "count": 4,
+      "phase": "pair/double",
+      "baselineMs": 1.3778749999999036,
+      "upgradedMs": 1.3626670000001013
+    },
+    {
+      "count": 4,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0029579999998077255,
+      "upgradedMs": 4.985000000000127
+    },
+    {
+      "count": 4,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0011669999998957792,
+      "upgradedMs": 6.206708000000162
+    },
+    {
+      "count": 4,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0015419999999721767,
+      "upgradedMs": 6.780708000000004
+    },
+    {
+      "count": 4,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0019159999999374122,
+      "upgradedMs": 7.672542000000021
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 0.5029170000000249,
+      "upgradedMs": 0.6839169999998376
+    },
+    {
+      "count": 4,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0025000000000545697,
+      "upgradedMs": 5.064040999999861
+    },
+    {
+      "count": 4,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0012499999997999112,
+      "upgradedMs": 6.00912500000004
+    },
+    {
+      "count": 4,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0019999999999527063,
+      "upgradedMs": 6.9842499999999745
+    },
+    {
+      "count": 4,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0012500000000272848,
+      "upgradedMs": 7.80641700000001
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 2.8131249999999,
+      "upgradedMs": 2.6843330000001515
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.003165999999964697,
+      "upgradedMs": 0.0015840000000935106
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0015000000000782165,
+      "upgradedMs": 0.0011669999998957792
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0013329999999314168,
+      "upgradedMs": 0.0010830000001078588
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.014374999999972715,
+      "upgradedMs": 0.004042000000026746
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0014579999999568827,
+      "upgradedMs": 0.001125000000001819
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.002291999999897598,
+      "upgradedMs": 0.0014579999999568827
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0014579999999568827,
+      "upgradedMs": 0.0009170000000722212
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.007749999999987267,
+      "upgradedMs": 0.004040999999915584
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0015829999999823485,
+      "upgradedMs": 0.0011670000001231529
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0008749999999508873,
+      "upgradedMs": 0.0007920000000467553
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0008330000000569271,
+      "upgradedMs": 0.0009589999999661813
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.004042000000026746,
+      "upgradedMs": 0.004625000000032742
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 0.5907079999999496,
+      "upgradedMs": 0.6226249999999709
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0016669999999976426,
+      "upgradedMs": 0.0012500000000272848
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0013329999999314168,
+      "upgradedMs": 0.001125000000001819
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0013329999999314168,
+      "upgradedMs": 0.0010830000001078588
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.01383399999986068,
+      "upgradedMs": 0.004583000000138782
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0013750000000527507,
+      "upgradedMs": 0.0012500000000272848
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0013330000001587905,
+      "upgradedMs": 0.001125000000001819
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0012910000000374566,
+      "upgradedMs": 0.001125000000001819
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.004042000000026746,
+      "upgradedMs": 0.0031249999999545253
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0012500000000272848,
+      "upgradedMs": 0.0011670000001231529
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0012499999997999112,
+      "upgradedMs": 0.0011670000001231529
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0012500000000272848,
+      "upgradedMs": 0.001125000000001819
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.003332999999884123,
+      "upgradedMs": 0.0028750000001309672
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0008749999999508873,
+      "upgradedMs": 0.0008339999999407155
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0008749999999508873,
+      "upgradedMs": 0.0008330000000569271
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 0.6466660000000957,
+      "upgradedMs": 0.637416999999914
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0016249999998763087,
+      "upgradedMs": 0.001042000000097687
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0012910000000374566,
+      "upgradedMs": 0.0010839999999916472
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0012500000000272848,
+      "upgradedMs": 0.001209000000017113
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0047080000001642475,
+      "upgradedMs": 0.006416999999828477
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0012500000000272848,
+      "upgradedMs": 0.001125000000001819
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0012910000000374566,
+      "upgradedMs": 0.0010839999999916472
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.001125000000001819,
+      "upgradedMs": 0.001125000000001819
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.003290999999990163,
+      "upgradedMs": 0.0027090000000953296
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.001209000000017113,
+      "upgradedMs": 0.001125000000001819
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.001291999999921245,
+      "upgradedMs": 0.001125000000001819
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0012080000001333246,
+      "upgradedMs": 0.0010829999998804851
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0008330000000569271,
+      "upgradedMs": 0.0007920000000467553
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0007919999998193816,
+      "upgradedMs": 0.0007500000001527951
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.001207999999905951,
+      "upgradedMs": 0.0010830000001078588
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0012500000000272848,
+      "upgradedMs": 0.0010829999998804851
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0008339999999407155,
+      "upgradedMs": 0.0008330000000569271
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0007920000000467553,
+      "upgradedMs": 0.0007080000000314612
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0009169999998448475,
+      "upgradedMs": 0.0008330000000569271
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 0.24891699999989214,
+      "upgradedMs": 0.23641700000007404
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.002124999999978172,
+      "upgradedMs": 0.001209000000017113
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0015829999999823485,
+      "upgradedMs": 0.0012080000001333246
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.003333999999995285,
+      "upgradedMs": 0.0016249999998763087
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.001291999999921245,
+      "upgradedMs": 0.000875000000178261
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0017080000000078144,
+      "upgradedMs": 0.0013329999999314168
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0011670000001231529,
+      "upgradedMs": 0.0008329999998295534
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0009589999999661813,
+      "upgradedMs": 0.0007500000001527951
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0009159999999610591,
+      "upgradedMs": 0.0007499999999254214
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 1.814290999999912,
+      "upgradedMs": 1.7717090000001008
+    },
+    {
+      "count": 4,
+      "phase": "pair/double",
+      "baselineMs": 0.8345829999998386,
+      "upgradedMs": 0.7717920000000049
+    },
+    {
+      "count": 4,
+      "phase": "bid/once",
+      "baselineMs": 0.0028749999999035936,
+      "upgradedMs": 0.001291999999921245
+    },
+    {
+      "count": 4,
+      "phase": "bid/once",
+      "baselineMs": 0.0015419999999721767,
+      "upgradedMs": 0.0013329999999314168
+    },
+    {
+      "count": 4,
+      "phase": "bid/once",
+      "baselineMs": 0.001374999999825377,
+      "upgradedMs": 0.001125000000001819
+    },
+    {
+      "count": 4,
+      "phase": "bid/once",
+      "baselineMs": 0.009499999999889042,
+      "upgradedMs": 0.003582999999935055
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 0.41845899999998437,
+      "upgradedMs": 0.35466600000017934
+    },
+    {
+      "count": 4,
+      "phase": "price/fixed",
+      "baselineMs": 0.0017499999999017746,
+      "upgradedMs": 6.3587500000001
+    },
+    {
+      "count": 4,
+      "phase": "bid/fixed",
+      "baselineMs": 0.0013329999999314168,
+      "upgradedMs": 0.0009999999999763531
+    },
+    {
+      "count": 4,
+      "phase": "bid/fixed",
+      "baselineMs": 0.0010419999998703133,
+      "upgradedMs": 0.0007910000001629669
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 0.15945800000008603,
+      "upgradedMs": 0.14970799999991868
+    },
+    {
+      "count": 4,
+      "phase": "price/fixed",
+      "baselineMs": 0.0012080000001333246,
+      "upgradedMs": 6.5747499999999945
+    },
+    {
+      "count": 4,
+      "phase": "bid/fixed",
+      "baselineMs": 0.0014160000000629225,
+      "upgradedMs": 0.001125000000001819
+    },
+    {
+      "count": 4,
+      "phase": "bid/fixed",
+      "baselineMs": 0.0011669999998957792,
+      "upgradedMs": 0.0009580000000823929
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 0.1999999999998181,
+      "upgradedMs": 0.3018330000002152
+    },
+    {
+      "count": 4,
+      "phase": "bid/once",
+      "baselineMs": 0.003332999999884123,
+      "upgradedMs": 0.0014169999999467109
+    },
+    {
+      "count": 4,
+      "phase": "bid/once",
+      "baselineMs": 0.0025829999999587017,
+      "upgradedMs": 0.002375000000029104
+    },
+    {
+      "count": 4,
+      "phase": "bid/once",
+      "baselineMs": 0.002292000000124972,
+      "upgradedMs": 0.0008749999999508873
+    },
+    {
+      "count": 4,
+      "phase": "bid/once",
+      "baselineMs": 0.011292000000139524,
+      "upgradedMs": 0.0007920000000467553
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 0.19441599999981918,
+      "upgradedMs": 0.18266700000003766
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 2.613416000000143,
+      "upgradedMs": 2.844041999999945
+    },
+    {
+      "count": 4,
+      "phase": "pair/double",
+      "baselineMs": 1.4535419999999704,
+      "upgradedMs": 1.4607079999998405
+    },
+    {
+      "count": 4,
+      "phase": "price/fixed",
+      "baselineMs": 0.0032919999998739513,
+      "upgradedMs": 8.649000000000115
+    },
+    {
+      "count": 4,
+      "phase": "bid/fixed",
+      "baselineMs": 0.0017499999999017746,
+      "upgradedMs": 0.0010000000002037268
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 5.566084000000046,
+      "upgradedMs": 4.82491600000003
+    },
+    {
+      "count": 4,
+      "phase": "pair/double",
+      "baselineMs": 0.7912920000001122,
+      "upgradedMs": 0.8775410000000647
+    },
+    {
+      "count": 4,
+      "phase": "price/fixed",
+      "baselineMs": 0.0036250000000563887,
+      "upgradedMs": 8.026166000000103
+    },
+    {
+      "count": 4,
+      "phase": "bid/fixed",
+      "baselineMs": 0.0017500000001291482,
+      "upgradedMs": 0.0009999999999763531
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 1.1517919999998867,
+      "upgradedMs": 1.148290999999972
+    },
+    {
+      "count": 4,
+      "phase": "price/fixed",
+      "baselineMs": 0.004292000000077678,
+      "upgradedMs": 8.038083000000142
+    },
+    {
+      "count": 4,
+      "phase": "bid/fixed",
+      "baselineMs": 0.0017499999999017746,
+      "upgradedMs": 0.001209000000017113
+    },
+    {
+      "count": 4,
+      "phase": "bid/fixed",
+      "baselineMs": 0.0008749999999508873,
+      "upgradedMs": 0.0007499999999254214
+    },
+    {
+      "count": 4,
+      "phase": "bid/fixed",
+      "baselineMs": 0.000875000000178261,
+      "upgradedMs": 0.0007919999998193816
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 1.5596250000000964,
+      "upgradedMs": 1.444915999999921
+    },
+    {
+      "count": 4,
+      "phase": "pair/double",
+      "baselineMs": 1.1853340000000117,
+      "upgradedMs": 1.2286249999999654
+    },
+    {
+      "count": 4,
+      "phase": "price/fixed",
+      "baselineMs": 0.0016669999999976426,
+      "upgradedMs": 7.9429170000000795
+    },
+    {
+      "count": 4,
+      "phase": "bid/fixed",
+      "baselineMs": 0.0014169999999467109,
+      "upgradedMs": 0.0009999999999763531
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 0.4370000000001255,
+      "upgradedMs": 0.49204200000008314
+    },
+    {
+      "count": 4,
+      "phase": "price/fixed",
+      "baselineMs": 0.001875000000154614,
+      "upgradedMs": 8.238165999999865
+    },
+    {
+      "count": 4,
+      "phase": "bid/fixed",
+      "baselineMs": 0.001334000000042579,
+      "upgradedMs": 0.0009579999998550193
+    },
+    {
+      "count": 4,
+      "phase": "bid/fixed",
+      "baselineMs": 0.0009170000000722212,
+      "upgradedMs": 0.0008749999999508873
+    },
+    {
+      "count": 4,
+      "phase": "bid/fixed",
+      "baselineMs": 0.0009159999999610591,
+      "upgradedMs": 0.0007920000000467553
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 2.7070840000001226,
+      "upgradedMs": 2.5682910000000447
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0027079999999841675,
+      "upgradedMs": 0.001291999999921245
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0014590000000680448,
+      "upgradedMs": 0.0013329999999314168
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0014999999998508429,
+      "upgradedMs": 0.0012080000001333246
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.007957999999916865,
+      "upgradedMs": 0.003582999999935055
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0014579999999568827,
+      "upgradedMs": 0.0012080000001333246
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0012910000000374566,
+      "upgradedMs": 0.001125000000001819
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0013329999999314168,
+      "upgradedMs": 0.001209000000017113
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0037500000000818545,
+      "upgradedMs": 0.0029999999999290594
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0009580000000823929,
+      "upgradedMs": 0.0008339999999407155
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.002624999999852662,
+      "upgradedMs": 0.0012910000000374566
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0015829999999823485,
+      "upgradedMs": 0.0012500000000272848
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0061670000000049185,
+      "upgradedMs": 0.003500000000030923
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0010000000002037268,
+      "upgradedMs": 0.0008329999998295534
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0009159999999610591,
+      "upgradedMs": 0.0007499999999254214
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 1.1089580000000296,
+      "upgradedMs": 1.0181250000000546
+    },
+    {
+      "count": 4,
+      "phase": "pair/double",
+      "baselineMs": 0.8547079999998459,
+      "upgradedMs": 0.8962920000001304
+    },
+    {
+      "count": 4,
+      "phase": "price/fixed",
+      "baselineMs": 0.0017080000000078144,
+      "upgradedMs": 8.667500000000018
+    },
+    {
+      "count": 4,
+      "phase": "bid/fixed",
+      "baselineMs": 0.001125000000001819,
+      "upgradedMs": 0.001042000000097687
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 0.1467089999998734,
+      "upgradedMs": 0.1409160000000611
+    },
+    {
+      "count": 4,
+      "phase": "bid/sealed",
+      "baselineMs": 0.001291999999921245,
+      "upgradedMs": 9.06795800000009
+    },
+    {
+      "count": 4,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0014590000000680448,
+      "upgradedMs": 11.249749999999949
+    },
+    {
+      "count": 4,
+      "phase": "bid/sealed",
+      "baselineMs": 0.002208999999993466,
+      "upgradedMs": 12.995707999999922
+    },
+    {
+      "count": 4,
+      "phase": "bid/sealed",
+      "baselineMs": 0.002040999999962878,
+      "upgradedMs": 15.311166999999841
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 0.2795419999999922,
+      "upgradedMs": 0.3663329999999405
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 4.577499999999873,
+      "upgradedMs": 3.7722499999999854
+    },
+    {
+      "count": 4,
+      "phase": "pair/double",
+      "baselineMs": 1.7566669999998794,
+      "upgradedMs": 1.6303750000001855
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.004457999999885942,
+      "upgradedMs": 0.0013750000000527507
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0014999999998508429,
+      "upgradedMs": 0.0010000000002037268
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0014169999999467109,
+      "upgradedMs": 0.001040999999986525
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.009458000000222455,
+      "upgradedMs": 0.0030419999998230196
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.001291999999921245,
+      "upgradedMs": 0.0009999999999763531
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0010830000001078588,
+      "upgradedMs": 0.0008749999999508873
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0011660000000119908,
+      "upgradedMs": 0.0010419999998703133
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.003500000000030923,
+      "upgradedMs": 0.0025840000000698637
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0008330000000569271,
+      "upgradedMs": 0.0006670000000212895
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0010839999999916472,
+      "upgradedMs": 0.0008749999999508873
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0011669999998957792,
+      "upgradedMs": 0.0009170000000722212
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0031249999999545253,
+      "upgradedMs": 0.002457999999933236
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0007080000000314612,
+      "upgradedMs": 0.0006250000001273293
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0007499999999254214,
+      "upgradedMs": 0.0005830000000059954
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 0.4991250000000491,
+      "upgradedMs": 0.48716699999999946
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0018749999999272404,
+      "upgradedMs": 0.001125000000001819
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0012920000001486187,
+      "upgradedMs": 0.001125000000001819
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0039159999998901185,
+      "upgradedMs": 0.001042000000097687
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.009415999999873748,
+      "upgradedMs": 0.0037919999999758147
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.011500000000069122,
+      "upgradedMs": 0.0014579999999568827
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0038340000000971486,
+      "upgradedMs": 0.0009579999998550193
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.0010419999998703133,
+      "upgradedMs": 0.0007500000001527951
+    },
+    {
+      "count": 4,
+      "phase": "bid/open",
+      "baselineMs": 0.007957999999916865,
+      "upgradedMs": 0.003084000000171727
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 0.6482920000000831,
+      "upgradedMs": 0.6121249999998781
+    },
+    {
+      "count": 4,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0016250000001036824,
+      "upgradedMs": 9.695708999999852
+    },
+    {
+      "count": 4,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0028750000001309672,
+      "upgradedMs": 11.910624999999982
+    },
+    {
+      "count": 4,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0020829999998568383,
+      "upgradedMs": 14.358249999999998
+    },
+    {
+      "count": 4,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0017919999997957348,
+      "upgradedMs": 15.931167000000187
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 0.4136670000000322,
+      "upgradedMs": 0.38341600000012477
+    },
+    {
+      "count": 4,
+      "phase": "price/fixed",
+      "baselineMs": 0.0025840000000698637,
+      "upgradedMs": 10.149541
+    },
+    {
+      "count": 4,
+      "phase": "bid/fixed",
+      "baselineMs": 0.0026660000000902073,
+      "upgradedMs": 0.0011669999998957792
+    },
+    {
+      "count": 4,
+      "phase": "offer/none",
+      "baselineMs": 0.15095900000005713,
+      "upgradedMs": 0.1113749999999527
+    },
+    {
+      "count": 4,
+      "phase": "pair/double",
+      "baselineMs": 0.11591700000008132,
+      "upgradedMs": 0.10950000000002547
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 0.9987919999998667,
+      "upgradedMs": 0.9132500000000618
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.003958000000011452,
+      "upgradedMs": 0.0009999999999763531
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0013329999999314168,
+      "upgradedMs": 0.0009589999999661813
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0011660000000119908,
+      "upgradedMs": 0.0009170000000722212
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.001125000000001819,
+      "upgradedMs": 0.0008749999999508873
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0072079999999914435,
+      "upgradedMs": 0.0028339999998934218
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0007079999998040876,
+      "upgradedMs": 0.0006250000001273293
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0010829999998804851,
+      "upgradedMs": 0.0009170000000722212
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0006659999999101274,
+      "upgradedMs": 0.0006250000001273293
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0010829999998804851,
+      "upgradedMs": 0.0009170000000722212
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0006670000000212895,
+      "upgradedMs": 0.0005419999999958236
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0005830000000059954,
+      "upgradedMs": 0.0005840000001171575
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0009999999999763531,
+      "upgradedMs": 0.0009159999999610591
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0006670000000212895,
+      "upgradedMs": 0.0005419999999958236
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0006250000001273293,
+      "upgradedMs": 0.0006249999998999556
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0006670000000212895,
+      "upgradedMs": 0.0005830000000059954
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0006249999998999556,
+      "upgradedMs": 0.0005419999999958236
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 3.5706250000000637,
+      "upgradedMs": 3.565917000000127
+    },
+    {
+      "count": 5,
+      "phase": "pair/double",
+      "baselineMs": 1.51366599999983,
+      "upgradedMs": 1.478749999999991
+    },
+    {
+      "count": 5,
+      "phase": "price/fixed",
+      "baselineMs": 0.003666999999950349,
+      "upgradedMs": 3.4294170000000577
+    },
+    {
+      "count": 5,
+      "phase": "bid/fixed",
+      "baselineMs": 0.001958000000058746,
+      "upgradedMs": 0.0011670000001231529
+    },
+    {
+      "count": 5,
+      "phase": "bid/fixed",
+      "baselineMs": 0.0009580000000823929,
+      "upgradedMs": 0.0007499999999254214
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 2.163874999999962,
+      "upgradedMs": 2.2236250000000837
+    },
+    {
+      "count": 5,
+      "phase": "pair/double",
+      "baselineMs": 1.3932090000000699,
+      "upgradedMs": 1.4916249999998854
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0034160000000156288,
+      "upgradedMs": 0.0012500000000272848
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0015410000000883883,
+      "upgradedMs": 0.001125000000001819
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.001291999999921245,
+      "upgradedMs": 0.0009580000000823929
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.001207999999905951,
+      "upgradedMs": 0.0009999999999763531
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.00874999999996362,
+      "upgradedMs": 0.0029170000000249274
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0012910000000374566,
+      "upgradedMs": 0.0011670000001231529
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0015829999999823485,
+      "upgradedMs": 0.0012920000001486187
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0011669999998957792,
+      "upgradedMs": 0.001125000000001819
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0007910000001629669,
+      "upgradedMs": 0.0006670000000212895
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.003457999999909589,
+      "upgradedMs": 0.0026250000000800355
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0012500000000272848,
+      "upgradedMs": 0.0009999999999763531
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.001291999999921245,
+      "upgradedMs": 0.001207999999905951
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0011669999998957792,
+      "upgradedMs": 0.0010830000001078588
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0009160000001884328,
+      "upgradedMs": 0.0007919999998193816
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.003582999999935055,
+      "upgradedMs": 0.0029170000000249274
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0008340000001680892,
+      "upgradedMs": 0.0007079999998040876
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0014579999999568827,
+      "upgradedMs": 0.0012920000001486187
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0007909999999355932,
+      "upgradedMs": 0.0007499999999254214
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0007499999999254214,
+      "upgradedMs": 0.0007080000000314612
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0027919999999994616,
+      "upgradedMs": 0.002415999999811902
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0008329999998295534,
+      "upgradedMs": 0.0006670000000212895
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 0.543833000000177,
+      "upgradedMs": 0.518916999999874
+    },
+    {
+      "count": 5,
+      "phase": "price/fixed",
+      "baselineMs": 0.0011670000001231529,
+      "upgradedMs": 3.4229579999998805
+    },
+    {
+      "count": 5,
+      "phase": "bid/fixed",
+      "baselineMs": 0.002207999999882304,
+      "upgradedMs": 0.0009589999999661813
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 3.1452079999999114,
+      "upgradedMs": 2.7533750000000055
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.004541999999901236,
+      "upgradedMs": 0.0015000000000782165
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0014169999999467109,
+      "upgradedMs": 0.001125000000001819
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0015840000000935106,
+      "upgradedMs": 0.0009999999999763531
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0015000000000782165,
+      "upgradedMs": 0.001040999999986525
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.007541000000173881,
+      "upgradedMs": 0.0029999999999290594
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0012500000000272848,
+      "upgradedMs": 0.0010839999999916472
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0011669999998957792,
+      "upgradedMs": 0.0010830000001078588
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0011670000001231529,
+      "upgradedMs": 0.0009999999999763531
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0011670000001231529,
+      "upgradedMs": 0.0009999999999763531
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.015374999999949068,
+      "upgradedMs": 0.0028750000001309672
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0010830000001078588,
+      "upgradedMs": 0.0007080000000314612
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0007909999999355932,
+      "upgradedMs": 0.000875000000178261
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0011670000001231529,
+      "upgradedMs": 0.0010829999998804851
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0008339999999407155,
+      "upgradedMs": 0.0007499999999254214
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0007920000000467553,
+      "upgradedMs": 0.0006659999999101274
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0010830000001078588,
+      "upgradedMs": 0.0006670000000212895
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0007910000001629669,
+      "upgradedMs": 0.0006249999998999556
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 0.34149999999999636,
+      "upgradedMs": 0.3312499999999545
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0016669999999976426,
+      "upgradedMs": 0.0010829999998804851
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0013750000000527507,
+      "upgradedMs": 0.0010419999998703133
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0012500000000272848,
+      "upgradedMs": 0.0011669999998957792
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0013330000001587905,
+      "upgradedMs": 0.0010419999998703133
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0010419999998703133,
+      "upgradedMs": 0.0008330000000569271
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0011660000000119908,
+      "upgradedMs": 0.001125000000001819
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0008329999998295534,
+      "upgradedMs": 0.0007090000001426233
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.000875000000178261,
+      "upgradedMs": 0.0007089999999152496
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0008330000000569271,
+      "upgradedMs": 0.0008339999999407155
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0008329999998295534,
+      "upgradedMs": 0.0006670000000212895
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 1.2737090000000535,
+      "upgradedMs": 1.234375
+    },
+    {
+      "count": 5,
+      "phase": "price/fixed",
+      "baselineMs": 0.001875000000154614,
+      "upgradedMs": 4.236415999999963
+    },
+    {
+      "count": 5,
+      "phase": "bid/fixed",
+      "baselineMs": 0.001040999999986525,
+      "upgradedMs": 0.0008749999999508873
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 0.3559580000001006,
+      "upgradedMs": 0.49174999999991087
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 1.0636669999998958,
+      "upgradedMs": 1.0042920000000777
+    },
+    {
+      "count": 5,
+      "phase": "price/fixed",
+      "baselineMs": 0.003541999999924883,
+      "upgradedMs": 4.717333000000053
+    },
+    {
+      "count": 5,
+      "phase": "bid/fixed",
+      "baselineMs": 0.0009999999999763531,
+      "upgradedMs": 0.0007080000000314612
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 5.933958000000075,
+      "upgradedMs": 6.299291999999923
+    },
+    {
+      "count": 5,
+      "phase": "pair/double",
+      "baselineMs": 2.441082999999935,
+      "upgradedMs": 2.443042000000105
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.004749999999830834,
+      "upgradedMs": 0.0015000000000782165
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.002124999999978172,
+      "upgradedMs": 0.0012500000000272848
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.001334000000042579,
+      "upgradedMs": 0.0010830000001078588
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0014160000000629225,
+      "upgradedMs": 0.0011669999998957792
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.009708000000046013,
+      "upgradedMs": 0.003500000000030923
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0015410000000883883,
+      "upgradedMs": 0.0011669999998957792
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0015829999999823485,
+      "upgradedMs": 0.0011669999998957792
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0008749999999508873,
+      "upgradedMs": 0.0007920000000467553
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.001209000000017113,
+      "upgradedMs": 0.001125000000001819
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.006499999999959982,
+      "upgradedMs": 0.0034160000000156288
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0008749999999508873,
+      "upgradedMs": 0.0007499999999254214
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0013330000001587905,
+      "upgradedMs": 0.0012500000000272848
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0011669999998957792,
+      "upgradedMs": 0.0007499999999254214
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0014579999999568827,
+      "upgradedMs": 0.0010839999999916472
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.005125000000134605,
+      "upgradedMs": 0.0029999999999290594
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.001040999999986525,
+      "upgradedMs": 0.0007090000001426233
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0012500000000272848,
+      "upgradedMs": 0.0011669999998957792
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0008329999998295534,
+      "upgradedMs": 0.0007090000001426233
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0012500000000272848,
+      "upgradedMs": 0.0011669999998957792
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.007875000000012733,
+      "upgradedMs": 0.0038340000000971486
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0011669999998957792,
+      "upgradedMs": 0.0008330000000569271
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0009159999999610591,
+      "upgradedMs": 0.0007089999999152496
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0009170000000722212,
+      "upgradedMs": 0.0006659999999101274
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 1.7318340000001626,
+      "upgradedMs": 1.7309999999999945
+    },
+    {
+      "count": 5,
+      "phase": "pair/double",
+      "baselineMs": 1.5044169999998758,
+      "upgradedMs": 1.3400830000000497
+    },
+    {
+      "count": 5,
+      "phase": "price/fixed",
+      "baselineMs": 0.0029170000000249274,
+      "upgradedMs": 5.777499999999918
+    },
+    {
+      "count": 5,
+      "phase": "bid/fixed",
+      "baselineMs": 0.001207999999905951,
+      "upgradedMs": 0.000959000000193555
+    },
+    {
+      "count": 5,
+      "phase": "bid/fixed",
+      "baselineMs": 0.0008749999999508873,
+      "upgradedMs": 0.0008339999999407155
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 2.7129170000000613,
+      "upgradedMs": 2.670541999999841
+    },
+    {
+      "count": 5,
+      "phase": "pair/double",
+      "baselineMs": 1.2708339999999225,
+      "upgradedMs": 1.1735830000000078
+    },
+    {
+      "count": 5,
+      "phase": "price/fixed",
+      "baselineMs": 0.0029580000000350992,
+      "upgradedMs": 6.016084000000092
+    },
+    {
+      "count": 5,
+      "phase": "bid/fixed",
+      "baselineMs": 0.0014579999999568827,
+      "upgradedMs": 0.0008749999999508873
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 0.45495899999991707,
+      "upgradedMs": 0.43545800000015333
+    },
+    {
+      "count": 5,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0013329999999314168,
+      "upgradedMs": 6.167667000000165
+    },
+    {
+      "count": 5,
+      "phase": "bid/sealed",
+      "baselineMs": 0.001125000000001819,
+      "upgradedMs": 7.51883399999997
+    },
+    {
+      "count": 5,
+      "phase": "bid/sealed",
+      "baselineMs": 0.001291999999921245,
+      "upgradedMs": 8.210708000000068
+    },
+    {
+      "count": 5,
+      "phase": "bid/sealed",
+      "baselineMs": 0.001125000000001819,
+      "upgradedMs": 9.483749999999873
+    },
+    {
+      "count": 5,
+      "phase": "bid/sealed",
+      "baselineMs": 0.001207999999905951,
+      "upgradedMs": 10.122667000000092
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 0.5558330000001206,
+      "upgradedMs": 0.7044579999999314
+    },
+    {
+      "count": 5,
+      "phase": "bid/sealed",
+      "baselineMs": 0.002375000000029104,
+      "upgradedMs": 6.468290999999908
+    },
+    {
+      "count": 5,
+      "phase": "bid/sealed",
+      "baselineMs": 0.001125000000001819,
+      "upgradedMs": 7.395792000000029
+    },
+    {
+      "count": 5,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0008749999999508873,
+      "upgradedMs": 8.918916999999965
+    },
+    {
+      "count": 5,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0015000000000782165,
+      "upgradedMs": 9.951791999999841
+    },
+    {
+      "count": 5,
+      "phase": "bid/sealed",
+      "baselineMs": 0.002207999999882304,
+      "upgradedMs": 10.673750000000155
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 2.227374999999938,
+      "upgradedMs": 2.252083000000084
+    },
+    {
+      "count": 5,
+      "phase": "price/fixed",
+      "baselineMs": 0.002292000000124972,
+      "upgradedMs": 7.120499999999993
+    },
+    {
+      "count": 5,
+      "phase": "bid/fixed",
+      "baselineMs": 0.0018339999999170686,
+      "upgradedMs": 0.0010000000002037268
+    },
+    {
+      "count": 5,
+      "phase": "bid/fixed",
+      "baselineMs": 0.001374999999825377,
+      "upgradedMs": 0.0007910000001629669
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 0.25558300000011513,
+      "upgradedMs": 0.23833399999989524
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 3.927207999999837,
+      "upgradedMs": 3.753584000000046
+    },
+    {
+      "count": 5,
+      "phase": "pair/double",
+      "baselineMs": 2.1525830000000497,
+      "upgradedMs": 1.5172500000001037
+    },
+    {
+      "count": 5,
+      "phase": "price/fixed",
+      "baselineMs": 0.004332999999860476,
+      "upgradedMs": 7.89058399999999
+    },
+    {
+      "count": 5,
+      "phase": "bid/fixed",
+      "baselineMs": 0.001875000000154614,
+      "upgradedMs": 0.0009999999999763531
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 3.239041000000043,
+      "upgradedMs": 3.948124999999891
+    },
+    {
+      "count": 5,
+      "phase": "pair/double",
+      "baselineMs": 1.3635420000000522,
+      "upgradedMs": 1.2536250000000564
+    },
+    {
+      "count": 5,
+      "phase": "price/fixed",
+      "baselineMs": 0.006709000000000742,
+      "upgradedMs": 8.10045799999989
+    },
+    {
+      "count": 5,
+      "phase": "bid/fixed",
+      "baselineMs": 0.0037090000000716827,
+      "upgradedMs": 0.0011660000000119908
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 1.3846250000001419,
+      "upgradedMs": 1.328958000000057
+    },
+    {
+      "count": 5,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0014580000001842564,
+      "upgradedMs": 9.554083999999875
+    },
+    {
+      "count": 5,
+      "phase": "bid/sealed",
+      "baselineMs": 0.013916999999992186,
+      "upgradedMs": 10.242750000000115
+    },
+    {
+      "count": 5,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0016669999999976426,
+      "upgradedMs": 11.083541000000196
+    },
+    {
+      "count": 5,
+      "phase": "bid/sealed",
+      "baselineMs": 0.005625000000009095,
+      "upgradedMs": 12.636375000000044
+    },
+    {
+      "count": 5,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0061670000000049185,
+      "upgradedMs": 13.289875000000166
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 2.9603749999998854,
+      "upgradedMs": 2.9924170000001595
+    },
+    {
+      "count": 5,
+      "phase": "bid/once",
+      "baselineMs": 0.003208000000086031,
+      "upgradedMs": 0.0010829999998804851
+    },
+    {
+      "count": 5,
+      "phase": "bid/once",
+      "baselineMs": 0.0008339999999407155,
+      "upgradedMs": 0.0007080000000314612
+    },
+    {
+      "count": 5,
+      "phase": "bid/once",
+      "baselineMs": 0.0008749999999508873,
+      "upgradedMs": 0.0007089999999152496
+    },
+    {
+      "count": 5,
+      "phase": "bid/once",
+      "baselineMs": 0.0008329999998295534,
+      "upgradedMs": 0.0006250000001273293
+    },
+    {
+      "count": 5,
+      "phase": "bid/once",
+      "baselineMs": 0.008832999999867752,
+      "upgradedMs": 0.0029170000000249274
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 1.610166000000163,
+      "upgradedMs": 1.8179589999999735
+    },
+    {
+      "count": 5,
+      "phase": "bid/once",
+      "baselineMs": 0.0028330000000096334,
+      "upgradedMs": 0.0010839999999916472
+    },
+    {
+      "count": 5,
+      "phase": "bid/once",
+      "baselineMs": 0.0007920000000467553,
+      "upgradedMs": 0.0005000000001018634
+    },
+    {
+      "count": 5,
+      "phase": "bid/once",
+      "baselineMs": 0.0011669999998957792,
+      "upgradedMs": 0.0007500000001527951
+    },
+    {
+      "count": 5,
+      "phase": "bid/once",
+      "baselineMs": 0.0009579999998550193,
+      "upgradedMs": 0.0007090000001426233
+    },
+    {
+      "count": 5,
+      "phase": "bid/once",
+      "baselineMs": 0.0006670000000212895,
+      "upgradedMs": 0.00045799999998052954
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 1.3999579999999696,
+      "upgradedMs": 1.4031669999999394
+    },
+    {
+      "count": 5,
+      "phase": "bid/once",
+      "baselineMs": 0.001207999999905951,
+      "upgradedMs": 0.0007080000000314612
+    },
+    {
+      "count": 5,
+      "phase": "bid/once",
+      "baselineMs": 0.0009170000000722212,
+      "upgradedMs": 0.0006670000000212895
+    },
+    {
+      "count": 5,
+      "phase": "bid/once",
+      "baselineMs": 0.0008330000000569271,
+      "upgradedMs": 0.0006670000000212895
+    },
+    {
+      "count": 5,
+      "phase": "bid/once",
+      "baselineMs": 0.0005409999998846615,
+      "upgradedMs": 0.0004590000000916916
+    },
+    {
+      "count": 5,
+      "phase": "bid/once",
+      "baselineMs": 0.007834000000002561,
+      "upgradedMs": 0.0027500000001055014
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 1.4582500000001346,
+      "upgradedMs": 1.4613329999999678
+    },
+    {
+      "count": 5,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0015419999999721767,
+      "upgradedMs": 9.28470799999991
+    },
+    {
+      "count": 5,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0024160000000392756,
+      "upgradedMs": 10.499667000000045
+    },
+    {
+      "count": 5,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0015829999999823485,
+      "upgradedMs": 12.293333000000075
+    },
+    {
+      "count": 5,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0012500000000272848,
+      "upgradedMs": 14.096749999999929
+    },
+    {
+      "count": 5,
+      "phase": "bid/sealed",
+      "baselineMs": 0.001125000000001819,
+      "upgradedMs": 15.200165999999854
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 1.3034589999999753,
+      "upgradedMs": 1.1472909999999956
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 3.4562499999999545,
+      "upgradedMs": 3.413000000000011
+    },
+    {
+      "count": 5,
+      "phase": "pair/double",
+      "baselineMs": 1.3164999999999054,
+      "upgradedMs": 1.5307920000000195
+    },
+    {
+      "count": 5,
+      "phase": "bid/once",
+      "baselineMs": 0.0035410000000410946,
+      "upgradedMs": 0.0007089999999152496
+    },
+    {
+      "count": 5,
+      "phase": "bid/once",
+      "baselineMs": 0.0008330000000569271,
+      "upgradedMs": 0.0005419999999958236
+    },
+    {
+      "count": 5,
+      "phase": "bid/once",
+      "baselineMs": 0.0006670000000212895,
+      "upgradedMs": 0.0005830000000059954
+    },
+    {
+      "count": 5,
+      "phase": "bid/once",
+      "baselineMs": 0.0007089999999152496,
+      "upgradedMs": 0.0005000000001018634
+    },
+    {
+      "count": 5,
+      "phase": "bid/once",
+      "baselineMs": 0.0004999999998744897,
+      "upgradedMs": 0.00037500000007639755
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 1.9027080000000751,
+      "upgradedMs": 1.805084000000079
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0011669999998957792,
+      "upgradedMs": 0.0005000000001018634
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.000666000000137501,
+      "upgradedMs": 0.0004999999998744897
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0006250000001273293,
+      "upgradedMs": 0.00045899999986431794
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0006250000001273293,
+      "upgradedMs": 0.0004999999998744897
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.008874999999989086,
+      "upgradedMs": 0.002791000000115673
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0006670000000212895,
+      "upgradedMs": 0.0005419999999958236
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0005830000000059954,
+      "upgradedMs": 0.0005000000001018634
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0005830000000059954,
+      "upgradedMs": 0.0005419999999958236
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.00045799999998052954,
+      "upgradedMs": 0.0003329999999550637
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0035420000001522567,
+      "upgradedMs": 0.002165999999988344
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.00204200000007404,
+      "upgradedMs": 0.0007499999999254214
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0009999999999763531,
+      "upgradedMs": 0.0005000000001018634
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0005839999998897838,
+      "upgradedMs": 0.0003329999999550637
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0005419999999958236,
+      "upgradedMs": 0.00029200000017226557
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.00037500000007639755,
+      "upgradedMs": 0.0003329999999550637
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0007499999999254214,
+      "upgradedMs": 0.0005410000001120352
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0006659999999101274,
+      "upgradedMs": 0.0005420000002231973
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.00037500000007639755,
+      "upgradedMs": 0.00033400000006622577
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0003749999998490239,
+      "upgradedMs": 0.00033300000018243736
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0003749999998490239,
+      "upgradedMs": 0.00033400000006622577
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0003749999998490239,
+      "upgradedMs": 0.00033400000006622577
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 1.3063330000002225,
+      "upgradedMs": 1.2049999999999272
+    },
+    {
+      "count": 5,
+      "phase": "pair/double",
+      "baselineMs": 0.994333000000097,
+      "upgradedMs": 0.9125420000000304
+    },
+    {
+      "count": 5,
+      "phase": "price/fixed",
+      "baselineMs": 0.0010830000001078588,
+      "upgradedMs": 9.951792000000069
+    },
+    {
+      "count": 5,
+      "phase": "bid/fixed",
+      "baselineMs": 0.001708000000235188,
+      "upgradedMs": 0.0007500000001527951
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 1.450832999999875,
+      "upgradedMs": 1.2981669999999212
+    },
+    {
+      "count": 5,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0019999999999527063,
+      "upgradedMs": 10.391707999999653
+    },
+    {
+      "count": 5,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0007919999998193816,
+      "upgradedMs": 12.244458000000122
+    },
+    {
+      "count": 5,
+      "phase": "bid/sealed",
+      "baselineMs": 0.001291999999921245,
+      "upgradedMs": 13.69116699999995
+    },
+    {
+      "count": 5,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0010000000002037268,
+      "upgradedMs": 15.808042000000114
+    },
+    {
+      "count": 5,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0017909999996845727,
+      "upgradedMs": 17.549875000000156
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 0.7440000000001419,
+      "upgradedMs": 0.7469579999997222
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0027920000002268353,
+      "upgradedMs": 0.0009169999998448475
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0009589999999661813,
+      "upgradedMs": 0.000875000000178261
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.000875000000178261,
+      "upgradedMs": 0.0006669999997939158
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0007919999998193816,
+      "upgradedMs": 0.000875000000178261
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.009790999999950145,
+      "upgradedMs": 0.005583999999998923
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0009170000002995948,
+      "upgradedMs": 0.0011669999998957792
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0006250000001273293,
+      "upgradedMs": 0.00045799999998052954
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.000875000000178261,
+      "upgradedMs": 0.0006669999997939158
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0006250000001273293,
+      "upgradedMs": 0.0004999999996471161
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.019125000000258296,
+      "upgradedMs": 0.003416999999899417
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.000875000000178261,
+      "upgradedMs": 0.0007089999999152496
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0005839999998897838,
+      "upgradedMs": 0.0005830000000059954
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0005000000001018634,
+      "upgradedMs": 0.0005000000001018634
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0005419999997684499,
+      "upgradedMs": 0.0004580000004352769
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0005419999997684499,
+      "upgradedMs": 0.0005000000001018634
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 1.3322499999999309,
+      "upgradedMs": 1.2377080000001115
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0012080000001333246,
+      "upgradedMs": 0.0007080000000314612
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0009169999998448475,
+      "upgradedMs": 0.0008330000000569271
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0008339999999407155,
+      "upgradedMs": 0.0007909999999355932
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.000875000000178261,
+      "upgradedMs": 0.0006669999997939158
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.004666999999699328,
+      "upgradedMs": 0.002457999999933236
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.000875000000178261,
+      "upgradedMs": 0.0007079999995767139
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0008339999999407155,
+      "upgradedMs": 0.0006659999999101274
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.002207999999882304,
+      "upgradedMs": 0.0009589999999661813
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0010830000001078588,
+      "upgradedMs": 0.0007919999998193816
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.006709000000228116,
+      "upgradedMs": 0.0032499999997526174
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0011669999998957792,
+      "upgradedMs": 0.00045799999998052954
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0010000000002037268,
+      "upgradedMs": 0.0007089999999152496
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0013329999997040431,
+      "upgradedMs": 0.0006670000002486631
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.001374999999825377,
+      "upgradedMs": 0.0007909999999355932
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.006083999999646039,
+      "upgradedMs": 0.007916000000022905
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0006250000001273293,
+      "upgradedMs": 0.0005830000000059954
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0008749999997235136,
+      "upgradedMs": 0.0009170000002995948
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0006670000002486631,
+      "upgradedMs": 0.00045799999998052954
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0005830000000059954,
+      "upgradedMs": 0.0004590000003190653
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.003083000000060565,
+      "upgradedMs": 0.002207999999882304
+    },
+    {
+      "count": 5,
+      "phase": "bid/open",
+      "baselineMs": 0.0005000000001018634,
+      "upgradedMs": 0.00045799999998052954
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 0.9950410000001284,
+      "upgradedMs": 0.9592920000000049
+    },
+    {
+      "count": 5,
+      "phase": "pair/double",
+      "baselineMs": 0.8021659999999429,
+      "upgradedMs": 0.9261670000000777
+    },
+    {
+      "count": 5,
+      "phase": "bid/once",
+      "baselineMs": 0.0017920000000231084,
+      "upgradedMs": 0.0007909999999355932
+    },
+    {
+      "count": 5,
+      "phase": "bid/once",
+      "baselineMs": 0.0010419999998703133,
+      "upgradedMs": 0.0008330000000569271
+    },
+    {
+      "count": 5,
+      "phase": "bid/once",
+      "baselineMs": 0.000875000000178261,
+      "upgradedMs": 0.0007499999996980478
+    },
+    {
+      "count": 5,
+      "phase": "bid/once",
+      "baselineMs": 0.0009159999999610591,
+      "upgradedMs": 0.0007500000001527951
+    },
+    {
+      "count": 5,
+      "phase": "bid/once",
+      "baselineMs": 0.005249999999705324,
+      "upgradedMs": 0.0024590000002717716
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 0.13433299999996962,
+      "upgradedMs": 0.12529200000017227
+    },
+    {
+      "count": 5,
+      "phase": "bid/once",
+      "baselineMs": 0.0009159999999610591,
+      "upgradedMs": 0.0007089999999152496
+    },
+    {
+      "count": 5,
+      "phase": "bid/once",
+      "baselineMs": 0.0008330000000569271,
+      "upgradedMs": 0.0007089999999152496
+    },
+    {
+      "count": 5,
+      "phase": "bid/once",
+      "baselineMs": 0.0008330000000569271,
+      "upgradedMs": 0.0007080000000314612
+    },
+    {
+      "count": 5,
+      "phase": "bid/once",
+      "baselineMs": 0.0008339999999407155,
+      "upgradedMs": 0.0006659999999101274
+    },
+    {
+      "count": 5,
+      "phase": "bid/once",
+      "baselineMs": 0.003333999999995285,
+      "upgradedMs": 0.0024160000002666493
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 0.7278329999999187,
+      "upgradedMs": 0.7089590000000499
+    },
+    {
+      "count": 5,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0010839999999916472,
+      "upgradedMs": 11.829707999999755
+    },
+    {
+      "count": 5,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0012080000001333246,
+      "upgradedMs": 13.54424999999992
+    },
+    {
+      "count": 5,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0014169999999467109,
+      "upgradedMs": 15.976916000000074
+    },
+    {
+      "count": 5,
+      "phase": "bid/sealed",
+      "baselineMs": 0.00258399999984249,
+      "upgradedMs": 17.740957999999864
+    },
+    {
+      "count": 5,
+      "phase": "bid/sealed",
+      "baselineMs": 0.0014589999996132974,
+      "upgradedMs": 19.370708000000377
+    },
+    {
+      "count": 5,
+      "phase": "offer/none",
+      "baselineMs": 0.19637499999998909,
+      "upgradedMs": 0.16512499999998909
+    }
+  ]
+}

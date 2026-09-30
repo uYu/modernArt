@@ -1,0 +1,260 @@
+{
+  "input": "experiments/tactical-pilot-928101.json",
+  "pairs": 12,
+  "referenceDriftPairs": 2,
+  "interpretation": "Runtime pilot only. Reference drift and one development seed prevent a causal strength claim.",
+  "rows": [
+    {
+      "seed": 928101,
+      "count": 3,
+      "seat": 0,
+      "firstDifference": 61,
+      "round": 2,
+      "phase": "offer",
+      "actor": 0,
+      "baseline": {
+        "type": "offer",
+        "player": 0,
+        "card": "4-12"
+      },
+      "candidate": {
+        "type": "offer",
+        "player": 0,
+        "card": "0-5"
+      },
+      "startsAtExperimentalChoice": true,
+      "referenceDriftBeforeExperimentalChoice": false
+    },
+    {
+      "seed": 928101,
+      "count": 3,
+      "seat": 1,
+      "firstDifference": 10,
+      "round": 1,
+      "phase": "offer",
+      "actor": 1,
+      "baseline": {
+        "type": "offer",
+        "player": 1,
+        "card": "4-14"
+      },
+      "candidate": {
+        "type": "offer",
+        "player": 1,
+        "card": "4-9"
+      },
+      "startsAtExperimentalChoice": true,
+      "referenceDriftBeforeExperimentalChoice": false
+    },
+    {
+      "seed": 928101,
+      "count": 3,
+      "seat": 2,
+      "firstDifference": 16,
+      "round": 1,
+      "phase": "pair",
+      "actor": 2,
+      "baseline": {
+        "type": "pair",
+        "player": 2,
+        "card": "3-9"
+      },
+      "candidate": {
+        "type": "pair",
+        "player": 2,
+        "card": "3-8"
+      },
+      "startsAtExperimentalChoice": true,
+      "referenceDriftBeforeExperimentalChoice": false
+    },
+    {
+      "seed": 928101,
+      "count": 4,
+      "seat": 0,
+      "firstDifference": 37,
+      "round": 1,
+      "phase": "offer",
+      "actor": 0,
+      "baseline": {
+        "type": "offer",
+        "player": 0,
+        "card": "3-9"
+      },
+      "candidate": {
+        "type": "offer",
+        "player": 0,
+        "card": "4-14"
+      },
+      "startsAtExperimentalChoice": true,
+      "referenceDriftBeforeExperimentalChoice": false
+    },
+    {
+      "seed": 928101,
+      "count": 4,
+      "seat": 1,
+      "firstDifference": 40,
+      "round": 1,
+      "phase": "offer",
+      "actor": 1,
+      "baseline": {
+        "type": "offer",
+        "player": 1,
+        "card": "2-4"
+      },
+      "candidate": {
+        "type": "offer",
+        "player": 1,
+        "card": "4-1"
+      },
+      "startsAtExperimentalChoice": true,
+      "referenceDriftBeforeExperimentalChoice": false
+    },
+    {
+      "seed": 928101,
+      "count": 4,
+      "seat": 2,
+      "firstDifference": 28,
+      "round": 1,
+      "phase": "offer",
+      "actor": 2,
+      "baseline": {
+        "type": "offer",
+        "player": 2,
+        "card": "2-13"
+      },
+      "candidate": {
+        "type": "offer",
+        "player": 2,
+        "card": "2-3"
+      },
+      "startsAtExperimentalChoice": true,
+      "referenceDriftBeforeExperimentalChoice": false
+    },
+    {
+      "seed": 928101,
+      "count": 4,
+      "seat": 3,
+      "firstDifference": 182,
+      "round": 3,
+      "phase": "bid",
+      "actor": 3,
+      "baseline": {
+        "type": "bid",
+        "player": 3,
+        "amount": 39
+      },
+      "candidate": {
+        "type": "bid",
+        "player": 3,
+        "amount": 48
+      },
+      "startsAtExperimentalChoice": false,
+      "referenceDriftBeforeExperimentalChoice": true
+    },
+    {
+      "seed": 928101,
+      "count": 5,
+      "seat": 0,
+      "firstDifference": 49,
+      "round": 1,
+      "phase": "offer",
+      "actor": 0,
+      "baseline": {
+        "type": "offer",
+        "player": 0,
+        "card": "1-6"
+      },
+      "candidate": {
+        "type": "offer",
+        "player": 0,
+        "card": "2-3"
+      },
+      "startsAtExperimentalChoice": true,
+      "referenceDriftBeforeExperimentalChoice": false
+    },
+    {
+      "seed": 928101,
+      "count": 5,
+      "seat": 1,
+      "firstDifference": 140,
+      "round": 2,
+      "phase": "offer",
+      "actor": 1,
+      "baseline": {
+        "type": "offer",
+        "player": 1,
+        "card": "4-1"
+      },
+      "candidate": {
+        "type": "offer",
+        "player": 1,
+        "card": "1-10"
+      },
+      "startsAtExperimentalChoice": true,
+      "referenceDriftBeforeExperimentalChoice": false
+    },
+    {
+      "seed": 928101,
+      "count": 5,
+      "seat": 2,
+      "firstDifference": 7,
+      "round": 1,
+      "phase": "offer",
+      "actor": 2,
+      "baseline": {
+        "type": "offer",
+        "player": 2,
+        "card": "2-13"
+      },
+      "candidate": {
+        "type": "offer",
+        "player": 2,
+        "card": "3-5"
+      },
+      "startsAtExperimentalChoice": true,
+      "referenceDriftBeforeExperimentalChoice": false
+    },
+    {
+      "seed": 928101,
+      "count": 5,
+      "seat": 3,
+      "firstDifference": 78,
+      "round": 1,
+      "phase": "offer",
+      "actor": 3,
+      "baseline": {
+        "type": "offer",
+        "player": 3,
+        "card": "4-14"
+      },
+      "candidate": {
+        "type": "offer",
+        "player": 3,
+        "card": "2-7"
+      },
+      "startsAtExperimentalChoice": true,
+      "referenceDriftBeforeExperimentalChoice": false
+    },
+    {
+      "seed": 928101,
+      "count": 5,
+      "seat": 4,
+      "firstDifference": 243,
+      "round": 3,
+      "phase": "bid",
+      "actor": 0,
+      "baseline": {
+        "type": "bid",
+        "player": 0,
+        "amount": 52
+      },
+      "candidate": {
+        "type": "bid",
+        "player": 0,
+        "amount": 44
+      },
+      "startsAtExperimentalChoice": false,
+      "referenceDriftBeforeExperimentalChoice": true
+    }
+  ]
+}
